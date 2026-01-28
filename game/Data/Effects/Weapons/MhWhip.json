@@ -1,0 +1,47 @@
+{
+	"item_name": "ItemMhWhip",
+	"icon_index": 157,
+	"price": 1000,
+	"weight": 8,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "MH",
+	"added_skills": ["WhipNormal"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhWhip",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhWhip/item_name",
+		"description": "DataEquip:MhWhip/description"
+	},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1
+	}
+	]
+}

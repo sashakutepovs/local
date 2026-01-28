@@ -1,0 +1,40 @@
+{
+	"item_name": "ItemShThrowingKnives",
+	"icon_index": 442,
+	"price": 1000,
+	"weight": 2,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "SH",
+	"added_skills": ["ThrowingKnivesHeavy"],
+	"skill_sealed": ["BasicHeavy"],
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShThrowingKnives/item_name",
+			"description": "DataEquip:ShThrowingKnives/description"
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	}
+	]
+}

@@ -1,0 +1,53 @@
+{
+	"item_name": "ItemShBoneShield",
+	"icon_index": 59,
+	"price": 1000,
+	"weight": 12,
+	"wtype_id": "NormalEQ",
+	"etype_id": "SH",
+	"added_skills": ["WoodenShieldHeavy","WoodenShieldControl"],
+	"skill_sealed": ["BasicHeavy","BasicControl"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ShBoneShield",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShBoneShield/item_name",
+			"description": "DataEquip:ShBoneShield/description"
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 25
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 4
+	},
+	{
+		"attribute_name": "morality_plus",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.75
+	}
+	]
+}

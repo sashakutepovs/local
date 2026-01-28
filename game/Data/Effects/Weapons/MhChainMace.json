@@ -1,0 +1,51 @@
+{
+	"item_name": "ItemMhChainMace",
+	"icon_index": 388,
+	"price": 8000,
+	"weight": 15,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "MH",
+	"added_skills": ["ChainMaceNormal"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+			"stat": "MainArm",
+			"value": "MhChainMace",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:MhChainMace/item_name",
+			"description": "DataEquip:MhChainMace/description"
+		},
+	"pot_data": {
+		"Metal": 5,
+		"Wood": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 30
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 14
+	}
+	]
+}

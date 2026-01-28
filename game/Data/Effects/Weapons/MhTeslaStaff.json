@@ -1,0 +1,50 @@
+{
+	"item_name": "ItemMhTeslaStaff",
+	"icon_index": 411,
+	"price": 8000,
+	"weight": 8,
+	"wtype_id": "MagicEQ",
+	"etype_id": "MH",
+	"added_skills": ["TeslaStaffNormal"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhTeslaStaff",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhTeslaStaff/item_name",
+		"description": "DataEquip:MhTeslaStaff/description"
+	},
+	"pot_data": {
+		"Metal": 3
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	}
+	]
+}

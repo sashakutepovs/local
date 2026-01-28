@@ -1,0 +1,35 @@
+{
+	"item_name": "ItemShLantern",
+	"icon_index": 272,
+	"price": 600,
+	"weight": 10,
+	"wtype_id": "NormalEQ",
+	"etype_id": "SH",
+	"added_skills": ["LanternHeavy"],
+	"skill_sealed": ["BasicHeavy"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ShLantern",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShLantern/item_name",
+			"description": "DataEquip:ShLantern/description"
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 1
+		
+	}
+	]
+}

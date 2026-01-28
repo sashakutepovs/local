@@ -1,0 +1,51 @@
+{
+	"item_name": "ItemMhSilverDildo",
+	"icon_index": 593,
+	"price": 6000,
+	"weight": 5,
+	"wtype_id": "NormalEQ",
+	"etype_id": "MH",
+	"added_skills": ["WoodenSpearNormal"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhSilverDildo",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhSilverDildo/item_name",
+		"description": "DataEquip:MhSilverDildo/description"
+	},
+	"pot_data": {
+		"Metal": 3
+		},
+	"dmg_multiplier":	1.5,
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1
+	}
+	]
+}

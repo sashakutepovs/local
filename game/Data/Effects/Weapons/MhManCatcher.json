@@ -1,0 +1,50 @@
+{
+	"item_name": "Item2MhManCatcher",
+	"icon_index": 800,
+	"price": 1000,
+	"weight": 18,
+	"wtype_id": "NormalEQ",
+	"etype_id": "MH",
+	"sealed_equip_type": ["SH"],
+	"added_skills": ["ManCatcherNormal","ManCatcherHeavy"],
+	"skill_sealed": ["BasicNormal","BasicHeavy"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhManCatcher",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip2H",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhManCatcher/item_name",
+		"description": "DataEquip:MhManCatcher/description"
+	},
+	"pot_data": {
+		"Wood": 1,
+		"Metal": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 40
+		
+	},{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 30
+	},{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 4
+	}
+	]
+}

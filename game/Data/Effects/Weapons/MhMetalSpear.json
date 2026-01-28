@@ -1,0 +1,48 @@
+{
+	"item_name": "Item2MhMetalSpear",
+	"icon_index": 130,
+	"price": 3000,
+	"weight": 20,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "MH",
+	"sealed_equip_type": ["SH"],
+	"added_skills": ["WoodenSpearNormal","WoodenSpearHeavy"],
+	"skill_sealed": ["BasicNormal","BasicHeavy"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhMetalSpear",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip2H",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhMetalSpear/item_name",
+		"description": "DataEquip:MhMetalSpear/description"
+	},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 35
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 20
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 9
+	}
+	]
+}

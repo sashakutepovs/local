@@ -1,0 +1,51 @@
+{
+	"item_name": "ItemMhPickAxe",
+	"icon_index": 406,
+	"price": 200,
+	"weight": 12,
+	"wtype_id": "NormalEQ",
+	"etype_id": "MH",
+	"added_skills": ["PickAxeNormal"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhPickAxe",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhPickAxe/item_name",
+		"description": "DataEquip:MhPickAxe/description"
+	},
+	"pot_data": {
+		"Wood": 1,
+		"Metal": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 8
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 3
+	}
+	]
+}

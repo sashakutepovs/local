@@ -1,0 +1,41 @@
+{
+	"item_name": "ItemShSaintProtect",
+	"icon_index": 467,
+	"price": 1000,
+	"weight": 6,
+	"wtype_id": "SaintEQ",
+	"etype_id": "SH",
+	"added_skills": ["HeavyBattleStandard","ControlProtectShield"],
+	"skill_sealed": ["BasicHeavy","BasicControl","DeeponeHeavy","DeeponeControl"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ItemShProtect",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ItemShProtect/item_name",
+			"description": "DataEquip:ItemShProtect/description"
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 10
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	}
+	]
+}

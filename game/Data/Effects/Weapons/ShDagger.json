@@ -1,0 +1,48 @@
+{
+	"item_name": "ItemShDagger",
+	"icon_index": 385,
+	"price": 3000,
+	"weight": 6,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "SH",
+	"added_skills": ["DaggerHeavy","DaggerControl"],
+	"skill_sealed": ["BasicHeavy","BasicControl"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ShDagger",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShDagger/item_name",
+			"description": "DataEquip:ShDagger/description"
+		},
+	"pot_data": {
+		"Metal": 3
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+		
+	},{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	}
+	]
+}

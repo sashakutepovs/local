@@ -1,0 +1,41 @@
+{
+	"item_name": "ItemShFireBook",
+	"icon_index": 370,
+	"price": 8000,
+	"weight": 6,
+	"wtype_id": "MagicEQ",
+	"etype_id": "SH",
+	"added_skills": ["FireBookHeavy","FireBookControl"],
+	"skill_sealed": ["BasicHeavy","BasicControl"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ShFireBook",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShFireBook/item_name",
+			"description": "DataEquip:ShFireBook/description"
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 10
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	}
+	]
+}

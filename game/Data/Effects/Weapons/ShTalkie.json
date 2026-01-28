@@ -1,0 +1,28 @@
+{
+	"item_name": "ItemShTalkie",
+	"icon_index": 555,
+	"price": 0,
+	"weight": 1,
+	"wtype_id": "NormalEQ",
+	"etype_id": "SH",
+	"added_skills": ["TalkieControl"],
+	"skill_sealed": ["BasicControl"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ShTalkie",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShTalkie/item_name",
+			"description": "DataEquip:ShTalkie/description"
+		},
+	"attribute_change": []
+}

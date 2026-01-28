@@ -1,0 +1,50 @@
+{
+	"item_name": "ItemMhSabar",
+	"icon_index": 387,
+	"price": 8000,
+	"weight": 15,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "MH",
+	"added_skills": ["SabarNormal"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhSabar",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhSabar/item_name",
+		"description": "DataEquip:MhSabar/description"
+	},
+	"pot_data": {
+		"Metal": 6
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 30
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 15
+	}
+	]
+}

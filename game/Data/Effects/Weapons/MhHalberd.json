@@ -1,0 +1,52 @@
+{
+	"item_name": "Item2MhHalberd",
+	"icon_index": 801,
+	"price": 5000,
+	"weight": 36,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "MH",
+	"sealed_equip_type": ["SH"],
+	"added_skills": ["HalberdNormal","HalberdHeavy","HalberdControl"],
+	"skill_sealed": ["BasicNormal","BasicHeavy","BasicControl"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhHalberd",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip2H",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhHalberd/item_name",
+		"description": "DataEquip:MhHalberd/description"
+	},
+	"pot_data": {
+		"Wood": 1,
+		"Metal": 3
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 40
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 30
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 20
+	}
+	]
+}

@@ -1,0 +1,51 @@
+{
+	"item_name": "Item2MhMusket",
+	"icon_index": 592,
+	"price": 9000,
+	"weight": 20,
+	"wtype_id": "NormalEQ",
+	"etype_id": "MH",
+	"sealed_equip_type": ["SH"],
+	"added_skills": ["MusketNormal","MusketHeavy"],
+	"skill_sealed": ["BasicNormal","BasicHeavy"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhMusket",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip2H",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhMusket/item_name",
+		"description": "DataEquip:MhMusket/description"
+	},
+	"pot_data": {
+		"Wood": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 30
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 3
+	}
+	]
+}

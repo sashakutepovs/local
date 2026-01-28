@@ -1,0 +1,40 @@
+{
+	"item_name": "ItemShIconOfSin",
+	"icon_index": 469,
+	"price": 1000,
+	"weight": 6,
+	"wtype_id": "SaintEQ",
+	"etype_id": "SH",
+	"added_skills": ["HeavyBattleStandard","IconOfSinMindControl"],
+	"skill_sealed": ["BasicHeavy","BasicControl","DeeponeHeavy","DeeponeControl"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ShIconOfSin",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShIconOfSin/item_name",
+			"description": "DataEquip:ShIconOfSin/description"
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "10"
+		
+	},{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "15"
+	}
+	]
+}

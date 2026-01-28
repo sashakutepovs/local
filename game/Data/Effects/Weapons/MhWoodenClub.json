@@ -1,0 +1,51 @@
+{
+	"item_name": "ItemMhWoodenClub",
+	"icon_index": 151,
+	"price": 100,
+	"weight": 5,
+	"wtype_id": "NormalEQ",
+	"etype_id": "MH",
+	"added_skills": ["WoodenClubNormal"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhWoodenClub",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhWoodenClub/item_name",
+		"description": "DataEquip:MhWoodenClub/description"
+	},
+	"pot_data": {
+		"Wood": 1
+		},
+	"dmg_multiplier":	1.5,
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1
+	}
+	]
+}

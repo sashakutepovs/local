@@ -1,0 +1,50 @@
+{
+	"item_name": "ItemShMetalShield",
+	"icon_index": 507,
+	"price": 4000,
+	"weight": 18,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "SH",
+	"added_skills": ["WoodenShieldHeavy","WoodenShieldControl"],
+	"skill_sealed": ["BasicHeavy","BasicControl"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ShMetalShield",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShMetalShield/item_name",
+			"description": "DataEquip:ShMetalShield/description"
+		},
+	"pot_data": {
+		"Metal": 3
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 7
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 18
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"item_name": "Item2MhBareHand",
+	"icon_index": 400,
+	"price": 0,
+	"weight": 0,
+	"etype_id": "MH",
+	"wtype_id": "BareHand",
+	"sealed_equip_type": ["SH"],
+	"player_item_usage_event_summon": "Projectile_Item_2MhBareHand",
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "2MhBareHand",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip2H",
+		"consumable": true,
+		"key_item": true
+	},
+	"textFlag": {
+		"name": "DataEquip:2MhBareHand/item_name",
+		"description": "DataEquip:2MhBareHand/description"
+	},
+	"attribute_change": []
+}
+

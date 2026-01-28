@@ -1,0 +1,50 @@
+{
+	"item_name": "ItemMhWaterStaff",
+	"icon_index": 154,
+	"price": 8000,
+	"weight": 8,
+	"wtype_id": "MagicEQ",
+	"etype_id": "MH",
+	"added_skills": ["WaterStaffNormalCharge"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhWaterStaff",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhWaterStaff/item_name",
+		"description": "DataEquip:MhWaterStaff/description"
+	},
+	"pot_data": {
+		"Wood": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	}
+	]
+}

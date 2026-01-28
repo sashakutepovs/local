@@ -1,0 +1,51 @@
+{
+	"item_name": "Item2MhLongBow",
+	"icon_index": 149,
+	"price": 1000,
+	"weight": 8,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "MH",
+	"sealed_equip_type": ["SH"],
+	"added_skills": ["LongBowNormal","LongBowHeavy","LongBowControl"],
+	"skill_sealed": ["BasicNormal","BasicHeavy","BasicControl"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhLongBow",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip2H",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhLongBow/item_name",
+		"description": "DataEquip:MhLongBow/description"
+	},
+	"pot_data": {
+		"Wood": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 30
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 8
+	}
+	]
+}

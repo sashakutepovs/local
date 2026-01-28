@@ -1,0 +1,108 @@
+{
+	"item_name": "ItemMhHorseCock",
+	"icon_index": 384,
+	"price": 10,
+	"weight": 5,
+	"etype_id": "MH",
+	"wtype_id": "NormalEQ",
+	"atype_seal": [],
+	"wtype_seal": [],
+	"sealed_equip_type": [],
+	"added_skills": ["ChainMaceNormal"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+			"stat": "MainArm",
+			"value": "MhHorseCock",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:MhHorseCock/item_name",
+			"description": "DataEquip:MhHorseCock/description"
+		},
+	"pot_data": {
+		"Meat": 6
+		},
+	"dmg_multiplier":	1.5,
+	"use_item_effect": [{
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 26
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 100
+		},{
+		"attribute_name": "defecate_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 100
+		},{
+		"attribute_name": "dirt",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 20
+		},{
+		"stats_key" 	: "SemenAddiction",
+		"stats_value"	: [2,3,4,5],
+		"stats_filter"	: true,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 50
+		},{
+		"stats_key" 	: "SemenAddiction",
+		"stats_value"	: [4,5],
+		"stats_filter"	: true,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 1000
+		},{
+		"stats_key" 	: "Mod_Taste",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 1000
+		}
+	],
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 2
+	},
+	{
+		"attribute_name": "constitution_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 10
+	}
+	]
+}

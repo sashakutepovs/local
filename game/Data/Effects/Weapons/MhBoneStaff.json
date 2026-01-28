@@ -1,0 +1,53 @@
+{
+	"item_name": "ItemMhBoneStaff",
+	"icon_index": 60,
+	"price": 2000,
+	"weight": 20,
+	"wtype_id": "MagicEQ",
+	"etype_id": "MH",
+	"added_skills": ["AbominationTotemWorm"],
+	"skill_sealed": ["BasicNormal"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhBoneStaff",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhBoneStaff/item_name",
+		"description": "DataEquip:MhBoneStaff/description"
+	},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 40
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},
+	{
+		"attribute_name": "morality_plus",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.9
+	},
+	{
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	}
+	]
+}

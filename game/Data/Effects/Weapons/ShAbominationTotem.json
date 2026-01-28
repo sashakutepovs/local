@@ -1,0 +1,45 @@
+{
+	"item_name": "ItemShAbominationTotem",
+	"icon_index": 61,
+	"price": 0,
+	"weight": 6,
+	"wtype_id": "MagicEQ",
+	"etype_id": "SH",
+	"added_skills": ["AbominationTotemHeavy","AbominationTotemControl"],
+	"skill_sealed": ["BasicHeavy","BasicControl"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ShAbominationTotem",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShAbominationTotem/item_name",
+			"description": "DataEquip:ShAbominationTotem/description"
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 25
+		
+	},{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},{
+		"attribute_name": "morality_plus",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.9
+	}
+	]
+}

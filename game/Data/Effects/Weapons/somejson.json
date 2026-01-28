@@ -1,0 +1,14 @@
+{
+	"weight": "3.5",
+	"attribute_change": [{
+		"attribute_name": "sta",
+		"adjustor": "+",
+		"adjustment": "10"
+		
+	},
+	{
+		"attribute_name": "mood",
+		"adjustor": "-",
+		"adjustment": "5"
+	}]
+}

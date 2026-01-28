@@ -1,0 +1,63 @@
+{
+	"item_name": "ItemMhBroadSword",
+	"icon_index": 394,
+	"price": 20000,
+	"weight": 40,
+	"wtype_id": "HighQuEQ",
+	"etype_id": "MH",
+	"sealed_equip_type": ["SH"],
+	"added_skills": ["BroadSwordNormal","BroadSwordHeavy","WoodenShieldControl"],
+	"skill_sealed": ["BasicNormal","BasicHeavy","BasicControl"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "MhBroadSword",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip2H",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:MhBroadSword/item_name",
+		"description": "DataEquip:MhBroadSword/description"
+	},
+	"pot_data": {
+		"Metal": 20
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 40
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 30
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 12
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 2
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 0.5
+	}
+	]
+}

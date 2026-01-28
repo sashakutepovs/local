@@ -1,0 +1,50 @@
+{
+	"item_name": "ItemShWoodenShield",
+	"icon_index": 502,
+	"price": 1000,
+	"weight": 12,
+	"wtype_id": "NormalEQ",
+	"etype_id": "SH",
+	"added_skills": ["WoodenShieldControl"],
+	"skill_sealed": ["BasicControl"],
+	"lonaStat_json_hash": {
+			"stat": "SecondArm",
+			"value": "ShWoodenShield",
+			"type": null,
+			"link": null,
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "ArmorSH",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:ShWoodenShield/item_name",
+			"description": "DataEquip:ShWoodenShield/description"
+		},
+	"pot_data": {
+		"Wood": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 15
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 3
+	}
+	]
+}
