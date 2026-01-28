@@ -1,0 +1,91 @@
+{
+	"item_name": "ParasitedPolypWorm",
+	"max_stacks": 5,
+	"icon_index": 113,
+	"lonaStat_json_hash": {
+		"stat": "ParasitedPolypWorm",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": "STD_AbomParasite",
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:ParasitedPolypWorm/item_name",
+			"description": "DataState:ParasitedPolypWorm/description"
+	},
+	"spread_when_sex": {
+		"fucker_slot": "vag",
+		"ignore_max_stack": false,
+		"add_evlib_sum": null,
+		"add_drop_list": "AbomPolypWormBaby",
+		"add_state_SndLib": "sound_WormQuestion",
+		"reciver_slot_anal": null,
+		"reciver_slot_vag": "ParasitedPolypWorm",
+		"reciver_slot_mouth": null,
+		"chance": 50
+	},
+	"player_nap_state_control": [{
+			"state_stack_check"	: true,
+			"sat": ["-=", 0.5],
+			"vag_damage": ["+=",50],
+			"arousal": ["+=", 100]
+		},{
+			"state_stack_check"	: true,
+			"tar_state_name"	: [1, "FeelsWarm"],
+			"chance_max"		: 30,
+			"chance_req"		: 0
+		},{
+			"state_stack_check"	: true,
+			"req_baby_race": ["!=","Abomination"],
+			"baby_health": ["-=",30]
+		},{
+			"state_stack_check"	: true,
+			"addCums": ["CumsCreamPie",50,"Abomination"]
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "WombSeedBed"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPolypWorm",
+			"stats_value"		: [5],
+			"chance_max"		: 100,
+			"chance_req"		: 0
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedPolypWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPolypWorm",
+			"stats_value"		: [4],
+			"chance_max"		: 100,
+			"chance_req"		: 60
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedPolypWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPolypWorm",
+			"stats_value"		: [3],
+			"chance_max"		: 100,
+			"chance_req"		: 70
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedPolypWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPolypWorm",
+			"stats_value"		: [2],
+			"chance_max"		: 100,
+			"chance_req"		: 80
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedPolypWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPolypWorm",
+			"stats_value"		: [1],
+			"chance_max"		: 100,
+			"chance_req"		: 90
+		}
+	],
+	"attribute_change":[]
+}

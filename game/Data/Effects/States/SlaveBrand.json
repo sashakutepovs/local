@@ -1,0 +1,41 @@
+{
+	"item_name": "SlaveBrand",
+	"max_stacks": 1,
+	"icon_index": 80,
+	"lonaStat_json_hash": {
+		"stat": "SlaveBrand",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"tag": "red"
+	},
+	"textFlag": {
+			"name": "DataState:SlaveBrand/item_name",
+			"description": "DataState:SlaveBrand/description"
+	},
+	"attribute_change": [
+	{
+		"block_by_part_cover": ["Face"],
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "20"
+	},
+	{
+		"block_by_part_cover": ["Face"],
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "100"
+	},
+	{
+		"attribute_name": "morality_lona",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "71"
+	}
+	]
+}

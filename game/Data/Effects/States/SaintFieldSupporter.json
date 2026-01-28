@@ -1,0 +1,20 @@
+{
+	"item_name": "SaintFieldSupporter",
+	"icon_index": 771,
+	"lonaStat_json_hash": {
+		"stat": "SaintFieldSupporter",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "trait"
+	},
+	"textFlag": {
+			"name": "DataState:SaintFieldSupporter/item_name",
+			"description": "DataState:SaintFieldSupporter/description"
+	},
+	"attribute_change":[]
+}

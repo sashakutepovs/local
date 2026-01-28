@@ -1,0 +1,21 @@
+{
+	"item_name": "PubicHairVag",
+	"max_stacks": 4,
+	"icon_index": 103,
+	"menu_hide_lvl": [1],
+	"lonaStat_json_hash": {
+		"stat": "PubicHairVag",
+		"value": null,
+		"type": "numeric",
+		"link": null,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:PubicHairVag/item_name",
+			"description": "DataState:PubicHairVag/description"
+	},
+	"attribute_change": []
+}

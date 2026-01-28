@@ -1,0 +1,30 @@
+{
+	"item_name": "NaturalVagGlandsLink",
+	"max_stacks": 1,
+	"icon_index": 112,
+	"lonaStat_json_hash": {
+		"stat": "Mod_VagGlandsLink",
+		"value": null,
+		"type": "numeric",
+		"link": true,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:NaturalVagGlandsLink/item_name",
+			"description": "DataState:NaturalVagGlandsLink/description"
+	},
+	"player_nap_state_control": [
+			{"tar_state_name": [-1, "Mod_VagGlandsLink"]},
+			{"tar_state_name": [-1, "Mod_VagGlandsSurgical"]}
+		],
+	"attribute_change": [{
+			"attribute_name": "sta",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": 5
+		}
+	]
+}

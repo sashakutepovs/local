@@ -1,0 +1,30 @@
+{
+	"item_name": "Slow30",
+	"max_stacks": 1,
+	"icon_index": 114,
+	"lonaStat_json_hash": {
+			"stat": null,
+			"value": null,
+			"type": "numeric",
+			"link": null,
+			"initial": 0
+		},
+	"tag_main_settings": {
+		"tag": "combat"
+	},
+	"textFlag": {
+			"name": "DataState:nil/nil",
+			"description": "DataState:nil/nil"
+		},
+	"remove_by_walking": 30,
+	"is_combat_state": true,
+	"is_daily_state": false,
+	"attribute_change": [
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.5"
+	}
+	]
+}

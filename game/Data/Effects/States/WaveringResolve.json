@@ -1,0 +1,31 @@
+{
+	"item_name": "WaveringResolve",
+	"max_stacks": 1,
+	"icon_index": 117,
+	"lonaStat_json_hash": {
+		"stat": "WaveringResolve",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:WaveringResolve/item_name",
+			"description": "DataState:WaveringResolve/description"
+	},
+	"attribute_change": [{
+			"attribute_name": "health",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": "5"
+		},{
+			"attribute_name": "will",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": "0.9"
+		}
+	]
+}

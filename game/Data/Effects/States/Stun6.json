@@ -1,0 +1,31 @@
+{
+	"remove_by_walking": 6,
+	"is_combat_state": true,
+	"is_daily_state": false,
+	"attribute_change": [
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "5"
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.2"
+	},
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "2"
+	},
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.1"
+	}
+	]
+}

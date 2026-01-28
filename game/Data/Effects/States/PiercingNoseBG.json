@@ -1,0 +1,12 @@
+{
+	"max_stacks": 3,
+	"attribute_change": [
+	{
+		"block_by_part_cover": ["Face"],
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "1"
+	}
+	]
+}

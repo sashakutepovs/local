@@ -1,0 +1,78 @@
+{
+	"item_name": "ParasitedHookWorm",
+	"max_stacks": 5,
+	"icon_index": 126,
+	"lonaStat_json_hash": {
+		"stat": "ParasitedHookWorm",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": "STD_AbomParasite",
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:ParasitedHookWorm/item_name",
+			"description": "DataState:ParasitedHookWorm/description"
+	},
+	"spread_when_sex": {
+		"fucker_slot": "all",
+		"ignore_max_stack": false,
+		"add_evlib_sum": null,
+		"add_drop_list": "EffectParasiteHookHit",
+		"add_state_SndLib": "sound_WormQuestion",
+		"reciver_slot_anal": "ParasitedHookWorm",
+		"reciver_slot_vag": "ParasitedHookWorm",
+		"reciver_slot_mouth": "ParasitedHookWorm",
+		"chance": 50
+	},
+	"player_nap_state_control": [{
+			"state_stack_check"	: true,
+			"sat": ["-=",1],
+			"puke_value_normal": ["+=",100]
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "StomachSeedBed"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedHookWorm",
+			"stats_value"		: [5],
+			"chance_max"		: 100,
+			"chance_req"		: 60
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedHookWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedHookWorm",
+			"stats_value"		: [4],
+			"chance_max"		: 100,
+			"chance_req"		: 60
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedHookWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedHookWorm",
+			"stats_value"		: [3],
+			"chance_max"		: 100,
+			"chance_req"		: 65
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedHookWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedHookWorm",
+			"stats_value"		: [2],
+			"chance_max"		: 100,
+			"chance_req"		: 70
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedHookWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedHookWorm",
+			"stats_value"		: [1],
+			"chance_max"		: 100,
+			"chance_req"		: 90
+		}
+	],
+	"attribute_change":[]
+}

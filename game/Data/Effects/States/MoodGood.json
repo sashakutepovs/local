@@ -1,0 +1,72 @@
+{
+	"item_name": "MoodGood",
+	"max_stacks": 4,
+	"icon_index": 785,
+	"lonaStat_json_hash": {
+			"stat": "MoodGood",
+			"value": null,
+			"type": "numeric",
+			"link": null,
+			"initial": 0
+		},
+	"tag_main_settings": {
+		"tag": "green"
+	},
+	"textFlag": {
+			"name": "DataState:MoodGood/item_name",
+			"description": "DataState:MoodGood/description"
+		},
+	"attribute_change": [
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.975
+	},
+	{
+		"stats_key" 	: "Pessimist",
+		"stats_value"	: [0],
+		"stats_filter"	: true,
+		"attribute_name": "health",
+		"attribute_type": "BTmax",
+		"adjustor": "+",
+		"adjustment": 5
+	},
+	{
+		"stats_key" 	: "Pessimist",
+		"stats_value"	: [0],
+		"stats_filter"	: true,
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1
+	},
+	{
+		"stats_key" 	: "Pessimist",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 1
+	},
+	{
+		"stats_key" 	: "Pessimist",
+		"stats_value"	: [0],
+		"stats_filter"	: true,
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 0.25
+	},
+	{
+		"stats_key" 	: "Pessimist",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 1.5
+	}
+	]
+}

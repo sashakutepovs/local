@@ -1,0 +1,16 @@
+{
+	"attribute_change": [
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.95"
+	},	
+	{
+		"attribute_name": "state_preg_rate",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "10"
+	}
+	]
+}

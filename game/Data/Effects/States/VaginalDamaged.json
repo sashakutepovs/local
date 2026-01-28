@@ -1,0 +1,6 @@
+{
+	"max_stacks": 1,
+	"player_nap_state_control": [{
+		"vag_damage": ["+=",10000]
+	}],
+}

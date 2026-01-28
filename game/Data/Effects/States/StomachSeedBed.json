@@ -1,0 +1,36 @@
+{
+	"item_name": "StomachSeedBed",
+	"max_stacks": 1,
+	"icon_index": 113,
+	"lonaStat_json_hash": {
+		"stat": "StomachSeedBed",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:StomachSeedBed/item_name",
+			"description": "DataState:StomachSeedBed/description"
+	},
+	"spread_when_sex": {
+		"fucker_slot": "all",
+		"ignore_max_stack": true,
+		"add_evlib_sum": null,
+		"add_drop_list": "EffectParasiteHookHit",
+		"add_state_SndLib": "sound_WormCommon",
+		"reciver_slot_anal": "ParasitedHookWorm",
+		"reciver_slot_vag": "ParasitedHookWorm",
+		"reciver_slot_mouth": "ParasitedHookWorm",
+		"chance": 100
+	},
+	"player_nap_state_control": [{
+		"sat": ["-=",1],
+		"tar_state_name": [1, "ParasitedHookWorm"]
+	}],
+	"attribute_change": []
+}

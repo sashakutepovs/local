@@ -1,0 +1,69 @@
+{
+	"item_name": "STD_WartVag",
+	"max_stacks": 1,
+	"icon_index": 21,
+	"lonaStat_json_hash": {
+		"stat": "STD_WartVag",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": "STD_Basic",
+		"tag": "red"
+	},
+	"textFlag": {
+			"name": "DataState:STD_WartVag/item_name",
+			"description": "DataState:STD_WartVag/description"
+	},
+	"spread_when_sex": {
+		"fucker_slot": "vag",
+		"ignore_max_stack": null,
+		"add_evlib_sum": null,
+		"add_drop_list": null,
+		"add_state_SndLib": "sound_combat_hit_gore",
+		"reciver_slot_anal": "STD_WartAnal",
+		"reciver_slot_vag": "STD_WartVag",
+		"reciver_slot_mouth": null,
+		"chance": 100
+	},
+	
+	"player_nap_state_control": [{
+		"tar_state_name": [1, "WoundGroin"],
+		"stats_key": "WoundGroin",
+		"stats_value": [2,3],
+		"stats_filter": true,
+		"req_CumsMoonPie": [">=",500],
+		"req_dirt": [">=",250],
+		"req_sat": ["<",20],
+		"chance_max": 100,
+		"chance_req": 50
+	},{
+		"tar_state_name": [-1, "STD_WartVag"],
+		"stats_key": "RaceRecord",
+		"stats_value": ["PreDeepone","TrueDeepone"],
+		"stats_filter": true
+	},{
+		"vag_damage": ["+=",200],
+		"urinary_damage": ["+=",100]
+	}],
+	
+	
+	"attribute_change": [{
+			"attribute_name": "mood",
+			"attribute_type": "max",
+			"adjustor": "-",
+			"adjustment": 15
+		},
+		{
+			"stats_key": "Race",
+			"stats_value": ["Abomination"],
+			"stats_filter": true,
+			"attribute_name": "sta",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 0.6
+		}
+	]
+}

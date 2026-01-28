@@ -1,0 +1,23 @@
+{
+	"item_name": "NunKnowledge",
+	"icon_index": 735,
+	"lonaStat_json_hash": {
+		"stat": "NunKnowledge",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "trait"
+	},
+	"textFlag": {
+			"name": "DataState:NunKnowledge/item_name",
+			"description": "DataState:NunKnowledge/description"
+	},
+	"wtype_ok": ["SaintEQ"],
+	"atype_ok": ["SaintEQ"],
+	"added_skills": ["BasicNunHeal"],
+	"attribute_change":[]
+}

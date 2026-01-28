@@ -1,0 +1,43 @@
+{
+	"item_name": "StomachSpasm",
+	"max_stacks": 3,
+	"icon_index": 75,
+	"is_combat_state": false,
+	"is_daily_state": true,
+	"player_add_state_SndLib": "sound_eat_debuff",
+	"lonaStat_json_hash": {
+		"stat": "StomachSpasm",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "red"
+	},
+	"textFlag": {
+		"name": "DataState:StomachSpasm/item_name",
+		"description": "DataState:StomachSpasm/description"
+	},
+	"attribute_change": [
+		{
+			"attribute_name": "sta",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": "0.9"
+		},
+		{
+			"attribute_name": "weak",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": "1.1"
+		},
+		{
+			"attribute_name": "move_speed",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": "0.9"
+		}
+	]
+}

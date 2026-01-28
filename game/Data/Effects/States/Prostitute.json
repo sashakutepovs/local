@@ -1,0 +1,20 @@
+{
+	"item_name": "Prostitute",
+	"max_stacks": 1,
+	"icon_index": 750,
+	"lonaStat_json_hash": {
+			"stat": "Prostitute",
+			"value": null,
+			"type": "numeric",
+			"link": null,
+			"initial": 0
+		},
+	"tag_main_settings": {
+		"tag": "trait"
+	},
+	"textFlag": {
+			"name": "DataState:Prostitute/item_name",
+			"description": "DataState:Prostitute/description"
+		},
+	"atype_ok": ["WhoreDress"]
+}

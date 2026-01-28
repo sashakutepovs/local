@@ -1,0 +1,20 @@
+{
+	"item_name": "SacredAegis",
+	"icon_index": 690,
+	"lonaStat_json_hash": {
+		"stat": "SacredAegis",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "trait"
+	},
+	"textFlag": {
+			"name": "DataState:SacredAegis/item_name",
+			"description": "DataState:SacredAegis/description"
+	},
+	"attribute_change":[]
+}

@@ -1,0 +1,6 @@
+{
+	"added_skills": ["MusketHeavyRLD"],
+	"skill_sealed": ["MusketHeavy"],
+	"is_combat_state": true,
+	"is_daily_state": false
+}

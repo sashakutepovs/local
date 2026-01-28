@@ -1,0 +1,14 @@
+{
+	"remove_by_walking": 3,
+	"max_stacks": 7,
+	"is_combat_state": true,
+	"is_daily_state": false,
+	"attribute_change": [
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "5"
+	}
+	]
+}

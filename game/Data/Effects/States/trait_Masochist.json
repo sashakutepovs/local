@@ -1,0 +1,10 @@
+{
+	"attribute_change": [
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "1"
+	}
+	]
+}

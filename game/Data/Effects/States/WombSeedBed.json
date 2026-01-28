@@ -1,0 +1,23 @@
+{
+	"max_stacks": 10,
+	"attribute_change": [
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "5"
+	},
+	{
+		"attribute_name": "health",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "3"
+	},
+	{
+		"attribute_name": "state_preg_rate",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "0.1"
+	}
+	]
+}

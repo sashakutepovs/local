@@ -1,0 +1,42 @@
+{
+	"item_name": "PregState",
+	"max_stacks": 3,
+	"icon_index": 0,
+	"lonaStat_json_hash": {
+			"stat": "PregState",
+			"value": null,
+			"type": "numeric",
+			"link": null,
+			"initial": 0
+		},
+	"textFlag": {
+			"name": "DataState:Pregnancy/item_name",
+			"description": "DataState:Pregnancy/description"
+		},
+	"attribute_change": [
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.97
+	},
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 1.1
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 1.15
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.97
+	}
+	]
+}

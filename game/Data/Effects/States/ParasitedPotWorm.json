@@ -1,0 +1,78 @@
+{
+	"item_name": "ParasitedPotWorm",
+	"max_stacks": 5,
+	"icon_index": 105,
+	"lonaStat_json_hash": {
+		"stat": "ParasitedPotWorm",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": "STD_AbomParasite",
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:ParasitedPotWorm/item_name",
+			"description": "DataState:ParasitedPotWorm/description"
+	},
+	"spread_when_sex": {
+		"fucker_slot": "all",
+		"ignore_max_stack": false,
+		"add_evlib_sum": null,
+		"add_drop_list": "AbomCreatureMeatPotWorm",
+		"add_state_SndLib": "sound_WormCommon",
+		"reciver_slot_anal": "ParasitedPotWorm",
+		"reciver_slot_vag": "ParasitedPotWorm",
+		"reciver_slot_mouth": "ParasitedPotWorm",
+		"chance": 50
+	},
+	"player_nap_state_control": [{
+			"state_stack_check"	: true,
+			"sat": ["-=",1],
+			"urinary_damage"	: ["+=",150]
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "BladderSeedBed"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPotWorm",
+			"stats_value"		: [5],
+			"chance_max"		: 100,
+			"chance_req"		: 60
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedPotWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPotWorm",
+			"stats_value"		: [4],
+			"chance_max"		: 100,
+			"chance_req"		: 60
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedPotWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPotWorm",
+			"stats_value"		: [3],
+			"chance_max"		: 100,
+			"chance_req"		: 65
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedPotWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPotWorm",
+			"stats_value"		: [2],
+			"chance_max"		: 100,
+			"chance_req"		: 75
+		},{
+			"state_stack_check"	: false,
+			"tar_state_name"	: [1, "ParasitedPotWorm"],
+			"stats_filter"		: true,
+			"stats_key" 		: "ParasitedPotWorm",
+			"stats_value"		: [1],
+			"chance_max"		: 100,
+			"chance_req"		: 90
+		}
+	],
+	"attribute_change":[]
+}

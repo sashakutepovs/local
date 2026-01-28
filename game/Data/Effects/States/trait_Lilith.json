@@ -1,0 +1,10 @@
+{
+	"attribute_change": [
+	{
+		"attribute_name": "will",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.3"
+	}
+	]
+}

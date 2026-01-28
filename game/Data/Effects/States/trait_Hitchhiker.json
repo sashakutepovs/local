@@ -1,0 +1,36 @@
+{
+	"item_name": "Hitchhiker",
+	"icon_index": 666,
+	"lonaStat_json_hash": {
+		"stat": "Hitchhiker",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "trait"
+	},
+	"textFlag": {
+			"name": "DataState:Hitchhiker/item_name",
+			"description": "DataState:Hitchhiker/description"
+	},
+	"common_tags":{
+		"traitItemID": "trait_link_Hitchhiker"
+	},
+	"attribute_change": [
+	{
+		"attribute_name": "will",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 1.2
+	},
+	{
+		"attribute_name": "sat",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 20
+	}
+	]
+}

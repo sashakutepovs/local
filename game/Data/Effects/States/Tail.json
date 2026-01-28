@@ -1,0 +1,21 @@
+{
+	"item_name": "Tail",
+	"max_stacks": 1,
+	"icon_index": 129,
+	"added_skills": ["BasicTailBash"],
+	"lonaStat_json_hash": {
+		"stat": "Tail",
+		"value": null,
+		"type": "numeric",
+		"link": null,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"tag": "yellow"
+	},
+	"textFlag": {
+			"name": "DataState:Tail/item_name",
+			"description": "DataState:Tail/description"
+	},
+	"attribute_change":[]
+}

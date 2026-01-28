@@ -1,0 +1,34 @@
+{
+	"attribute_change": [
+	{
+		"attribute_name": "health",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.95"
+	},
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.8"
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.1"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "0.2"
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "8"
+	}
+	]
+}

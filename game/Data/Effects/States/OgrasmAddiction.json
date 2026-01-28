@@ -1,0 +1,36 @@
+{
+	"max_stacks": 5,
+	"player_nap_state_control": [{
+		"stats_filter": true,
+		"stats_key": "OgrasmAddiction",
+		"stats_value": [1,2,3,4,5],
+		"req_ograsm_addiction_level": ["<",100],
+		"ograsm_addiction_level": ["=",100]
+	}],
+	"attribute_change": [
+	{
+		"attribute_name": "health",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "3"
+	},
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "1"
+	},
+	{
+		"attribute_name": "will",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.99"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.01"
+	}
+	]
+}

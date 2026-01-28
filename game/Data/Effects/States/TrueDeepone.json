@@ -1,0 +1,68 @@
+{
+	"item_name": "TrueDeepone",
+	"max_stacks": 1,
+	"icon_index": 125,
+	"lonaStat_json_hash": {
+			"stat": "SemenGulper",
+			"value": null,
+			"type": "numeric",
+			"link": true,
+			"initial": 0
+		},
+	"tag_main_settings": {
+		"tag": "yellow"
+	},
+	"textFlag": {
+			"name": "DataState:TrueDeepone/item_name",
+			"description": "DataState:TrueDeepone/description"
+		},
+	"wtype_seal": ["NormalEQ","CollarEQ","MagicEQ","HighQuEQ"],
+	"atype_seal": ["MagicEQ","NormalEQ","HighQuEQ","CollarEQ"],
+	"added_skills": ["DeeponeNormal","DeeponeHeavy","DeeponeControl"],
+	"skill_sealed": ["BasicNormal","BasicHeavy","BasicControl"],
+	"atype_ok": ["WhoreDress","SaintNun"],
+	"attribute_change": [
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1000
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1000
+	},
+	{
+		"attribute_name": "constitution_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 20
+	},
+	{
+		"attribute_name": "scoutcraft_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 10
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "dirt",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 255
+	}
+	]
+}

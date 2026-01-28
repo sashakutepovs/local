@@ -1,0 +1,13 @@
+{
+	"remove_by_walking": 25,
+	"max_stacks": 1,
+	"player_nap_state_control": [{
+		"tar_state_name": [-1, "Masturbationed"]
+	}],
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "50"
+	}]
+}

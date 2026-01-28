@@ -1,0 +1,51 @@
+{
+	"max_stacks": 4,
+	"attribute_change": [
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.99"
+	},
+	{
+		"attribute_name": "health",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.99"
+	},
+	{
+		"block_by_part_cover": ["Arms"],
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.98"
+	},
+	{
+		"block_by_part_cover": ["Arms"],
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "1"
+	},
+	{
+		"block_by_part_cover": ["Arms"],
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.025"
+	},
+	{
+		"block_by_part_cover": ["Arms"],
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "1"
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "4"
+	}
+	]
+}

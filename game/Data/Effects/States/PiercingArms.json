@@ -1,0 +1,11 @@
+{
+	"max_stacks": 3,
+	"attribute_change": [{
+		"block_by_part_cover": ["Arms"],
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "15"
+	}
+	]
+}

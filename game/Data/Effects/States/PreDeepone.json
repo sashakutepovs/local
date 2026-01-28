@@ -1,0 +1,17 @@
+{
+	"max_stacks": 1,
+	"attribute_change": [
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "5"
+	},
+	{
+		"attribute_name": "scoutcraft_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "2"
+	}
+	]
+}

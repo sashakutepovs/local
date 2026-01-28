@@ -1,0 +1,21 @@
+{
+	"item_name": "PubicHairAnal",
+	"max_stacks": 4,
+	"icon_index": 102,
+	"menu_hide_lvl": [1],
+	"lonaStat_json_hash": {
+		"stat": "PubicHairAnal",
+		"value": null,
+		"type": "numeric",
+		"link": null,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"tag": "magenta"
+	},
+	"textFlag": {
+		"name": "DataState:PubicHairAnal/item_name",
+		"description": "DataState:PubicHairAnal/description"
+	},
+	"attribute_change": []
+}

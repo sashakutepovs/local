@@ -1,0 +1,20 @@
+{
+	"item_name": "WeakBladder",
+	"max_stacks": 1,
+	"icon_index": 26,
+	"lonaStat_json_hash": {
+		"stat": "WeakBladder",
+		"value": null,
+		"type": "numeric",
+		"link": null,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:WeakBladder/item_name",
+			"description": "DataState:WeakBladder/description"
+	},
+	"attribute_change": []
+}

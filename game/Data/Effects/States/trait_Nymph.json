@@ -1,0 +1,53 @@
+{
+	"item_name": "Nymph",
+	"icon_index": 738,
+	"lonaStat_json_hash": {
+		"stat": "Nymph",
+		"value": null,
+		"type": "numeric",
+		"link": true,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "trait"
+	},
+	"textFlag": {
+			"name": "DataState:Nymph/item_name",
+			"description": "DataState:Nymph/description"
+	},
+	"common_tags":{
+		"traitItemID": "trait_link_Nymph"
+	},
+	"attribute_change": [{
+			"attribute_name": "sta",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 1.3
+		},
+		{
+			"attribute_name": "sexy",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 1.5
+		},
+		{
+			"attribute_name": "weak",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 0.9
+		},
+		{
+			"attribute_name": "def_plus",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": 3
+		},
+		{
+			"attribute_name": "will",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 1.3
+		}
+	]
+}

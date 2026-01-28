@@ -1,0 +1,13 @@
+{
+	"remove_by_walking": 30,
+	"is_combat_state": true,
+	"is_daily_state": false,
+	"attribute_change": [
+	{
+		"attribute_name": "morality_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "200"
+	}
+	]
+}
