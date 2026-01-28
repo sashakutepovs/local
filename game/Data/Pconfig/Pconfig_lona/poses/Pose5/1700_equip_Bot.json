@@ -1,0 +1,76 @@
+[{
+		"name_order": ["subpose", "preg", "equip_Bot"],
+		"part_name": "pose5_subpose1_equip_AdvBot",
+		"x": 35,
+		"y": 249,
+		"layer": 1700,
+		"bmps": {
+			"subpose01,preg00,equip_Bot#AdvBot": "pose5_subpose1_equip_AdvBot.png",
+			"subpose01,preg01,equip_Bot#AdvBot": "pose5_subpose1_preg4m_equip_AdvBot.png",
+			"subpose01,preg02,equip_Bot#AdvBot": "pose5_subpose1_preg6m_equip_AdvBot.png",
+			"subpose01,preg03,equip_Bot#AdvBot": "pose5_subpose1_preg8m_equip_AdvBot.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Bot"],
+		"part_name": "pose5_subpose1_equip_SexyBot",
+		"x": 69,
+		"y": 244,
+		"layer": 1700,
+		"bmps": {
+			"subpose01,preg00,equip_Bot#SexyBot": "pose5_subpose1_equip_SexyBot.png",
+			"subpose01,preg01,equip_Bot#SexyBot": "pose5_subpose1_preg4m_equip_SexyBot.png",
+			"subpose01,preg02,equip_Bot#SexyBot": "pose5_subpose1_preg6m_equip_SexyBot.png",
+			"subpose01,preg03,equip_Bot#SexyBot": "pose5_subpose1_preg8m_equip_SexyBot.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_Bot"],
+		"part_name": "pose5_subpose1_equip_SurBot",
+		"x": 28,
+		"y": 274,
+		"layer": 1700,
+		"bmps": {
+			"subpose01,equip_Bot#SurBot": "pose5_subpose1_equip_SurBot.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Bot"],
+		"part_name": "pose5_subpose1_equip_DancerBot",
+		"x": 72,
+		"y": 252,
+		"layer": 1700,
+		"bmps": {
+			"subpose01,preg00,equip_Bot#DancerBot": "pose5_subpose1_equip_DancerBot.png",
+			"subpose01,preg01,equip_Bot#DancerBot": "pose5_subpose1_preg4m_equip_DancerBot.png",
+			"subpose01,preg02,equip_Bot#DancerBot": "pose5_subpose1_preg6m_equip_DancerBot.png",
+			"subpose01,preg03,equip_Bot#DancerBot": "pose5_subpose1_preg8m_equip_DancerBot.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Bot"],
+		"part_name": "pose5_subpose1_equip_FootmanBot",
+		"x": 24,
+		"y": 252,
+		"layer": 1700,
+		"bmps": {
+			"subpose01,preg00,equip_Bot#FootmanBot": "pose5_subpose1_equip_FootmanBot.png",
+			"subpose01,preg01,equip_Bot#FootmanBot": "pose5_subpose1_preg4m_equip_FootmanBot.png",
+			"subpose01,preg02,equip_Bot#FootmanBot": "pose5_subpose1_preg6m_equip_FootmanBot.png",
+			"subpose01,preg03,equip_Bot#FootmanBot": "pose5_subpose1_preg8m_equip_FootmanBot.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Bot"],
+		"part_name": "pose5_subpose1_equip_DocBot",
+		"x": 32,
+		"y": 266,
+		"layer": 1700,
+		"bmps": {
+			"subpose01,preg00,equip_Bot#DocBot": "pose5_subpose1_equip_DocBot.png",
+			"subpose01,preg01,equip_Bot#DocBot": "pose5_subpose1_preg4m_equip_DocBot.png",
+			"subpose01,preg02,equip_Bot#DocBot": "pose5_subpose1_preg6m_equip_DocBot.png",
+			"subpose01,preg03,equip_Bot#DocBot": "pose5_subpose1_preg8m_equip_DocBot.png"
+		}
+	}
+]

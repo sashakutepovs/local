@@ -1,0 +1,22 @@
+[	{
+		"name_order": ["PubicHairVag", "preg"],
+		"part_name": "pose5_subpose1_MelaninVag",
+		"x": "115",
+		"y": "290",
+		"layer": 1280,
+		"bmps": {
+			"PubicHairVag02,preg00": "pose5_subpose1_PubicHairVag1.png",
+			"PubicHairVag02,preg01": "pose5_subpose1_PubicHairVag1_preg4m.png",
+			"PubicHairVag02,preg02": "pose5_subpose1_PubicHairVag1_preg6m.png",
+			"PubicHairVag02,preg03": "pose5_subpose1_PubicHairVag1_preg8m.png",
+			"PubicHairVag03,preg00": "pose5_subpose1_PubicHairVag2.png",
+			"PubicHairVag03,preg01": "pose5_subpose1_PubicHairVag2_preg4m.png",
+			"PubicHairVag03,preg02": "pose5_subpose1_PubicHairVag2_preg6m.png",
+			"PubicHairVag03,preg03": "pose5_subpose1_PubicHairVag2_preg8m.png",
+			"PubicHairVag04,preg00": "pose5_subpose1_PubicHairVag3.png",
+			"PubicHairVag04,preg01": "pose5_subpose1_PubicHairVag3_preg4m.png",
+			"PubicHairVag04,preg02": "pose5_subpose1_PubicHairVag3_preg6m.png",
+			"PubicHairVag04,preg03": "pose5_subpose1_PubicHairVag3_preg8m.png"
+		}
+	}
+]

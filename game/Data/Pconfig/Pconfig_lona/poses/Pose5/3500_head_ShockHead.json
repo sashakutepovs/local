@@ -1,0 +1,10 @@
+[{
+	"name_order": ["ShockHead"],
+	"part_name": "pose5_head_ShockHead",
+	"x": "20",
+	"y": "51",
+	"layer": 3500,
+	"bmps": {
+		"ShockHead01": "pose5_head_ShockHead.png"
+	}
+}]

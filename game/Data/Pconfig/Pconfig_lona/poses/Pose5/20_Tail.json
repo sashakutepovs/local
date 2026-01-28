@@ -1,0 +1,23 @@
+[
+{
+		"name_order": ["Tail"],
+		"part_name": "pose5_Tail",
+		"x": "189",
+		"y": "256",
+		"layer": 20,
+		"bmps": {
+			"Tail01": "pose5_Tail.png"
+		}
+	},
+	{
+		"isDirt": true,
+		"name_order": ["Tail"],
+		"part_name": "pose5_Tail_dirt",
+		"x": "189",
+		"y": "256",
+		"layer": 21,
+		"bmps": {
+			"Tail01": "pose5_Tail_dirt.png"
+		}
+	}
+]

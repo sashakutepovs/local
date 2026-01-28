@@ -1,0 +1,38 @@
+[{
+		"name_order": ["EventExt1Race", "EventExt1"],
+		"part_name": "pose5_EventExt1_Human_Grab",
+		"x": "36",
+		"y": "81",
+		"layer": 4000,
+		"bmps": {
+			"EventExt1Race#Human,EventExt1#Grab": "pose5_EventExt1_Human_Grab.png",
+			"EventExt1Race#Moot,EventExt1#Grab": "pose5_EventExt1_Human_Grab.png",
+			"EventExt1Race#Deepone,EventExt1#Grab": "pose5_EventExt1_Human_Grab.png"
+		}
+	},
+	{
+		"name_order": ["preg", "EventExt1Race", "EventExt1"],
+		"part_name": "pose5_EventExt1_Human_BoobTouch",
+		"x": "1",
+		"y": "123",
+		"layer": 4000,
+		"bmps": {
+			"preg00,EventExt1Race#Human,EventExt1#BoobTouch": "pose5_EventExt1_Human_BoobTouch.png",
+			"preg00,EventExt1Race#Moot,EventExt1#BoobTouch": "pose5_EventExt1_Human_BoobTouch.png",
+			"preg00,EventExt1Race#Deepone,EventExt1#BoobTouch": "pose5_EventExt1_Human_BoobTouch.png",
+			
+			"preg01,EventExt1Race#Human,EventExt1#BoobTouch": "pose5_EventExt1_Human_BoobTouch.png",
+			"preg01,EventExt1Race#Moot,EventExt1#BoobTouch": "pose5_EventExt1_Human_BoobTouch.png",
+			"preg01,EventExt1Race#Deepone,EventExt1#BoobTouch": "pose5_EventExt1_Human_BoobTouch.png",
+			
+			"preg02,EventExt1Race#Human,EventExt1#BoobTouch": "pose5_EventExt1_Human_BoobTouch.png",
+			"preg02,EventExt1Race#Moot,EventExt1#BoobTouch": "pose5_EventExt1_Human_BoobTouch.png",
+			"preg02,EventExt1Race#Deepone,EventExt1#BoobTouch": "pose5_EventExt1_Human_BoobTouch.png",
+			
+			"preg03,EventExt1Race#Human,EventExt1#BoobTouch": "pose5_EventExt1_preg8m_Human_BoobTouch.png",
+			"preg03,EventExt1Race#Moot,EventExt1#BoobTouch": "pose5_EventExt1_preg8m_Human_BoobTouch.png",
+			"preg03,EventExt1Race#Deepone,EventExt1#BoobTouch": "pose5_EventExt1_preg8m_Human_BoobTouch.png"
+			
+		}
+	}
+]

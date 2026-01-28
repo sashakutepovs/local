@@ -1,0 +1,20 @@
+[{
+	"name_order": ["subpose", "WoundCuff"],
+	"part_name": "pose5_subpose1_WoundCuff",
+	"x": "46",
+	"y": "181",
+	"layer": 1000,
+	"bmps": {
+		"subpose01,WoundCuff01": "pose5_subpose1_WoundCuff.png"
+	}
+},{
+	"name_order": ["subpose", "WoundMArm"],
+	"part_name": "pose5_subpose1_WoundMArm_WoundCuff",
+	"x": "46",
+	"y": "181",
+	"layer": 1000,
+	"bmps": {
+		"subpose01,WoundMArm04": "pose5_subpose1_WoundCuff.png"
+	}
+}
+]

@@ -1,0 +1,10 @@
+[{
+	"name_order": ["eyes", "eyes_shock"],
+	"part_name": "pose5_head_eyes_shock",
+	"x": "72",
+	"y": "96",
+	"layer": 3000,
+	"bmps": {
+		"eyes01,eyes_shock01": "pose5_head_eyes01_shock.png"
+	}
+}]

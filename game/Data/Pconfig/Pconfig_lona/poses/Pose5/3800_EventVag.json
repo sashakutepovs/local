@@ -1,0 +1,37 @@
+[{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose5_EventVag_Human_VagTouch",
+		"x": "13",
+		"y": "251",
+		"layer": 3800,
+		"bmps": {
+			"EventVagRace#Human,EventVag#VagTouch": "pose5_EventVag_Human_VagTouch.png",
+			"EventVagRace#Moot,EventVag#VagTouch": "pose5_EventVag_Human_VagTouch.png",
+			"EventVagRace#Deepone,EventVag#VagTouch": "pose5_EventVag_Human_VagTouch.png"
+		}
+	},
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose5_EventVag_Human_Punch",
+		"x": "1",
+		"y": "51",
+		"layer": 3800,
+		"bmps": {
+			"EventVagRace#Human,EventVag#Punch2": "pose5_EventVag_Human_Punch2.png",
+			"EventVagRace#Moot,EventVag#Punch2": "pose5_EventVag_Human_Punch2.png",
+			"EventVagRace#Deepone,EventVag#Punch2": "pose5_EventVag_Human_Punch2.png"
+		}
+	},
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose5_EventVag_Human_Snuff",
+		"x": "25",
+		"y": "225",
+		"layer": 4100,
+		"bmps": {
+			"EventVagRace#Human,EventVag#Snuff": "pose5_EventVag_Human_Snuff.png",
+			"EventVagRace#Moot,EventVag#Snuff": "pose5_EventVag_Human_Snuff.png",
+			"EventVagRace#Deepone,EventVag#Snuff": "pose5_EventVag_Human_Snuff.png"
+		}
+	}
+]

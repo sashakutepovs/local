@@ -1,0 +1,64 @@
+[
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose5_head_equip_DancerHeadEquip_low",
+		"x": 34,
+		"y": 92,
+		"layer": 15,
+		"bmps": {
+			"equip_head#DancerHeadEquip": "pose5_head_equip_DancerHeadEquip_low.png"
+		}
+	},
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose5_equip_HoodCloakTop_Body_Top",
+		"x": 58,
+		"y": 58,
+		"layer": 15,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "pose5_equip_HoodCloakTop_Body_Top.png"
+		}
+	},{
+		"name_order": ["equip_Top"],
+		"part_name": "pose5_equip_HoodCloakTop_Body_Bot",
+		"x": 10,
+		"y": 148,
+		"layer": 14,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "pose5_equip_HoodCloakTop_Body_Bot.png"
+		}
+	},
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose5_equip_DocTop_Head_Bot",
+		"x": 58,
+		"y": 62,
+		"layer": 15,
+		"bmps": {
+			"equip_Top#DocTop": "pose5_equip_DocTop_Head_Bot.png"
+		}
+	},{
+		"name_order": ["equip_Top"],
+		"part_name": "pose5_equip_DocTop_BodyLow_Bot",
+		"x": 1,
+		"y": 150,
+		"layer": 14,
+		"bmps": {
+			"equip_Top#DocTop": "pose5_equip_DocTop_BodyLow_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose5_equip_NunVeil_BodyBot",
+		"x": 15,
+		"y": 62,
+		"layer": 14,
+		"bmps": {
+			"equip_head#NunVeil": "pose5_equip_NunVeil_BodyBot.png"
+		}
+	}
+]

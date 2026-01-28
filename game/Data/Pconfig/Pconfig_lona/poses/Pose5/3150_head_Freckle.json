@@ -1,0 +1,10 @@
+[{
+	"name_order": ["Freckle"],
+	"part_name": "pose5_head_Freckle",
+	"x": "85",
+	"y": "133",
+	"layer": 3150,
+	"bmps": {
+		"Freckle01": "pose5_head_Freckle.png"
+	}
+}]

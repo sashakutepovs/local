@@ -1,0 +1,14 @@
+[{
+	"name_order": ["subpose", "preg"],
+	"isDirt": true,
+	"part_name": "pose5_subpose1_dirt",
+	"x": "27",
+	"y": "124",
+	"layer": 1200,
+	"bmps": {
+		"subpose01,preg00": "pose5_subpose1_dirt.png",
+		"subpose01,preg01": "pose5_subpose1_preg4m_dirt.png",
+		"subpose01,preg02": "pose5_subpose1_preg6m_dirt.png",
+		"subpose01,preg03": "pose5_subpose1_preg8m_dirt.png"
+	}
+}]

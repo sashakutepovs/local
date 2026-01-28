@@ -1,0 +1,21 @@
+[{
+	"name_order": ["subpose", "preg", "WoundGroin"],
+	"part_name": "pose5_subpose1_WoundGroin",
+	"x": "91",
+	"y": "266",
+	"layer": 500,
+	"bmps": {
+		"subpose01,preg00,WoundGroin01": "pose5_subpose1_WoundGroin1.png",
+		"subpose01,preg00,WoundGroin02": "pose5_subpose1_WoundGroin2.png",
+		"subpose01,preg00,WoundGroin03": "pose5_subpose1_WoundGroin3.png",
+		"subpose01,preg01,WoundGroin01": "pose5_subpose1_preg4m_WoundGroin1.png",
+		"subpose01,preg01,WoundGroin02": "pose5_subpose1_preg4m_WoundGroin2.png",
+		"subpose01,preg01,WoundGroin03": "pose5_subpose1_preg4m_WoundGroin3.png",
+		"subpose01,preg02,WoundGroin01": "pose5_subpose1_preg6m_WoundGroin1.png",
+		"subpose01,preg02,WoundGroin02": "pose5_subpose1_preg6m_WoundGroin2.png",
+		"subpose01,preg02,WoundGroin03": "pose5_subpose1_preg6m_WoundGroin3.png",
+		"subpose01,preg03,WoundGroin01": "pose5_subpose1_preg8m_WoundGroin1.png",
+		"subpose01,preg03,WoundGroin02": "pose5_subpose1_preg8m_WoundGroin2.png",
+		"subpose01,preg03,WoundGroin03": "pose5_subpose1_preg8m_WoundGroin3.png"
+	}
+}]

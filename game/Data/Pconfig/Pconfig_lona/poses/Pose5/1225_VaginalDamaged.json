@@ -1,0 +1,11 @@
+[{
+		"name_order": ["subpose", "VaginalDamaged"],
+		"part_name": "pose5_subpose1_VaginalDamaged",
+		"x": "128",
+		"y": "311",
+		"layer": 1225,
+		"bmps": {
+			"subpose01,VaginalDamaged01": "pose5_subpose1_VaginalDamaged.png"
+		}
+	}
+]

@@ -1,0 +1,11 @@
+[{
+	"name_order": ["subpose", "PiercingBack"],
+	"part_name": "pose5_subpose1_PiercingBack",
+	"x": 188,
+	"y": 214,
+	"layer": 1252,
+	"bmps": {
+		"subpose01,PiercingBack01": "pose5_subpose1_PiercingBack2.png",
+		"subpose01,PiercingBack02": "pose5_subpose1_PiercingBack3.png"
+	}
+}]

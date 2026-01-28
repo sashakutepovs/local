@@ -1,0 +1,20 @@
+[{
+	"name_order": ["subpose", "WoundCollar"],
+	"part_name": "pose5_subpose1_WoundCollar",
+	"x": "122",
+	"y": "137",
+	"layer": 1100,
+	"bmps": {
+		"subpose01,WoundCollar01": "pose5_subpose1_WoundCollar.png"
+	}
+},{
+	"name_order": ["subpose", "WoundHead"],
+	"part_name": "pose5_subpose1_WoundHead_WoundCollar",
+	"x": "122",
+	"y": "137",
+	"layer": 1100,
+	"bmps": {
+		"subpose01,WoundHead04": "pose5_subpose1_WoundCollar.png"
+	}
+}
+]

@@ -1,0 +1,24 @@
+[{
+	"name_order": ["subpose", "EffectPee","ParasitedPotWorm"],
+	"part_name": "pose5_subpose1_EffectPee",
+	"x": "95",
+	"y": "303",
+	"layer": 1600,
+	"bmps": {
+		"subpose01,EffectPee01,ParasitedPotWorm00": "pose5_subpose1_EffectPee.png",
+		"subpose01,EffectPee01,ParasitedPotWorm01": "pose5_subpose1_EffectPee_ParasitedPotWorm.png",
+		"subpose01,EffectPee01,ParasitedPotWorm02": "pose5_subpose1_EffectPee_ParasitedPotWorm.png",
+		"subpose01,EffectPee01,ParasitedPotWorm03": "pose5_subpose1_EffectPee_ParasitedPotWorm.png",
+		"subpose01,EffectPee01,ParasitedPotWorm04": "pose5_subpose1_EffectPee_ParasitedPotWorm.png",
+		"subpose01,EffectPee01,ParasitedPotWorm05": "pose5_subpose1_EffectPee_ParasitedPotWorm.png"
+	}
+},{
+	"name_order": ["subpose", "EffectPee"],
+	"part_name": "pose5_subpose1_EffectOgrasm",
+	"x": "95",
+	"y": "303",
+	"layer": 1600,
+	"bmps": {
+		"subpose01,EffectPee02": "pose5_subpose1_EffectOrgasm.png"
+	}
+}]

@@ -1,0 +1,51 @@
+[{
+		"name_order": ["subpose", "equip_TopExtra"],
+		"part_name": "pose5_subpose1_equip_ChainCollarTopExtra",
+		"x": "19",
+		"y": "130",
+		"layer": 2100,
+		"bmps": {
+			"subpose01,equip_TopExtra#ChainCollarTopExtra": "pose5_subpose1_equip_ChainCollarTopExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_TopExtra"],
+		"part_name": "pose5_subpose1_equip_CollarTopExtra",
+		"x": "117",
+		"y": "130",
+		"layer": 2100,
+		"bmps": {
+			"subpose01,equip_TopExtra#CollarTopExtra": "pose5_subpose1_equip_CollarTopExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "MainArm"],
+		"part_name": "pose5_subpose1_equip_ChainCuffTopExtra2",
+		"x": "139",
+		"y": "124",
+		"layer": 50,
+		"bmps": {
+			"subpose01,MainArm#ChainCuffTopExtra": "pose5_subpose1_equip_ChainCollarTopExtra2.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "MainArm"],
+		"part_name": "pose5_subpose1_equip_ChainCuffTopExtra",
+		"x": "9",
+		"y": "130",
+		"layer": 2100,
+		"bmps": {
+			"subpose01,MainArm#ChainCuffTopExtra": "pose5_subpose1_equip_ChainCuffTopExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "MainArm"],
+		"part_name": "pose5_subpose1_equip_CuffTopExtra",
+		"x": "46",
+		"y": "130",
+		"layer": 2100,
+		"bmps": {
+			"subpose01,MainArm#CuffTopExtra": "pose5_subpose1_equip_CuffTopExtra.png"
+		}
+	}
+]

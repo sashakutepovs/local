@@ -1,0 +1,23 @@
+[{
+	"isDirt": true,
+	"name_order": ["subpose", "equip_hair"],
+	"part_name": "pose5_subpose1_equip_HairMessy_dirt",
+	"x": "38",
+	"y": "117",
+	"layer": 2001,
+	"bmps": {
+		"subpose01,equip_hair#HairMessy": "pose5_subpose1_equip_HairMessy_dirt.png",
+		"subpose01,equip_hair#HairDancer": "pose5_subpose1_equip_HairMessy_dirt.png"
+	}
+},
+{
+	"isDirt": true,
+	"name_order": ["subpose", "equip_hair"],
+	"part_name": "pose5_subpose1_equip_HairTwinBraid_dirt",
+	"x": "29",
+	"y": "103",
+	"layer": 2001,
+	"bmps": {
+		"subpose01,equip_hair#HairTwinBraid": "pose5_subpose1_equip_HairTwinBraid_dirt.png"
+	}
+}]

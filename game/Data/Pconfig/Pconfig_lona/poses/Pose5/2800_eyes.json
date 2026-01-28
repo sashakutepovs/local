@@ -1,0 +1,19 @@
+[{
+	"name_order": ["eyes", "subeyes"],
+	"part_name": "pose5_head_eyes",
+	"x": "72",
+	"y": "96",
+	"layer": 2800,
+	"bmps": {
+		"eyes01,subeyes01": "pose5_head_eyes01_subeyes01.png",
+		"eyes01,subeyes02": "pose5_head_eyes01_subeyes02.png",
+		"eyes01,subeyes03": "pose5_head_eyes01_subeyes03.png",
+		"eyes01,subeyes04": "pose5_head_eyes01_subeyes04.png",
+		"eyes01,subeyes05": "pose5_head_eyes01_subeyes05.png",
+		"eyes01,subeyes06": "pose5_head_eyes01_subeyes06.png",
+		"eyes01,subeyes07": "pose5_head_eyes01_subeyes07.png",
+		"eyes01,subeyes08": "pose5_head_eyes01_subeyes08.png",
+
+		"eyes02,subeyes01": "pose5_head_eyes02_subeyes01.png"
+	}
+}]

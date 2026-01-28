@@ -1,0 +1,12 @@
+[{
+	"name_order": ["subpose", "CumsBot"],
+	"part_name": "pose5_subpose1_CumsBot",
+	"x": "53",
+	"y": "228",
+	"layer": 2300,
+	"bmps": {
+		"subpose01,CumsBot01": "pose5_subpose1_CumsBot1.png",
+		"subpose01,CumsBot02": "pose5_subpose1_CumsBot2.png",
+		"subpose01,CumsBot03": "pose5_subpose1_CumsBot3.png"
+	}
+}]

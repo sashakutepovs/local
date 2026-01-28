@@ -1,0 +1,21 @@
+[{
+	"name_order": ["subpose", "preg", "CumsMid"],
+	"part_name": "pose5_subpose1_CumsMid",
+	"x": "81",
+	"y": "210",
+	"layer": 2400,
+	"bmps": {
+		"subpose01,preg00,CumsMid01": "pose5_subpose1_CumsMid1.png",
+		"subpose01,preg00,CumsMid02": "pose5_subpose1_CumsMid2.png",
+		"subpose01,preg00,CumsMid03": "pose5_subpose1_CumsMid3.png",
+		"subpose01,preg01,CumsMid01": "pose5_subpose1_preg4m_CumsMid1.png",
+		"subpose01,preg01,CumsMid02": "pose5_subpose1_preg4m_CumsMid2.png",
+		"subpose01,preg01,CumsMid03": "pose5_subpose1_preg4m_CumsMid3.png",
+		"subpose01,preg02,CumsMid01": "pose5_subpose1_preg6m_CumsMid1.png",
+		"subpose01,preg02,CumsMid02": "pose5_subpose1_preg6m_CumsMid2.png",
+		"subpose01,preg02,CumsMid03": "pose5_subpose1_preg6m_CumsMid3.png",
+		"subpose01,preg03,CumsMid01": "pose5_subpose1_preg8m_CumsMid1.png",
+		"subpose01,preg03,CumsMid02": "pose5_subpose1_preg8m_CumsMid2.png",
+		"subpose01,preg03,CumsMid03": "pose5_subpose1_preg8m_CumsMid3.png"
+	}
+}]

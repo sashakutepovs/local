@@ -1,0 +1,28 @@
+[{
+	"name_order": ["EventAnalRace", "EventAnal"],
+	"part_name": "pose5_EventAnal_Human_AnalTouch",
+	"x": "182",
+	"y": "201",
+	"layer": 3900,
+	"bmps": {
+		"EventAnalRace#Human,EventAnal#AnalTouch": "pose5_EventAnal_Human_AnalTouch.png",
+		"EventAnalRace#Moot,EventAnal#AnalTouch": "pose5_EventAnal_Human_AnalTouch.png",
+		"EventAnalRace#Deepone,EventAnal#AnalTouch": "pose5_EventAnal_Human_AnalTouch.png"
+	}
+},
+{
+	"name_order": ["EventAnal","ParasitedMoonWorm"],
+	"part_name": "pose5_EventAnal_DefecateIncontinent",
+	"x": "109",
+	"y": "290",
+	"layer": 1,
+	"bmps": {
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm00": "pose5_EventAnal_DefecateIncontinent1.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm01": "pose5_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm02": "pose5_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm03": "pose5_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm04": "pose5_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm05": "pose5_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png"
+	}
+}
+]

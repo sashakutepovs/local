@@ -1,0 +1,10 @@
+[{
+	"name_order": ["subpose", "EffectBleedVag"],
+	"part_name": "pose5_subpose1_EffectBleedVag",
+	"x": "79",
+	"y": "301",
+	"layer": 1500,
+	"bmps": {
+		"subpose01,EffectBleedVag01": "pose5_subpose1_EffectBleedVag.png"
+	}
+}]

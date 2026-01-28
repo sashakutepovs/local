@@ -1,0 +1,12 @@
+[{
+	"name_order": ["subpose", "WoundSArm"],
+	"part_name": "pose5_subpose1_WoundSArm",
+	"x": "136",
+	"y": "151",
+	"layer": 700,
+	"bmps": {
+		"subpose01,WoundSArm01": "pose5_subpose1_WoundSArm1.png",
+		"subpose01,WoundSArm02": "pose5_subpose1_WoundSArm2.png",
+		"subpose01,WoundSArm03": "pose5_subpose1_WoundSArm3.png"
+	}
+}]

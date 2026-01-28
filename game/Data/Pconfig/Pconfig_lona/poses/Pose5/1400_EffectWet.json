@@ -1,0 +1,10 @@
+[{
+	"name_order": ["subpose", "EffectWet"],
+	"part_name": "pose5_subpose1_EffectWet",
+	"x": "84",
+	"y": "303",
+	"layer": 1400,
+	"bmps": {
+		"subpose01,EffectWet01": "pose5_subpose1_EffectWet.png"
+	}
+}]

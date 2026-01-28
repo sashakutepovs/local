@@ -1,0 +1,15 @@
+[
+	{
+		"name_order": ["subpose", "preg", "equip_Vag"],
+		"part_name": "pose5_subpose1_equip_RagVag",
+		"x": 83,
+		"y": 246,
+		"layer": 1725,
+		"bmps": {
+			"subpose01,preg00,equip_Vag#RagVag": "pose5_subpose1_equip_RagVag.png",
+			"subpose01,preg01,equip_Vag#RagVag": "pose5_subpose1_preg4m_equip_RagVag.png",
+			"subpose01,preg02,equip_Vag#RagVag": "pose5_subpose1_preg6m_equip_RagVag.png",
+			"subpose01,preg03,equip_Vag#RagVag": "pose5_subpose1_preg8m_equip_RagVag.png"
+		}
+	}
+]

@@ -1,0 +1,123 @@
+	[{
+			"name_order": ["equip_Face"],
+			"part_name": "pose5_face_equip_StarterGlass",
+			"x": 75,
+			"y": 111,
+			"layer": 3699,
+			"bmps": {
+				"equip_Face#StarterGlass": "pose5_face_equip_StarterGlass.png"
+			}
+		},
+		{
+			"name_order": ["equip_head"],
+			"part_name": "pose5_head_equip_SunGlass",
+			"x": 58,
+			"y": 114,
+			"layer": 3700,
+			"bmps": {
+				"equip_head#SunGlass": "pose5_head_equip_SunGlass.png"
+			}
+		},
+		{
+			"name_order": ["equip_head"],
+			"part_name": "pose5_head_equip_SexyHeadEquip",
+			"x": 66,
+			"y": 70,
+			"layer": 3700,
+			"bmps": {
+				"equip_head#SexyHeadEquip": "pose5_head_equip_SexyHeadEquip.png"
+			}
+		},
+		{
+			"name_order": ["equip_head"],
+			"part_name": "pose5_head_equip_DancerHeadEquip",
+			"x": 63,
+			"y": 58,
+			"layer": 3700,
+			"bmps": {
+				"equip_head#DancerHeadEquip": "pose5_head_equip_DancerHeadEquip.png"
+			}
+		},
+		{
+			"name_order": ["equip_Face", "Race"],
+			"part_name": "pose5_face_PaintHead",
+			"x": 62,
+			"y": 100,
+			"layer": 3250,
+			"bmps": {
+				"equip_Face#PaintHead,Race#Human": "pose5_face_PaintHead.png",
+				"equip_Face#PaintHead,Race#Deepone": "pose5_face_moot_PaintHead.png",
+				"equip_Face#PaintHead,Race#Moot": "pose5_face_moot_PaintHead.png"
+			}
+		},
+		{
+			"name_order": ["equip_head"],
+			"part_name": "pose5_head_equip_FootmanHelmet",
+			"x": 74,
+			"y": 34,
+			"layer": 3702,
+			"bmps": {
+				"equip_head#FootmanHelmet": "pose5_head_equip_FootmanHelmet.png"
+			}
+		},
+		{
+			"name_order": ["equip_head"],
+			"part_name": "pose5_equip_DocHead_Head",
+			"x": 69,
+			"y": 67,
+			"layer": 3700,
+			"bmps": {
+				"equip_head#DocHead": "pose5_equip_DocHead_Head.png"
+			}
+		},
+		{
+			"name_order": ["equip_head"],
+			"part_name": "pose5_equip_NunVeil_HeadTop",
+			"x": 33,
+			"y": 58,
+			"layer": 3700,
+			"bmps": {
+				"equip_head#NunVeil": "pose5_equip_NunVeil_HeadTop.png"
+			}
+		},
+		{
+			"name_order": ["equip_Top"],
+			"part_name": "pose5_equip_HoodCloakTop_Head",
+			"x": 66,
+			"y": 40,
+			"layer": 3701,
+			"bmps": {
+				"equip_Top#HoodCloakTop": "pose5_equip_HoodCloakTop_Head.png"
+			}
+		},
+		{
+			"name_order": ["equip_Top"],
+			"part_name": "pose5_equip_DocTop_Head",
+			"x": 57,
+			"y": 51,
+			"layer": 3701,
+			"bmps": {
+				"equip_Top#DocTop": "pose5_equip_DocTop_Head.png"
+			}
+		},
+		{
+			"name_order": ["equip_head"],
+			"part_name": "pose5_equip_BucketHelmet",
+			"x": 43,
+			"y": 34,
+			"layer": 3701,
+			"bmps": {
+				"equip_head#BucketHelmet": "pose5_equip_BucketHelmet.png"
+			}
+		},
+		{
+			"name_order": ["equip_head"],
+			"part_name": "pose5_equip_DocHead_HeadTop",
+			"x": 109,
+			"y": 159,
+			"layer": 3702,
+			"bmps": {
+				"equip_head#DocHead": "pose5_equip_DocHead_HeadTop.png"
+			}
+		}
+	]

@@ -1,0 +1,75 @@
+[{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose5_EventVag_Fishkind_VagTouch",
+		"x": "1",
+		"y": "242",
+		"layer": 3800,
+		"bmps": {
+			"EventVagRace#Fishkind,EventVag#VagTouch": "pose5_EventVag_Fishkind_VagTouch.png"
+		}
+	},
+	{
+	"name_order": ["EventAnalRace", "EventAnal"],
+	"part_name": "pose5_EventAnal_Fishkind_AnalTouch",
+	"x": "148",
+	"y": "258",
+	"layer": 3900,
+	"bmps": {
+		"EventAnalRace#Fishkind,EventAnal#AnalTouch": "pose5_EventAnal_Fishkind_AnalTouch.png"
+		}
+	},
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose5_EventVag_Fishkind_Punch",
+		"x": "1",
+		"y": "51",
+		"layer": 4000,
+		"bmps": {
+			"EventVagRace#Fishkind,EventVag#Punch2": "pose5_EventVag_Fishkind_Punch2.png"
+		}
+	},
+	{
+		"name_order": ["EventExt1Race", "EventExt1"],
+		"part_name": "pose5_EventExt1_Fishkind_Grab",
+		"x": "31",
+		"y": "82",
+		"layer": 4010,
+		"bmps": {
+			"EventExt1Race#Fishkind,EventExt1#Grab": "pose5_EventExt1_Fishkind_Grab.png"
+		}
+	},
+		{
+		"name_order": ["preg", "EventExt1Race", "EventExt1"],
+		"part_name": "pose5_EventExt1_Fishkind_BoobTouch",
+		"x": "1",
+		"y": "124",
+		"layer": 4020,
+		"bmps": {
+			"preg00,EventExt1Race#Fishkind,EventExt1#BoobTouch": "pose5_EventExt1_Fishkind_BoobTouch.png",
+			"preg01,EventExt1Race#Fishkind,EventExt1#BoobTouch": "pose5_EventExt1_Fishkind_BoobTouch.png",
+			"preg02,EventExt1Race#Fishkind,EventExt1#BoobTouch": "pose5_EventExt1_Fishkind_BoobTouch.png",
+			"preg03,EventExt1Race#Fishkind,EventExt1#BoobTouch": "pose5_EventExt1_preg8m_Fishkind_BoobTouch.png"
+			
+		}
+	},
+	{
+		"name_order": ["EventMouthRace", "EventMouth"],
+		"part_name": "pose5_EventMouth_Fishkind_kissed",
+		"x": "1",
+		"y": "51",
+		"layer": 4100,
+		"bmps": {
+			"EventMouthRace#Fishkind,EventMouth#kissed": "pose5_EventMouth_Fishkind_kissed.png"
+		}
+	},
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose5_EventVag_Fishkind_Snuff",
+		"x": "21",
+		"y": "207",
+		"layer": 4100,
+		"bmps": {
+			"EventVagRace#Fishkind,EventVag#Snuff": "pose5_EventVag_Fishkind_Snuff.png"
+		}
+	}
+]

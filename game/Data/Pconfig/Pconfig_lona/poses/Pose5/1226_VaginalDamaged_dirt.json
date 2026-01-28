@@ -1,0 +1,12 @@
+[{
+		"name_order": ["subpose", "VaginalDamaged"],
+		"isDirt": true,
+		"part_name": "pose5_subpose1_VaginalDamaged_dirt",
+		"x": "128",
+		"y": "311",
+		"layer": 1226,
+		"bmps": {
+			"subpose01,VaginalDamaged01": "pose5_subpose1_VaginalDamaged_dirt.png"
+		}
+	}
+]

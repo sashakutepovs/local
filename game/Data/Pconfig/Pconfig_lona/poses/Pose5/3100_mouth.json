@@ -1,0 +1,28 @@
+[{
+	"name_order": ["mouth"],
+	"part_name": "pose5_head_mouth",
+	"x": "76",
+	"y": "131",
+	"layer": 3100,
+	"bmps": {
+		"mouth01": "pose5_head_mouth01.png",
+		"mouth02": "pose5_head_mouth02.png",
+		"mouth03": "pose5_head_mouth03.png",
+		"mouth04": "pose5_head_mouth04.png",
+		"mouth05": "pose5_head_mouth05.png",
+		"mouth06": "pose5_head_mouth06.png"
+	}
+},
+
+	{
+		"name_order": ["mouth"],
+		"part_name": "pose5_head_mouth_EXT",
+		"x": "76",
+		"y": "131",
+		"layer": 3101,
+		"bmps": {
+		"mouth02": "pose5_head_mouth02_EXT.png",
+		"mouth04": "pose5_head_mouth04_EXT.png",
+		"mouth05": "pose5_head_mouth05_EXT.png"
+		}
+}]

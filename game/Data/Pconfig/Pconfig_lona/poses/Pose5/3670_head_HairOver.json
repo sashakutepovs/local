@@ -1,0 +1,31 @@
+[
+
+	{
+		"name_order": ["equip_hair", "Race"],
+		"part_name": "pose5_head_HairDancer",
+		"x": 42,
+		"y": 53,
+		"layer": 3670,
+		"bmps": {
+			"equip_hair#HairDancer,Race#Human": "pose5_head_HairDancer.png",
+			"equip_hair#HairDancer,Race#Deepone": "pose5_head_moot_HairDancer.png",
+			"equip_hair#HairDancer,Race#Moot": "pose5_head_moot_HairDancer.png"
+		}
+	},
+	{
+		"isDirt": true,
+		"name_order": ["equip_hair"],
+		"part_name": "pose5_head_HairDancer_dirt",
+		"x": 42,
+		"y": 53,
+		"layer": 3671,
+		"bmps": {
+			"equip_hair#HairDancer": "pose5_head_HairDancer_dirt.png"
+		}
+	}
+
+
+
+
+
+]
