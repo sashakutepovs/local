@@ -1,0 +1,21 @@
+[{
+	"name_order": ["equip_MidExtra"],
+	"part_name": "chcg3_equip_ChainMidExtra_top",
+	"x": 1,
+	"y": 207,
+	"layer": 1800,
+	"bmps": {
+		"equip_MidExtra#ChainMidExtra": "chcg3_equip_ChainMidExtra_top.png"
+		}
+	},
+	{
+		"name_order": ["equip_TopExtra"],
+		"part_name": "chcg3_equip_ChainMidExtra_collar",
+		"x": 574,
+		"y": 295,
+		"layer": 1800,
+		"bmps": {
+			"equip_TopExtra#ChainMidExtra": "chcg3_equip_CollarTopExtra.png"
+		}
+	}
+]

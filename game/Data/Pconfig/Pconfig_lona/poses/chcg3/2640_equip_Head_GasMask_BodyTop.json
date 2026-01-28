@@ -1,0 +1,11 @@
+[{
+		"name_order": ["equip_head"],
+		"part_name": "chcg3_equip_DocHead_BodyTop",
+		"x": 569,
+		"y": 283,
+		"layer": 2640,
+		"bmps": {
+			"equip_head#DocHead": "chcg3_equip_DocHead_BodyTop.png"
+		}
+	}
+]

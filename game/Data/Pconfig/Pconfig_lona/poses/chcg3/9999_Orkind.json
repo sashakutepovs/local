@@ -1,0 +1,173 @@
+[
+	{
+		"name_order": ["PushDown","HeadGround","EventMouthRace"],
+		"part_name": "chcg3_EventMouth_Orkind_PushDown",
+		"x": "545",
+		"y": "1",
+		"layer": 4700,
+		"bmps": {
+			"PushDown01,HeadGround00,EventMouthRace#Orkind"		: "chcg3_PushDown_Orkind.png",
+			"PushDown01,HeadGround00,EventMouthRace#Goblin"		: "chcg3_PushDown_Orkind.png",
+			
+			"PushDown01,HeadGround01,EventMouthRace#Orkind"		: "chcg3_PushDown_HeadGround_Orkind.png",
+			"PushDown01,HeadGround01,EventMouthRace#Goblin"		: "chcg3_PushDown_HeadGround_Orkind.png"
+		}
+	},
+	{
+		"name_order": ["EventMouthRace", "EventMouth"],
+		"part_name": "chcg3_EventMouth_Orkind",
+		"x": "389",
+		"y": "1",
+		"layer": 4700,
+		"bmps": {
+			"EventMouthRace#Orkind,EventMouth#Common1": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Orkind,EventMouth#Common2": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Orkind,EventMouth#CumInside1": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Orkind,EventMouth#CumInside2": "chcg3_EventMouth_Orkind_2.png",
+			"EventMouthRace#Orkind,EventMouth#CumInside3": "chcg3_EventMouth_Orkind_3.png",
+			"EventMouthRace#Orkind,EventMouth#CumInsidePeein3": "chcg3_EventMouth_Orkind_3Peein.png",
+			"EventMouthRace#Orkind,EventMouth#CumInsidePeein4": "chcg3_EventMouth_Orkind_4Peein.png",
+			"EventMouthRace#Orkind,EventMouth#CumInsidePeein5": "chcg3_EventMouth_Orkind_5Peein.png",
+			"EventMouthRace#Orkind,EventMouth#CumOutside2": "chcg3_EventMouth_Orkind_2Out.png",
+			"EventMouthRace#Orkind,EventMouth#DeepThroat2": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Orkind,EventMouth#DeepThroat3": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Orkind,EventMouth#DeepThroat4": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Orkind,EventMouth#DeepThroat5": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Orkind,EventMouth#DeepThroat6": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Orkind,EventMouth#DeepThroat7": "chcg3_EventMouth_Orkind_1.png",
+			
+			"EventMouthRace#Goblin,EventMouth#Common1": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Goblin,EventMouth#Common2": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Goblin,EventMouth#CumInside1": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Goblin,EventMouth#CumInside2": "chcg3_EventMouth_Orkind_2.png",
+			"EventMouthRace#Goblin,EventMouth#CumInside3": "chcg3_EventMouth_Orkind_3.png",
+			"EventMouthRace#Goblin,EventMouth#CumInsidePeein3": "chcg3_EventMouth_Orkind_3Peein.png",
+			"EventMouthRace#Goblin,EventMouth#CumInsidePeein4": "chcg3_EventMouth_Orkind_4Peein.png",
+			"EventMouthRace#Goblin,EventMouth#CumInsidePeein5": "chcg3_EventMouth_Orkind_5Peein.png",
+			"EventMouthRace#Goblin,EventMouth#CumOutside2": "chcg3_EventMouth_Orkind_2Out.png",
+			"EventMouthRace#Goblin,EventMouth#DeepThroat2": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Goblin,EventMouth#DeepThroat3": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Goblin,EventMouth#DeepThroat4": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Goblin,EventMouth#DeepThroat5": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Goblin,EventMouth#DeepThroat6": "chcg3_EventMouth_Orkind_1.png",
+			"EventMouthRace#Goblin,EventMouth#DeepThroat7": "chcg3_EventMouth_Orkind_1.png"
+		}
+	},
+	{
+		"name_order": ["EventExt4Race", "EventExt4"],
+		"part_name": "chcg3_EventExt4_Orkind_Fapper",
+		"x": "425",
+		"y": "1",
+		"layer": 4600,
+		"bmps": {
+			"EventExt4Race#Goblin,EventExt4#FapperCuming1": "chcg3_EventExt4_Orkind_Fapper.png",
+			"EventExt4Race#Goblin,EventExt4#FapperCuming2": "chcg3_EventExt4_Orkind_FapperCuming.png",
+
+			"EventExt4Race#Orkind,EventExt4#FapperCuming1": "chcg3_EventExt4_Orkind_Fapper.png",
+			"EventExt4Race#Orkind,EventExt4#FapperCuming2": "chcg3_EventExt4_Orkind_FapperCuming.png"
+		}
+	},
+	{
+		"name_order": ["EventExt3Race", "EventExt3"],
+		"part_name": "chcg3_EventExt3_Orkind_Fapper",
+		"x": "336",
+		"y": "244",
+		"layer": 4500,
+		"bmps": {
+			"EventExt3Race#Orkind,EventExt3#FapperCuming1": "chcg3_EventExt3_Orkind_Fapper.png",
+			"EventExt3Race#Orkind,EventExt3#FapperCuming2": "chcg3_EventExt3_Orkind_FapperCuming.png",
+
+			"EventExt3Race#Goblin,EventExt3#FapperCuming1": "chcg3_EventExt3_Orkind_Fapper.png",
+			"EventExt3Race#Goblin,EventExt3#FapperCuming2": "chcg3_EventExt3_Orkind_FapperCuming.png"
+		}
+	},
+	{
+		"name_order": ["EventExt2Race", "EventExt2"],
+		"part_name": "chcg3_EventExt2_Orkind_Fapper",
+		"x": "1",
+		"y": "131",
+		"layer": 4400,
+		"bmps": {
+			"EventExt2Race#Orkind,EventExt2#FapperCuming1": "chcg3_EventExt2_Orkind_Fapper.png",
+			"EventExt2Race#Orkind,EventExt2#FapperCuming2": "chcg3_EventExt2_Orkind_FapperCuming.png",
+			
+			"EventExt2Race#Goblin,EventExt2#FapperCuming1": "chcg3_EventExt2_Orkind_Fapper.png",
+			"EventExt2Race#Goblin,EventExt2#FapperCuming2": "chcg3_EventExt2_Orkind_FapperCuming.png"
+		}
+	},
+	{
+		"name_order": ["EventExt1Race", "EventExt1"],
+		"part_name": "chcg3_EventExt1_Orkind_Fapper",
+		"x": "531",
+		"y": "1",
+		"layer": 4300,
+		"bmps": {
+			"EventExt1Race#Orkind,EventExt1#FapperCuming1": "chcg3_EventExt1_Orkind_Fapper.png",
+			"EventExt1Race#Orkind,EventExt1#FapperCuming2": "chcg3_EventExt1_Orkind_FapperCuming.png",
+			
+			"EventExt1Race#Goblin,EventExt1#FapperCuming1": "chcg3_EventExt1_Orkind_Fapper.png",
+			"EventExt1Race#Goblin,EventExt1#FapperCuming2": "chcg3_EventExt1_Orkind_FapperCuming.png"
+		}
+	},
+	{
+		"name_order": ["EventAnalRace", "EventAnal"],
+		"part_name": "chcg3_EventAnal_Orkind",
+		"x": "74",
+		"y": "1",
+		"layer": 4200,
+		"bmps": {
+			"EventAnalRace#Orkind,EventAnal#Common1": "chcg3_EventAnal_Orkind_1.png",
+			"EventAnalRace#Orkind,EventAnal#Common2": "chcg3_EventAnal_Orkind_1.png",
+			"EventAnalRace#Orkind,EventAnal#CumInside1": "chcg3_EventAnal_Orkind_1.png",
+			"EventAnalRace#Orkind,EventAnal#CumInside2": "chcg3_EventAnal_Orkind_2.png",
+			"EventAnalRace#Orkind,EventAnal#CumInside3": "chcg3_EventAnal_Orkind_3.png",
+			"EventAnalRace#Orkind,EventAnal#CumInside4": "chcg3_EventAnal_Orkind_4.png",
+			"EventAnalRace#Orkind,EventAnal#CumInsidePeein4": "chcg3_EventAnal_Orkind_4Peein.png",
+			"EventAnalRace#Orkind,EventAnal#CumInsidePeein5": "chcg3_EventAnal_Orkind_5Peein.png",
+			"EventAnalRace#Orkind,EventAnal#CumInsidePeein6": "chcg3_EventAnal_Orkind_6Peein.png",
+			"EventAnalRace#Orkind,EventAnal#CumOutside2": "chcg3_EventAnal_Orkind_2Out.png",
+			
+			"EventAnalRace#Goblin,EventAnal#Common1": "chcg3_EventAnal_Orkind_1.png",
+			"EventAnalRace#Goblin,EventAnal#Common2": "chcg3_EventAnal_Orkind_1.png",
+			"EventAnalRace#Goblin,EventAnal#CumInside1": "chcg3_EventAnal_Orkind_1.png",
+			"EventAnalRace#Goblin,EventAnal#CumInside2": "chcg3_EventAnal_Orkind_2.png",
+			"EventAnalRace#Goblin,EventAnal#CumInside3": "chcg3_EventAnal_Orkind_3.png",
+			"EventAnalRace#Goblin,EventAnal#CumInside4": "chcg3_EventAnal_Orkind_4.png",
+			"EventAnalRace#Goblin,EventAnal#CumInsidePeein4": "chcg3_EventAnal_Orkind_4Peein.png",
+			"EventAnalRace#Goblin,EventAnal#CumInsidePeein5": "chcg3_EventAnal_Orkind_5Peein.png",
+			"EventAnalRace#Goblin,EventAnal#CumInsidePeein6": "chcg3_EventAnal_Orkind_6Peein.png",
+			"EventAnalRace#Goblin,EventAnal#CumOutside2": "chcg3_EventAnal_Orkind_2Out.png"
+		}
+	},
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "chcg3_EventVag_Orkind",
+		"x": "1",
+		"y": "1",
+		"layer": 4100,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#Common1": "chcg3_EventVag_Orkind_1.png",
+			"EventVagRace#Orkind,EventVag#Common2": "chcg3_EventVag_Orkind_1.png",
+			"EventVagRace#Orkind,EventVag#CumInside1": "chcg3_EventVag_Orkind_1.png",
+			"EventVagRace#Orkind,EventVag#CumInside2": "chcg3_EventVag_Orkind_2.png",
+			"EventVagRace#Orkind,EventVag#CumInside3": "chcg3_EventVag_Orkind_3.png",
+			"EventVagRace#Orkind,EventVag#CumInside4": "chcg3_EventVag_Orkind_4.png",
+			"EventVagRace#Orkind,EventVag#CumInsidePeein4": "chcg3_EventVag_Orkind_4Peein.png",
+			"EventVagRace#Orkind,EventVag#CumInsidePeein5": "chcg3_EventVag_Orkind_5Peein.png",
+			"EventVagRace#Orkind,EventVag#CumInsidePeein6": "chcg3_EventVag_Orkind_6Peein.png",
+			"EventVagRace#Orkind,EventVag#CumOutside2": "chcg3_EventVag_Orkind_2Out.png",
+
+			"EventVagRace#Goblin,EventVag#Common1": "chcg3_EventVag_Orkind_1.png",
+			"EventVagRace#Goblin,EventVag#Common2": "chcg3_EventVag_Orkind_1.png",
+			"EventVagRace#Goblin,EventVag#CumInside1": "chcg3_EventVag_Orkind_1.png",
+			"EventVagRace#Goblin,EventVag#CumInside2": "chcg3_EventVag_Orkind_2.png",
+			"EventVagRace#Goblin,EventVag#CumInside3": "chcg3_EventVag_Orkind_3.png",
+			"EventVagRace#Goblin,EventVag#CumInside4": "chcg3_EventVag_Orkind_4.png",
+			"EventVagRace#Goblin,EventVag#CumInsidePeein4": "chcg3_EventVag_Orkind_4Peein.png",
+			"EventVagRace#Goblin,EventVag#CumInsidePeein5": "chcg3_EventVag_Orkind_5Peein.png",
+			"EventVagRace#Goblin,EventVag#CumInsidePeein6": "chcg3_EventVag_Orkind_6Peein.png",
+			"EventVagRace#Goblin,EventVag#CumOutside2": "chcg3_EventVag_Orkind_2Out.png"
+		}
+	}
+	
+]

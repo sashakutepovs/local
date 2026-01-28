@@ -1,0 +1,25 @@
+[{
+	"name_order": ["CumsMouth","HeadGround"],
+	"part_name": "chcg3_head_CumsMouth",
+	"x": "658",
+	"y": "366",
+	"layer": 3700,
+	"bmps": {
+		"CumsMouth01,HeadGround00": "chcg3_head_CumsMouth1.png",
+		"CumsMouth02,HeadGround00": "chcg3_head_CumsMouth2.png",
+		"CumsMouth03,HeadGround00": "chcg3_head_CumsMouth3.png"
+	}
+},
+{
+	"name_order": ["CumsMouth","HeadGround"],
+	"part_name": "chcg3_head_CumsMouth_HeadGround",
+	"x": "669",
+	"y": "413",
+	"layer": 3700,
+	"bmps": {
+		"CumsMouth01,HeadGround01": "chcg3_head_CumsMouth1.png",
+		"CumsMouth02,HeadGround01": "chcg3_head_CumsMouth2.png",
+		"CumsMouth03,HeadGround01": "chcg3_head_CumsMouth3.png"
+	}
+}
+]

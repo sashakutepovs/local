@@ -1,0 +1,27 @@
+[{
+	"name_order": ["eyes", "eyes_shock","HeadGround"],
+	"part_name": "chcg3_head_eyes_shock",
+	"x": "568",
+	"y": "268",
+	"layer": 3900,
+	"bmps": {
+		"eyes01,eyes_shock01,HeadGround00": "chcg3_head_eyes01_shock.png",
+		"eyes03,eyes_shock01,HeadGround00": "chcg3_head_eyes03_shock.png"
+
+	}
+},
+
+{
+	"name_order": ["eyes", "eyes_shock","HeadGround"],
+	"part_name": "chcg3_head_eyes_shock_HeadGround",
+	"x": "579",
+	"y": "315",
+	"layer": 3900,
+	"bmps": {
+		"eyes01,eyes_shock01,HeadGround01": "chcg3_head_eyes01_shock.png",
+		"eyes03,eyes_shock01,HeadGround01": "chcg3_head_eyes03_shock.png"
+
+	}
+}
+
+]

@@ -1,0 +1,60 @@
+[
+	{
+		"name_order": ["Tail"],
+		"part_name": "chcg3_Tail",
+		"x": "296",
+		"y": "1",
+		"layer": 1750,
+		"bmps": {
+			"Tail01": "chcg3_Tail.png"
+		}
+	},
+	{
+		"name_order": ["Tail", "WoundSThigh"],
+		"part_name": "chcg3_Tail_WoundSThigh",
+		"x": "296",
+		"y": "1",
+		"layer": 1751,
+		"bmps": {
+			"Tail01,WoundSThigh01": "chcg3_Tail_WoundSThigh1.png",
+			"Tail01,WoundSThigh02": "chcg3_Tail_WoundSThigh2.png",
+			"Tail01,WoundSThigh03": "chcg3_Tail_WoundSThigh3.png"
+		}
+	},
+	{
+		"name_order": ["Tail", "WoundMThigh"],
+		"part_name": "chcg3_Tail_WoundMThigh",
+		"x": "296",
+		"y": "1",
+		"layer": 1752,
+		"bmps": {
+			"Tail01,WoundMThigh01": "chcg3_Tail_WoundMThigh1.png",
+			"Tail01,WoundMThigh02": "chcg3_Tail_WoundMThigh2.png",
+			"Tail01,WoundMThigh03": "chcg3_Tail_WoundMThigh3.png"
+		}
+	},
+	{
+		"isDirt": true,
+		"name_order": ["Tail"],
+		"part_name": "chcg3_Tail_dirt",
+		"x": "296",
+		"y": "1",
+		"layer": 1753,
+		"bmps": {
+			"Tail01": "chcg3_Tail_dirt.png"
+		}
+	},
+	{
+		"name_order": ["Tail", "CumsBot"],
+		"part_name": "chcg3_Tail_CumsBot",
+		"x": "296",
+		"y": "1",
+		"layer": 1754,
+		"bmps": {
+			"Tail01,CumsBot01": "chcg3_Tail_CumsBot1.png",
+			"Tail01,CumsBot02": "chcg3_Tail_CumsBot1.png",
+			"Tail01,CumsBot03": "chcg3_Tail_CumsBot1.png"
+		}
+	}
+]
+

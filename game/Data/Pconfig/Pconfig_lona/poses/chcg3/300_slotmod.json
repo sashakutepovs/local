@@ -1,0 +1,10 @@
+[{
+	"name_order": ["analopen"],
+	"part_name": "chcg3_analopen",
+	"x": "293",
+	"y": "94",
+	"layer": 300,
+	"bmps": {
+		"analopen01": "chcg3_analopen.png"
+	}
+}]

@@ -1,0 +1,25 @@
+[{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg3_equip_HoodCloakTop_Body",
+		"x": 231,
+		"y": 202,
+		"layer": 2650,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg3_equip_HoodCloakTop_Body.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg3_equip_DocTop_BodyTop",
+		"x": 343,
+		"y": 185,
+		"layer": 2650,
+		"bmps": {
+			"equip_Top#DocTop": "chcg3_equip_DocTop_BodyTop.png"
+		}
+	}
+]

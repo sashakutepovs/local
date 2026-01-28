@@ -1,0 +1,21 @@
+[{
+	"name_order": ["preg", "CumsCreamPie"],
+	"part_name": "chcg3_CumsCreamPie",
+	"x": "286",
+	"y": "229",
+	"layer": 1690,
+	"bmps": {
+		"preg00,CumsCreamPie01": "chcg3_CumsCreamPie1.png",
+		"preg00,CumsCreamPie02": "chcg3_CumsCreamPie2.png",
+		"preg00,CumsCreamPie03": "chcg3_CumsCreamPie3.png",
+		"preg01,CumsCreamPie01": "chcg3_preg4m_CumsCreamPie1.png",
+		"preg01,CumsCreamPie02": "chcg3_preg4m_CumsCreamPie2.png",
+		"preg01,CumsCreamPie03": "chcg3_preg4m_CumsCreamPie3.png",
+		"preg02,CumsCreamPie01": "chcg3_preg6m_CumsCreamPie1.png",
+		"preg02,CumsCreamPie02": "chcg3_preg6m_CumsCreamPie2.png",
+		"preg02,CumsCreamPie03": "chcg3_preg6m_CumsCreamPie3.png",
+		"preg03,CumsCreamPie01": "chcg3_preg8m_CumsCreamPie1.png",
+		"preg03,CumsCreamPie02": "chcg3_preg8m_CumsCreamPie2.png",
+		"preg03,CumsCreamPie03": "chcg3_preg8m_CumsCreamPie3.png"
+	}
+}]

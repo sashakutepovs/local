@@ -1,0 +1,20 @@
+[{
+	"name_order": ["Freckle","HeadGround"],
+	"part_name": "chcg3_head_Freckle",
+	"x": "627",
+	"y": "325",
+	"layer": 3150,
+	"bmps": {
+		"Freckle01,HeadGround00": "chcg3_head_Freckle.png"
+	}
+},
+{
+	"name_order": ["Freckle","HeadGround"],
+	"part_name": "chcg3_head_Freckle_HeadGround",
+	"x": "638",
+	"y": "372",
+	"layer": 3150,
+	"bmps": {
+		"Freckle01,HeadGround01": "chcg3_head_Freckle.png"
+	}
+}]

@@ -1,0 +1,37 @@
+[{
+	"name_order": ["PiercingEar","Race","HeadGround"],
+	"part_name": "chcg3_head_PiercingEar_low",
+	"x": "759",
+	"y": "284",
+	"layer": 3545,
+	"bmps": {
+		"PiercingEar01,Race#Human,HeadGround00": "chcg3_head_PiercingEar1_low.png",
+		"PiercingEar02,Race#Human,HeadGround00": "chcg3_head_PiercingEar2_low.png",
+		"PiercingEar03,Race#Human,HeadGround00": "chcg3_head_PiercingEar3_low.png",
+		
+		"PiercingEar02,Race#Deepone,HeadGround00": "chcg3_head_moot_PiercingEar2_low.png",
+		"PiercingEar03,Race#Deepone,HeadGround00": "chcg3_head_moot_PiercingEar3_low.png",
+		
+		"PiercingEar02,Race#Moot,HeadGround00": "chcg3_head_moot_PiercingEar2_low.png",
+		"PiercingEar03,Race#Moot,HeadGround00": "chcg3_head_moot_PiercingEar3_low.png"
+	}
+},
+{
+	"name_order": ["PiercingEar","Race","HeadGround"],
+	"part_name": "chcg3_head_PiercingEar_HeadGround_low",
+	"x": "770",
+	"y": "331",
+	"layer": 3545,
+	"bmps": {
+		"PiercingEar01,Race#Human,HeadGround01": "chcg3_head_PiercingEar1_low.png",
+		"PiercingEar02,Race#Human,HeadGround01": "chcg3_head_PiercingEar2_low.png",
+		"PiercingEar03,Race#Human,HeadGround01": "chcg3_head_PiercingEar3_low.png",
+		
+		"PiercingEar02,Race#Deepone,HeadGround01": "chcg3_head_moot_PiercingEar2_low.png",
+		"PiercingEar03,Race#Deepone,HeadGround01": "chcg3_head_moot_PiercingEar3_low.png",
+		
+		"PiercingEar02,Race#Moot,HeadGround01": "chcg3_head_moot_PiercingEar2_low.png",
+		"PiercingEar03,Race#Moot,HeadGround01": "chcg3_head_moot_PiercingEar3_low.png"
+	}
+}
+]

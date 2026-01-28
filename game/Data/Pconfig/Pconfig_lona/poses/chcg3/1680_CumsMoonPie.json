@@ -1,0 +1,15 @@
+[{
+	"name_order": ["analopen", "CumsMoonPie"],
+	"part_name": "chcg3_CumsMoonPie",
+	"x": "197",
+	"y": "29",
+	"layer": 1680,
+	"bmps": {
+		"analopen00,CumsMoonPie01": "chcg3_CumsMoonPie1.png",
+		"analopen00,CumsMoonPie02": "chcg3_CumsMoonPie2.png",
+		"analopen00,CumsMoonPie03": "chcg3_CumsMoonPie3.png",
+		"analopen01,CumsMoonPie01": "chcg3_analopen_CumsMoonPie1.png",
+		"analopen01,CumsMoonPie02": "chcg3_analopen_CumsMoonPie2.png",
+		"analopen01,CumsMoonPie03": "chcg3_analopen_CumsMoonPie3.png"
+	}
+}]

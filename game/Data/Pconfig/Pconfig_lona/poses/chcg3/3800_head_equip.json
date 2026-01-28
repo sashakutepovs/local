@@ -1,0 +1,287 @@
+[{
+		"name_order": ["equip_Face", "HeadGround"],
+		"part_name": "chcg3_face_equip_StarterGlass",
+		"x": 632,
+		"y": 301,
+		"layer": 3799,
+		"bmps": {
+			"equip_Face#StarterGlass,HeadGround00": "chcg3_face_equip_StarterGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_head_equip_SunGlass",
+		"x": 612,
+		"y": 294,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#SunGlass,HeadGround00": "chcg3_head_equip_SunGlass.png"
+		}
+	},
+
+
+	{
+		"name_order": ["equip_Face", "HeadGround"],
+		"part_name": "chcg3_face_equip_StarterGlass_HeadGround",
+		"x": 643,
+		"y": 348,
+		"layer": 3800,
+		"bmps": {
+			"equip_Face#StarterGlass,HeadGround01": "chcg3_face_equip_StarterGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_head_equip_SunGlass_HeadGround",
+		"x": 623,
+		"y": 341,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#SunGlass,HeadGround01": "chcg3_head_equip_SunGlass.png"
+		}
+	},
+
+
+	{
+		"name_order": ["equip_Face", "HeadGround", "Race"],
+		"part_name": "chcg3_face_PaintHead",
+		"x": 551,
+		"y": 251,
+		"layer": 3250,
+		"bmps": {
+			"equip_Face#PaintHead,HeadGround00,Race#Human": "chcg3_face_PaintHead.png",
+			"equip_Face#PaintHead,HeadGround00,Race#Deepone": "chcg3_face_moot_PaintHead.png",
+			"equip_Face#PaintHead,HeadGround00,Race#Moot": "chcg3_face_moot_PaintHead.png"
+		}
+	},
+	{
+		"name_order": ["equip_Face", "HeadGround", "Race"],
+		"part_name": "chcg3_face_PaintHead_HeadGround",
+		"x": 562,
+		"y": 298,
+		"layer": 3250,
+		"bmps": {
+			"equip_Face#PaintHead,HeadGround01,Race#Human": "chcg3_face_PaintHead.png",
+			"equip_Face#PaintHead,HeadGround01,Race#Deepone": "chcg3_face_moot_PaintHead.png",
+			"equip_Face#PaintHead,HeadGround01,Race#Moot": "chcg3_face_moot_PaintHead.png"
+		}
+	},
+
+
+
+
+
+
+
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_head_equip_DancerHeadEquip",
+		"x": 468,
+		"y": 113,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#DancerHeadEquip,HeadGround00": "chcg3_head_equip_DancerHeadEquip.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_head_equip_DancerHeadEquip_HeadGround",
+		"x": 479,
+		"y": 160,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#DancerHeadEquip,HeadGround01": "chcg3_head_equip_DancerHeadEquip.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_head_equip_SexyHeadEquip",
+		"x": 530,
+		"y": 144,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#SexyHeadEquip,HeadGround00": "chcg3_head_equip_SexyHeadEquip.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_head_equip_SexyHeadEquip_HeadGround",
+		"x": 541,
+		"y": 191,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#SexyHeadEquip,HeadGround01": "chcg3_head_equip_SexyHeadEquip.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_DocHead_Head",
+		"x": 555,
+		"y": 151,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#DocHead,HeadGround00": "chcg3_equip_DocHead_Head.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_DocHead_Head_HeadGround",
+		"x": 566,
+		"y": 198,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#DocHead,HeadGround01": "chcg3_equip_DocHead_Head.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg3_equip_HoodCloakTop_Head_Top",
+		"x": 469,
+		"y": 116,
+		"layer": 3801,
+		"bmps": {
+			"equip_Top#HoodCloakTop,HeadGround00": "chcg3_equip_HoodCloakTop_Head_Top.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg3_equip_HoodCloakTop_Head_Top_HeadGround",
+		"x": 480,
+		"y": 163,
+		"layer": 3801,
+		"bmps": {
+			"equip_Top#HoodCloakTop,HeadGround01": "chcg3_equip_HoodCloakTop_Head_Top.png"
+		}
+	},
+
+
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg3_equip_DocTop_Head_Top",
+		"x": 464,
+		"y": 101,
+		"layer": 3801,
+		"bmps": {
+			"equip_Top#DocTop,HeadGround00": "chcg3_equip_DocTop_Head_Top.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg3_equip_DocTop_Head_Top_HeadGround",
+		"x": 475,
+		"y": 148,
+		"layer": 3801,
+		"bmps": {
+			"equip_Top#DocTop,HeadGround01": "chcg3_equip_DocTop_Head_Top.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_DocHead_HeadTop",
+		"x": 611,
+		"y": 404,
+		"layer": 3802,
+		"bmps": {
+			"equip_head#DocHead,HeadGround00": "chcg3_equip_DocHead_HeadTop.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_DocHead_HeadTop_HeadGround",
+		"x": 622,
+		"y": 452,
+		"layer": 3802,
+		"bmps": {
+			"equip_head#DocHead,HeadGround01": "chcg3_equip_DocHead_HeadTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_BucketHelmet",
+		"x": 514,
+		"y": 82,
+		"layer": 3801,
+		"bmps": {
+			"equip_head#BucketHelmet,HeadGround00": "chcg3_equip_BucketHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_BucketHelmet_HeadGround",
+		"x": 525,
+		"y": 129,
+		"layer": 3801,
+		"bmps": {
+			"equip_head#BucketHelmet,HeadGround01": "chcg3_equip_BucketHelmet.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_head_equip_FootmanHelmet",
+		"x": 487,
+		"y": 48,
+		"layer": 3802,
+		"bmps": {
+			"equip_head#FootmanHelmet,HeadGround00": "chcg3_head_equip_FootmanHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_head_equip_FootmanHelmet_HeadGround",
+		"x": 498,
+		"y": 95,
+		"layer": 3802,
+		"bmps": {
+			"equip_head#FootmanHelmet,HeadGround01": "chcg3_head_equip_FootmanHelmet.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_NunVeil_HeadTop",
+		"x": 487,
+		"y": 114,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#NunVeil,HeadGround00": "chcg3_equip_NunVeil_HeadTop.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_NunVeil_HeadTop_HeadGround",
+		"x": 498,
+		"y": 161,
+		"layer": 3800,
+		"bmps": {
+			"equip_head#NunVeil,HeadGround01": "chcg3_equip_NunVeil_HeadTop.png"
+		}
+	}
+]

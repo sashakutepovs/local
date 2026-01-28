@@ -1,0 +1,16 @@
+[	{
+		"name_order": ["analopen"],
+		"isDirt": true,
+		"dirtKey":"MelaninAnal",
+		"part_name": "chcg3_MelaninAnal",
+		"x": "292",
+		"y": "87",
+		"layer": 350,
+		"bmps": {
+			"analopen00": "chcg3_MelaninAnal.png",
+			"analopen01": "chcg3_analopen_MelaninAnal.png"
+
+		}
+	}
+
+]

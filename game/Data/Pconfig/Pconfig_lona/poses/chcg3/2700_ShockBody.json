@@ -1,0 +1,10 @@
+[{
+	"name_order": ["ShockBody"],
+	"part_name": "chcg3_ShockBody",
+	"x": "26",
+	"y": "1",
+	"layer": 2700,
+	"bmps": {
+		"ShockBody01": "chcg3_ShockBody.png"
+	}
+}]

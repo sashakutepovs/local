@@ -1,0 +1,21 @@
+[{
+		"name_order": ["analopen", "preg"],
+		"isDirt": true,
+		"part_name": "chcg3_BotBody_dirt",
+		"x": "1",
+		"y": "41",
+		"layer": 1400,
+		"bmps": {
+			"analopen00,preg00": "chcg3_dirt.png",
+			"analopen00,preg01": "chcg3_preg4m_dirt.png",
+			"analopen00,preg02": "chcg3_preg6m_dirt.png",
+			"analopen00,preg03": "chcg3_preg8m_dirt.png",
+			
+			
+			"analopen01,preg00": "chcg3_analopen_dirt.png",
+			"analopen01,preg01": "chcg3_preg4m_analopen_dirt.png",
+			"analopen01,preg02": "chcg3_preg6m_analopen_dirt.png",
+			"analopen01,preg03": "chcg3_preg8m_analopen_dirt.png"
+		}
+	}
+]

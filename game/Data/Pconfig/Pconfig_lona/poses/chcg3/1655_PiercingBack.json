@@ -1,0 +1,13 @@
+[{
+		"name_order": ["PiercingBack"],
+		"part_name": "chcg3_PiercingBack",
+		"x": "346",
+		"y": "200",
+		"layer": 1655,
+		"bmps": {
+			"PiercingBack01": "chcg3_PiercingBack1.png",
+			"PiercingBack02": "chcg3_PiercingBack2.png",
+			"PiercingBack03": "chcg3_PiercingBack3.png"
+		}
+	}
+]

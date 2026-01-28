@@ -1,0 +1,21 @@
+[{
+	"name_order": ["head_blush","HeadGround"],
+	"part_name": "chcg3_head_blush",
+	"x": "587",
+	"y": "211",
+	"layer": 3200,
+	"bmps": {
+		"head_blush01,HeadGround00": "chcg3_head_blush.png"
+	}
+},
+{
+	"name_order": ["head_blush","HeadGround"],
+	"part_name": "chcg3_head_blush_HeadGround",
+	"x": "598",
+	"y": "258",
+	"layer": 3200,
+	"bmps": {
+		"head_blush01,HeadGround01": "chcg3_head_blush.png"
+	}
+}
+]

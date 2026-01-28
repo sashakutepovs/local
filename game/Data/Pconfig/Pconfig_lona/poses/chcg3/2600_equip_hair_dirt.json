@@ -1,0 +1,38 @@
+[{
+	"name_order": ["equip_hair"],
+	"isDirt": true,
+	"part_name": "chcg3_head_equip_HairTwinBraid_dirt",
+	"x": 524,
+	"y": 252,
+	"layer": 2600,
+	"bmps": {
+		"equip_hair#HairTwinBraid": "chcg3_head_equip_HairTwinBraid_dirt.png"
+	}
+},
+
+
+
+
+{
+	"name_order": ["equip_hair","HeadGround"],
+	"isDirt": true,
+	"part_name": "chcg3_head_equip_HairPony_dirt",
+	"x": 500,
+	"y": 229,
+	"layer": 2600,
+	"bmps": {
+		"equip_hair#HairPony,HeadGround00": "chcg3_head_equip_HairPony_dirt.png",
+		"equip_hair#HairPony,HeadGround01": "chcg3_head_equip_HairPony_HeadGround_dirt.png"
+	}
+},{
+	"name_order": ["equip_hair"],
+	"isDirt": true,
+	"part_name": "chcg3_head_equip_low_HairPony_dirt",
+	"x": 821,
+	"y": 333,
+	"layer": 151,
+	"bmps": {
+		"equip_hair#HairPony": "chcg3_head_equip_low_HairPony_dirt.png"
+	}
+}
+]

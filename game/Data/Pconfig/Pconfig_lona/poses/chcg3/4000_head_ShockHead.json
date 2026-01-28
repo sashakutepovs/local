@@ -1,0 +1,23 @@
+[{
+	"name_order": ["ShockHead","HeadGround"],
+	"part_name": "chcg3_head_ShockHead",
+	"x": "503",
+	"y": "118",
+	"layer": 4000,
+	"bmps": {
+		"ShockHead01,HeadGround00": "chcg3_head_ShockHead.png"
+	}
+},
+
+{
+	"name_order": ["ShockHead","HeadGround"],
+	"part_name": "chcg3_head_ShockHead_HeadGround",
+	"x": "514",
+	"y": "165",
+	"layer": 4000,
+	"bmps": {
+		"ShockHead01,HeadGround01": "chcg3_head_ShockHead.png"
+	}
+}
+
+]

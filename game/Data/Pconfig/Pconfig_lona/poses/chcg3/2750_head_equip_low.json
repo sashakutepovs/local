@@ -1,0 +1,68 @@
+[
+
+
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg3_equip_HoodCloakTop_Head_Bot",
+		"x": 600,
+		"y": 167,
+		"layer": 2750,
+		"bmps": {
+			"equip_Top#HoodCloakTop,HeadGround00": "chcg3_equip_HoodCloakTop_Head_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg3_equip_HoodCloakTop_Head_Bot_HeadGround",
+		"x": 611,
+		"y": 214,
+		"layer": 2750,
+		"bmps": {
+			"equip_Top#HoodCloakTop,HeadGround01": "chcg3_equip_HoodCloakTop_Head_Bot.png"
+		}
+	},
+
+
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg3_equip_DocTop_Head_Bot",
+		"x": 542,
+		"y": 133,
+		"layer": 2750,
+		"bmps": {
+			"equip_Top#DocTop,HeadGround00": "chcg3_equip_DocTop_Head_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg3_equip_DocTop_Head_Bot_HeadGround",
+		"x": 553,
+		"y": 180,
+		"layer": 2750,
+		"bmps": {
+			"equip_Top#DocTop,HeadGround01": "chcg3_equip_DocTop_Head_Bot.png"
+		}
+	},
+
+
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_NunVeil_HeadBot",
+		"x": 703,
+		"y": 209,
+		"layer": 2750,
+		"bmps": {
+			"equip_head#NunVeil,HeadGround00": "chcg3_equip_NunVeil_HeadBot.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg3_equip_NunVeil_HeadBot_HeadGround",
+		"x": 714,
+		"y": 256,
+		"layer": 2750,
+		"bmps": {
+			"equip_head#NunVeil,HeadGround01": "chcg3_equip_NunVeil_HeadBot.png"
+		}
+	}
+]

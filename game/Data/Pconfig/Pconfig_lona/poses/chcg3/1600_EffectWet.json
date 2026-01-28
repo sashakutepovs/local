@@ -1,0 +1,13 @@
+[{
+	"name_order": ["preg", "EffectWet"],
+	"part_name": "chcg3_EffectWet",
+	"x": "178",
+	"y": "250",
+	"layer": 1600,
+	"bmps": {
+		"preg00,EffectWet01": "chcg3_EffectWet.png",
+		"preg01,EffectWet01": "chcg3_EffectWet.png",
+		"preg02,EffectWet01": "chcg3_preg6m_EffectWet.png",
+		"preg03,EffectWet01": "chcg3_preg8m_EffectWet.png"
+	}
+}]

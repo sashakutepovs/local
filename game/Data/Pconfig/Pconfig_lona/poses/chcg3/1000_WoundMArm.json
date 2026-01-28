@@ -1,0 +1,13 @@
+[{
+	"name_order": ["WoundMArm"],
+	"part_name": "chcg3_WoundMArm",
+	"x": "293",
+	"y": "289",
+	"layer": 1000,
+	"bmps": {
+		"WoundMArm01": "chcg3_WoundMArm1.png",
+		"WoundMArm02": "chcg3_WoundMArm1.png",
+		"WoundMArm03": "chcg3_WoundMArm3.png",
+		"WoundMArm04": "chcg3_WoundMArm3.png"
+	}
+}]

@@ -1,0 +1,56 @@
+[{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg3_equip_AdvTop",
+		"x": "267",
+		"y": "221",
+		"layer": 1890,
+		"bmps": {
+			"equip_Top#AdvTop": "chcg3_equip_AdvTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg3_equip_RagTop",
+		"x": "247",
+		"y": "187",
+		"layer": 1890,
+		"bmps": {
+			"equip_Top#RagTop": "chcg3_equip_RagTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg3_equip_SurTop",
+		"x": "330",
+		"y": "201",
+		"layer": 1890,
+		"bmps": {
+			"equip_Top#SurTop": "chcg3_equip_SurTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg3_equip_DancerTop",
+		"x": "1",
+		"y": "281",
+		"layer": 1890,
+		"bmps": {
+			"equip_Top#DancerTop": "chcg3_equip_DancerTop.png"
+		}
+	}
+]

@@ -1,0 +1,13 @@
+[{
+	"name_order": ["preg", "EffectBleedVag"],
+	"part_name": "chcg3_EffectBleedVag",
+	"x": "219",
+	"y": "262",
+	"layer": 1500,
+	"bmps": {
+		"preg00,EffectBleedVag01": "chcg3_EffectBleedVag.png",
+		"preg01,EffectBleedVag01": "chcg3_EffectBleedVag.png",
+		"preg02,EffectBleedVag01": "chcg3_preg6m_EffectBleedVag.png",
+		"preg03,EffectBleedVag01": "chcg3_preg8m_EffectBleedVag.png"
+	}
+}]

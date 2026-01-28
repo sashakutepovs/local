@@ -1,0 +1,21 @@
+[{
+	"name_order": ["SlaveBrand","HeadGround"],
+	"part_name": "chcg3_head_SlaveBrand",
+	"x": "612",
+	"y": "311",
+	"layer": 3400,
+	"bmps": {
+		"SlaveBrand01,HeadGround00": "chcg3_head_SlaveBrand.png"
+	}
+},
+{
+	"name_order": ["SlaveBrand","HeadGround"],
+	"part_name": "chcg3_head_SlaveBrand_HeadGround",
+	"x": "623",
+	"y": "358",
+	"layer": 3400,
+	"bmps": {
+		"SlaveBrand01,HeadGround01": "chcg3_head_SlaveBrand.png"
+	}
+}
+]

@@ -1,0 +1,21 @@
+[{
+	"name_order": ["preg", "WoundBelly"],
+	"part_name": "chcg3_WoundBelly",
+	"x": "226",
+	"y": "136",
+	"layer": 700,
+	"bmps": {
+		"preg00,WoundBelly01": "chcg3_WoundBelly1.png",
+		"preg00,WoundBelly02": "chcg3_WoundBelly2.png",
+		"preg00,WoundBelly03": "chcg3_WoundBelly3.png",
+		"preg01,WoundBelly01": "chcg3_preg4m_WoundBelly1.png",
+		"preg01,WoundBelly02": "chcg3_preg4m_WoundBelly2.png",
+		"preg01,WoundBelly03": "chcg3_preg4m_WoundBelly3.png",
+		"preg02,WoundBelly01": "chcg3_preg6m_WoundBelly1.png",
+		"preg02,WoundBelly02": "chcg3_preg6m_WoundBelly2.png",
+		"preg02,WoundBelly03": "chcg3_preg6m_WoundBelly3.png",
+		"preg03,WoundBelly01": "chcg3_preg8m_WoundBelly1.png",
+		"preg03,WoundBelly02": "chcg3_preg8m_WoundBelly2.png",
+		"preg03,WoundBelly03": "chcg3_preg8m_WoundBelly3.png"
+	}
+}]

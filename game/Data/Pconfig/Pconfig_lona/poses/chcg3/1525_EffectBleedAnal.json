@@ -1,0 +1,11 @@
+[{
+	"name_order": ["analopen", "EffectBleedAnal"],
+	"part_name": "chcg3_EffectBleedAnal",
+	"x": "259",
+	"y": "77",
+	"layer": 1525,
+	"bmps": {
+		"analopen00,EffectBleedAnal01": "chcg3_EffectBleedAnal.png",
+		"analopen01,EffectBleedAnal01": "chcg3_analopen_EffectBleedAnal.png"
+	}
+}]

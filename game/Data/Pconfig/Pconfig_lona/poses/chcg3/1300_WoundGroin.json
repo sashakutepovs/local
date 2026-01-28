@@ -1,0 +1,16 @@
+[{
+	"name_order": ["analopen", "WoundGroin"],
+	"part_name": "chcg3_WoundGroin",
+	"x": "284",
+	"y": "83",
+	"layer": 1300,
+	"bmps": {
+		"analopen00,WoundGroin01": "chcg3_WoundGroin1.png",
+		"analopen00,WoundGroin02": "chcg3_WoundGroin2.png",
+		"analopen00,WoundGroin03": "chcg3_WoundGroin3.png",
+
+		"analopen01,WoundGroin01": "chcg3_analopen_WoundGroin1.png",
+		"analopen01,WoundGroin02": "chcg3_analopen_WoundGroin2.png",
+		"analopen01,WoundGroin03": "chcg3_analopen_WoundGroin3.png"
+	}
+}]

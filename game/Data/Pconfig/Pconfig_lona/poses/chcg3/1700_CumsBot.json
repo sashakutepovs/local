@@ -1,0 +1,12 @@
+[{
+	"name_order": ["CumsBot"],
+	"part_name": "chcg3_CumsBot",
+	"x": "1",
+	"y": "67",
+	"layer": 1700,
+	"bmps": {
+		"CumsBot01": "chcg3_CumsBot1.png",
+		"CumsBot02": "chcg3_CumsBot2.png",
+		"CumsBot03": "chcg3_CumsBot3.png"
+	}
+}]

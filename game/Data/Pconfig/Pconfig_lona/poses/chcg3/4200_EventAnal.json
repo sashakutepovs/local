@@ -1,0 +1,66 @@
+[{
+		"name_order": ["EventAnalRace", "EventAnal"],
+		"part_name": "chcg3_EventAnal_Human",
+		"x": "74",
+		"y": "1",
+		"layer": 4200,
+		"bmps": {
+			"EventAnalRace#Human,EventAnal#Common1": "chcg3_EventAnal_Human_1.png",
+			"EventAnalRace#Human,EventAnal#Common2": "chcg3_EventAnal_Human_1.png",
+			"EventAnalRace#Human,EventAnal#CumInside1": "chcg3_EventAnal_Human_1.png",
+			"EventAnalRace#Human,EventAnal#CumInside2": "chcg3_EventAnal_Human_2.png",
+			"EventAnalRace#Human,EventAnal#CumInside3": "chcg3_EventAnal_Human_3.png",
+			"EventAnalRace#Human,EventAnal#CumInside4": "chcg3_EventAnal_Human_4.png",
+			"EventAnalRace#Human,EventAnal#CumInsidePeein4": "chcg3_EventAnal_Human_4Peein.png",
+			"EventAnalRace#Human,EventAnal#CumInsidePeein5": "chcg3_EventAnal_Human_5Peein.png",
+			"EventAnalRace#Human,EventAnal#CumInsidePeein6": "chcg3_EventAnal_Human_6Peein.png",
+			"EventAnalRace#Human,EventAnal#CumOutside2": "chcg3_EventAnal_Human_2Out.png",
+			
+			"EventAnalRace#Moot,EventAnal#Common1": "chcg3_EventAnal_Human_1.png",
+			"EventAnalRace#Moot,EventAnal#Common2": "chcg3_EventAnal_Human_1.png",
+			"EventAnalRace#Moot,EventAnal#CumInside1": "chcg3_EventAnal_Human_1.png",
+			"EventAnalRace#Moot,EventAnal#CumInside2": "chcg3_EventAnal_Human_2.png",
+			"EventAnalRace#Moot,EventAnal#CumInside3": "chcg3_EventAnal_Human_3.png",
+			"EventAnalRace#Moot,EventAnal#CumInside4": "chcg3_EventAnal_Human_4.png",
+			"EventAnalRace#Moot,EventAnal#CumInsidePeein4": "chcg3_EventAnal_Human_4Peein.png",
+			"EventAnalRace#Moot,EventAnal#CumInsidePeein5": "chcg3_EventAnal_Human_5Peein.png",
+			"EventAnalRace#Moot,EventAnal#CumInsidePeein6": "chcg3_EventAnal_Human_6Peein.png",
+			"EventAnalRace#Moot,EventAnal#CumOutside2": "chcg3_EventAnal_Human_2Out.png",
+			
+			"EventAnalRace#Deepone,EventAnal#Common1": "chcg3_EventAnal_Human_1.png",
+			"EventAnalRace#Deepone,EventAnal#Common2": "chcg3_EventAnal_Human_1.png",
+			"EventAnalRace#Deepone,EventAnal#CumInside1": "chcg3_EventAnal_Human_1.png",
+			"EventAnalRace#Deepone,EventAnal#CumInside2": "chcg3_EventAnal_Human_2.png",
+			"EventAnalRace#Deepone,EventAnal#CumInside3": "chcg3_EventAnal_Human_3.png",
+			"EventAnalRace#Deepone,EventAnal#CumInside4": "chcg3_EventAnal_Human_4.png",
+			"EventAnalRace#Deepone,EventAnal#CumInsidePeein4": "chcg3_EventAnal_Human_4Peein.png",
+			"EventAnalRace#Deepone,EventAnal#CumInsidePeein5": "chcg3_EventAnal_Human_5Peein.png",
+			"EventAnalRace#Deepone,EventAnal#CumInsidePeein6": "chcg3_EventAnal_Human_6Peein.png",
+			"EventAnalRace#Deepone,EventAnal#CumOutside2": "chcg3_EventAnal_Human_2Out.png"
+		}
+	},
+	{
+		"name_order": ["EventAnal"],
+		"part_name": "chcg3_EventAnal_Peeon",
+		"x": "97",
+		"y": "1",
+		"layer": 4200,
+		"bmps": {
+			"EventAnal#Peeon": "chcg3_EventAnal_Peeon.png"
+		}
+	},
+{
+	"name_order": ["EventAnal"],
+	"part_name": "chcg3_EventAnal_DefecateIncontinent",
+	"x": "1",
+	"y": "1",
+	"layer": 4200,
+	"bmps": {
+		"EventAnal#DefecateIncontinent1": "chcg3_EventAnal_DefecateIncontinent1.png",
+		"EventAnal#DefecateIncontinent2": "chcg3_EventAnal_DefecateIncontinent2.png",
+		"EventAnal#DefecateIncontinent3": "chcg3_EventAnal_DefecateIncontinent3.png",
+		"EventAnal#DefecateIncontinent4": "chcg3_EventAnal_DefecateIncontinent4.png",
+		"EventAnal#DefecateIncontinent5": "chcg3_EventAnal_DefecateIncontinent5.png"
+	}
+}
+]

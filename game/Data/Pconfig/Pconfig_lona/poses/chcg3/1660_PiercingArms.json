@@ -1,0 +1,13 @@
+[{
+		"name_order": ["PiercingArms"],
+		"part_name": "chcg3_PiercingArms",
+		"x": "430",
+		"y": "368",
+		"layer": 1660,
+		"bmps": {
+			"PiercingArms01": "chcg3_PiercingArms1.png",
+			"PiercingArms02": "chcg3_PiercingArms2.png",
+			"PiercingArms03": "chcg3_PiercingArms3.png"
+		}
+	}
+]
