@@ -1,0 +1,87 @@
+[
+	{
+		"mood_name": "overkill",
+		"mood_min": "-1000",
+		"mood_max": "1000",
+		"sta_min": "-10000",
+		"sta_max": "10000",
+		"persona": "typical",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [1],
+			"eyes": [3],
+			"subeyes": [3],
+			"mouth": [18],
+			"head_blush": [0],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [6]
+		}]
+	},
+	{
+		"mood_name": "overkill",
+		"mood_min": "-1000",
+		"mood_max": "1000",
+		"sta_min": "-10000",
+		"sta_max": "10000",
+		"persona": "slut",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [1],
+			"eyes": [11],
+			"subeyes": [2],
+			"mouth": [17],
+			"head_blush": [1],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [6]
+		}]
+	},
+	{
+		"mood_name": "overkill",
+		"mood_min": "-1000",
+		"mood_max": "1000",
+		"sta_min": "-10000",
+		"sta_max": "10000",
+		"persona": "tsundere",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [1],
+			"eyes": [3],
+			"subeyes": [1],
+			"mouth": [6],
+			"head_blush": [0],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [6]
+		}]
+	},
+	{
+		"mood_name": "overkill",
+		"mood_min": "-1000",
+		"mood_max": "1000",
+		"sta_min": "-10000",
+		"sta_max": "10000",
+		"persona": "gloomy",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [3],
+			"eyes": [2],
+			"subeyes": [1],
+			"mouth": [8],
+			"head_blush": [1],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [1],
+			"ShockBody": [1],
+			"CharsetHead": [6]
+		}]
+	}
+
+]

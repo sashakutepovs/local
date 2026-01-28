@@ -1,0 +1,96 @@
+[
+
+	{
+		"mood_name": "p4sta_damage",
+		"mood_min": "-100",
+		"mood_max": "100",
+		"sta_min": "-100",
+		"sta_max": "10000",
+		"facesets": [{
+				"pose": ["pose4"],
+				"subpose": [1],
+				"eyes": [1],
+				"subeyes": [5],
+				"mouth": [3],
+				"head_blush": [0],
+				"eyes_tear": [0],
+				"eyes_shock": [1],
+				"ShockHead": [1],
+				"ShockBody": [0],
+				"CharsetHead": [5],
+				"CharsetBlush": [0]
+			},
+			{
+				"pose": ["pose4"],
+				"subpose": [1],
+				"eyes": [1],
+				"subeyes": [6],
+				"mouth": [3],
+				"head_blush": [0],
+				"eyes_tear": [0],
+				"eyes_shock": [1],
+				"ShockHead": [1],
+				"ShockBody": [0],
+				"CharsetHead": [5],
+				"CharsetBlush": [0]
+			},
+			{
+				"pose": ["pose4"],
+				"subpose": [1],
+				"eyes": [1],
+				"subeyes": [5],
+				"mouth": [1],
+				"head_blush": [0],
+				"eyes_tear": [0],
+				"eyes_shock": [1],
+				"ShockHead": [1],
+				"ShockBody": [0],
+				"CharsetHead": [5],
+				"CharsetBlush": [0]
+			},
+			{
+				"pose": ["pose4"],
+				"subpose": [1],
+				"eyes": [1],
+				"subeyes": [6],
+				"mouth": [1],
+				"head_blush": [0],
+				"eyes_tear": [0],
+				"eyes_shock": [1],
+				"ShockHead": [1],
+				"ShockBody": [0],
+				"CharsetHead": [5],
+				"CharsetBlush": [0]
+			},
+			{
+				"pose": ["pose4"],
+				"subpose": [1],
+				"eyes": [2],
+				"subeyes": [1],
+				"mouth": [3],
+				"head_blush": [0],
+				"eyes_tear": [0],
+				"eyes_shock": [0],
+				"ShockHead": [1],
+				"ShockBody": [0],
+				"CharsetHead": [5],
+				"CharsetBlush": [0]
+			},
+			{
+				"pose": ["pose4"],
+				"subpose": [1],
+				"eyes": [2],
+				"subeyes": [1],
+				"mouth": [1],
+				"head_blush": [0],
+				"eyes_tear": [0],
+				"eyes_shock": [0],
+				"ShockHead": [1],
+				"ShockBody": [0],
+				"CharsetHead": [5],
+				"CharsetBlush": [0]
+			}
+		]
+	}
+
+]

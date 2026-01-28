@@ -1,0 +1,447 @@
+[
+
+	{
+		"mood_name": "tired",
+		"mood_min": "75",
+		"mood_max": "100",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "typical",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [1],
+			"eyes": [9],
+			"subeyes": [3],
+			"mouth": [6],
+			"head_blush": [0],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [3]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "50",
+		"mood_max": "75",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "typical",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [3],
+			"mouth": [6],
+			"head_blush": [0],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+
+	{
+		"mood_name": "tired",
+		"mood_min": "0",
+		"mood_max": "50",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "typical",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [3],
+			"mouth": [5],
+			"head_blush": [0],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "-100",
+		"mood_max": "0",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "typical",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [6],
+			"subeyes": [1],
+			"mouth": [8],
+			"head_blush": [0],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "-100",
+		"mood_max": "100",
+		"sta_min": "-1000",
+		"sta_max": "0",
+		"persona": "typical",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [6],
+			"subeyes": [1],
+			"mouth": [8],
+			"head_blush": [0],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+
+
+
+
+
+
+
+	{
+		"mood_name": "tired",
+		"mood_min": "75",
+		"mood_max": "100",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "slut",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [3],
+			"mouth": [9],
+			"head_blush": [1],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "50",
+		"mood_max": "75",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "slut",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [3],
+			"mouth": [9],
+			"head_blush": [1],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [3]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "0",
+		"mood_max": "50",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "slut",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [3],
+			"mouth": [2],
+			"head_blush": [1],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [3]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "-100",
+		"mood_max": "0",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "slut",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [6],
+			"subeyes": [2],
+			"mouth": [8],
+			"head_blush": [1],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [3]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "-100",
+		"mood_max": "100",
+		"sta_min": "-1000",
+		"sta_max": "0",
+		"persona": "slut",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [6],
+			"subeyes": [2],
+			"mouth": [8],
+			"head_blush": [1],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [3]
+		}]
+	},
+
+
+
+
+
+
+
+	{
+		"mood_name": "tired",
+		"mood_min": "75",
+		"mood_max": "100",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "tsundere",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [1],
+			"mouth": [5],
+			"head_blush": [0],
+			"eyes_tear": [0],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "50",
+		"mood_max": "75",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "tsundere",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [3],
+			"mouth": [6],
+			"head_blush": [0],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "0",
+		"mood_max": "50",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "tsundere",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [2],
+			"mouth": [6],
+			"head_blush": [1],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "-100",
+		"mood_max": "0",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "tsundere",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [6],
+			"subeyes": [1],
+			"mouth": [6],
+			"head_blush": [1],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "-100",
+		"mood_max": "100",
+		"sta_min": "-1000",
+		"sta_max": "0",
+		"persona": "tsundere",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [6],
+			"subeyes": [1],
+			"mouth": [6],
+			"head_blush": [1],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+
+
+
+
+
+
+
+
+	{
+		"mood_name": "tired",
+		"mood_min": "75",
+		"mood_max": "100",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "gloomy",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [3],
+			"mouth": [6],
+			"head_blush": [0],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "50",
+		"mood_max": "75",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "gloomy",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [2],
+			"eyes": [9],
+			"subeyes": [2],
+			"mouth": [6],
+			"head_blush": [0],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "0",
+		"mood_max": "50",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "gloomy",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [3],
+			"eyes": [9],
+			"subeyes": [2],
+			"mouth": [6],
+			"head_blush": [0],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "-100",
+		"mood_max": "0",
+		"sta_min": "0",
+		"sta_max": "10000",
+		"persona": "gloomy",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [3],
+			"eyes": [9],
+			"subeyes": [2],
+			"mouth": [6],
+			"head_blush": [0],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	},
+	{
+		"mood_name": "tired",
+		"mood_min": "-100",
+		"mood_max": "100",
+		"sta_min": "-1000",
+		"sta_max": "0",
+		"persona": "gloomy",
+		"facesets": [{
+			"pose": ["pose1"],
+			"subpose": [3],
+			"eyes": [9],
+			"subeyes": [2],
+			"mouth": [6],
+			"head_blush": [0],
+			"eyes_tear": [1],
+			"eyes_shock": [0],
+			"ShockHead": [0],
+			"ShockBody": [0],
+			"CharsetHead": [2]
+		}]
+	}
+
+]

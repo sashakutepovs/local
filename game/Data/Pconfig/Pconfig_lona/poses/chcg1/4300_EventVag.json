@@ -1,0 +1,99 @@
+[{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "chcg1_EventVag_Human",
+		"x": "1",
+		"y": "31",
+		"layer": 4300,
+		"bmps": {
+			"EventVagRace#Human,EventVag#Common1": "chcg1_EventVag_Human_1.png",
+			"EventVagRace#Human,EventVag#Common2": "chcg1_EventVag_Human_1.png",
+			"EventVagRace#Human,EventVag#CumInside1": "chcg1_EventVag_Human_1.png",
+			"EventVagRace#Human,EventVag#CumInside2": "chcg1_EventVag_Human_2.png",
+			"EventVagRace#Human,EventVag#CumInside3": "chcg1_EventVag_Human_3.png",
+			"EventVagRace#Human,EventVag#CumInside4": "chcg1_EventVag_Human_4.png",
+			"EventVagRace#Human,EventVag#CumInsidePeein4": "chcg1_EventVag_Human_4Peein.png",
+			"EventVagRace#Human,EventVag#CumInsidePeein5": "chcg1_EventVag_Human_5Peein.png",
+			"EventVagRace#Human,EventVag#CumInsidePeein6": "chcg1_EventVag_Human_6Peein.png",
+			"EventVagRace#Human,EventVag#CumOutside2": "chcg1_EventVag_Human_2Out.png",
+
+			"EventVagRace#Moot,EventVag#Common1": "chcg1_EventVag_Human_1.png",
+			"EventVagRace#Moot,EventVag#Common2": "chcg1_EventVag_Human_1.png",
+			"EventVagRace#Moot,EventVag#CumInside1": "chcg1_EventVag_Human_1.png",
+			"EventVagRace#Moot,EventVag#CumInside2": "chcg1_EventVag_Human_2.png",
+			"EventVagRace#Moot,EventVag#CumInside3": "chcg1_EventVag_Human_3.png",
+			"EventVagRace#Moot,EventVag#CumInside4": "chcg1_EventVag_Human_4.png",
+			"EventVagRace#Moot,EventVag#CumInsidePeein4": "chcg1_EventVag_Human_4Peein.png",
+			"EventVagRace#Moot,EventVag#CumInsidePeein5": "chcg1_EventVag_Human_5Peein.png",
+			"EventVagRace#Moot,EventVag#CumInsidePeein6": "chcg1_EventVag_Human_6Peein.png",
+			"EventVagRace#Moot,EventVag#CumOutside2": "chcg1_EventVag_Human_2Out.png",
+
+			"EventVagRace#Deepone,EventVag#Common1": "chcg1_EventVag_Human_1.png",
+			"EventVagRace#Deepone,EventVag#Common2": "chcg1_EventVag_Human_1.png",
+			"EventVagRace#Deepone,EventVag#CumInside1": "chcg1_EventVag_Human_1.png",
+			"EventVagRace#Deepone,EventVag#CumInside2": "chcg1_EventVag_Human_2.png",
+			"EventVagRace#Deepone,EventVag#CumInside3": "chcg1_EventVag_Human_3.png",
+			"EventVagRace#Deepone,EventVag#CumInside4": "chcg1_EventVag_Human_4.png",
+			"EventVagRace#Deepone,EventVag#CumInsidePeein4": "chcg1_EventVag_Human_4Peein.png",
+			"EventVagRace#Deepone,EventVag#CumInsidePeein5": "chcg1_EventVag_Human_5Peein.png",
+			"EventVagRace#Deepone,EventVag#CumInsidePeein6": "chcg1_EventVag_Human_6Peein.png",
+			"EventVagRace#Deepone,EventVag#CumOutside2": "chcg1_EventVag_Human_2Out.png"
+		}
+	},
+
+
+
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "chcg1_EventVag_UrinaryDilatation",
+		"x": "1",
+		"y": "1",
+		"layer": 4300,
+		"bmps": {
+			"EventVagRace#Human,EventVag#UrinaryDilatation1": "chcg1_EventVag_Human_UrinaryDilatation1.png",
+			"EventVagRace#Human,EventVag#UrinaryDilatation2": "chcg1_EventVag_Human_UrinaryDilatation2.png",
+			"EventVagRace#Human,EventVag#UrinaryDilatation3": "chcg1_EventVag_Human_UrinaryDilatation3.png",
+			"EventVagRace#Human,EventVag#UrinaryDilatation4": "chcg1_EventVag_Human_UrinaryDilatation4.png",
+			"EventVagRace#Human,EventVag#UrinaryDilatation5": "chcg1_EventVag_Human_UrinaryDilatation5.png",
+
+			"EventVagRace#Deepone,EventVag#UrinaryDilatation1": "chcg1_EventVag_Human_UrinaryDilatation1.png",
+			"EventVagRace#Deepone,EventVag#UrinaryDilatation2": "chcg1_EventVag_Human_UrinaryDilatation2.png",
+			"EventVagRace#Deepone,EventVag#UrinaryDilatation3": "chcg1_EventVag_Human_UrinaryDilatation3.png",
+			"EventVagRace#Deepone,EventVag#UrinaryDilatation4": "chcg1_EventVag_Human_UrinaryDilatation4.png",
+			"EventVagRace#Deepone,EventVag#UrinaryDilatation5": "chcg1_EventVag_Human_UrinaryDilatation5.png",
+
+			"EventVagRace#Moot,EventVag#UrinaryDilatation1": "chcg1_EventVag_Human_UrinaryDilatation1.png",
+			"EventVagRace#Moot,EventVag#UrinaryDilatation2": "chcg1_EventVag_Human_UrinaryDilatation2.png",
+			"EventVagRace#Moot,EventVag#UrinaryDilatation3": "chcg1_EventVag_Human_UrinaryDilatation3.png",
+			"EventVagRace#Moot,EventVag#UrinaryDilatation4": "chcg1_EventVag_Human_UrinaryDilatation4.png",
+			"EventVagRace#Moot,EventVag#UrinaryDilatation5": "chcg1_EventVag_Human_UrinaryDilatation5.png"
+
+		}
+	},
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "chcg1_EventVag_VagDilatation",
+		"x": "1",
+		"y": "60",
+		"layer": 4300,
+		"bmps": {
+			"EventVagRace#Human,EventVag#VagDilatation1": "chcg1_EventVag_Human_VagDilatation1.png",
+			"EventVagRace#Human,EventVag#VagDilatation2": "chcg1_EventVag_Human_VagDilatation2.png",
+			"EventVagRace#Human,EventVag#VagDilatation3": "chcg1_EventVag_Human_VagDilatation3.png",
+			"EventVagRace#Human,EventVag#VagDilatation2B": "chcg1_EventVag_Human_VagDilatation2B.png",
+			"EventVagRace#Human,EventVag#VagDilatation3B": "chcg1_EventVag_Human_VagDilatation3B.png",
+
+			"EventVagRace#Deepone,EventVag#VagDilatation1": "chcg1_EventVag_Human_VagDilatation1.png",
+			"EventVagRace#Deepone,EventVag#VagDilatation2": "chcg1_EventVag_Human_VagDilatation2.png",
+			"EventVagRace#Deepone,EventVag#VagDilatation3": "chcg1_EventVag_Human_VagDilatation3.png",
+			"EventVagRace#Deepone,EventVag#VagDilatation2B": "chcg1_EventVag_Human_VagDilatation2B.png",
+			"EventVagRace#Deepone,EventVag#VagDilatation3B": "chcg1_EventVag_Human_VagDilatation3B.png",
+
+			"EventVagRace#Moot,EventVag#VagDilatation1": "chcg1_EventVag_Human_VagDilatation1.png",
+			"EventVagRace#Moot,EventVag#VagDilatation2": "chcg1_EventVag_Human_VagDilatation2.png",
+			"EventVagRace#Moot,EventVag#VagDilatation3": "chcg1_EventVag_Human_VagDilatation3.png",
+			"EventVagRace#Moot,EventVag#VagDilatation2B": "chcg1_EventVag_Human_VagDilatation2B.png",
+			"EventVagRace#Moot,EventVag#VagDilatation3B": "chcg1_EventVag_Human_VagDilatation3B.png"
+
+		}
+	}
+]

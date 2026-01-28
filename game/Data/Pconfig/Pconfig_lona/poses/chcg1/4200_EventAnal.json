@@ -1,0 +1,42 @@
+[{
+	"name_order": ["EventAnalRace", "EventAnal"],
+	"part_name": "chcg1_EventAnal_Human",
+	"x": "1",
+	"y": "192",
+	"layer": 4200,
+	"bmps": {
+		"EventAnalRace#Human,EventAnal#Common1": "chcg1_EventAnal_Human_1.png",
+		"EventAnalRace#Human,EventAnal#Common2": "chcg1_EventAnal_Human_1.png",
+		"EventAnalRace#Human,EventAnal#CumInside1": "chcg1_EventAnal_Human_1.png",
+		"EventAnalRace#Human,EventAnal#CumInside2": "chcg1_EventAnal_Human_2.png",
+		"EventAnalRace#Human,EventAnal#CumInside3": "chcg1_EventAnal_Human_3.png",
+		"EventAnalRace#Human,EventAnal#CumInside4": "chcg1_EventAnal_Human_4.png",
+		"EventAnalRace#Human,EventAnal#CumInsidePeein4": "chcg1_EventAnal_Human_4Peein.png",
+		"EventAnalRace#Human,EventAnal#CumInsidePeein5": "chcg1_EventAnal_Human_5Peein.png",
+		"EventAnalRace#Human,EventAnal#CumInsidePeein6": "chcg1_EventAnal_Human_6Peein.png",
+		"EventAnalRace#Human,EventAnal#CumOutside2": "chcg1_EventAnal_Human_2Out.png",
+		
+		"EventAnalRace#Moot,EventAnal#Common1": "chcg1_EventAnal_Human_1.png",
+		"EventAnalRace#Moot,EventAnal#Common2": "chcg1_EventAnal_Human_1.png",
+		"EventAnalRace#Moot,EventAnal#CumInside1": "chcg1_EventAnal_Human_1.png",
+		"EventAnalRace#Moot,EventAnal#CumInside2": "chcg1_EventAnal_Human_2.png",
+		"EventAnalRace#Moot,EventAnal#CumInside3": "chcg1_EventAnal_Human_3.png",
+		"EventAnalRace#Moot,EventAnal#CumInside4": "chcg1_EventAnal_Human_4.png",
+		"EventAnalRace#Moot,EventAnal#CumInsidePeein4": "chcg1_EventAnal_Human_4Peein.png",
+		"EventAnalRace#Moot,EventAnal#CumInsidePeein5": "chcg1_EventAnal_Human_5Peein.png",
+		"EventAnalRace#Moot,EventAnal#CumInsidePeein6": "chcg1_EventAnal_Human_6Peein.png",
+		"EventAnalRace#Moot,EventAnal#CumOutside2": "chcg1_EventAnal_Human_2Out.png",
+		
+		"EventAnalRace#Deepone,EventAnal#Common1": "chcg1_EventAnal_Human_1.png",
+		"EventAnalRace#Deepone,EventAnal#Common2": "chcg1_EventAnal_Human_1.png",
+		"EventAnalRace#Deepone,EventAnal#CumInside1": "chcg1_EventAnal_Human_1.png",
+		"EventAnalRace#Deepone,EventAnal#CumInside2": "chcg1_EventAnal_Human_2.png",
+		"EventAnalRace#Deepone,EventAnal#CumInside3": "chcg1_EventAnal_Human_3.png",
+		"EventAnalRace#Deepone,EventAnal#CumInside4": "chcg1_EventAnal_Human_4.png",
+		"EventAnalRace#Deepone,EventAnal#CumInsidePeein4": "chcg1_EventAnal_Human_4Peein.png",
+		"EventAnalRace#Deepone,EventAnal#CumInsidePeein5": "chcg1_EventAnal_Human_5Peein.png",
+		"EventAnalRace#Deepone,EventAnal#CumInsidePeein6": "chcg1_EventAnal_Human_6Peein.png",
+		"EventAnalRace#Deepone,EventAnal#CumOutside2": "chcg1_EventAnal_Human_2Out.png"
+	}
+}
+]
