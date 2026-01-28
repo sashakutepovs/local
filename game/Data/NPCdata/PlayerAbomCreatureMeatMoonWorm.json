@@ -1,0 +1,84 @@
+{
+	"name": "PlayerAbomCreatureMeatMoonWorm",
+	"race": "Abomination",
+	"fraction": 9,
+	"fraction_mode": 4,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 60,
+	"sensor_freq_rand" : 60,
+	"ranged":true,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"immune_tgt_states": [],
+	"immune_tgt_state_type": ["STD_AbomParasite"],
+	"is_object": false,
+	"is_tiny":true,
+	"is_small":false,
+	"is_flyer":false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "7200",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 1,
+	"sta": 100,
+	"sexy": 1,
+	"weak": 25,
+	"morality": "-100",
+	"arousal": 0,
+	"will": 300,
+	"mood":100,
+	"sat":100,
+	"atk": 1,
+	"def": 0,
+	"constitution": 6,
+	"survival": 1,
+	"scoutcraft": 100,
+	"combat": 1,
+	"wisdom": 1,
+	"move_speed": 4,
+	"ai": "Npc_Charge_IgnoreMaster",
+	"sensors": ["CloseNose"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"health": ["-65535","<"]
+		},
+		"killer": {
+			"health": ["0",">"]
+		},
+		"assaulter": {
+			"health": ["0",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_MoodWormDed",
+		"sound_alert1": "sound_WormQuestion",
+		"sound_alert2": "sound_WormMoonAtk",
+		"sound_skill": "sound_WormSpotAtk",
+		"sound_lost": "sound_WormQuestion",
+		"sound_death": "sound_MoodWormDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemMutantFlesh",
+			"chance": 10
+		}
+	],
+	"skills_killer": ["NpcWormBiteFast","NpcWormParasiteMoonHold","NpcJump"],
+	"skills_assaulter": ["NpcWormBiteFast","NpcWormParasiteMoonHold","NpcJump"],
+	"skills_fucker":["NpcWormBiteFast","NpcWormParasiteMoonHold","NpcJump"],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}

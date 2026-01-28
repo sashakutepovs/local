@@ -1,0 +1,91 @@
+{
+	"name": "SandBagArmored",
+	"race": "Johnson",
+	"fraction": 100,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 1,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object":false,
+	"delete_when_death" : "-1",
+	"delete_when_frame" : "-1",
+	"death_event":"ProjectileDirectKabom",
+	"sex": 99,
+	"kinsey": 99,
+	"health": 65535,
+	"sta": 65535,
+	"weak": 0,
+	"sexy": 0,
+	"morality": 50,
+	"arousal": 0,
+	"mood":0,
+	"sat":0,
+	"atk": 0,
+	"def": 300,
+	"constitution": 0,
+	"survival": 0,
+	"scoutcraft": 0,
+	"combat": 0,
+	"wisdom": 0,
+	"move_speed": 0,
+	"ai": "GameTrap",
+	"sex_fetish": [
+		"事件名稱"
+	],
+	"sensors": [
+		"TrapVision"
+	],
+	"tri_state": {
+		"fucker": {
+			"health": ["-1000","<"]
+		},
+		"killer": {
+			"health": ["0",">"]
+		},
+		"assaulter": {
+			"health": ["-1000","<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "",
+		"sound_alert1": "",
+		"sound_alert2": "",
+		"sound_skill": "",
+		"sound_lost": "",
+		"sound_death": ""
+	},
+	"drop_list": [
+		{
+			"name": "ItemMhShortSword",
+			"chance": 10
+		},
+		{
+			"name": "ItemShLantern",
+			"chance": 10
+		},
+		{
+			"name": "ItemRawMeat",
+			"chance": 5
+		},
+		{
+			"name": "ItemDryFood",
+			"chance": 5
+		},
+		{
+			"name": "ItemApple",
+			"chance": 5
+		}
+	],
+	"skills_killer":[],
+	"skills_assaulter":[],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

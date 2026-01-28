@@ -1,0 +1,77 @@
+{
+	"name": "UniqueDedOne",
+	"race": "Undead",
+	"fraction": 10,
+	"fraction_mode": 2,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 10,
+	"sensor_freq_rand" : 25,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"is_object": false,
+	"is_boss":true,
+	"receiver_type": 1,
+	"delete_when_death" : "10",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectUniqueDedOneDed",
+	"sex": 3,
+	"health": 1500,
+	"sta": 1500,
+	"sexy": 8,
+	"weak": "-50",
+	"morality": "-100",
+	"arousal": 0,
+	"will": 40660,
+	"mood":30,
+	"sat":100,
+	"atk": 100,
+	"def": 3,
+	"constitution": 100,
+	"survival": 6,
+	"scoutcraft": 100,
+	"combat": 100,
+	"wisdom": 100,
+	"move_speed": 3,
+	"ai": "Npc_UniqueDedOne",
+	"sensor_work_mode": 0,
+	"sensors": ["Nose"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 5,
+			"anal": 5,
+			"mouth": 5
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535","="]
+		},
+		"killer": {
+			"sex": ["65535","="]
+		},
+		"assaulter": {
+			"sex": ["65535","="]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_UndeadSkill",
+		"sound_alert1": "sound_UndeadQuestion",
+		"sound_alert2": "sound_UndeadSurprise",
+		"sound_skill": "sound_UndeadSkill",
+		"sound_lost": "sound_UndeadQuestion",
+		"sound_death": "sound_UndeadDed"
+	},
+	"drop_list": [],
+	"skills_killer": 	["NpcCleaveMH", "NpcCurvedNecroMissile","NpcCurvedSummonUndeadWarrior","NpcCurvedSummonUndeadBow","NpcJumpShort"],
+	"skills_assaulter": ["NpcCleaveMH", "NpcCurvedNecroMissile","NpcCurvedSummonUndeadWarrior","NpcCurvedSummonUndeadBow","NpcJumpShort"],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

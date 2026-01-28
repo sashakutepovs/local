@@ -1,0 +1,103 @@
+{
+	"name": "SaintHumanPriestF",
+	"race": "Human",
+	"fraction": 13,
+	"fraction_mode": 4,
+	"fated_enemy": [5,8,9,10,14],
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 15,
+	"sensor_freq_rand" : 20,
+	"ranged":true,
+	"safe_distance": 3,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCommonCharDed",
+	"sex": 0,
+	"kinsey": 1,
+	"health": 100,
+	"sta": 300,
+	"sexy": 30,
+	"weak": 20,
+	"morality": 50,
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 1,
+	"def": 3,
+	"constitution":15,
+	"survival":15,
+	"scoutcraft": 20,
+	"combat": 15,
+	"wisdom":40,
+	"move_speed": 3,
+	"ai": "Npc_SaintPriest",
+	"sensors": ["Eyes","SaintSupportShield"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535","="]
+		},
+		"killer": {
+		"morality": ["0","<"]
+		},
+		"assaulter": {
+		"morality": ["0","<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_HumanFemaleSpot",
+		"sound_alert1": "sound_HumanFemaleLost",
+		"sound_alert2": "sound_HumanFemaleSpot",
+		"sound_skill": "sound_HumanFemaleAtk",
+		"sound_lost": "sound_HumanFemaleLost",
+		"sound_death": "sound_HumanFemaleDed"
+	},
+	"drop_list": [
+		{
+			"name": "Item2MhManCatcher",
+			"chance": 10
+		},
+		{
+			"name": "ItemRawMeat",
+			"chance": 5
+		},
+		{
+			"name": "ItemDryFood",
+			"chance": 5
+		},
+		{
+			"name": "ItemApple",
+			"chance": 5
+		},
+		{
+			"name": "ItemCoin2",
+			"chance": 1
+		},
+		{
+			"name": "ItemCoin1",
+			"chance": 100
+		}
+	],
+	"skills_killer": [],
+	"skills_assaulter": [],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcMasturbationMale","NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

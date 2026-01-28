@@ -1,0 +1,99 @@
+fraction" 0 player
+fraction" 3 Human nature side							中立
+fraction" 4 nature										自然生物
+fraction" 5 goblin/orkind								類獸人
+fraction" 6 Guard										諾爾守衛
+fraction" 7 human Slave Trader(or any evil human)		不法份子
+fraction" 8 fishkind/deepone							漁人
+fraction" 9 Abomination									肉魔
+fraction" 10 Undead										不死生物
+fraction" 11 Elise										伊莉希
+fraction" 12 sybaris									席芭莉絲
+fraction" 13 saint										prise the sun
+fraction" 14 SeaWitch									漁人Female，SeaWitch 
+fraction" 15 DoomFortHeresy								邪教徒
+fraction" 100 Arena	ArenaSexBeast
+fraction" 101 Arena	ArenaEastColossus
+fraction" 102 Arena	ArenaFemdom
+fraction" 103 Arena	ArenaOrkindBro1
+fraction" 104 Arena	ArenaDeepTerror
+fraction" 105 Arena	ArenaFailedAdv
+fraction" 106 Arena	ArenaTeamRBQ1
+fraction" 107 Arena	ArenaHoboDudes1
+fraction" 108 Arena	Cecily
+fraction" 109 Arena	APE
+fraction" 110 Arena	Boar
+fraction" 111 Arena	Dog
+fraction" 400 neture CompWildApeF,						for RecQuestAriseVillageApe quests
+
+
+"fraction_mode": 0 打不同陣營
+"fraction_mode": 1 只看三態
+"fraction_mode": 2 只看三態不打同FRACTION + 強制視Master的目標為敵對
+"fraction_mode": 3 chaos destroy everything, ai 遇到3強制killer
+"fraction_mode": 4 只看三態不打同FRACTION
+
+receiver_type:
+	0 : common_ppl(normal)  (do struggle when sex>0 and rand(100) >50 ,no counter sex ; normal people)
+	1 : sex_warrior (no struggle , counter_sex=l, super slut)
+	2 : meat toilet (no_struggle , no counter sex, no dmg recive or offer)
+	3 : warrior (struggle when sta > 0, no counter sex )
+	4 : common_ppl(weak) 完全不反抗 但接收傷害
+	5 : $game_player
+	
+	
+"sensor_work_mode":	0,	第一雷達優先， 若第一雷達未找到目標 則第二雷達也不運作
+					1	多重雷達同時運作。
+					
+					
+					
+event 
+case @move_type
+				when 1;  move_type_random
+				when 2;  move_type_toward_player
+				when 3;  move_type_custom
+				when 4;  move_type_xy
+				when 5;  move_type_return
+				when 6;  move_npc_movement
+				when 7; return if @npc.get_target.nil? #flee
+						move_away_from_character(@npc.get_target)
+				when 8;  move_search_player # when encounter, and saw player
+				when 9;  companion_chase_character_ext($game_player) if self.follower[1] == 1
+				when 10; companion_chase_character_back($game_player)
+				when 11; companion_chase_character_front($game_player)
+				when 12; control_this_event #full control a npc. and able to use skill
+				when 13; move_by_trace #mostly for event camera like cannon minigame.
+end
+
+,
+	"default_state": {
+		"STD_WartAnal":{
+			"chance": 100,
+			"times": 1
+			},
+		"STD_WartVag":{
+			"chance": 100,
+			"times": 1
+			},
+		"STD_HerpesAnal":{
+			"chance": 100,
+			"times": 1
+			},
+		"STD_HerpesVag":{
+			"chance": 100,
+			"times": 1
+			}
+	}
+
+
+	"spread_when_sex": {
+		"fucker_slot": "all",
+		"ignore_max_stack": null,
+		"add_evlib_sum": null,
+		"add_drop_list": "AbomCreatureMeatMoonWorm",
+		"add_state_SndLib": "sound_WormQuestion",
+		"reciver_slot_anal": "ParasitedMoonWorm",
+		"reciver_slot_vag": "ParasitedMoonWorm",
+		"reciver_slot_mouth": "ParasitedMoonWorm",
+		"chance": 100
+	},

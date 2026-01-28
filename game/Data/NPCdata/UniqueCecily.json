@@ -1,0 +1,82 @@
+{
+	"name": "UniqueCecily",
+	"race": "Human",
+	"fraction": 12,
+	"fraction_mode": 4,
+	"friendly_fire": false,
+	"friendly_aggro": 1,
+	"fated_enemy": [5,7,9,10],
+	"sensor_freq_base": 10,
+	"sensor_freq_rand" : 10,
+	"ranged":true,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectUniqueCecilyDed",
+	"sex": 0,
+	"kinsey": 1,
+	"health": 300,
+	"sta": 350,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": 120,
+	"arousal": 0,
+	"will": 900,
+	"mood":100,
+	"sat":100,
+	"atk": 20,
+	"def": 6,
+	"constitution":20,
+	"survival":15,
+	"scoutcraft": 30,
+	"combat": 30,
+	"wisdom":15,
+	"move_speed": 4.2,
+	"ai": "Npc_UniqueCecily",
+	"sensors": ["Eyes_follower_cecily"],
+	"receiver_type":3,
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["-1", "="]
+		},
+		"killer": {
+			"morality": ["15", "<"]
+		},
+		"assaulter": {
+			"morality": ["15", "<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "FemaleWarriorSpot",
+		"sound_alert1": "sound_HumanFemaleLost",
+		"sound_alert2": "FemaleWarriorAtk",
+		"sound_skill": "FemaleWarriorAtk",
+		"sound_lost": "sound_HumanFemaleLost",
+		"sound_death": "FemaleWarriorDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemMhSabar",
+			"chance": 100
+		}
+	],
+	"skills_killer":["WoodenSpearNormal","SabarNormal","ThrowingKnivesHeavy"],
+	"skills_assaulter":["WoodenSpearNormal","SabarNormal","ThrowingKnivesHeavy"],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

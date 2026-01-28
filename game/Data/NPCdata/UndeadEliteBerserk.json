@@ -1,0 +1,76 @@
+{
+	"name": "UndeadEliteBerserk",
+	"race": "Undead",
+	"fraction": 10,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 10,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"is_object": false,
+	"is_boss":true,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectUndeadDed",
+	"sex": 99,
+	"kinsey": 1,
+	"health": 3200,
+	"sta": 700,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": "-100",
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 36,
+	"def": 10,
+	"constitution": 50,
+	"survival": 15,
+	"scoutcraft": 50,
+	"combat": 50,
+	"wisdom": 1,
+	"move_speed": 3,
+	"ai": "Npc_UndeadCharge",
+	"sensors": ["Multi"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 4,
+			"anal": 4,
+			"mouth": 4
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"health": ["0","<"]
+		},
+		"killer": {
+			"sex": ["65535","="]
+		},
+		"assaulter": {
+			"health": ["0",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_UndeadSkill",
+		"sound_alert1": "sound_UndeadQuestion",
+		"sound_alert2": "sound_UndeadSurprise",
+		"sound_skill": "sound_UndeadSkill",
+		"sound_lost": "sound_UndeadQuestion",
+		"sound_death": "sound_UndeadDed"
+	},
+	"drop_list": [],
+	"skills_killer":["NpcBroadSwordNormal","WoodenShieldHeavy","NpcChargeBig","WoodenShieldControl"],
+	"skills_assaulter":["NpcBroadSwordNormal","NpcBroadSwordSpin"],
+	"skills_fucker":["BasicNormal","NpcBasicSh","WoodenShieldHeavy","WoodenShieldControl"],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}

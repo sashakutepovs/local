@@ -1,0 +1,114 @@
+{
+	"name": "UniqueOgreWarBoss",
+	"race": "Orkind",
+	"fraction": 5,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 100,
+	"sensor_freq_base": 20,
+	"sensor_freq_rand" : 15,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"is_boss":true,
+	"delete_when_death" : "-1",
+	"delete_when_frame" : "-1",
+	"death_event":"UniqueOgreWarBossDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 1400,
+	"sta": 3000,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": "-100",
+	"arousal": 0,
+	"will": 1600,
+	"mood":100,
+	"sat":100,
+	"atk": 60,
+	"def": 30,
+	"constitution": 100,
+	"survival": 20,
+	"scoutcraft": 100,
+	"combat": 34,
+	"wisdom": 1,
+	"move_speed": 3,
+	"ai": "Npc_UniqueOrkindWarBoss",
+	"sensors": ["BossBattle"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 5,
+			"anal": 5,
+			"mouth": 5
+		},
+		"sex_fetish_appetizer": ["unique_event_DeepThroat", "unique_event_BellyPunch","unique_event_ButtSlap","unique_event_FacePunch","unique_event_VagDilatation","unique_event_AnalDilatation","unique_event_UrinaryDilatation","none","none","none"],
+		"sex_fetish_ending": ["unique_event_Peeon", "unique_event_PeeonHead","unique_event_FloorClearnPee","unique_event_FloorClearnCums","unique_event_FloorClearnScat","none","none","none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535","="]
+		},
+		"killer": {
+			"weak": ["10","<"]
+		},
+		"assaulter": {
+			"weak": ["9",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_OgreHurt",
+		"sound_alert1": "sound_OgreQuestion",
+		"sound_alert2": "sound_OgreSpot",
+		"sound_skill": "sound_OgreSkill",
+		"sound_lost": "sound_OgreSpot",
+		"sound_death": "sound_OgreDed"
+	},
+	"drop_list": [{
+			"name": "ItemRagTop",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagMid",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagBot",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagVag",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagMidExtra",
+			"chance": 1
+		},
+		{
+			"name": "ItemShBoneShield",
+			"chance": 2
+		},
+		{
+			"name": "ItemHumanoidFlesh",
+			"chance": 10
+		},
+		{
+			"name": "ItemRawMeat",
+			"chance": 5
+		},
+		{
+			"name": "ItemFish",
+			"chance": 5
+		}
+	],
+	"skills_killer":		[],
+	"skills_assaulter":		[],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcMasturbationMale","NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}

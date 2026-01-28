@@ -1,0 +1,77 @@
+{
+	"name": "UniqueFishkindFistMasterT1",
+	"race": "Fishkind",
+	"fraction": 8,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 70,
+	"sensor_freq_base": 30,
+	"sensor_freq_rand" : 30,
+	"fated_enemy": [13],
+	"ranged":false,
+	"is_boss":true,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"UniqueFishkindFistMasterT2",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 1000,
+	"sta": 1200,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": "-100",
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 50,
+	"def": 9,
+	"constitution": 38,
+	"survival": 30,
+	"scoutcraft": 80,
+	"combat": 30,
+	"wisdom": 40,
+	"move_speed": 4.5,
+	"ai": "Npc_UniqueFishkindFistMasterT1",
+	"sensors": ["BossBattle"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 4,
+			"anal": 4,
+			"mouth": 4
+		},
+		"sex_fetish_appetizer": ["unique_event_AnalDilatation", "unique_event_UrinaryDilatation","unique_event_VagDilatation","none","none","none"],
+		"sex_fetish_ending": ["unique_event_Piercing", "unique_event_AnalNeedle", "unique_event_VagNeedle","none","none","none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"health": ["65535",">"],
+		},
+		"killer": {
+			"health": ["65535",">"],
+		},
+		"assaulter": {
+			"health": ["65535",">"],
+		}
+	},
+	"sound": {
+		"sound_aggro": "FishFistMasterAggro",
+		"sound_alert1": "FishFistMasterSpot1",
+		"sound_alert2": "FishFistMasterSpot2",
+		"sound_skill": "FishFistMasterSkill",
+		"sound_lost": "FishFistMasterHurt",
+		"sound_death": "FishFistMasterHurt"
+	},
+	"drop_list": [],
+	"skills_killer": ["FishFistMasterShadowDash","FishFistMasterTatsumakiHkHold","FishFistMasterCrossedWind","FishFistMasterWaterDash","FishFistMasterThunderDash","FishFistMasterBasicCombo","FishFistMasterChargeCombo"],
+	"skills_assaulter": [],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}

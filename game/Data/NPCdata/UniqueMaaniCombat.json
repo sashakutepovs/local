@@ -1,0 +1,115 @@
+{
+	"name": "UniqueMaaniCombat",
+	"race": "Human",
+	"fraction": 6,
+	"fraction_mode": 1,
+	"friendly_fire": true,
+	"friendly_aggro": 100,
+	"sensor_freq_base": 15,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 5,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectUniqueCharDed",
+	"sex": 0,
+	"receiver_type" : 0,
+	"kinsey": 1,
+	"health": 100,
+	"sta": 300,
+	"sexy": 30,
+	"weak": 20,
+	"morality": 50,
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 1,
+	"def": 3,
+	"constitution":8,
+	"survival":10,
+	"scoutcraft": 13,
+	"combat": 10,
+	"wisdom":10,
+	"move_speed": 4,
+	"ai": "Npc_CurvedCharge",
+	"sensors": ["Eyes"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535","="]
+		},
+		"killer": {
+			"morality": ["10", "<"]
+		},
+		"assaulter": {
+			"morality": ["30", "<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "",
+		"sound_alert1": "",
+		"sound_alert2": "",
+		"sound_skill": "",
+		"sound_lost": "",
+		"sound_death": ""
+	},
+	"drop_list": [
+		{
+			"name": "ItemRawMeat",
+			"chance": 10
+		},
+		{
+			"name": "ItemHumanFlesh",
+			"chance": 10
+		},
+		{
+			"name": "ItemSausage",
+			"chance": 10
+		},
+		{
+			"name": "ItemNuts",
+			"chance": 10
+		},
+		{
+			"name": "ItemCarrot",
+			"chance": 10
+		},
+		{
+			"name": "ItemDryFood",
+			"chance": 10
+		},
+		{
+			"name": "ItemApple",
+			"chance": 10
+		},
+		{
+			"name": "ItemCoin3",
+			"chance": 100
+		},
+		{
+			"name": "ItemCoin1",
+			"chance": 100
+		}
+	],
+	"skills_killer": ["NpcMarkMoralityDown","NpcCurvedMusket","WoodenSpearNormal","NpcBasicSh"],
+	"skills_assaulter": ["NpcMarkMoralityDown","NpcCurvedMusket","WoodenSpearNormal","NpcBasicSh"],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcMasturbationMale","NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

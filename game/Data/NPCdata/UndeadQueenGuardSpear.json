@@ -1,0 +1,103 @@
+{
+	"name": "UndeadQueenGuardSpear",
+	"race": "Undead",
+	"fraction": 10,
+	"fraction_mode": 2,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 60,
+	"sensor_freq_rand" : 60,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectUndeadDed",
+	"sex": 99,
+	"kinsey": 1,
+	"health": 600,
+	"sta": 150,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": "-100",
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 13,
+	"def": 6,
+	"constitution": 30,
+	"survival": 1,
+	"scoutcraft": 20,
+	"combat": 8,
+	"wisdom": 1,
+	"move_speed": 2.5,
+	"ai": "Npc_FollowerUndeadCharge",
+	"sensors": ["Multi_short"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 4,
+			"anal": 4,
+			"mouth": 4
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535","="]
+		},
+		"killer": {
+			"sex": ["65535","="]
+		},
+		"assaulter": {
+			"sex": ["65535","="]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_UndeadSkill",
+		"sound_alert1": "sound_UndeadQuestion",
+		"sound_alert2": "sound_UndeadSurprise",
+		"sound_skill": "sound_UndeadSkill",
+		"sound_lost": "sound_UndeadQuestion",
+		"sound_death": "sound_UndeadDed"
+	},
+	"drop_list": [{
+			"name": "ItemRagTop",
+			"chance": 10
+		},
+		{
+			"name": "ItemRagMid",
+			"chance": 10
+		},
+		{
+			"name": "ItemRagBot",
+			"chance": 10
+		},
+		{
+			"name": "ItemRagVag",
+			"chance": 10
+		},
+		{
+			"name": "ItemRagMidExtra",
+			"chance": 10
+		},
+		{
+			"name": "ItemPhosphorus",
+			"chance": 1
+		},
+		{
+			"name": "Item2MhWoodenSpear",
+			"chance": 1
+		}
+	],
+	"skills_killer": ["WoodenSpearNormal","BasicNormal","NpcSlashSH"],
+	"skills_assaulter": ["WoodenSpearNormal","BasicNormal","NpcSlashSH"],
+	"skills_fucker": ["WoodenSpearNormal","BasicNormal","NpcSlashSH"],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}

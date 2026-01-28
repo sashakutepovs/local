@@ -1,0 +1,76 @@
+{
+	"name": "UniqueBossMamaT1",
+	"race": "Human",
+	"fraction": 3,
+	"fraction_mode": 1,
+	"friendly_fire": true,
+	"friendly_aggro": 100,
+	"sensor_freq_base": 10,
+	"sensor_freq_rand" : 10,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"is_boss":true,
+	"delete_when_death" : "0",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectBossMamaT1Ded",
+	"sex": 0,
+	"kinsey": 1,
+	"health": 600,
+	"sta": 800,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": 50,
+	"arousal": 0,
+	"will": 900,
+	"mood":100,
+	"sat":100,
+	"atk": 30,
+	"def": 0,
+	"constitution":50,
+	"survival":70,
+	"scoutcraft": 100,
+	"combat": 60,
+	"wisdom":15,
+	"move_speed": 4,
+	"ai": "Npc_UniqueBossMamaT1",
+	"sensors": ["Eyes"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535", "="]
+		},
+		"killer": {
+			"health": ["0", ">"]
+		},
+		"assaulter": {
+			"sex": ["65535", "="]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_HumanFemaleGruntSpot",
+		"sound_alert1": "sound_HumanFemaleGruntSpot",
+		"sound_alert2": "sound_HumanFemaleGruntAtk",
+		"sound_skill": "sound_HumanFemaleGruntAtk",
+		"sound_lost": "sound_HumanFemaleGruntSpot",
+		"sound_death": "sound_HumanFemaleGruntAtk"
+	},
+	"drop_list": [],
+	"skills_killer":	["NpcOrcPunchHeavyMH","NpcOrcPunchHeavySH","NpcJump","NpcFistForwardCombo"],
+	"skills_assaulter":	["NpcOrcPunchHeavyMH","NpcOrcPunchHeavySH","NpcJump","NpcFistForwardCombo"],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

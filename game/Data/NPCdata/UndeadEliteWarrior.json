@@ -1,0 +1,107 @@
+{
+	"name": "UndeadEliteWarrior",
+	"race": "Undead",
+	"fraction": 10,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 60,
+	"sensor_freq_rand" : 60,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectUndeadDed",
+	"sex": 99,
+	"kinsey": 1,
+	"health": 800,
+	"sta": 100,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": "-100",
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 18,
+	"def": 13,
+	"constitution": 30,
+	"survival": 1,
+	"scoutcraft": 20,
+	"combat": 8,
+	"wisdom": 1,
+	"move_speed": 2.2,
+	"ai": "Npc_UndeadCharge",
+	"sensors": ["Multi_short"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 4,
+			"anal": 4,
+			"mouth": 4
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"health": ["0","<"]
+		},
+		"killer": {
+			"health": ["0",">"]
+		},
+		"assaulter": {
+			"health": ["0",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_UndeadSkill",
+		"sound_alert1": "sound_UndeadQuestion",
+		"sound_alert2": "sound_UndeadSurprise",
+		"sound_skill": "sound_UndeadSkill",
+		"sound_lost": "sound_UndeadQuestion",
+		"sound_death": "sound_UndeadDed"
+	},
+	"drop_list": [{
+			"name": "ItemRagTop",
+			"chance": 20
+		},
+		{
+			"name": "ItemRagMid",
+			"chance": 20
+		},
+		{
+			"name": "ItemRagBot",
+			"chance": 20
+		},
+		{
+			"name": "ItemRagVag",
+			"chance": 20
+		},
+		{
+			"name": "ItemRagMidExtra",
+			"chance": 20
+		},
+		{
+			"name": "ItemPhosphorus",
+			"chance": 20
+		},
+		{
+			"name": "ItemMhShortSword",
+			"chance": 1
+		},
+		{
+			"name": "ItemShWoodenShield",
+			"chance": 1
+		}
+	],
+	"skills_killer":["NpcSlashMH","WoodenShieldHeavy","NpcSwordHeavy","WoodenShieldControl"],
+	"skills_assaulter":["BasicNormal","NpcBasicSh","WoodenShieldHeavy","WoodenShieldControl"],
+	"skills_fucker":["BasicNormal","NpcBasicSh","WoodenShieldHeavy","WoodenShieldControl"],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}

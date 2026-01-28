@@ -1,0 +1,85 @@
+{
+	"name": "WildApeM",
+	"race": "Others",
+	"fraction": 4,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 100,
+	"sensor_freq_base": 10,
+	"sensor_freq_rand" : 40,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCharDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 100,
+	"sta": 200,
+	"sexy": 1,
+	"weak": 1,
+	"morality": 50,
+	"arousal": 0,
+	"will": 65535,
+	"mood":100,
+	"sat":100,
+	"atk": 10,
+	"def": 1,
+	"constitution": 6,
+	"survival": 1,
+	"scoutcraft": 25,
+	"combat": 1,
+	"wisdom": 1,
+	"move_speed":3,
+	"ai": "Npc_ChachaFacingEscape",
+	"sensors": ["Multi"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 5,
+			"anal": 5,
+			"mouth": 5
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["100",">"],
+			"sex": ["2","<"]
+		},
+		"killer": {
+			"weak": ["40","<"],
+		},
+		"assaulter": {
+			"weak": ["40",">"],
+		}
+	},
+	"sound": {
+		"sound_aggro": "MonkeyAggro",
+		"sound_alert1": "MonkeyQuestion",
+		"sound_alert2": "MonkeyAlert",
+		"sound_skill": "MonkeySkill",
+		"sound_lost": "MonkeyLost",
+		"sound_death": "MonkeyDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemRawMeat",
+			"chance": 100
+		},
+		{
+			"name": "ItemRawMeat",
+			"chance": 100
+		}
+	],
+	"skills_fucker":		["NpcFuckerMh","NpcFuckerSh","NpcFuckerGrab","NpcMasturbationMale"],
+	"skills_killer":		["NpcCurvedThrowTrash","NpcBasicSh", "BasicNormal","NpcWormBiteFast"],
+	"skills_assaulter":		["NpcBasicSh", "BasicNormal","NpcWormBiteFast"],
+	"drop_amt": {
+		"min": 1 ,
+		"max": 2
+	}
+}

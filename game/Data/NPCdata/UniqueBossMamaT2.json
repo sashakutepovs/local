@@ -1,0 +1,77 @@
+{
+	"name": "UniqueBossMamaT2",
+	"race": "Human",
+	"fraction": 3,
+	"fraction_mode": 1,
+	"friendly_fire": true,
+	"friendly_aggro": 100,
+	"sensor_freq_base": 10,
+	"sensor_freq_rand" : 45,
+	"ranged":false,
+	"safe_distance": 2,
+	"fated_enemy": [0],
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"is_boss":true,
+	"delete_when_death" : "-1",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectBossMamaT2Ded",
+	"sex": 0,
+	"kinsey": 1,
+	"health": 800,
+	"sta": 950,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": 50,
+	"arousal": 0,
+	"will": 900,
+	"mood":100,
+	"sat":100,
+	"atk": 25,
+	"def": 25,
+	"constitution":50,
+	"survival":30,
+	"scoutcraft": 100,
+	"combat": 60,
+	"wisdom":15,
+	"move_speed": 5,
+	"ai": "Npc_UniqueBossMamaT2",
+	"sensors": ["BossBattle"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535", "="]
+		},
+		"killer": {
+			"health": ["0", ">"]
+		},
+		"assaulter": {
+			"sex": ["65535", "="]
+		}
+	},
+	"sound": {
+		"sound_aggro": "FemaleWarriorHighSpot",
+		"sound_alert1": "FemaleWarriorHighSpot",
+		"sound_alert2": "FemaleWarriorHighAtk",
+		"sound_skill": "FemaleWarriorHighAtk",
+		"sound_lost": "FemaleWarriorHighSpot",
+		"sound_death": "FemaleWarriorHighDed"
+	},
+	"drop_list": [],
+	"skills_killer":["KatanaBossMamaNormal","KatanaFullAOE"],
+	"skills_assaulter":["KatanaBossMamaNormal","KatanaFullAOE"],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

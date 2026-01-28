@@ -1,0 +1,92 @@
+{
+	"name": "WildHorse",
+	"race": "Horse",
+	"fraction": 4,
+	"fraction_mode": 1,
+	"friendly_fire": true,
+	"friendly_aggro": 100,
+	"sensor_freq_base": 20,
+	"sensor_freq_rand" : 15,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCharDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 250,
+	"sta": 400,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": 50,
+	"arousal": 0,
+	"will": 65535,
+	"mood":100,
+	"sat":100,
+	"atk": 12,
+	"def": 4,
+	"constitution": 40,
+	"survival": 1,
+	"scoutcraft": 40,
+	"combat": 1,
+	"wisdom": 1,
+	"move_speed":5,
+	"ai": "Npc_HitRunBackAttack",
+	"sensors": ["Nose"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 5,
+			"anal": 5,
+			"mouth": 5
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535",">"]
+		},
+		"killer": {
+			"sex": ["65535",">"]
+		},
+		"assaulter": {
+			"sex": ["65535",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "horseIdle",
+		"sound_alert1": "horseIdle",
+		"sound_alert2": "horseIdle",
+		"sound_skill": "horseDed",
+		"sound_lost": "horseIdle",
+		"sound_death": "horseDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemRawMeat",
+			"chance": 100
+		},
+		{
+			"name": "ItemRawMeat",
+			"chance": 100
+		},
+		{
+			"name": "ItemRawMeat",
+			"chance": 100
+		},
+		{
+			"name": "ItemRawMeat",
+			"chance": 100
+		}
+	],
+	"skills_fucker":		["NpcFuckerMh","NpcFuckerSh","NpcFuckerGrab"],
+	"skills_killer":		["BasicHeavy","BasicNormal","HorseBackKick"],
+	"skills_assaulter":		["BasicHeavy","BasicNormal","HorseBackKick"],
+	"drop_amt": {
+		"min": 2,
+		"max": 3
+	}
+}

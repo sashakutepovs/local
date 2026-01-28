@@ -1,0 +1,80 @@
+{
+	"name": "UniqueGrayRat",
+	"race": "Moot",
+	"fraction": 12,
+	"fraction_mode": 4,
+	"friendly_fire": false,
+	"friendly_aggro": 1,
+	"fated_enemy": [5,7,9,10],
+	"sensor_freq_base": 20,
+	"sensor_freq_rand" : 15,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectUniqueGrayRatDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 700,
+	"sta": 1500,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": 120,
+	"arousal": 0,
+	"will": 1600,
+	"mood":100,
+	"sat":100,
+	"atk": 20,
+	"def": 15,
+	"constitution": 80,
+	"survival": 2,
+	"scoutcraft": 40,
+	"combat": 50,
+	"wisdom": 2,
+	"move_speed": 2.7,
+	"ai": "Npc_UniqueGrayRat",
+	"sensors": ["Eyes_follower"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 5,
+			"anal": 5,
+			"mouth": 5
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["-1", "="]
+		},
+		"killer": {
+			"morality": ["15", "<"]
+		},
+		"assaulter": {
+			"morality": ["15", "<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "MaleWarriorGruntAtk",
+		"sound_alert1": "MaleWarriorGruntQuestion",
+		"sound_alert2": "MaleWarriorGruntSpot",
+		"sound_skill": "MaleWarriorGruntAtk",
+		"sound_lost": "MaleWarriorGruntQuestion",
+		"sound_death": "MaleWarriorGruntDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemShMetalShield",
+			"chance": 100
+		}],
+	"skills_killer":		["NpcCleaveMHBash","NpcOrcBellyChargeHold","WoodenShieldHeavy","WoodenShieldControl","NpcTaunt"],
+	"skills_assaulter":		["NpcCleaveMHBash","NpcOrcBellyChargeHold","WoodenShieldHeavy","WoodenShieldControl","NpcTaunt"],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

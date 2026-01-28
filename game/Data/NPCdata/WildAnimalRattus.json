@@ -1,0 +1,67 @@
+{
+	"name": "WildAnimalRattus",
+	"race": "Others",
+	"fraction":3,
+	"fraction_mode": 4,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 9999,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"ignore_projectile":true,
+	"is_object":true,
+	"is_tiny":true,
+	"delete_when_death" : "0",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectKill",
+	"sex": 99,
+	"kinsey": 99,
+	"health": 1,
+	"sta": 1,
+	"weak": 0,
+	"sexy": 0,
+	"morality": 50,
+	"arousal": 0,
+	"mood":0,
+	"sat":0,
+	"atk": 0,
+	"def": 200,
+	"constitution": 0,
+	"survival": 200,
+	"scoutcraft": 0,
+	"combat": 0,
+	"wisdom": 0,
+	"move_speed": 5,
+	"ai": "Game_DestroyableObject",
+	"sex_fetish": [],
+	"sensors": [
+		"TrapVision"
+	],
+	"tri_state": {
+		"fucker": {
+			"health": ["-1000","<"]
+		},
+		"killer": {
+			"health": ["0",">"]
+		},
+		"assaulter": {
+			"health": ["-1000","<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "ratHurtHigh",
+		"sound_alert1": "ratSpotHigh",
+		"sound_alert2": "ratSpotHigh",
+		"sound_skill": "ratAtkHigh",
+		"sound_lost": "ratSpotHigh",
+		"sound_death": "ratHurtHigh"
+	},
+	"drop_list": [],
+	"skills_killer":[],
+	"skills_assaulter":[],
+	"skills_fucker":[],
+	"drop_amt": {}
+}
