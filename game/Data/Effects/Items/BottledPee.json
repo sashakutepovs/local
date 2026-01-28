@@ -1,0 +1,51 @@
+{
+	"weight": "1",
+	"dmg_multiplier":	"6",
+	"raw_date":	2,
+	"rot_progress":	["ItemRottenMatter",1],
+	"pot_data": {
+		"Waste": 1,
+		"Pee": 1
+		},
+	"ext_slot_skill":	{
+		"SkillName": "Item_BottledPee",
+		"CostAfterLaunch": true,
+		"DirectUsage": false
+		},
+	"use_item_effect": [{
+		"attribute_name": "urinary_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "60"
+		},{
+		"attribute_name": "dirt",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "20"
+		},{
+		"stats_key" 	: "Mod_Taste",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "1"
+		},{
+		"stats_key" 	: "Omnivore",
+		"stats_value"	: [1],
+		"stats_filter"	: false,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "800"
+		}
+	]
+}

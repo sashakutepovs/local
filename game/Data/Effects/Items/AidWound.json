@@ -1,0 +1,14 @@
+{
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["-5", "WoundHead"]},
+		{"tar_state_name": ["-5", "WoundChest"]},
+		{"tar_state_name": ["-5", "WoundCuff"]},
+		{"tar_state_name": ["-5", "WoundSArm"]},
+		{"tar_state_name": ["-5", "WoundMArm"]},
+		{"tar_state_name": ["-5", "WoundCollar"]},
+		{"tar_state_name": ["-5", "WoundBelly"]},
+		{"tar_state_name": ["-5", "WoundGroin"]},
+		{"tar_state_name": ["-5", "WoundSThigh"]},
+		{"tar_state_name": ["-5", "WoundMThigh"]}
+	]
+}

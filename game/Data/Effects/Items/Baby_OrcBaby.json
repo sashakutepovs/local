@@ -1,0 +1,14 @@
+{
+	"weight": "20",
+	"common_tags":{
+		"baby_MouthRace": "Orkind",
+		"baby_LonaHumChild": false,
+		"Lock_BankStorage": true,
+		"Lock_TravelStorage": true,
+		"baby_HumChild": false
+		},
+	"pot_data": {
+		"Meat": 4,
+		"MysticMeat": 1
+		}
+}

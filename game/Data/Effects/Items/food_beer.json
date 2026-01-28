@@ -1,0 +1,40 @@
+{
+	"weight": 2,
+	"dmg_multiplier": 3.5,
+	"raw_date":	1,
+	"rot_progress":	["ItemRottenMatter",1],
+	"pot_data": {
+		"Alcohol": 1
+		},
+	"player_item_usage_event_summon": "IEFX_Alcohol",
+	"player_item_usage_manage_state": [
+		{"tar_state_name": [1, "DailyDrunkLevel"]}
+	],
+	"use_item_effect": [{
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": 10
+		},{
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 8
+		},{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 100
+		},{
+		"attribute_name": "mood",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 10
+		},{
+		"attribute_name": "urinary_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 300
+		}
+	]
+}

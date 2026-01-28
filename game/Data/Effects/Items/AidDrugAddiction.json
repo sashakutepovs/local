@@ -1,0 +1,19 @@
+{
+	"weight": "0",
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["-1", "DrugAddiction"]}
+	],
+	"use_item_effect": [{
+		"attribute_name": "drug_addiction_level",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "65535"
+		},
+		{
+		"attribute_name": "drug_addiction_damage",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "65535"
+		}
+		]
+}

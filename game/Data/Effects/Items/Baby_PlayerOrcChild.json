@@ -1,0 +1,12 @@
+{
+	"weight": "20",
+	"common_tags":{
+		"baby_MouthRace": "Orkind",
+		"Lock_BankStorage": true,
+		"Lock_TravelStorage": true
+		},
+	"pot_data": {
+		"Meat": 10,
+		"MysticMeat": 1
+		}
+}

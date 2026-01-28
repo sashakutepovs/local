@@ -1,0 +1,13 @@
+{
+	"weight": "15",
+	"dmg_multiplier":	"1.5",
+	"common_tags":{
+		"baby_MouthRace": "Fishkind",
+		"Lock_BankStorage": true,
+		"Lock_TravelStorage": true
+		},
+	"pot_data": {
+		"Meat": 10,
+		"MysticMeat": 1
+		}
+}

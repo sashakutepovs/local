@@ -1,0 +1,13 @@
+{
+	"weight": "10",
+	"dmg_multiplier":	"1.5",
+	"common_tags":{
+		"baby_MouthRace": "Goblin",
+		"Lock_BankStorage": true,
+		"Lock_TravelStorage": true
+		},
+	"pot_data": {
+		"Meat": 10,
+		"MysticMeat": 1
+		}
+}

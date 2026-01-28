@@ -1,0 +1,15 @@
+{
+	"weight": "15",
+	"dmg_multiplier":	"1.5",
+	"common_tags":{
+		"baby_MouthRace": "Moot",
+		"baby_LonaHumChild": false,
+		"Lock_BankStorage": true,
+		"Lock_TravelStorage": true,
+		"baby_HumChild": true
+		},
+	"pot_data": {
+		"Meat": 4,
+		"HumanMeat": 1
+		}
+}

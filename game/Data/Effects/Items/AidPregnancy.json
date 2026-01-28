@@ -1,0 +1,10 @@
+{
+	"weight": "0",
+	"use_item_effect": [{
+		"attribute_name": "baby_health",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "65535"
+		}
+		]
+}

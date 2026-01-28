@@ -1,0 +1,9 @@
+{
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["-1", "STD_Leukorrhea"]},
+		{"tar_state_name": ["-1", "STD_WartAnal"]},
+		{"tar_state_name": ["-1", "STD_WartVag"]},
+		{"tar_state_name": ["-1", "STD_HerpesAnal"]},
+		{"tar_state_name": ["-1", "STD_HerpesVag"]}
+	]
+}

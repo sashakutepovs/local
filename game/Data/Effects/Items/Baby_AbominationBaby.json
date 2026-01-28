@@ -1,0 +1,16 @@
+{
+	"weight": "6",
+	"dmg_multiplier":	"1.5",
+	"common_tags":{
+		"baby_MouthRace": "Abomination",
+		"baby_LonaHumChild": false,
+		"Lock_BankStorage": true,
+		"Lock_TravelStorage": true,
+		"baby_HumChild": false
+		},
+	"pot_data": {
+		"Meat": 4,
+		"MysticMeat": 1,
+		"Baby_AbominationBaby": 1
+		}
+}

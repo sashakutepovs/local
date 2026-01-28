@@ -1,0 +1,13 @@
+{
+	"weight": "0",
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["-3", "StomachSpasm"]}
+	],
+	"use_item_effect": [{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "65535"
+		}
+		]
+}

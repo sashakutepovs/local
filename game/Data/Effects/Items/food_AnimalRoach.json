@@ -1,0 +1,89 @@
+{
+	"item_name": "AnimalRoach",
+	"price": 20,
+	"icon_index": 549,
+	"weight": "1",
+	"dmg_multiplier":	"4.5",
+	"raw_date":	4,
+	"rot_progress":	["ItemRottenMatter",2],
+	"tag_main_settings": {
+		"type": "FoodBad",
+		"tag": "RawMeat",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Roach/item_name",
+			"description": "DataItem:Roach/description"
+	},
+	"pot_data": {
+		"Protein": 1
+		},
+	"player_item_usage_manage_state": [{
+		"tar_state_name": ["1", "StomachSpasm"],
+		"chance_max": 100,
+		"chance_req": 90
+		}],
+	"use_item_effect": [{
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "6"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "40"
+		},{
+		"attribute_name": "defecate_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "110"
+		},{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "9"
+		},{
+		"attribute_name": "dirt",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "20"
+		},{
+		"stats_key" 	: "Omnivore",
+		"stats_value"	: [1],
+		"stats_filter"	: false,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"stats_key" 	: "SemenAddiction",
+		"stats_value"	: [2,3,4,5],
+		"stats_filter"	: true,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "25"
+		},{
+		"stats_key" 	: "SemenAddiction",
+		"stats_value"	: [4,5],
+		"stats_filter"	: true,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "500"
+		},{
+		"stats_key" 	: "Mod_Taste",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "500"
+		}
+	]
+}
