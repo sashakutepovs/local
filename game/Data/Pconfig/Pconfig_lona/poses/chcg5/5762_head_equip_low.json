@@ -1,0 +1,21 @@
+[{
+		"name_order": ["equip_Face", "HeadGround"],
+		"part_name": "chcg5_face_equip_StarterGlass",
+		"x": 312,
+		"y": 179,
+		"layer": 5762,
+		"bmps": {
+			"equip_Face#StarterGlass,HeadGround00": "chcg5_face_equip_StarterGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_Face", "HeadGround"],
+		"part_name": "chcg5_face_equip_StarterGlass_HeadGround",
+		"x": 323,
+		"y": 184,
+		"layer": 5800,
+		"bmps": {
+			"equip_Face#StarterGlass,HeadGround01": "chcg5_face_equip_StarterGlass.png"
+		}
+	}
+]

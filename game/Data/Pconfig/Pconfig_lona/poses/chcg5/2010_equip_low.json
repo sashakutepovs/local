@@ -1,0 +1,96 @@
+[
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg5_head_equip_FootmanHelmet_bot",
+		"x": 240,
+		"y": 325,
+		"layer": 2010,
+		"bmps": {
+			"equip_head#FootmanHelmet,HeadGround00": "chcg5_head_equip_FootmanHelmet_bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"],
+		"part_name": "chcg5_head_equip_FootmanHelmet_bot_HeadGround",
+		"x": 251,
+		"y": 329,
+		"layer": 2010,
+		"bmps": {
+			"equip_head#FootmanHelmet,HeadGround01": "chcg5_head_equip_FootmanHelmet_bot.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg5_equip_HoodCloakTop_Head_Bot",
+		"x": 227,
+		"y": 93,
+		"layer": 2010,
+		"bmps": {
+			"equip_Top#HoodCloakTop,HeadGround00": "chcg5_equip_HoodCloakTop_Head_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg5_equip_HoodCloakTop_Head_Bot_HeadGround",
+		"x": 238,
+		"y": 97,
+		"layer": 2010,
+		"bmps": {
+			"equip_Top#HoodCloakTop,HeadGround01": "chcg5_equip_HoodCloakTop_Head_Bot.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg5_equip_DocTop_HeadBot",
+		"x": 204,
+		"y": 44,
+		"layer": 2010,
+		"bmps": {
+			"equip_Top#DocTop,HeadGround00": "chcg5_equip_DocTop_HeadBot.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top", "HeadGround"],
+		"part_name": "chcg5_equip_DocTop_HeadBot_HeadGround",
+		"x": 215,
+		"y": 48,
+		"layer": 2010,
+		"bmps": {
+			"equip_Top#DocTop,HeadGround01": "chcg5_equip_DocTop_HeadBot.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_head", "HeadGround"], // for some reason.  this extre layer is needed so i can turn off chcg5_equip_DocTop_HeadBot to support hoods
+		"part_name": "chcg5_equip_NunVeil_BodyBot",
+		"x": 288,
+		"y": 112,
+		"layer": 2010,
+		"bmps": {
+			"equip_head#NunVeil,HeadGround00": "chcg5_equip_NunVeil_BodyBot.png"
+		}
+	},
+	{
+		"name_order": ["equip_head", "HeadGround"], // for some reason.  this extre layer is needed so i can turn off chcg5_equip_DocTop_HeadBot_HeadGround to support hoods
+		"part_name": "chcg5_equip_NunVeil_BodyBot_HeadGround",
+		"x": 299,
+		"y": 116,
+		"layer": 2010,
+		"bmps": {
+			"equip_head#NunVeil,HeadGround01": "chcg5_equip_NunVeil_BodyBot.png"
+		}
+	}
+]

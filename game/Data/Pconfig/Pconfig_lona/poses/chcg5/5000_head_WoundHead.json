@@ -1,0 +1,47 @@
+[{
+	"name_order": ["WoundHead","Race","HeadGround"],
+	"part_name": "chcg5_head_WoundHead",
+	"x": "157",
+	"y": "108",
+	"layer": 5000,
+	"bmps": {
+		"WoundHead01,Race#Human,HeadGround00": "chcg5_head_WoundHead1.png",
+		"WoundHead02,Race#Human,HeadGround00": "chcg5_head_WoundHead2.png",
+		"WoundHead03,Race#Human,HeadGround00": "chcg5_head_WoundHead3.png",
+		"WoundHead04,Race#Human,HeadGround00": "chcg5_head_WoundHead3.png",
+		
+		"WoundHead01,Race#Deepone,HeadGround00": "chcg5_head_moot_WoundHead1.png",
+		"WoundHead02,Race#Deepone,HeadGround00": "chcg5_head_moot_WoundHead2.png",
+		"WoundHead03,Race#Deepone,HeadGround00": "chcg5_head_moot_WoundHead3.png",
+		"WoundHead04,Race#Deepone,HeadGround00": "chcg5_head_moot_WoundHead3.png",
+		
+		"WoundHead01,Race#Moot,HeadGround00": "chcg5_head_moot_WoundHead1.png",
+		"WoundHead02,Race#Moot,HeadGround00": "chcg5_head_moot_WoundHead2.png",
+		"WoundHead03,Race#Moot,HeadGround00": "chcg5_head_moot_WoundHead3.png",
+		"WoundHead04,Race#Moot,HeadGround00": "chcg5_head_moot_WoundHead3.png"
+	}
+},
+{
+	"name_order": ["WoundHead","Race","HeadGround"],
+	"part_name": "chcg5_head_WoundHead_HeadGround",
+	"x": "168",
+	"y": "112",
+	"layer": 5000,
+	"bmps": {
+		"WoundHead01,Race#Human,HeadGround01": "chcg5_head_WoundHead1.png",
+		"WoundHead02,Race#Human,HeadGround01": "chcg5_head_WoundHead2.png",
+		"WoundHead03,Race#Human,HeadGround01": "chcg5_head_WoundHead3.png",
+		"WoundHead04,Race#Human,HeadGround01": "chcg5_head_WoundHead3.png",
+		
+		"WoundHead01,Race#Deepone,HeadGround01": "chcg5_head_moot_WoundHead1.png",
+		"WoundHead02,Race#Deepone,HeadGround01": "chcg5_head_moot_WoundHead2.png",
+		"WoundHead03,Race#Deepone,HeadGround01": "chcg5_head_moot_WoundHead3.png",
+		"WoundHead04,Race#Deepone,HeadGround01": "chcg5_head_moot_WoundHead3.png",
+		
+		"WoundHead01,Race#Moot,HeadGround01": "chcg5_head_moot_WoundHead1.png",
+		"WoundHead02,Race#Moot,HeadGround01": "chcg5_head_moot_WoundHead2.png",
+		"WoundHead03,Race#Moot,HeadGround01": "chcg5_head_moot_WoundHead3.png",
+		"WoundHead04,Race#Moot,HeadGround01": "chcg5_head_moot_WoundHead3.png"
+	}
+}
+]

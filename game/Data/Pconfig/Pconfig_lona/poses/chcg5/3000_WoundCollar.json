@@ -1,0 +1,20 @@
+[{
+	"name_order": ["WoundCollar"],
+	"part_name": "chcg5_WoundCollar",
+	"x": "412",
+	"y": "319",
+	"layer": 3000,
+	"bmps": {
+		"WoundCollar01": "chcg5_WoundCollar.png"
+	}
+},{
+	"name_order": ["WoundHead"],
+	"part_name": "chcg5_WoundHead_WoundCollar",
+	"x": "412",
+	"y": "319",
+	"layer": 3000,
+	"bmps": {
+		"WoundHead04": "chcg5_WoundCollar.png"
+	}
+}
+]

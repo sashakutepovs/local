@@ -1,0 +1,10 @@
+[{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg5_head_HairDancer_low",
+	"x": "211",
+	"y": "261",
+	"layer": 2025,
+	"bmps": {
+		"equip_hair#HairDancer": "chcg5_head_HairDancer_low.png"
+	}
+}]

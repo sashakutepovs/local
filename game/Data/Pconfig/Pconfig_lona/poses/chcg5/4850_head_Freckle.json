@@ -1,0 +1,11 @@
+
+[{
+	"name_order": ["Freckle"],
+	"part_name": "chcg5_head_Freckle",
+	"x": "368",
+	"y": "232",
+	"layer": 4850,
+	"bmps": {
+		"Freckle01": "chcg5_head_Freckle.png"
+	}
+}]

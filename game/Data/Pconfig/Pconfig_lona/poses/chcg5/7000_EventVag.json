@@ -1,0 +1,12 @@
+[
+{
+	"name_order": ["EventVag"],
+	"part_name": "chcg5_EventVag_Peeon",
+	"x": "257",
+	"y": "1",
+	"layer": 6500,
+	"bmps": {
+		"EventVag#Peeon": "chcg5_EventVag_Peeon.png"
+	}
+}
+]

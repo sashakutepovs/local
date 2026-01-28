@@ -1,0 +1,15 @@
+[{
+		"name_order": ["preg"],
+		"isDirt": true,
+		"part_name": "chcg5_dirt",
+		"x": "371",
+		"y": "220",
+		"layer": 3100,
+		"bmps": {
+			"preg00": "chcg5_dirt.png",
+			"preg01": "chcg5_preg4m_dirt.png",
+			"preg02": "chcg5_preg6m_dirt.png",
+			"preg03": "chcg5_preg8m_dirt.png"
+		}
+	}
+]

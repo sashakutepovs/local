@@ -1,0 +1,27 @@
+[{
+	"name_order": ["EventExt2Race", "EventExt2"],
+	"part_name": "chcg5_EventExt2_Human_Fapper",
+	"x": "1",
+	"y": "1",
+	"layer": 6500,
+	"bmps": {
+		"EventExt2Race#Human,EventExt2#FapperCuming1": "chcg5_EventExt2_Human_Fapper.png",
+		"EventExt2Race#Human,EventExt2#FapperCuming2": "chcg5_EventExt2_Human_FapperCuming.png",
+		
+		"EventExt2Race#Moot,EventExt2#FapperCuming1": "chcg5_EventExt2_Human_Fapper.png",
+		"EventExt2Race#Moot,EventExt2#FapperCuming2": "chcg5_EventExt2_Human_FapperCuming.png",
+		
+		"EventExt2Race#Deepone,EventExt2#FapperCuming1": "chcg5_EventExt2_Human_Fapper.png",
+		"EventExt2Race#Deepone,EventExt2#FapperCuming2": "chcg5_EventExt2_Human_FapperCuming.png"
+	}
+},{
+	"name_order": ["EventExt2"],
+	"part_name": "chcg5_EventExt2_Peeon",
+	"x": "190",
+	"y": "79",
+	"layer": 7000,
+	"bmps": {
+		"EventExt2#Peeon": "chcg5_EventExt2_Peeon.png"
+	}
+}
+]

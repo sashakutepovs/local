@@ -1,0 +1,25 @@
+[{
+	"name_order": ["head_blush", "Race", "HeadGround"],
+	"part_name": "chcg5_head_blush",
+	"x": "190",
+	"y": "107",
+	"layer": 4900,
+	"bmps": {
+		"head_blush01,Race#Human,HeadGround00": "chcg5_head_blush.png",
+		"head_blush01,Race#Deepone,HeadGround00": "chcg5_head_moot_blush.png",
+		"head_blush01,Race#Moot,HeadGround00": "chcg5_head_moot_blush.png"
+	}
+},
+{
+	"name_order": ["head_blush", "Race", "HeadGround"],
+	"part_name": "chcg5_head_blush_HeadGround",
+	"x": "201",
+	"y": "111",
+	"layer": 4900,
+	"bmps": {
+		"head_blush01,Race#Human,HeadGround01": "chcg5_head_blush.png",
+		"head_blush01,Race#Deepone,HeadGround01": "chcg5_head_moot_blush.png",
+		"head_blush01,Race#Moot,HeadGround01": "chcg5_head_moot_blush.png"
+	}
+}
+]

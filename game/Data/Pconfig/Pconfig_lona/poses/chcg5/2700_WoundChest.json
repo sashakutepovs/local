@@ -1,0 +1,12 @@
+[{
+	"name_order": ["WoundChest"],
+	"part_name": "chcg5_WoundChest",
+	"x": "410",
+	"y": "328",
+	"layer": 2700,
+	"bmps": {
+		"WoundChest01": "chcg5_WoundChest1.png",
+		"WoundChest02": "chcg5_WoundChest2.png",
+		"WoundChest03": "chcg5_WoundChest3.png"
+	}
+}]

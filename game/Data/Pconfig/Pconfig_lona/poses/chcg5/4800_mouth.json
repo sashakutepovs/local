@@ -1,0 +1,64 @@
+[{
+	"name_order": ["mouth","HeadGround"],
+	"part_name": "chcg5_head_mouth",
+	"x": "361",
+	"y": "238",
+	"layer": 4800,
+	"bmps": {
+		"mouth01,HeadGround00": "chcg5_head_mouth01.png",
+		"mouth02,HeadGround00": "chcg5_head_mouth02.png",
+		"mouth03,HeadGround00": "chcg5_head_mouth03.png",
+		"mouth04,HeadGround00": "chcg5_head_mouth04.png",
+		"mouth05,HeadGround00": "chcg5_head_mouth05.png",
+		"mouth06,HeadGround00": "chcg5_head_mouth06.png",
+		"mouth07,HeadGround00": "chcg5_head_mouth07.png",
+		"mouth08,HeadGround00": "chcg5_head_mouth08.png",
+		"mouth09,HeadGround00": "chcg5_head_mouth09.png"
+	}
+},
+{
+	"name_order": ["mouth","HeadGround"],
+	"part_name": "chcg5_head_mouth_EXT",
+	"x": "361",
+	"y": "238",
+	"layer": 4801,
+	"bmps": {
+		"mouth02,HeadGround00": "chcg5_head_mouth02_EXT.png",
+		"mouth04,HeadGround00": "chcg5_head_mouth04_EXT.png",
+		"mouth06,HeadGround00": "chcg5_head_mouth06_EXT.png"
+	}
+},
+
+
+
+{
+	"name_order": ["mouth","HeadGround"],
+	"part_name": "chcg5_head_mouth_HeadGround",
+	"x": "372",
+	"y": "242",
+	"layer": 4800,
+	"bmps": {
+		"mouth01,HeadGround01": "chcg5_head_mouth01.png",
+		"mouth02,HeadGround01": "chcg5_head_mouth02.png",
+		"mouth03,HeadGround01": "chcg5_head_mouth03.png",
+		"mouth04,HeadGround01": "chcg5_head_mouth04.png",
+		"mouth05,HeadGround01": "chcg5_head_mouth05.png",
+		"mouth06,HeadGround01": "chcg5_head_mouth06.png",
+		"mouth07,HeadGround01": "chcg5_head_mouth07.png",
+		"mouth08,HeadGround01": "chcg5_head_mouth08.png",
+		"mouth09,HeadGround01": "chcg5_head_mouth09.png"
+	}
+},
+{
+	"name_order": ["mouth","HeadGround"],
+	"part_name": "chcg5_head_mouth_EXT_HeadGround",
+	"x": "372",
+	"y": "242",
+	"layer": 4801,
+	"bmps": {
+		"mouth02,HeadGround01": "chcg5_head_mouth02_EXT.png",
+		"mouth04,HeadGround01": "chcg5_head_mouth04_EXT.png",
+		"mouth06,HeadGround01": "chcg5_head_mouth06_EXT.png"
+	}
+}
+]

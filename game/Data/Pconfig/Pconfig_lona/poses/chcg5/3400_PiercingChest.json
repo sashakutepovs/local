@@ -1,0 +1,13 @@
+[{
+		"name_order": ["PiercingChest"],
+		"part_name": "chcg5_PiercingChest",
+		"x": "547",
+		"y": "361",
+		"layer": 3400,
+		"bmps": {
+			"PiercingChest01": "chcg5_PiercingChest1.png",
+			"PiercingChest02": "chcg5_PiercingChest2.png",
+			"PiercingChest03": "chcg5_PiercingChest3.png"
+		}
+	}
+]

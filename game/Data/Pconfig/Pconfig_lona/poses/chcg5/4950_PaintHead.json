@@ -1,0 +1,27 @@
+[
+
+	{
+		"name_order": ["equip_Face", "Race", "HeadGround"],
+		"part_name": "chcg5_head_PaintHead",
+		"x": 285,
+		"y": 139,
+		"layer": 4950,
+		"bmps": {
+			"equip_Face#PaintHead,Race#Human,HeadGround00": "chcg5_face_PaintHead.png",
+			"equip_Face#PaintHead,Race#Deepone,HeadGround00": "chcg5_face_moot_PaintHead.png",
+			"equip_Face#PaintHead,Race#Moot,HeadGround00": "chcg5_face_moot_PaintHead.png"
+		}
+	},
+	{
+		"name_order": ["equip_Face", "Race", "HeadGround"],
+		"part_name": "chcg5_head_PaintHead_HeadGround",
+		"x": 296,
+		"y": 143,
+		"layer": 4950,
+		"bmps": {
+			"equip_Face#PaintHead,Race#Human,HeadGround01": "chcg5_face_PaintHead.png",
+			"equip_Face#PaintHead,Race#Deepone,HeadGround01": "chcg5_face_moot_PaintHead.png",
+			"equip_Face#PaintHead,Race#Moot,HeadGround01": "chcg5_face_moot_PaintHead.png"
+		}
+	}
+]

@@ -1,0 +1,30 @@
+[{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg5_head_equip_HairMessy",
+	"x": "317",
+	"y": "205",
+	"layer": 2100,
+	"bmps": {
+		"equip_hair#HairMessy": "chcg5_head_equip_HairMessy.png"
+	}
+},{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg5_head_equip_HairTwinBraid",
+	"x": "317",
+	"y": "397",
+	"layer": 2100,
+	"bmps": {
+		"equip_hair#HairTwinBraid": "chcg5_head_equip_HairTwinBraid.png"
+	}
+},
+{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg5_head_equip_HairPony",
+	"x": "347",
+	"y": "318",
+	"layer": 2100,
+	"bmps": {
+		"equip_hair#HairPony": "chcg5_head_equip_HairPony.png"
+	}
+}
+]

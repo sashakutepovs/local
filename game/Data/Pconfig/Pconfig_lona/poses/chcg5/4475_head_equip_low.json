@@ -1,0 +1,32 @@
+[
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg5_equip_DocHead_BodyTop",
+		"x": 388,
+		"y": 307,
+		"layer": 4474,
+		"bmps": {
+			"equip_head#DocHead": "chcg5_equip_DocHead_BodyTop.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg5_equip_HoodCloakTop_Body",
+		"x": 389,
+		"y": 309,
+		"layer": 4475,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg5_equip_HoodCloakTop_Body.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg5_subpose2_equip_DocTop_BodyTop",
+		"x": 374,
+		"y": 297,
+		"layer": 4475,
+		"bmps": {
+			"equip_Top#DocTop": "chcg5_subpose2_equip_DocTop_BodyTop.png"
+		}
+	}
+]

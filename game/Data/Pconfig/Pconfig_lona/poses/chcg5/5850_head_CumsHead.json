@@ -1,0 +1,25 @@
+[{
+	"name_order": ["CumsHead","HeadGround"],
+	"part_name": "chcg5_head_CumsHead",
+	"x": "113",
+	"y": "64",
+	"layer": 5850,
+	"bmps": {
+		"CumsHead01,HeadGround00": "chcg5_head_CumsHead1.png",
+		"CumsHead02,HeadGround00": "chcg5_head_CumsHead2.png",
+		"CumsHead03,HeadGround00": "chcg5_head_CumsHead3.png"
+	}
+},
+{
+	"name_order": ["CumsHead","HeadGround"],
+	"part_name": "chcg5_head_CumsHead_HeadGround",
+	"x": "124",
+	"y": "68",
+	"layer": 5850,
+	"bmps": {
+		"CumsHead01,HeadGround01": "chcg5_head_CumsHead1.png",
+		"CumsHead02,HeadGround01": "chcg5_head_CumsHead2.png",
+		"CumsHead03,HeadGround01": "chcg5_head_CumsHead3.png"
+	}
+}
+]

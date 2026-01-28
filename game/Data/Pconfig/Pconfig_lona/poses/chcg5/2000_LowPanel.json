@@ -1,0 +1,10 @@
+[{
+	"name_order": ["LowPanel"],
+	"part_name": "chcg5_LowPanel",
+	"x": "418",
+	"y": "1",
+	"layer": 2000,
+	"bmps": {
+		"LowPanel01": "chcg5_LowPanel.png"
+	}
+}]

@@ -1,0 +1,41 @@
+[
+	{
+		"name_order": ["preg", "equip_MidExtra"],
+		"part_name": "chcg5_equip_FootmanMidExtra",
+		"x": 402,
+		"y": 361,
+		"layer": 3650,
+		"bmps": {
+			"preg00,equip_MidExtra#FootmanMidExtra": "chcg5_equip_FootmanMidExtra.png",
+			"preg01,equip_MidExtra#FootmanMidExtra": "chcg5_equip_FootmanMidExtra.png",
+			"preg02,equip_MidExtra#FootmanMidExtra": "chcg5_equip_FootmanMidExtra.png",
+			"preg03,equip_MidExtra#FootmanMidExtra": "chcg5_preg8m_equip_FootmanMidExtra.png"
+		}
+	},
+	{
+		"name_order": ["preg", "equip_MidExtra"],
+		"part_name": "chcg5_equip_SlaveMidExtra",
+		"x": 587,
+		"y": 585,
+		"layer": 3650,
+		"bmps": {
+			"preg00,equip_MidExtra#SlaveMidExtra": "chcg5_equip_SlaveMidExtra.png",
+			"preg01,equip_MidExtra#SlaveMidExtra": "chcg5_preg4m_equip_SlaveMidExtra.png",
+			"preg02,equip_MidExtra#SlaveMidExtra": "chcg5_preg6m_equip_SlaveMidExtra.png",
+			"preg03,equip_MidExtra#SlaveMidExtra": "chcg5_preg6m_equip_SlaveMidExtra.png"
+		}
+	},
+	{
+		"name_order": ["preg", "equip_MidExtra"],
+		"part_name": "chcg5_equip_NunMidExtra",
+		"x": 380,
+		"y": 302,
+		"layer": 3650,
+		"bmps": {
+			"preg00,equip_MidExtra#NunMidExtra": "chcg5_equip_NunMidExtra.png",
+			"preg01,equip_MidExtra#NunMidExtra": "chcg5_equip_NunMidExtra.png",
+			"preg02,equip_MidExtra#NunMidExtra": "chcg5_equip_NunMidExtra.png",
+			"preg03,equip_MidExtra#NunMidExtra": "chcg5_preg8m_equip_NunMidExtra.png"
+		}
+	}
+]

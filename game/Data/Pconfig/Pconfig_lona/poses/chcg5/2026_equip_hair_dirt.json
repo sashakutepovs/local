@@ -1,0 +1,12 @@
+[{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg5_head_HairDancer_dirt_low",
+	"isDirt": true,
+	"x": "211",
+	"y": "261",
+	"layer": 2026,
+	"bmps": {
+		"equip_hair#HairDancer": "chcg5_head_HairDancer_dirt_low.png"
+	}
+}
+]
