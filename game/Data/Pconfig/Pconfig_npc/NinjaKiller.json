@@ -1,0 +1,19 @@
+{
+	"char_name": "NinjaKiller",
+	"statMap": {
+		"canvas": {
+			"default": ["632", "650", "-210", "-30"]
+		},
+		"NPCportrait": "NinjaKiller"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"NinjaKiller"			: "NinjaKiller.png"
+			}
+		}
+
+	]
+}

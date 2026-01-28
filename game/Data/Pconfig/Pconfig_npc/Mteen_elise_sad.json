@@ -1,0 +1,19 @@
+{
+	"char_name": "Mteen_elise_sad",
+	"statMap": {
+		"canvas": {
+			"default": ["294", "466", "-10", "40"]
+		},
+		"NPCportrait": "Mteen_elise_sad"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Mteen_elise_sad"			: "Mteen_elise_sad.png"
+			}
+		}
+
+	]
+}

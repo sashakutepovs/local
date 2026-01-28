@@ -1,0 +1,19 @@
+{
+	"char_name": "SGT_Shake",
+	"statMap": {
+		"canvas": {
+			"default": ["680", "400", "-20", "-20"]
+		},
+		"NPCportrait": "SGT_Shake"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"SGT_Shake"			: "SGT_Shake.png"
+			}
+		}
+
+	]
+}

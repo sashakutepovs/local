@@ -1,0 +1,17 @@
+{
+	"char_name": "TellerSakaGBoss06",
+	"statMap": {
+		"canvas": {
+			"default": ["887", "551", "248", "0"]
+		},
+		"NPCportrait": "TellerSakaGBoss06"
+	},
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"TellerSakaGBoss06"			: "TellerSakaGBoss06.png"
+			}
+		}
+	]
+}

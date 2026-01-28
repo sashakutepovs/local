@@ -1,0 +1,19 @@
+{
+	"char_name": "Mteen_elise_bat1",
+	"statMap": {
+		"canvas": {
+			"default": ["294", "466", "-10", "10"]
+		},
+		"NPCportrait": "Mteen_elise_bat1"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Mteen_elise_bat1"			: "Mteen_elise_bat1.png"
+			}
+		}
+
+	]
+}

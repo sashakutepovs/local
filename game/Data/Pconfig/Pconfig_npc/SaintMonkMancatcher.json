@@ -1,0 +1,19 @@
+{
+	"char_name": "SaintMonkMancatcher",
+	"statMap": {
+		"canvas": {
+			"default": [344, 699, -32, 0]
+		},
+		"NPCportrait": "SaintMonkMancatcher"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"SaintMonkMancatcher"			: "SaintMonkMancatcher.png"
+			}
+		}
+
+	]
+}

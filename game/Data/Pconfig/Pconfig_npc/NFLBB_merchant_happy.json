@@ -1,0 +1,19 @@
+{
+	"char_name": "NFLBB_merchant_happy",
+	"statMap": {
+		"canvas": {
+			"default": [370, 676, -42, 0]
+		},
+		"NPCportrait": "NFLBB_merchant_happy"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"NFLBB_merchant_happy"			: "NFLBB_merchant_happy.png"
+			}
+		}
+
+	]
+}

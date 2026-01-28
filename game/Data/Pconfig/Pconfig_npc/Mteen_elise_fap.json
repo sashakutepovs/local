@@ -1,0 +1,19 @@
+{
+	"char_name": "Mteen_elise_fap",
+	"statMap": {
+		"canvas": {
+			"default": ["294", "466", "-10", "27"]
+		},
+		"NPCportrait": "Mteen_elise_fap"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Mteen_elise_fap"			: "Mteen_elise_fap.png"
+			}
+		}
+
+	]
+}

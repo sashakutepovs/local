@@ -1,0 +1,19 @@
+{
+	"char_name": "UglyBastard1",
+	"statMap": {
+		"canvas": {
+			"default": ["331", "380", "-30", "20"]
+		},
+		"NPCportrait": "UglyBastard1"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"UglyBastard1"			: "UglyBastard1.png"
+			}
+		}
+
+	]
+}

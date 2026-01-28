@@ -1,0 +1,19 @@
+{
+	"char_name": "SaintNunCommon",
+	"statMap": {
+		"canvas": {
+			"default": [410, 724, -82, 25]
+		},
+		"NPCportrait": "SaintNunCommon"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"SaintNunCommon"			: "SaintNunCommon.png"
+			}
+		}
+
+	]
+}

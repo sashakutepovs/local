@@ -1,0 +1,19 @@
+{
+	"char_name": "raper_group",
+	"statMap": {
+		"canvas": {
+			"default": ["459", "679", "-120", "-40"]
+		},
+		"NPCportrait": "raper_group"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"raper_group"			: "raper_group.png"
+			}
+		}
+
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"char_name": "SGT_Normal",
+	"statMap": {
+		"canvas": {
+			"default": ["450", "419", "-130", "20"]
+		},
+		"NPCportrait": "SGT_Normal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"SGT_Normal"			: "SGT_Normal.png"
+			}
+		}
+
+	]
+}

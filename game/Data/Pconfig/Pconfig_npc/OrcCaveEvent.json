@@ -1,0 +1,19 @@
+{
+	"char_name": "OrcCaveEvent",
+	"statMap": {
+		"canvas": {
+			"default": ["640", "360", "0", "0"]
+		},
+		"NPCportrait": "OrcCaveEvent"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"OrcCaveEvent"			: "OrcCaveEvent.png"
+			}
+		}
+
+	]
+}

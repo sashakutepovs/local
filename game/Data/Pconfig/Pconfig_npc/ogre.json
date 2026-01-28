@@ -1,0 +1,19 @@
+{
+	"char_name": "ogre",
+	"statMap": {
+		"canvas": {
+			"default": ["417", "433", "-110", "-25"]
+		},
+		"NPCportrait": "ogre"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"ogre"			: "ogre.png"
+			}
+		}
+
+	]
+}

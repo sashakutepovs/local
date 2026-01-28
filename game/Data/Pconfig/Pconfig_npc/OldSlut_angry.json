@@ -1,0 +1,19 @@
+{
+	"char_name": "OldSlut_angry",
+	"statMap": {
+		"canvas": {
+			"default": ["264", "358", "-45", "45"]
+		},
+		"NPCportrait": "OldSlut_angry"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"OldSlut_angry"			: "OldSlut_angry.png"
+			}
+		}
+
+	]
+}

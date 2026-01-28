@@ -1,0 +1,19 @@
+{
+	"char_name": "WildSwordmanLeader",
+	"statMap": {
+		"canvas": {
+			"default": ["312", "610", "-40", "15"]
+		},
+		"NPCportrait": "WildSwordmanLeader"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"WildSwordmanLeader"			: "WildSwordmanLeader.png"
+			}
+		}
+
+	]
+}

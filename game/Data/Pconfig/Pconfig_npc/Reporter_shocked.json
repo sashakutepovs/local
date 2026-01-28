@@ -1,0 +1,19 @@
+{
+	"char_name": "Reporter_shocked",
+	"statMap": {
+		"canvas": {
+			"default": ["379", "465", "-80", "30"]
+		},
+		"NPCportrait": "Reporter_shocked"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Reporter_shocked"			: "Reporter_shocked.png"
+			}
+		}
+
+	]
+}

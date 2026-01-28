@@ -1,0 +1,19 @@
+{
+	"char_name": "NFLBB_merchant_confused",
+	"statMap": {
+		"canvas": {
+			"default": [370, 676, -42, 0]
+		},
+		"NPCportrait": "NFLBB_merchant_confused"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"NFLBB_merchant_confused"			: "NFLBB_merchant_confused.png"
+			}
+		}
+
+	]
+}

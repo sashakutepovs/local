@@ -1,0 +1,19 @@
+{
+	"char_name": "ogre_penis",
+	"statMap": {
+		"canvas": {
+			"default": ["417", "433", "-100", "-50"]
+		},
+		"NPCportrait": "ogre_penis"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"ogre_penis"			: "ogre_penis.png"
+			}
+		}
+
+	]
+}

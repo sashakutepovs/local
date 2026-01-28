@@ -1,0 +1,19 @@
+{
+	"char_name": "TellerConfused",
+	"statMap": {
+		"canvas": {
+			"default": ["443", "475", "-139", "20"]
+		},
+		"NPCportrait": "TellerConfused"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"TellerConfused"			: "TellerConfused.png"
+			}
+		}
+
+	]
+}

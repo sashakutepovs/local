@@ -1,0 +1,19 @@
+{
+	"char_name": "Reporter_normal",
+	"statMap": {
+		"canvas": {
+			"default": ["379", "465", "-80", "30"]
+		},
+		"NPCportrait": "Reporter_normal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Reporter_normal"			: "Reporter_normal.png"
+			}
+		}
+
+	]
+}

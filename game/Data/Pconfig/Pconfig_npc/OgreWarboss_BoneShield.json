@@ -1,0 +1,19 @@
+{
+	"char_name": "OgreWarboss_BoneShield",
+	"statMap": {
+		"canvas": {
+			"default": ["506", "586", "-90", "-70"]
+		},
+		"NPCportrait": "OgreWarboss_BoneShield"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"OgreWarboss_BoneShield"			: "OgreWarboss_BoneShield.png"
+			}
+		}
+
+	]
+}

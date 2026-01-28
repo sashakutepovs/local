@@ -1,0 +1,17 @@
+{
+	"char_name": "SeaWitchReverseRape_03",
+	"statMap": {
+		"canvas": {
+			"default": ["887", "551", "248", "0"]
+		},
+		"NPCportrait": "SeaWitchReverseRape_03"
+	},
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"SeaWitchReverseRape_03"			: "SeaWitchReverseRape_03.png"
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"char_name": "NFL_BB_MeatToilet",
+	"statMap": {
+		"canvas": {
+			"default": [585, 605, -120, -130]
+		},
+		"NPCportrait": "NFL_BB_MeatToilet"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"NFL_BB_MeatToilet"			: "NFL_BB_MeatToilet.png"
+			}
+		}
+
+	]
+}

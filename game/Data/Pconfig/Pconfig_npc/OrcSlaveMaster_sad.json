@@ -1,0 +1,19 @@
+{
+	"char_name": "OrcSlaveMaster_sad",
+	"statMap": {
+		"canvas": {
+			"default": ["433", "623", "-120", "-40"]
+		},
+		"NPCportrait": "OrcSlaveMaster_sad"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"OrcSlaveMaster_sad"			: "OrcSlaveMaster_sad.png"
+			}
+		}
+
+	]
+}

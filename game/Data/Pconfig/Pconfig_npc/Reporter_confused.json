@@ -1,0 +1,19 @@
+{
+	"char_name": "Reporter_confused",
+	"statMap": {
+		"canvas": {
+			"default": ["379", "465", "-80", "30"]
+		},
+		"NPCportrait": "Reporter_confused"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Reporter_confused"			: "Reporter_confused.png"
+			}
+		}
+
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"char_name": "OrcSlaveMaster_mask",
+	"statMap": {
+		"canvas": {
+			"default": ["433", "623", "-120", "-40"]
+		},
+		"NPCportrait": "OrcSlaveMaster_mask"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"OrcSlaveMaster_mask"			: "OrcSlaveMaster_mask.png"
+			}
+		}
+
+	]
+}

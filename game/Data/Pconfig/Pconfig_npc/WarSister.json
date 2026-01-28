@@ -1,0 +1,19 @@
+{
+	"char_name": "WarSister",
+	"statMap": {
+		"canvas": {
+			"default": ["331", "731", "-60", "0"]
+		},
+		"NPCportrait": "WarSister"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"WarSister"			: "WarSister.png"
+			}
+		}
+
+	]
+}

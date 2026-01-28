@@ -1,0 +1,19 @@
+{
+	"char_name": "NoerGangBossAngry",
+	"statMap": {
+		"canvas": {
+			"default": ["314", "835", "-15", "-10"]
+		},
+		"NPCportrait": "NoerGangBossAngry"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"NoerGangBossAngry"			: "NoerGangBossAngry.png"
+			}
+		}
+
+	]
+}

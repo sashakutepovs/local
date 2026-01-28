@@ -1,0 +1,19 @@
+{
+	"char_name": "OldSlut_sad",
+	"statMap": {
+		"canvas": {
+			"default": ["264", "358", "-45", "45"]
+		},
+		"NPCportrait": "OldSlut_sad"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"OldSlut_sad"			: "OldSlut_sad.png"
+			}
+		}
+
+	]
+}

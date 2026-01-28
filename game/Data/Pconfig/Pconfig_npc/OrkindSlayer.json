@@ -1,0 +1,19 @@
+{
+	"char_name": "OrkindSlayer",
+	"statMap": {
+		"canvas": {
+			"default": ["300", "385", "-25", "35"]
+		},
+		"NPCportrait": "OrkindSlayer"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"OrkindSlayer"			: "OrkindSlayer.png"
+			}
+		}
+
+	]
+}

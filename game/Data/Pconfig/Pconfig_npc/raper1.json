@@ -1,0 +1,19 @@
+{
+	"char_name": "raper1",
+	"statMap": {
+		"canvas": {
+			"default": ["325", "614", "-25", "0"]
+		},
+		"NPCportrait": "raper1"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"raper1"			: "raper1.png"
+			}
+		}
+
+	]
+}

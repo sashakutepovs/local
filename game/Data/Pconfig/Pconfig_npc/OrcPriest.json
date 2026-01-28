@@ -1,0 +1,19 @@
+{
+	"char_name": "OrcPriest",
+	"statMap": {
+		"canvas": {
+			"default": ["501", "738", "-110", "-165"]
+		},
+		"NPCportrait": "OrcPriest"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"OrcPriest"			: "OrcPriest.png"
+			}
+		}
+
+	]
+}

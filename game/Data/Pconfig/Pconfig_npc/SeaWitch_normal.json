@@ -1,0 +1,19 @@
+{
+	"char_name": "SeaWitch_normal",
+	"statMap": {
+		"canvas": {
+			"default": ["283", "432", "-30", "30"]
+		},
+		"NPCportrait": "SeaWitch_normal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"SeaWitch_normal"			: "SeaWitch_normal.png"
+			}
+		}
+
+	]
+}

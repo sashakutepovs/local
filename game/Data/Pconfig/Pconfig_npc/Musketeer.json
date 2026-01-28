@@ -1,0 +1,19 @@
+{
+	"char_name": "Musketeer",
+	"statMap": {
+		"canvas": {
+			"default": ["406", "712", "-35", "10"]
+		},
+		"NPCportrait": "Musketeer"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Musketeer"			: "Musketeer.png"
+			}
+		}
+
+	]
+}

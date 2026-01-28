@@ -1,0 +1,19 @@
+{
+	"char_name": "Rimjob_Fishkind_basic1",
+	"statMap": {
+		"canvas": {
+			"default": [745, 687, 0, 0]
+		},
+		"NPCportrait": "Rimjob_Fishkind_basic1"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Rimjob_Fishkind_basic1"			: "Rimjob_Fishkind_basic1.png"
+			}
+		}
+
+	]
+}
