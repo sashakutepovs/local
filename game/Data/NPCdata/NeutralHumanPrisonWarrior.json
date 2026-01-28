@@ -1,0 +1,91 @@
+{
+	"name": "NeutralHumanPrisonWarrior",
+	"race": "Human",
+	"fraction": 3,
+	"fraction_mode": 4,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 15,
+	"sensor_freq_rand": 20,
+	"ranged": false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage": false,
+	"is_object": false,
+	"delete_when_death": "1234",
+	"delete_when_frame": "-1",
+	"death_event":"EffectGovCharDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 300,
+	"sta": 600,
+	"sexy": 1,
+	"weak": 1,
+	"morality": 50,
+	"arousal": 0,
+	"will": 1000,
+	"mood": 100,
+	"sat": 100,
+	"atk": 20,
+	"def": 30,
+	"constitution": 30,
+	"survival": 10,
+	"scoutcraft": 27,
+	"combat": 15,
+	"wisdom": 15,
+	"move_speed": 3.5,
+	"ai": "Npc_Charge",
+	"sensors": ["Eyes"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["200", ">"],
+			"sexy": ["100", ">"],
+			"sex": ["0", "="]
+		},
+		"killer": {
+			"morality": ["0","<"]
+		},
+		"assaulter": {
+			"morality": ["0","<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_MaleWarriorAtk",
+		"sound_alert1": "sound_MaleWarriorQuestion",
+		"sound_alert2": "sound_MaleWarriorSpot",
+		"sound_skill": "sound_MaleWarriorAtk",
+		"sound_lost": "sound_MaleWarriorQuestion",
+		"sound_death": "sound_MaleWarriorDed"
+	},
+	"drop_list": [{
+		"name": "ItemHumanFlesh",
+		"chance": 50
+	},
+		{
+			"name": "ItemCoin2",
+			"chance": 1
+		},
+		{
+			"name": "ItemCoin1",
+			"chance": 100
+		}
+		],
+	"skills_killer":["NpcMarkMoralityDown","NpcSlashMH","WoodenShieldHeavy","NpcSwordHeavy","WoodenShieldControl"],
+	"skills_assaulter":["NpcMarkMoralityDown","BasicNormal","NpcBasicSh","WoodenShieldHeavy","WoodenShieldControl"],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcMasturbationMale","NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}

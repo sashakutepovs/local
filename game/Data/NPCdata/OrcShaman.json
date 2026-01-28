@@ -1,0 +1,122 @@
+{
+	"name": "OrcShaman",
+	"race": "Orkind",
+	"fraction": 5,
+	"fraction_mode": 0,
+	"friendly_fire": false,
+	"friendly_aggro": 70,
+	"sensor_freq_base": 30,
+	"sensor_freq_rand" : 10,
+	"ranged":false,
+	"safe_distance": 4,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"is_boss":true,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectOrkindDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 500,
+	"sta": 1000,
+	"sexy": 1,
+	"weak": "1",
+	"morality": "-100",
+	"arousal": 0,
+	"will": 800,
+	"mood":100,
+	"sat":100,
+	"atk": 19,
+	"def": 20,
+	"constitution": 50,
+	"survival": 10,
+	"scoutcraft": 50,
+	"combat": 8,
+	"wisdom": 35,
+	"move_speed": 3,
+	"ai": "Npc_OrkindOrcShaman",
+	"sensor_work_mode": 0,
+	"sensors": ["OrkindFullSupportVision","Multi"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 5,
+			"anal": 5,
+			"mouth": 5
+		},
+		"sex_fetish_appetizer": ["unique_event_DeepThroat", "unique_event_BellyPunch","unique_event_ButtSlap","unique_event_FacePunch","unique_event_AnalBeads","none","none","none"],
+		"sex_fetish_ending": ["unique_event_Peeon", "unique_event_PeeonHead","unique_event_FloorClearnPee","unique_event_FloorClearnCums","unique_event_AnalNeedle","unique_event_VagNeedle","none","none","none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sta": ["0","<"],
+			"sex": ["2","<"]
+		},
+		"killer": {
+			"weak": ["10","<"]
+		},
+		"assaulter": {
+			"weak": ["9",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_OrcHurt",
+		"sound_alert1": "sound_OrcQuestion",
+		"sound_alert2": "sound_OrcSpot",
+		"sound_skill": "sound_OrcSkill",
+		"sound_lost": "sound_OrcQuestion",
+		"sound_death": "sound_OrcDeath"
+	},
+	"drop_list": [{
+			"name": "ItemRagTop",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagMid",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagBot",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagVag",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagMidExtra",
+			"chance": 1
+		},
+		{
+			"name": "ItemHumanoidFlesh",
+			"chance": 10
+		},
+		{
+			"name": "ItemRawMeat",
+			"chance": 5
+		},
+		{
+			"name": "ItemFish",
+			"chance": 5
+		}
+	],
+	"skills_killer": [],
+	"skills_assaulter": [],
+	"skills_fucker":["NpcFuckerGrab","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcMasturbationMale",""],
+	"skills_support":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	},
+	"default_state": {
+		"STD_WartAnal":{
+			"chance": 50,
+			"times": 1
+			},
+		"STD_WartVag":{
+			"chance": 70,
+			"times": 1
+			}
+	}
+}

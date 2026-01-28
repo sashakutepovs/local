@@ -1,0 +1,97 @@
+{
+	"name": "NatureMerchant",
+	"race": "Human",
+	"fraction": 3,
+	"fraction_mode": 4,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 10,
+	"sensor_freq_rand": 20,
+	"ranged": false,
+	"safe_distance": 4,
+	"immune_state_effect": false,
+	"immune_damage": false,
+	"is_object": false,
+	"delete_when_death": "1234",
+	"delete_when_frame": "-1",
+	"death_event":"EffectCommonCharDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 200,
+	"sta": 100,
+	"sexy": 1,
+	"weak": 1,
+	"morality": 50,
+	"arousal": 0,
+	"will": 600,
+	"mood": 100,
+	"sat": 100,
+	"atk": 3,
+	"def": 3,
+	"constitution": 30,
+	"survival": 25,
+	"scoutcraft": 27,
+	"combat": 8,
+	"wisdom": 1,
+	"move_speed": 2.5,
+	"ai": "Npc_RunAway",
+	"sensors": ["Eyes"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["400", ">"],
+			"sexy": ["200", ">"],
+			"sex": ["0", "="]
+		},
+		"killer": {
+			"morality": ["0", "<"],
+			"weak": ["20", "<"]
+		},
+		"assaulter": {
+			"morality": ["0", "<"],
+			"weak": ["20", ">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "MaleWarriorFatAtk",
+		"sound_alert1": "MaleWarriorFatQuestion",
+		"sound_alert2": "MaleWarriorFatSpot",
+		"sound_skill": "MaleWarriorFatAtk",
+		"sound_lost": "MaleWarriorFatQuestion",
+		"sound_death": "MaleWarriorFatDed"
+	},
+	"drop_list": [{
+		"name": "ItemHumanFlesh",
+		"chance": 50
+		},
+		{
+			"name": "ItemCoin1",
+			"chance": 100
+		},
+		{
+			"name": "ItemCoin2",
+			"chance": 50
+		},
+		{
+			"name": "ItemCoin3",
+			"chance": 1
+		}
+		],
+	"skills_killer": ["NpcMarkMoralityDown","BasicNormal", "NpcBasicSh"],
+	"skills_assaulter": ["NpcMarkMoralityDown","BasicNormal", "NpcBasicSh"],
+	"skills_fucker": ["NpcFuckerMh", "NpcFuckerSh", "NpcHarassBoobTouch", "NpcHarassAnalTouch", "NpcHarassVagTouch", "NpcHarassKissed", "NpcHarassVagLick", "NpcHarassPunch"
+					,"NpcMasturbationMale","NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 8
+	}
+}

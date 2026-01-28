@@ -1,0 +1,114 @@
+{
+	"name": "NeutralHumanCommonHoboM",
+	"race": "Human",
+	"fraction": 3,
+	"fraction_mode": 1,
+	"friendly_fire": true,
+	"friendly_aggro": 100,
+	"sensor_freq_base": 15,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 5,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectRefugeeCharDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 200,
+	"sta": 200,
+	"sexy": 1,
+	"weak": 1,
+	"morality": 50,
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 0,
+	"def": 2,
+	"constitution":8,
+	"survival":15,
+	"scoutcraft": 20,
+	"combat": 15,
+	"wisdom":15,
+	"move_speed": 2,
+	"ai": "Npc_HitRunChargeCheez",
+	"sensors": ["Eyes"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["unique_event_BellyPunch","unique_event_ButtSlap","unique_event_FacePunch","none","none","none"],
+		"sex_fetish_ending": ["unique_event_FloorClearnScat","unique_event_FloorClearnPee","unique_event_FloorClearnCums","none","none","none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["400",">"],
+			"sexy": ["100",">"],
+			"sex": ["0","="]
+		},
+		"killer": {
+		"weak": ["65535","="]
+		},
+		"assaulter": {
+		"morality": ["0","<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_MaleWarriorAtk",
+		"sound_alert1": "sound_MaleWarriorQuestion",
+		"sound_alert2": "sound_MaleWarriorSpot",
+		"sound_skill": "sound_MaleWarriorAtk",
+		"sound_lost": "sound_MaleWarriorQuestion",
+		"sound_death": "sound_MaleWarriorDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemRawMeat",
+			"chance": 10
+		},
+		{
+			"name": "ItemHumanFlesh",
+			"chance": 10
+		},
+		{
+			"name": "ItemDryFood",
+			"chance": 5
+		},
+		{
+			"name": "ItemApple",
+			"chance": 5
+		}
+	],
+	"skills_killer": ["NpcMarkMoralityDown","NpcBasicSh", "BasicHeavy"],
+	"skills_assaulter": ["NpcMarkMoralityDown","NpcBasicSh", "BasicHeavy"],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcMasturbationMale","NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	},
+	"default_state": {
+		"STD_WartAnal":{
+			"chance": 30,
+			"times": 1
+			},
+		"STD_WartVag":{
+			"chance": 30,
+			"times": 1
+			},
+		"STD_HerpesAnal":{
+			"chance": 30,
+			"times": 1
+			},
+		"STD_HerpesVag":{
+			"chance": 30,
+			"times": 1
+			}
+	}
+}
