@@ -1,0 +1,17 @@
+[{
+	"name_order": ["analopen","PiercingAnal"],
+	"part_name": "chcg4_PiercingAnal",
+	"x": "268",
+	"y": "506",
+	"layer": 2665,
+	"bmps": {
+		"analopen00,PiercingAnal01": "chcg4_PiercingAnal1.png",
+		"analopen00,PiercingAnal02": "chcg4_PiercingAnal2.png",
+		"analopen00,PiercingAnal03": "chcg4_PiercingAnal3.png",
+
+		"analopen01,PiercingAnal01": "chcg4_analopen_PiercingAnal1.png",
+		"analopen01,PiercingAnal02": "chcg4_analopen_PiercingAnal2.png",
+		"analopen01,PiercingAnal03": "chcg4_analopen_PiercingAnal3.png"
+
+	}
+}]

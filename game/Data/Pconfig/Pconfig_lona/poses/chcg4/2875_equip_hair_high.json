@@ -1,0 +1,21 @@
+[{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg4_head_equip_HairMessy_high",
+	"x": "321",
+	"y": "254",
+	"layer": 2875,
+	"bmps": {
+		"equip_hair#HairMessy": "chcg4_head_equip_HairMessy_high.png"
+	}
+},{
+	"name_order": ["equip_hair"],
+	"isDirt": true,
+	"part_name": "chcg4_head_equip_HairMessy_high_dirt",
+	"x": "321",
+	"y": "254",
+	"layer": 2876,
+	"bmps": {
+		"equip_hair#HairMessy": "chcg4_head_equip_HairMessy_high_dirt.png"
+	}
+}
+]

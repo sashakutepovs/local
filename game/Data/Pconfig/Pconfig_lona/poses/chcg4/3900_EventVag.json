@@ -1,0 +1,95 @@
+[{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "chcg4_EventVag_Human",
+		"x": 191,
+		"y": 280,
+		"layer": 3900,
+		"bmps": {
+			"EventVagRace#Human,EventVag#Common1": "chcg4_EventVag_Human_1.png",
+			"EventVagRace#Human,EventVag#Common2": "chcg4_EventVag_Human_1.png",
+			"EventVagRace#Human,EventVag#CumInside1": "chcg4_EventVag_Human_1.png",
+			"EventVagRace#Human,EventVag#CumInside2": "chcg4_EventVag_Human_2.png",
+			"EventVagRace#Human,EventVag#CumInside3": "chcg4_EventVag_Human_3.png",
+			"EventVagRace#Human,EventVag#CumInside4": "chcg4_EventVag_Human_4.png",
+			"EventVagRace#Human,EventVag#CumInsidePeein4": "chcg4_EventVag_Human_4Peein.png",
+			"EventVagRace#Human,EventVag#CumInsidePeein5": "chcg4_EventVag_Human_5Peein.png",
+			"EventVagRace#Human,EventVag#CumInsidePeein6": "chcg4_EventVag_Human_6Peein.png",
+			"EventVagRace#Human,EventVag#CumOutside2": "chcg4_EventVag_Human_2Out.png",
+			
+			"EventVagRace#Moot,EventVag#Common1": "chcg4_EventVag_Human_1.png",
+			"EventVagRace#Moot,EventVag#Common2": "chcg4_EventVag_Human_1.png",
+			"EventVagRace#Moot,EventVag#CumInside1": "chcg4_EventVag_Human_1.png",
+			"EventVagRace#Moot,EventVag#CumInside2": "chcg4_EventVag_Human_2.png",
+			"EventVagRace#Moot,EventVag#CumInside3": "chcg4_EventVag_Human_3.png",
+			"EventVagRace#Moot,EventVag#CumInside4": "chcg4_EventVag_Human_4.png",
+			"EventVagRace#Moot,EventVag#CumInsidePeein4": "chcg4_EventVag_Human_4Peein.png",
+			"EventVagRace#Moot,EventVag#CumInsidePeein5": "chcg4_EventVag_Human_5Peein.png",
+			"EventVagRace#Moot,EventVag#CumInsidePeein6": "chcg4_EventVag_Human_6Peein.png",
+			"EventVagRace#Moot,EventVag#CumOutside2": "chcg4_EventVag_Human_2Out.png",
+			
+			"EventVagRace#Deepone,EventVag#Common1": "chcg4_EventVag_Human_1.png",
+			"EventVagRace#Deepone,EventVag#Common2": "chcg4_EventVag_Human_1.png",
+			"EventVagRace#Deepone,EventVag#CumInside1": "chcg4_EventVag_Human_1.png",
+			"EventVagRace#Deepone,EventVag#CumInside2": "chcg4_EventVag_Human_2.png",
+			"EventVagRace#Deepone,EventVag#CumInside3": "chcg4_EventVag_Human_3.png",
+			"EventVagRace#Deepone,EventVag#CumInside4": "chcg4_EventVag_Human_4.png",
+			"EventVagRace#Deepone,EventVag#CumInsidePeein4": "chcg4_EventVag_Human_4Peein.png",
+			"EventVagRace#Deepone,EventVag#CumInsidePeein5": "chcg4_EventVag_Human_5Peein.png",
+			"EventVagRace#Deepone,EventVag#CumInsidePeein6": "chcg4_EventVag_Human_6Peein.png",
+			"EventVagRace#Deepone,EventVag#CumOutside2": "chcg4_EventVag_Human_2Out.png"
+		}
+	},
+	{
+		"name_order": ["EventVag"],
+		"part_name": "chcg4_EventVag_Peeon",
+		"x": 91,
+		"y": 81,
+		"layer": 3900,
+		"bmps": {
+			"EventVag#Peeon": "chcg4_EventVag_Peeon.png"
+		}
+	},
+	{
+		"name_order": ["EventVag"],
+		"part_name": "chcg4_EventVag_Needle",
+		"x": 270,
+		"y": 295,
+		"layer": 3900,
+		"bmps": {
+			"EventVag#Needle1": "chcg4_EventVag_Needle1.png",
+			"EventVag#Needle2": "chcg4_EventVag_Needle2.png",
+			"EventVag#Needle3": "chcg4_EventVag_Needle3.png",
+			"EventVag#Needle4": "chcg4_EventVag_Needle4.png",
+			"EventVag#Needle5": "chcg4_EventVag_Needle5.png",
+			"EventVag#Needle6": "chcg4_EventVag_Needle6.png",
+			"EventVag#Needle7": "chcg4_EventVag_Needle7.png",
+			"EventVag#Needle8": "chcg4_EventVag_Needle8.png",
+			"EventVag#Needle9": "chcg4_EventVag_Needle9.png",
+			"EventVag#Needle10": "chcg4_EventVag_Needle10.png",
+			"EventVag#Needle11": "chcg4_EventVag_Needle11.png"
+		}
+	},
+	{
+		"name_order": ["EventVag"],
+		"part_name": "chcg4_EventVag_brith",
+		"x": 1,
+		"y": 81,
+		"layer": 3900,
+		"bmps": {
+			"EventVag#miscarriage1": "chcg4_EventVag_miscarriage1.png",
+			"EventVag#miscarriage2": "chcg4_EventVag_miscarriage2.png",
+			"EventVag#miscarriage3": "chcg4_EventVag_miscarriage3.png",
+
+
+			"EventVag#Human_Birth0": "chcg4_EventVag_BeginBirth.png",
+			"EventVag#Human_Birth1": "chcg4_EventVag_Human_Birth1.png",
+			"EventVag#Human_Birth2": "chcg4_EventVag_Human_Birth2.png",
+			"EventVag#Human_Birth3": "chcg4_EventVag_Human_Birth3.png",
+
+			"EventVag#Moot_Birth0": "chcg4_EventVag_BeginBirth.png",
+			"EventVag#Moot_Birth1": "chcg4_EventVag_Moot_Birth1.png",
+			"EventVag#Moot_Birth2": "chcg4_EventVag_Moot_Birth2.png",
+			"EventVag#Moot_Birth3": "chcg4_EventVag_Moot_Birth3.png"
+		}
+	}
+]

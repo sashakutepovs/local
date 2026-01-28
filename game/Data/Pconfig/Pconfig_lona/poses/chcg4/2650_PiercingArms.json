@@ -1,0 +1,23 @@
+[{
+		"name_order": ["subpose", "PiercingArms"],
+		"part_name": "chcg4_subpose1_PiercingArms",
+		"x": "473",
+		"y": "300",
+		"layer": 2650,
+		"bmps": {
+			"subpose01,PiercingArms01": "chcg4_subpose1_PiercingArms1.png",
+			"subpose01,PiercingArms02": "chcg4_subpose1_PiercingArms2.png",
+			"subpose01,PiercingArms03": "chcg4_subpose1_PiercingArms3.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "PiercingArms"],
+		"part_name": "chcg4_subpose2_PiercingArms",
+		"x": "501",
+		"y": "350",
+		"layer": 2650,
+		"bmps": {
+			"subpose02,PiercingArms03": "chcg4_subpose2_PiercingArms3.png"
+		}
+	}
+]

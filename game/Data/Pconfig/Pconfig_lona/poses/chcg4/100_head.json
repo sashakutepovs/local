@@ -1,0 +1,26 @@
+[{
+	"name_order": ["always","Race"],
+	"part_name": "chcg4_head",
+	"x": "276",
+	"y": "116",
+	"layer": 100,
+	"bmps": {
+		"always#on,Race#Human": "chcg4_head.png",
+		"always#on,Race#Deepone": "chcg4_head_moot.png",
+		"always#on,Race#Moot": "chcg4_head_moot.png"
+	}
+},{
+		"name_order": ["equip_hair"],
+		"part_name": "chcg4_head_HairBasic_skin",
+		"x": "303",
+		"y": "116",
+		"layer": 101,
+		"bmps": {
+			"equip_hair#Basic": "chcg4_head_HairBasic_skin.png",
+			"equip_hair#HairMessy": "chcg4_head_HairBasic_skin.png",
+			"equip_hair#HairTwinBraid": "chcg4_head_HairBasic_skin.png",
+			"equip_hair#HairPony": "chcg4_head_HairBasic_skin.png",
+			"equip_hair#HairDancer": "chcg4_head_HairDancer_skin.png"
+		}
+	}
+]

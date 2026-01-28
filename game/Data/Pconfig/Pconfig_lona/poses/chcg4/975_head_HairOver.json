@@ -1,0 +1,103 @@
+[{
+		"name_order": ["equip_hair","Race"],
+		"part_name": "chcg4_head_HairBasic",
+		"x": "276",
+		"y": "94",
+		"layer": 975,
+		"bmps": {
+				"equip_hair#Basic,Race#Human": "chcg4_head_HairBasic.png",
+				"equip_hair#Basic,Race#Deepone": "chcg4_head_moot_HairBasic.png",
+				"equip_hair#Basic,Race#Moot": "chcg4_head_moot_HairBasic.png",
+				"equip_hair#HairTwinBraid,Race#Human": "chcg4_head_HairBasic.png",
+				"equip_hair#HairTwinBraid,Race#Deepone": "chcg4_head_moot_HairBasic.png",
+				"equip_hair#HairTwinBraid,Race#Moot": "chcg4_head_moot_HairBasic.png",
+				"equip_hair#HairPony,Race#Human": "chcg4_head_HairBasic.png",
+				"equip_hair#HairPony,Race#Deepone": "chcg4_head_moot_HairBasic.png",
+				"equip_hair#HairPony,Race#Moot": "chcg4_head_moot_HairBasic.png"
+		}
+	},{
+		"isDirt": true,
+		"name_order": ["equip_hair","Race"],
+		"part_name": "chcg4_head_HairBasic_dirt",
+		"x": "276",
+		"y": "94",
+		"layer": 976,
+		"bmps": {
+				"equip_hair#Basic,Race#Human": "chcg4_head_HairBasic_dirt.png",
+				"equip_hair#Basic,Race#Deepone": "chcg4_head_moot_HairBasic_dirt.png",
+				"equip_hair#Basic,Race#Moot": "chcg4_head_moot_HairBasic_dirt.png",
+				"equip_hair#HairTwinBraid,Race#Human": "chcg4_head_HairBasic_dirt.png",
+				"equip_hair#HairTwinBraid,Race#Deepone": "chcg4_head_moot_HairBasic_dirt.png",
+				"equip_hair#HairTwinBraid,Race#Moot": "chcg4_head_moot_HairBasic_dirt.png",
+				"equip_hair#HairPony,Race#Human": "chcg4_head_HairBasic_dirt.png",
+				"equip_hair#HairPony,Race#Deepone": "chcg4_head_moot_HairBasic_dirt.png",
+				"equip_hair#HairPony,Race#Moot": "chcg4_head_moot_HairBasic_dirt.png"
+			}
+	},
+	
+	
+	
+	
+	{
+		"name_order": ["equip_hair","Race"],
+		"part_name": "chcg4_head_HairMessy",
+		"x": "264",
+		"y": "81",
+		"layer": 975,
+		"bmps": {
+			"equip_hair#HairShortMessy,Race#Human": "chcg4_head_HairMessy.png",
+			"equip_hair#HairShortMessy,Race#Deepone": "chcg4_head_moot_HairMessy.png",
+			"equip_hair#HairShortMessy,Race#Moot": "chcg4_head_moot_HairMessy.png",
+			
+			"equip_hair#HairMessy,Race#Human": "chcg4_head_HairMessy.png",
+			"equip_hair#HairMessy,Race#Deepone": "chcg4_head_moot_HairMessy.png",
+			"equip_hair#HairMessy,Race#Moot": "chcg4_head_moot_HairMessy.png"
+		}
+	},{
+		"isDirt": true,
+		"name_order": ["equip_hair","Race"],
+		"part_name": "chcg4_head_HairMessy_dirt",
+		"x": "264",
+		"y": "81",
+		"layer": 976,
+		"bmps": {
+			"equip_hair#HairShortMessy,Race#Human": "chcg4_head_HairMessy_dirt.png",
+			"equip_hair#HairShortMessy,Race#Deepone": "chcg4_head_moot_HairMessy_dirt.png",
+			"equip_hair#HairShortMessy,Race#Moot": "chcg4_head_moot_HairMessy_dirt.png",
+			
+			"equip_hair#HairMessy,Race#Human": "chcg4_head_HairMessy_dirt.png",
+			"equip_hair#HairMessy,Race#Deepone": "chcg4_head_moot_HairMessy_dirt.png",
+			"equip_hair#HairMessy,Race#Moot": "chcg4_head_moot_HairMessy_dirt.png"
+		}
+	},
+	
+	
+	
+	{
+			"name_order": ["equip_hair","Race"],
+			"part_name": "chcg4_head_HairDancer",
+			"x": "273",
+			"y": "95",
+			"layer": 975,
+			"bmps": {
+				"equip_hair#HairDancer,Race#Human": "chcg4_head_HairDancer.png",
+				"equip_hair#HairDancer,Race#Deepone": "chcg4_head_moot_HairDancer.png",
+				"equip_hair#HairDancer,Race#Moot": "chcg4_head_moot_HairDancer.png"
+			}
+		},{
+			"name_order": ["equip_hair","Race"],
+			"isDirt": true,
+			"part_name": "chcg4_head_HairDancer_dirt",
+			"x": "273",
+			"y": "95",
+			"layer": 976,
+			"bmps": {
+				"equip_hair#HairDancer,Race#Human": "chcg4_head_HairDancer_dirt.png",
+				"equip_hair#HairDancer,Race#Deepone": "chcg4_head_moot_HairDancer_dirt.png",
+				"equip_hair#HairDancer,Race#Moot": "chcg4_head_moot_HairDancer_dirt.png"
+			}
+	}
+	
+	
+	
+]

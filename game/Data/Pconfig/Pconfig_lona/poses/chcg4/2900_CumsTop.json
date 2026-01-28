@@ -1,0 +1,43 @@
+[{
+		"name_order": ["subpose", "preg", "CumsTop"],
+		"part_name": "chcg4_subpose1_CumsTop",
+		"x": "246",
+		"y": "223",
+		"layer": 2900,
+		"bmps": {
+			"subpose01,preg00,CumsTop01": "chcg4_subpose1_CumsTop1.png",
+			"subpose01,preg00,CumsTop02": "chcg4_subpose1_CumsTop2.png",
+			"subpose01,preg00,CumsTop03": "chcg4_subpose1_CumsTop3.png",
+			"subpose01,preg01,CumsTop01": "chcg4_subpose1_preg4m_CumsTop1.png",
+			"subpose01,preg01,CumsTop02": "chcg4_subpose1_preg4m_CumsTop2.png",
+			"subpose01,preg01,CumsTop03": "chcg4_subpose1_preg4m_CumsTop3.png",
+			"subpose01,preg02,CumsTop01": "chcg4_subpose1_preg6m_CumsTop1.png",
+			"subpose01,preg02,CumsTop02": "chcg4_subpose1_preg6m_CumsTop2.png",
+			"subpose01,preg02,CumsTop03": "chcg4_subpose1_preg6m_CumsTop3.png",
+			"subpose01,preg03,CumsTop01": "chcg4_subpose1_preg8m_CumsTop1.png",
+			"subpose01,preg03,CumsTop02": "chcg4_subpose1_preg8m_CumsTop2.png",
+			"subpose01,preg03,CumsTop03": "chcg4_subpose1_preg8m_CumsTop3.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "CumsTop"],
+		"part_name": "chcg4_subpose2_CumsTop",
+		"x": "225",
+		"y": "212",
+		"layer": 2900,
+		"bmps": {
+			"subpose02,preg00,CumsTop01": "chcg4_subpose2_CumsTop1.png",
+			"subpose02,preg00,CumsTop02": "chcg4_subpose2_CumsTop2.png",
+			"subpose02,preg00,CumsTop03": "chcg4_subpose2_CumsTop3.png",
+			"subpose02,preg01,CumsTop01": "chcg4_subpose2_preg4m_CumsTop1.png",
+			"subpose02,preg01,CumsTop02": "chcg4_subpose2_preg4m_CumsTop2.png",
+			"subpose02,preg01,CumsTop03": "chcg4_subpose2_preg4m_CumsTop3.png",
+			"subpose02,preg02,CumsTop01": "chcg4_subpose2_preg6m_CumsTop1.png",
+			"subpose02,preg02,CumsTop02": "chcg4_subpose2_preg6m_CumsTop2.png",
+			"subpose02,preg02,CumsTop03": "chcg4_subpose2_preg6m_CumsTop3.png",
+			"subpose02,preg03,CumsTop01": "chcg4_subpose2_preg8m_CumsTop1.png",
+			"subpose02,preg03,CumsTop02": "chcg4_subpose2_preg8m_CumsTop2.png",
+			"subpose02,preg03,CumsTop03": "chcg4_subpose2_preg8m_CumsTop3.png"
+		}
+	}
+]

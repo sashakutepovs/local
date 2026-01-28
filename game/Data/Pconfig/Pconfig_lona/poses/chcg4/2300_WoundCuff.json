@@ -1,0 +1,57 @@
+[{
+		"name_order": ["subpose", "preg", "WoundCuff"],
+		"part_name": "chcg4_subpose1_WoundCuff",
+		"x": "256",
+		"y": "304",
+		"layer": 2300,
+		"bmps": {
+			"subpose01,preg00,WoundCuff01": "chcg4_subpose1_WoundCuff.png",
+			"subpose01,preg01,WoundCuff01": "chcg4_subpose1_WoundCuff.png",
+			"subpose01,preg02,WoundCuff01": "chcg4_subpose1_preg6m_WoundCuff.png",
+			"subpose01,preg03,WoundCuff01": "chcg4_subpose1_preg8m_WoundCuff.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "WoundCuff"],
+		"part_name": "chcg4_subpose2_WoundCuff",
+		"x": "246",
+		"y": "324",
+		"layer": 2300,
+		"bmps": {
+			"subpose02,preg00,WoundCuff01": "chcg4_subpose2_WoundCuff.png",
+			"subpose02,preg01,WoundCuff01": "chcg4_subpose2_WoundCuff.png",
+			"subpose02,preg02,WoundCuff01": "chcg4_subpose2_preg6m_WoundCuff.png",
+			"subpose02,preg03,WoundCuff01": "chcg4_subpose2_preg8m_WoundCuff.png"
+		}
+	},
+	
+	
+	
+	
+{
+		"name_order": ["subpose", "preg", "WoundMArm"],
+		"part_name": "chcg4_subpose1_WoundMArm_WoundCuff",
+		"x": "256",
+		"y": "304",
+		"layer": 2300,
+		"bmps": {
+			"subpose01,preg00,WoundMArm04": "chcg4_subpose1_WoundCuff.png",
+			"subpose01,preg01,WoundMArm04": "chcg4_subpose1_WoundCuff.png",
+			"subpose01,preg02,WoundMArm04": "chcg4_subpose1_preg6m_WoundCuff.png",
+			"subpose01,preg03,WoundMArm04": "chcg4_subpose1_preg8m_WoundCuff.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "WoundMArm"],
+		"part_name": "chcg4_subpose2_WoundMArm_WoundCuff",
+		"x": "246",
+		"y": "324",
+		"layer": 2300,
+		"bmps": {
+			"subpose02,preg00,WoundMArm04": "chcg4_subpose2_WoundCuff.png",
+			"subpose02,preg01,WoundMArm04": "chcg4_subpose2_WoundCuff.png",
+			"subpose02,preg02,WoundMArm04": "chcg4_subpose2_preg6m_WoundCuff.png",
+			"subpose02,preg03,WoundMArm04": "chcg4_subpose2_preg8m_WoundCuff.png"
+		}
+	}
+]

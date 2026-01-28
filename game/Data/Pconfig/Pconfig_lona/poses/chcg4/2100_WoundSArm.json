@@ -1,0 +1,43 @@
+[{
+		"name_order": ["subpose", "preg", "WoundSArm"],
+		"part_name": "chcg4_subpose1_WoundSArm",
+		"x": "411",
+		"y": "231",
+		"layer": 2100,
+		"bmps": {
+			"subpose01,preg00,WoundSArm01": "chcg4_subpose1_WoundSArm1.png",
+			"subpose01,preg00,WoundSArm02": "chcg4_subpose1_WoundSArm2.png",
+			"subpose01,preg00,WoundSArm03": "chcg4_subpose1_WoundSArm3.png",
+			"subpose01,preg01,WoundSArm01": "chcg4_subpose1_WoundSArm1.png",
+			"subpose01,preg01,WoundSArm02": "chcg4_subpose1_WoundSArm2.png",
+			"subpose01,preg01,WoundSArm03": "chcg4_subpose1_WoundSArm3.png",
+			"subpose01,preg02,WoundSArm01": "chcg4_subpose1_WoundSArm1.png",
+			"subpose01,preg02,WoundSArm02": "chcg4_subpose1_WoundSArm2.png",
+			"subpose01,preg02,WoundSArm03": "chcg4_subpose1_WoundSArm3.png",
+			"subpose01,preg03,WoundSArm01": "chcg4_subpose1_preg8m_WoundSArm1.png",
+			"subpose01,preg03,WoundSArm02": "chcg4_subpose1_preg8m_WoundSArm2.png",
+			"subpose01,preg03,WoundSArm03": "chcg4_subpose1_preg8m_WoundSArm3.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "WoundSArm"],
+		"part_name": "chcg4_subpose2_WoundSArm",
+		"x": "413",
+		"y": "262",
+		"layer": 2100,
+		"bmps": {
+			"subpose02,preg00,WoundSArm01": "chcg4_subpose2_WoundSArm1.png",
+			"subpose02,preg00,WoundSArm02": "chcg4_subpose2_WoundSArm2.png",
+			"subpose02,preg00,WoundSArm03": "chcg4_subpose2_WoundSArm3.png",
+			"subpose02,preg01,WoundSArm01": "chcg4_subpose2_WoundSArm1.png",
+			"subpose02,preg01,WoundSArm02": "chcg4_subpose2_WoundSArm2.png",
+			"subpose02,preg01,WoundSArm03": "chcg4_subpose2_WoundSArm3.png",
+			"subpose02,preg02,WoundSArm01": "chcg4_subpose2_preg6m_WoundSArm1.png",
+			"subpose02,preg02,WoundSArm02": "chcg4_subpose2_preg6m_WoundSArm2.png",
+			"subpose02,preg02,WoundSArm03": "chcg4_subpose2_preg6m_WoundSArm3.png",
+			"subpose02,preg03,WoundSArm01": "chcg4_subpose2_preg8m_WoundSArm1.png",
+			"subpose02,preg03,WoundSArm02": "chcg4_subpose2_preg8m_WoundSArm2.png",
+			"subpose02,preg03,WoundSArm03": "chcg4_subpose2_preg8m_WoundSArm3.png"
+		}
+	}
+]

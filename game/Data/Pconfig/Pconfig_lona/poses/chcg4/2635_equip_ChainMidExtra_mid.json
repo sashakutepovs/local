@@ -1,0 +1,13 @@
+[
+{
+		"name_order": ["equip_MidExtra"],
+		"part_name": "chcg4_equip_ChainMidExtra_mid",
+		"x": "84",
+		"y": "377",
+		"layer": 2635,
+		"bmps": {
+			"equip_MidExtra#ChainMidExtra": "chcg4_equip_ChainMidExtra_mid.png"
+		}
+	}
+
+]

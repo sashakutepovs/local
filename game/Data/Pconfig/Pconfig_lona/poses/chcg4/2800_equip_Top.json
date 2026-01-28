@@ -1,0 +1,121 @@
+[{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "chcg4_equip_RagTop",
+		"x": 203,
+		"y": 237,
+		"layer": 2800,
+		"bmps": {
+			"subpose01,preg00,equip_Top#RagTop": "chcg4_subpose1_equip_RagTop.png",
+			"subpose01,preg01,equip_Top#RagTop": "chcg4_subpose1_preg4m_equip_RagTop.png",
+			"subpose01,preg02,equip_Top#RagTop": "chcg4_subpose1_preg6m_equip_RagTop.png",
+			"subpose01,preg03,equip_Top#RagTop": "chcg4_subpose1_preg8m_equip_RagTop.png",
+
+			"subpose02,preg00,equip_Top#RagTop": "chcg4_subpose2_equip_RagTop.png",
+			"subpose02,preg01,equip_Top#RagTop": "chcg4_subpose2_preg4m_equip_RagTop.png",
+			"subpose02,preg02,equip_Top#RagTop": "chcg4_subpose2_preg6m_equip_RagTop.png",
+			"subpose02,preg03,equip_Top#RagTop": "chcg4_subpose2_preg8m_equip_RagTop.png"
+		}
+	},
+
+
+
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "chcg4_subpose1_equip_AdvTop",
+		"x": 230,
+		"y": 276,
+		"layer": 2800,
+		"bmps": {
+			"subpose01,preg00,equip_Top#AdvTop": "chcg4_subpose1_equip_AdvTop.png",
+			"subpose01,preg01,equip_Top#AdvTop": "chcg4_subpose1_equip_AdvTop.png",
+			"subpose01,preg02,equip_Top#AdvTop": "chcg4_subpose1_preg6m_equip_AdvTop.png",
+			"subpose01,preg03,equip_Top#AdvTop": "chcg4_subpose1_preg8m_equip_AdvTop.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "chcg4_subpose2_equip_AdvTop",
+		"x": 235,
+		"y": 258,
+		"layer": 2800,
+		"bmps": {
+			"subpose02,preg00,equip_Top#AdvTop": "chcg4_subpose2_equip_AdvTop.png",
+			"subpose02,preg01,equip_Top#AdvTop": "chcg4_subpose2_equip_AdvTop.png",
+			"subpose02,preg02,equip_Top#AdvTop": "chcg4_subpose2_preg6m_equip_AdvTop.png",
+			"subpose02,preg03,equip_Top#AdvTop": "chcg4_subpose2_preg8m_equip_AdvTop.png"
+		}
+	},
+
+
+
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "chcg4_subpose1_equip_SurTop",
+		"x": 294,
+		"y": 259,
+		"layer": 2800,
+		"bmps": {
+			"subpose01,preg00,equip_Top#SurTop": "chcg4_subpose1_equip_SurTop.png",
+			"subpose01,preg01,equip_Top#SurTop": "chcg4_subpose1_preg4m_equip_SurTop.png",
+			"subpose01,preg02,equip_Top#SurTop": "chcg4_subpose1_preg6m_equip_SurTop.png",
+			"subpose01,preg03,equip_Top#SurTop": "chcg4_subpose1_preg8m_equip_SurTop.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "chcg4_subpose2_equip_SurTop",
+		"x": 294,
+		"y": 260,
+		"layer": 2800,
+		"bmps": {
+			"subpose02,preg00,equip_Top#SurTop": "chcg4_subpose2_equip_SurTop.png",
+			"subpose02,preg01,equip_Top#SurTop": "chcg4_subpose2_preg4m_equip_SurTop.png",
+			"subpose02,preg02,equip_Top#SurTop": "chcg4_subpose2_preg6m_equip_SurTop.png",
+			"subpose02,preg03,equip_Top#SurTop": "chcg4_subpose2_preg8m_equip_SurTop.png"
+		}
+	},
+
+
+
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "chcg4_subpose1_equip_DancerTop",
+		"x": 266,
+		"y": 316,
+		"layer": 2800,
+		"bmps": {
+			"subpose01,preg00,equip_Top#DancerTop": "chcg4_subpose1_equip_DancerTop.png",
+			"subpose01,preg01,equip_Top#DancerTop": "chcg4_subpose1_equip_DancerTop.png",
+			"subpose01,preg02,equip_Top#DancerTop": "chcg4_subpose1_preg6m_equip_DancerTop.png",
+			"subpose01,preg03,equip_Top#DancerTop": "chcg4_subpose1_preg8m_equip_DancerTop.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "chcg4_subpose2_equip_DancerTop",
+		"x": 251,
+		"y": 341,
+		"layer": 2800,
+		"bmps": {
+			"subpose02,preg00,equip_Top#DancerTop": "chcg4_subpose2_equip_DancerTop.png",
+			"subpose02,preg01,equip_Top#DancerTop": "chcg4_subpose2_equip_DancerTop.png",
+			"subpose02,preg02,equip_Top#DancerTop": "chcg4_subpose2_preg6m_equip_DancerTop.png",
+			"subpose02,preg03,equip_Top#DancerTop": "chcg4_subpose2_preg8m_equip_DancerTop.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["subpose","equip_Top"],
+		"part_name": "chcg4_equip_DocTop_Body_Top",
+		"x": 306,
+		"y": 276,
+		"layer": 2800,
+		"bmps": {
+			"subpose01,equip_Top#DocTop": "chcg4_subpose1_equip_DocTop_Body_Top.png",
+			"subpose02,equip_Top#DocTop": "chcg4_subpose2_equip_DocTop_Body_Top.png"
+		}
+	}
+]

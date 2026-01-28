@@ -1,0 +1,23 @@
+[{
+		"name_order": ["equip_Face"],
+		"part_name": "chcg4_face_equip_StarterGlass",
+		"x": 314,
+		"y": 205,
+		"layer": 962,
+		"bmps": {
+			"equip_Face#StarterGlass": "chcg4_face_equip_StarterGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_Face", "Race"],
+		"part_name": "chcg4_face_PaintHead",
+		"x": 278,
+		"y": 169,
+		"layer": 550,
+		"bmps": {
+			"equip_Face#PaintHead,Race#Human": "chcg4_face_PaintHead.png",
+			"equip_Face#PaintHead,Race#Deepone": "chcg4_face_moot_PaintHead.png",
+			"equip_Face#PaintHead,Race#Moot": "chcg4_face_moot_PaintHead.png"
+		}
+	}
+]

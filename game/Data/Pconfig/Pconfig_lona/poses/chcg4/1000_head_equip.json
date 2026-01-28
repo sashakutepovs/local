@@ -1,0 +1,99 @@
+[{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_head_equip_SunGlass",
+		"x": 293,
+		"y": 200,
+		"layer": 1000,
+		"bmps": {
+			"equip_head#SunGlass": "chcg4_head_equip_SunGlass.png"
+		}
+	},{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_head_equip_DancerHeadEquip",
+		"x": 284,
+		"y": 89,
+		"layer": 1000,
+		"bmps": {
+			"equip_head#DancerHeadEquip": "chcg4_head_equip_DancerHeadEquip.png"
+		}
+	},{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_head_equip_SexyHeadEquip",
+		"x": 257,
+		"y": 26,
+		"layer": 1000,
+		"bmps": {
+			"equip_head#SexyHeadEquip": "chcg4_head_equip_SexyHeadEquip.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_equip_DocHead_Head",
+		"x": 299,
+		"y": 112,
+		"layer": 1000,
+		"bmps": {
+			"equip_head#DocHead": "chcg4_equip_DocHead_Head.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg4_equip_HoodCloakTop_Head_Top",
+		"x": 273,
+		"y": 88,
+		"layer": 1001,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg4_equip_HoodCloakTop_Head_Top.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg4_equip_DocTop_Head_Top",
+		"x": 249,
+		"y": 68,
+		"layer": 1001,
+		"bmps": {
+			"equip_Top#DocTop": "chcg4_equip_DocTop_Head_Top.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_head_equip_FootmanHelmet",
+		"x": 609,
+		"y": 19,
+		"layer": 1002,
+		"bmps": {
+			"equip_head#SunGlass": "chcg4_head_equip_FootmanHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_equip_BucketHelmet",
+		"x": 272,
+		"y": 78,
+		"layer": 1002,
+		"bmps": {
+			"equip_head#BucketHelmet": "chcg4_equip_BucketHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_equip_NunVeil",
+		"x": 248,
+		"y": 85,
+		"layer": 1000,
+		"bmps": {
+			"equip_head#NunVeil": "chcg4_equip_NunVeil.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_equip_NunVeil_HeadTop", // for some reason.  this extra layer is needed so i can turn off chcg4_equip_NunVeil to support hoods
+		"x": 300,
+		"y": 108,
+		"layer": 1000,
+		"bmps": {
+			"equip_head#NunVeil": "chcg4_equip_NunVeil_HeadTop.png"
+		}
+	}
+]

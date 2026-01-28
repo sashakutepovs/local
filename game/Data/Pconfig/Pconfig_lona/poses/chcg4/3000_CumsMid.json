@@ -1,0 +1,21 @@
+[{
+	"name_order": ["preg", "CumsMid"],
+	"part_name": "chcg4_CumsMid",
+	"x": "214",
+	"y": "332",
+	"layer": 3000,
+	"bmps": {
+		"preg00,CumsMid01": "chcg4_CumsMid1.png",
+		"preg00,CumsMid02": "chcg4_CumsMid2.png",
+		"preg00,CumsMid03": "chcg4_CumsMid3.png",
+		"preg01,CumsMid01": "chcg4_preg4m_CumsMid1.png",
+		"preg01,CumsMid02": "chcg4_preg4m_CumsMid2.png",
+		"preg01,CumsMid03": "chcg4_preg4m_CumsMid3.png",
+		"preg02,CumsMid01": "chcg4_preg6m_CumsMid1.png",
+		"preg02,CumsMid02": "chcg4_preg6m_CumsMid2.png",
+		"preg02,CumsMid03": "chcg4_preg6m_CumsMid3.png",
+		"preg03,CumsMid01": "chcg4_preg8m_CumsMid1.png",
+		"preg03,CumsMid02": "chcg4_preg8m_CumsMid2.png",
+		"preg03,CumsMid03": "chcg4_preg8m_CumsMid3.png"
+	}
+}]

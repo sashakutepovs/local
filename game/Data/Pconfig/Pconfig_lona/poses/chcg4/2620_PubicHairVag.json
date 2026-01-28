@@ -1,0 +1,16 @@
+[	{
+		"name_order": ["PubicHairVag", "vagopen"],
+		"part_name": "chcg4_PubicHairVag",
+		"x": "273",
+		"y": "387",
+		"layer": 2620,
+		"bmps": {
+			"PubicHairVag02,vagopen00": "chcg4_PubicHairVag1.png",
+			"PubicHairVag03,vagopen00": "chcg4_PubicHairVag2.png",
+			"PubicHairVag04,vagopen00": "chcg4_PubicHairVag3.png",
+			"PubicHairVag02,vagopen01": "chcg4_PubicHairVag1_vagopen.png",
+			"PubicHairVag03,vagopen01": "chcg4_PubicHairVag2_vagopen.png",
+			"PubicHairVag04,vagopen01": "chcg4_PubicHairVag3_vagopen.png"
+		}
+	}
+]

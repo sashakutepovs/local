@@ -1,0 +1,12 @@
+[{
+	"name_order": ["eyes", "eyes_shock"],
+	"part_name": "chcg4_head_eyes_shock",
+	"x": "296",
+	"y": "117",
+	"layer": 1100,
+	"bmps": {
+		"eyes01,eyes_shock01": "chcg4_head_eyes01_shock.png",
+		"eyes03,eyes_shock01": "chcg4_head_eyes03_shock.png"
+
+	}
+}]

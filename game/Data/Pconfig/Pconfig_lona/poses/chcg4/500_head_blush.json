@@ -1,0 +1,21 @@
+[{
+	"name_order": ["Race", "head_blush"],
+	"part_name": "chcg4_head_blush",
+	"x": "305",
+	"y": "156",
+	"layer": 500,
+	"bmps": {
+		"Race#Human,head_blush01": "chcg4_head_blush.png"
+	}
+},
+{
+	"name_order": ["Race","head_blush"],
+	"part_name": "chcg4_head_blush",
+	"x": "278",
+	"y": "156",
+	"layer": 500,
+	"bmps": {
+		"Race#Deepone,head_blush01": "chcg4_head_moot_blush.png",
+		"Race#Moot,head_blush01": "chcg4_head_moot_blush.png"
+	}
+}]

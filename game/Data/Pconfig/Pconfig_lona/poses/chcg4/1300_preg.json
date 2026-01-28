@@ -1,0 +1,15 @@
+[{
+	"name_order": ["subpose", "preg"],
+	"part_name": "chcg4_preg",
+	"x": "244",
+	"y": "318",
+	"layer": 1300,
+	"bmps": {
+		"subpose01,preg01": "chcg4_subpose1_preg4m.png",
+		"subpose01,preg02": "chcg4_subpose1_preg6m.png",
+		"subpose01,preg03": "chcg4_subpose1_preg8m.png",
+		"subpose02,preg01": "chcg4_subpose2_preg4m.png",
+		"subpose02,preg02": "chcg4_subpose2_preg6m.png",
+		"subpose02,preg03": "chcg4_subpose2_preg8m.png"
+	}
+}]

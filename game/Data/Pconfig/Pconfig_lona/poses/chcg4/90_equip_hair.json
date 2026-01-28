@@ -1,0 +1,37 @@
+[{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg4_head_equip_HairMessy_low",
+	"x": "307",
+	"y": "237",
+	"layer": 90,
+	"bmps": {
+		"equip_hair#HairMessy": "chcg4_head_equip_HairMessy_low.png"
+	}
+},{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg4_head_equip_HairTwinBraid",
+	"x": "314",
+	"y": "242",
+	"layer": 90,
+	"bmps": {
+		"equip_hair#HairTwinBraid": "chcg4_head_equip_HairTwinBraid.png"
+	}
+},{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg4_head_equip_HairPony",
+	"x": "276",
+	"y": "221",
+	"layer": 90,
+	"bmps": {
+		"equip_hair#HairPony": "chcg4_head_equip_HairPony.png"
+	}
+},{
+	"name_order": ["equip_hair"],
+	"part_name": "chcg4_head_HairDancer_low",
+	"x": "184",
+	"y": "154",
+	"layer": 90,
+	"bmps": {
+		"equip_hair#HairDancer": "chcg4_head_HairDancer_low.png"
+	}
+}]

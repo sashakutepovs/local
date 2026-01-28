@@ -1,0 +1,76 @@
+[
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg4_equip_RagTop_low",
+		"x": 212,
+		"y": 611,
+		"layer": 20,
+		"bmps": {
+			"equip_Top#RagTop": "chcg4_equip_RagTop_low.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg4_equip_HoodCloakTop_Head_Bot",
+		"x": 295,
+		"y": 180,
+		"layer": 20,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg4_equip_HoodCloakTop_Head_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg4_equip_HoodCloakTop_Body_Bot",
+		"x": 2,
+		"y": 354,
+		"layer": 20,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg4_equip_HoodCloakTop_Body_Bot.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg4_equip_DocTop_Head_Bot",
+		"x": 298,
+		"y": 133,
+		"layer": 20,
+		"bmps": {
+			"equip_Top#DocTop": "chcg4_equip_DocTop_Head_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg4_equip_DocTop_Body_Bot",
+		"x": 170,
+		"y": 316,
+		"layer": 20,
+		"bmps": {
+			"equip_Top#DocTop": "chcg4_equip_DocTop_Body_Bot.png"
+		}
+	},
+
+
+
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_equip_NunVeil_BodyBot",
+		"x": 253,
+		"y": 221,
+		"layer": 20,
+		"bmps": {
+			"equip_head#NunVeil": "chcg4_equip_NunVeil_BodyBot.png"
+		}
+	}
+
+]

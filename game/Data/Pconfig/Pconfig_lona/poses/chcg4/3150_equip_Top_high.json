@@ -1,0 +1,35 @@
+[
+	{
+		"name_order": ["subpose",  "equip_head"],
+		"part_name": "chcg4_equip_DocHead_BodyTop",
+		"x": 335,
+		"y": 274,
+		"layer": 3149,
+		"bmps": {
+			"subpose01,equip_head#DocHead": "chcg4_subpose1_equip_DocHead_BodyTop.png",
+			"subpose02,equip_head#DocHead": "chcg4_subpose2_equip_DocHead_BodyTop.png"
+		}
+	},
+	{
+		"name_order": ["subpose",  "equip_Top"],
+		"part_name": "chcg4_equip_HoodCloakTop_Body_Top",
+		"x": 306,
+		"y": 274,
+		"layer": 3150,
+		"bmps": {
+			"subpose01,equip_Top#HoodCloakTop": "chcg4_subpose1_equip_HoodCloakTop_Body_Top.png",
+			"subpose02,equip_Top#HoodCloakTop": "chcg4_subpose2_equip_HoodCloakTop_Body_Top.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg4_equip_DocHead_HeadTop",
+		"x": 330,
+		"y": 232,
+		"layer": 3151,
+		"bmps": {
+			"equip_head#DocHead": "chcg4_equip_DocHead_HeadTop.png"
+		}
+	}
+
+]
