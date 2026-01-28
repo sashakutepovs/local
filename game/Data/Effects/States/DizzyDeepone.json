@@ -1,0 +1,103 @@
+{
+	"item_name": "DizzyDeepone",
+	"max_stacks": 6,
+	"icon_index": 75,
+	"remove_by_walking": 14.2,
+	"is_combat_state": true,
+	"is_daily_state": true,
+	"lonaStat_json_hash": {
+		"stat": "Dizzy",
+		"value": null,
+		"type": "numeric",
+		"link": true,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "red"
+	},
+	"textFlag": {
+		"name": "DataState:Dizzy/item_name",
+		"description": "DataState:Dizzy/description"
+	},
+	"attribute_change": [
+		{
+			"stats_key": "Race",
+			"stats_value": ["Deepone"],
+			"stats_filter": true,
+			"attribute_name": "move_speed",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 0.95
+		},
+		{
+			"stats_key": "Race",
+			"stats_value": ["Deepone"],
+			"stats_filter": true,
+			"attribute_name": "sta",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 0.95
+		},
+		{
+			"stats_key": "Race",
+			"stats_value": ["Deepone"],
+			"stats_filter": true,
+			"attribute_name": "mood",
+			"attribute_type": "max",
+			"adjustor": "-",
+			"adjustment": 2
+		},
+		{
+			"stats_key": "Race",
+			"stats_value": ["Deepone"],
+			"stats_filter": false,
+			"attribute_name": "sta",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 0.905
+		},
+		{
+			"attribute_name": "weak",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 1.105
+		},
+		{
+			"stats_key": "Race",
+			"stats_value": ["Deepone"],
+			"stats_filter": false,
+			"attribute_name": "move_speed",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 0.905
+		},
+		{
+			"stats_key": "Race",
+			"stats_value": ["Deepone"],
+			"stats_filter": false,
+			"attribute_name": "mood",
+			"attribute_type": "max",
+			"adjustor": "-",
+			"adjustment": 10
+		},
+		{
+			"stats_key": "Race",
+			"stats_value": ["Deepone"],
+			"stats_filter": false,
+			"attribute_name": "puke_value_normal",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": 13
+		},
+		{
+			"stats_key": "Race",
+			"stats_value": ["Deepone"],
+			"stats_filter": true,
+			"attribute_name": "puke_value_normal",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": 3
+		}
+	]
+}

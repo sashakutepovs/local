@@ -1,0 +1,43 @@
+{
+	"remove_by_walking": 2,
+	"is_combat_state": true,
+	"is_daily_state": false,
+	"attribute_change": [
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "4"
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "4"
+	},
+	{
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "4"
+	},
+	{
+		"attribute_name": "survival_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "4"
+	},
+	{
+		"attribute_name": "mood",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "1"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "1"
+	}
+	]
+}

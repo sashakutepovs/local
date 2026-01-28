@@ -1,0 +1,36 @@
+{
+	"item_name": "BladderSeedBed",
+	"max_stacks": 1,
+	"icon_index": 104,
+	"lonaStat_json_hash": {
+		"stat": "BladderSeedBed",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:BladderSeedBed/item_name",
+			"description": "DataState:BladderSeedBed/description"
+	},
+	"spread_when_sex": {
+		"fucker_slot": "all",
+		"ignore_max_stack": true,
+		"add_evlib_sum": null,
+		"add_drop_list": "AbomCreatureMeatPotWorm",
+		"add_state_SndLib": "sound_WormCommon",
+		"reciver_slot_anal": "ParasitedPotWorm",
+		"reciver_slot_vag": "ParasitedPotWorm",
+		"reciver_slot_mouth": "ParasitedPotWorm",
+		"chance": 100
+	},
+	"player_nap_state_control": [{
+		"sat": ["-=",1],
+		"tar_state_name": [1, "ParasitedPotWorm"]
+	}],
+	"attribute_change": []
+}

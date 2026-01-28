@@ -1,0 +1,17 @@
+{
+	"max_stacks": 1,
+	"attribute_change": [
+	{
+		"attribute_name": "health",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "3"
+	},
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "3"
+	}
+	]
+}

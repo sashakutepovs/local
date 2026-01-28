@@ -1,0 +1,30 @@
+{
+	"max_stacks": 1,
+	"player_nap_state_control": [{
+			"state_stack_check"	: false,
+			"dirt": ["+=",50],
+			"tar_state_name": [-1, "EffectScat"]
+			
+		}
+	],
+	"attribute_change": [
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.7"
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.1"
+	},
+	{
+		"attribute_name": "dirt",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "50"
+	}
+	]
+}

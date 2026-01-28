@@ -1,0 +1,55 @@
+{
+	"item_name": "Dizzy",
+	"max_stacks": 6,
+	"icon_index": 75,
+	"remove_by_walking": 15,
+	"is_combat_state": true,
+	"is_daily_state": true,
+	"lonaStat_json_hash": {
+		"stat": "Dizzy",
+		"value": null,
+		"type": "numeric",
+		"link": true,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "red"
+	},
+	"textFlag": {
+		"name": "DataState:Dizzy/item_name",
+		"description": "DataState:Dizzy/description"
+	},
+	"attribute_change": [
+		{
+			"attribute_name": "sta",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 0.905
+		},
+		{
+			"attribute_name": "weak",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 1.105
+		},
+		{
+			"attribute_name": "move_speed",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": 0.905
+		},
+		{
+			"attribute_name": "mood",
+			"attribute_type": "max",
+			"adjustor": "-",
+			"adjustment": 10
+		},
+		{
+			"attribute_name": "puke_value_normal",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": 13
+		}
+	]
+}

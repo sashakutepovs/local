@@ -1,0 +1,36 @@
+{
+	"item_name": "ADHD",
+	"max_stacks": 1,
+	"icon_index": 115,
+	"lonaStat_json_hash": {
+		"stat": "ADHD",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"tag": "yellow"
+	},
+	"textFlag": {
+			"name": "DataState:ADHD/item_name",
+			"description": "DataState:ADHD/description"
+	},
+	"attribute_change": [{
+			"attribute_name": "wisdom_plus",
+			"attribute_type": "max",
+			"adjustor": "-",
+			"adjustment": 3
+		},{
+			"attribute_name": "move_speed",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": "0.05"
+		},{
+			"attribute_name": "dodge_frame",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": "2"
+		}
+	]
+}

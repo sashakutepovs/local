@@ -1,0 +1,25 @@
+{
+	"remove_by_walking": 5,
+	"is_combat_state": true,
+	"is_daily_state": false,
+	"attribute_change": [
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0"
+	},
+	{
+		"attribute_name": "survival_plus",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.5"
+	}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"item_name": "DailyPlusMood",
+	"max_stacks": 2,
+	"icon_index": 118,
+	"is_combat_state": false,
+	"is_daily_state": true,
+	"lonaStat_json_hash": null,
+	"tag_main_settings": {
+		"tag": "daily"
+	},
+	"textFlag": {
+		"name": "DataState:DailyPlusMood/item_name",
+		"description": "DataState:DailyPlusMood/description"
+	},
+	"attribute_change": [
+	{
+		"attribute_name": "mood",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "50"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "0.2"
+	}
+	]
+}

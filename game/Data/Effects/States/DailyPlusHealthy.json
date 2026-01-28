@@ -1,0 +1,35 @@
+{
+	"item_name": "DailyPlusHealthy",
+	"max_stacks": 2,
+	"icon_index": 121,
+	"is_combat_state": false,
+	"is_daily_state": true,
+	"lonaStat_json_hash": null,
+	"tag_main_settings": {
+		"tag": "daily"
+	},
+	"textFlag": {
+		"name": "DataState:DailyPlusHealthy/item_name",
+		"description": "DataState:DailyPlusHealthy/description"
+	},
+	"attribute_change": [
+	{
+		"attribute_name": "will",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "100"
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "2"
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "1"
+	}
+	]
+}

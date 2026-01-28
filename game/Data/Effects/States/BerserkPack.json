@@ -1,0 +1,40 @@
+{
+	"remove_by_walking": 160,
+	"sealed_equip_type": ["MH","SH"],
+	"added_skills": ["BerserkNormal","ManCatcherControl"],
+	"skill_sealed": ["BasicNormal","DeeponeNormal","BasicControl"],
+	"is_combat_state": true,
+	"is_daily_state": false,
+	"attribute_change": [
+	{
+		"attribute_name": "sta",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "200"
+	},
+	{
+		"attribute_name": "mood",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "200"
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "120"
+	},
+	{
+		"attribute_name": "combat_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "99"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "3"
+	}
+	]
+}

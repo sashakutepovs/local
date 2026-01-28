@@ -1,0 +1,23 @@
+{
+	"attribute_change": [
+	{
+		"block_by_part_cover": ["Butt","Anal"],
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "0.03"
+	},{
+		"block_by_part_cover": ["Groin","Vag"],
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "0.03"
+	},{
+		"block_by_part_cover": ["Chest"],
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "0.04"
+	}
+	]
+}

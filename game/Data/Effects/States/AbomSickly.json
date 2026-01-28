@@ -1,0 +1,52 @@
+{
+	"max_stacks": 2,
+	"player_nap_state_control": [{
+		"state_stack_check": false,
+		"tar_state_name"		: [1, "FeelsSick"],
+		"stats_key"				: "AbomSickly",
+		"stats_value"			: [2],
+		"stats_filter"			: true,
+		"stats_key2"			: "FeelsSick",
+		"stats_value2"			: [0],
+		"stats_filter2"			: true
+		},{
+		"state_stack_check": false,
+		"tar_state_name"		: [1, "AbomSickly"],
+		"stats_filter"			: true,
+		"stats_key"				: "AbomSickly",
+		"stats_value"			: [1]
+		}
+	],
+	"attribute_change": [
+	{
+		"attribute_name": "health",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.97"
+	},
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.9"
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.05"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "0.1"
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "4"
+	}
+	]
+}

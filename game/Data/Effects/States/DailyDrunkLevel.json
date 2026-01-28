@@ -1,0 +1,48 @@
+{
+	"item_name": "DailyDrunkLevel",
+	"remove_by_walking": 100,
+	"max_stacks": 3,
+	"icon_index": 5,
+	"is_combat_state": false,
+	"is_daily_state": true,
+	"lonaStat_json_hash": {
+		"stat": "DailyDrunkLevel",
+		"value": null,
+		"type": "numeric",
+		"link": null,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"tag": "daily"
+	},
+	"textFlag": {
+		"name": "DataState:DailyDrunkLevel/item_name",
+		"description": "DataState:DailyDrunkLevel/description"
+	},
+	"attribute_change": [
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "1.5"
+	},
+	{
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "5"
+	},
+	{
+		"attribute_name": "will",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.95"
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.05"
+	}
+	]
+}

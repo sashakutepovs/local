@@ -1,0 +1,32 @@
+{
+	"sealed_equip_type": ["Mid","Bot","MidExt"],
+	"added_skills": ["GrabNormal"],
+	"skill_sealed": ["BasicNormal","DeeponeNormal"],
+	"is_combat_state": true,
+	"is_daily_state": false,
+	"attribute_change": [{
+			"attribute_name": "sta",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": "1.3"
+		},
+		{
+			"attribute_name": "sexy",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": "1.5"
+		},
+		{
+			"attribute_name": "weak",
+			"attribute_type": "max",
+			"adjustor": "*",
+			"adjustment": "0.9"
+		},
+		{
+			"attribute_name": "def_plus",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": "3"
+		}
+	]
+}

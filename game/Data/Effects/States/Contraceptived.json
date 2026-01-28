@@ -1,0 +1,19 @@
+{
+	"max_stacks": 5,
+	"is_combat_state": false,
+	"is_daily_state": true,
+	"attribute_change": [
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.95"
+	},	
+	{
+		"attribute_name": "state_preg_rate",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "0.3"
+	}
+	]
+}

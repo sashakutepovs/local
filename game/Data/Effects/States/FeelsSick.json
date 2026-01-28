@@ -1,0 +1,68 @@
+{
+	"item_name": "FeelsSick",
+	"max_stacks": 3,
+	"icon_index": 74,
+	"is_combat_state": false,
+	"is_daily_state": true,
+	"lonaStat_json_hash": {
+		"stat": "FeelsSick",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "daily"
+	},
+	"textFlag": {
+			"name": "DataState:FeelsSick/item_name",
+			"description": "DataState:FeelsSick/description"
+	},
+	"spread_when_sex": {
+		"fucker_slot": "all",
+		"ignore_max_stack": false,
+		"add_evlib_sum": null,
+		"add_drop_list": null,
+		"add_state_SndLib": null,
+		"reciver_slot_anal": "FeelsSick",
+		"reciver_slot_vag": "FeelsSick",
+		"reciver_slot_mouth": "FeelsSick",
+		"chance": 100
+	},
+	
+	"player_nap_get_state_when": [{
+		"tar_state_name": [1, "FeelsSick"],
+		"req_sat": ["<=",1],
+		"req_Setup_Hardcore": [">=",1],
+		"chance_max": 100,
+		"chance_req": 50
+		}],
+	"attribute_change": [
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.9"
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.1"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.9"
+	},
+	{
+		"attribute_name": "mood",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "25"
+		
+	}
+	]
+}

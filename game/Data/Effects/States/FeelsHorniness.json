@@ -1,0 +1,35 @@
+{
+	"remove_by_walking": 600,
+	"max_stacks": 10,
+	"player_nap_state_control": [{
+			"state_stack_check"	: false,
+			"tar_state_name": [-2, "FeelsHorniness"]
+			
+		}
+	],
+	"attribute_change": [{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "10"
+	},
+	{
+		"attribute_name": "health",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "20"
+	},
+	{
+		"attribute_name": "arousal",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "3"
+	},	
+	{
+		"attribute_name": "state_preg_rate",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "0.1"
+	}
+	]
+}

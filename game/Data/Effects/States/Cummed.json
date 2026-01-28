@@ -1,0 +1,13 @@
+{
+	"remove_by_walking": 80,
+	"max_stacks": 1,
+	"player_nap_state_control": [{
+		"tar_state_name": [-1, "Cummed"]
+	}],
+	"attribute_change": [{
+		"attribute_name": "arousal",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "2"
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	"max_stacks": 3,
+	"attribute_change": [
+	{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "1.01"
+	}
+	]
+}

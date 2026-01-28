@@ -1,0 +1,36 @@
+{
+	"item_name": "AnalSeedBed",
+	"max_stacks": 1,
+	"icon_index": 106,
+	"lonaStat_json_hash": {
+		"stat": "AnalSeedBed",
+		"value": null,
+		"type": "numeric",
+		"link": false,
+		"initial": 0
+	},
+	"tag_main_settings": {
+		"type": null,
+		"tag": "magenta"
+	},
+	"textFlag": {
+			"name": "DataState:AnalSeedBed/item_name",
+			"description": "DataState:AnalSeedBed/description"
+	},
+	"spread_when_sex": {
+		"fucker_slot": "all",
+		"ignore_max_stack": true,
+		"add_evlib_sum": null,
+		"add_drop_list": "AbomCreatureMeatMoonWorm",
+		"add_state_SndLib": "sound_WormQuestion",
+		"reciver_slot_anal": "ParasitedMoonWorm",
+		"reciver_slot_vag": "ParasitedMoonWorm",
+		"reciver_slot_mouth": "ParasitedMoonWorm",
+		"chance": 100
+	},
+	"player_nap_state_control": [{
+		"sat": ["-=",1],
+		"tar_state_name": [1, "ParasitedMoonWorm"]
+	}],
+	"attribute_change": []
+}
