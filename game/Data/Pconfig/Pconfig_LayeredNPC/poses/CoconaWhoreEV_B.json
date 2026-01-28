@@ -1,0 +1,264 @@
+[
+	{
+		"CanvasSetting": {
+			"char_name": "CoconaWhoreEV_B",
+			"canvas": ["887", "551", "247", "-1"]
+		}
+	},
+	{
+		"name_order": ["Cocona_BackHumFuckerLHand","EventVagRace"],
+		"part_name": "CoconaWhoreEV_B_BackHumFuckerLHand",
+		"x": "277",
+		"y": "1",
+		"layer":2200,
+		"bmps": {
+			"Cocona_BackHumFuckerLHand01,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_BackHumFuckerLHand.png",
+			"Cocona_BackHumFuckerLHand01,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_BackHumFuckerLHand.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_VagHumFucker","EventVagRace"],
+		"part_name": "CoconaWhoreEV_B_VagHumFucker",
+		"x": "277",
+		"y": "1",
+		"layer":2100,
+		"bmps": {
+			"Cocona_VagHumFucker01,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker01.png",
+			"Cocona_VagHumFucker02,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker02.png",
+			"Cocona_VagHumFucker03,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker03.png",
+			"Cocona_VagHumFucker04,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker04.png",
+			"Cocona_VagHumFucker05,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker05.png",
+			"Cocona_VagHumFucker06,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker06.png",
+			"Cocona_VagHumFucker07,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker07.png",
+			"Cocona_VagHumFucker08,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker08.png",
+			"Cocona_VagHumFucker09,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker09.png",
+			"Cocona_VagHumFucker10,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker10.png",
+			
+			"Cocona_VagHumFucker01,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker01.png",
+			"Cocona_VagHumFucker02,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker02.png",
+			"Cocona_VagHumFucker03,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker03.png",
+			"Cocona_VagHumFucker04,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker04.png",
+			"Cocona_VagHumFucker05,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker05.png",
+			"Cocona_VagHumFucker06,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker06.png",
+			"Cocona_VagHumFucker07,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker07.png",
+			"Cocona_VagHumFucker08,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker08.png",
+			"Cocona_VagHumFucker09,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker09.png",
+			"Cocona_VagHumFucker10,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagHumFucker10.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_BackHumFuckerRHand","EventVagRace"],
+		"part_name": "CoconaWhoreEV_B_BackHumFuckerRHand",
+		"x": "277",
+		"y": "1",
+		"layer":2000,
+		"bmps": {
+			"Cocona_BackHumFuckerRHand01,EventVagRace#Human": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_BackHumFuckerRHand.png",
+			"Cocona_BackHumFuckerRHand01,EventVagRace#Moot": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_BackHumFuckerRHand.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_EffectPee","Cocona_VagOpen"],
+		"part_name": "CoconaWhoreEV_B_Effect_EffectPee",
+		"x": "397",
+		"y": "121",
+		"layer":1900,
+		"bmps": {
+			"Cocona_Effect_EffectPee01,Cocona_VagOpen00": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_EffectPee01.png",
+			"Cocona_Effect_EffectPee02,Cocona_VagOpen00": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_EffectPee02.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_EffectPee","Cocona_VagOpen"],
+		"part_name": "CoconaWhoreEV_B_Effect_EffectPee_VagOpen",
+		"x": "395",
+		"y": "111",
+		"layer":1900,
+		"bmps": {
+			"Cocona_Effect_EffectPee01,Cocona_VagOpen01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_EffectPee01.png",
+			"Cocona_Effect_EffectPee02,Cocona_VagOpen01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_EffectPee02.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_ButtShake"],
+		"part_name": "CoconaWhoreEV_B_Effect_ButtShake",
+		"x": "312",
+		"y": "235",
+		"layer":1800,
+		"bmps": {
+			"Cocona_Effect_ButtShake01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_ButtShake.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_HeadShock"],
+		"part_name": "CoconaWhoreEV_B_Effect_HeadShock",
+		"x": "115",
+		"y": "131",
+		"layer":1700,
+		"bmps": {
+			"Cocona_Effect_HeadShock01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_HeadShock.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_EyesShock"],
+		"part_name": "CoconaWhoreEV_B_Effect_EyesShock",
+		"x": "211",
+		"y": "131",
+		"layer":1600,
+		"bmps": {
+			"Cocona_Effect_EyesShock01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_EyesShock.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_EyesTear"],
+		"part_name": "CoconaWhoreEV_B_Effect_EyesTear",
+		"x": "197",
+		"y": "127",
+		"layer":1500,
+		"bmps": {
+			"Cocona_Effect_EyesTear01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_EyesTear.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_BodyShake"],
+		"part_name": "CoconaWhoreEV_B_Effect_BodyShake",
+		"x": "152",
+		"y": "68",
+		"layer":1400,
+		"bmps": {
+			"Cocona_Effect_BodyShake01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_BodyShake.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_Wet"],
+		"part_name": "CoconaWhoreEV_B_Effect_Wet",
+		"x": "416",
+		"y": "379",
+		"layer":1300,
+		"bmps": {
+			"Cocona_Effect_Wet01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_Wet.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_CumButtR"],
+		"part_name": "CoconaWhoreEV_B_Effect_CumButtR",
+		"x": "554",
+		"y": "233",
+		"layer":1200,
+		"bmps": {
+			"Cocona_Effect_CumButtR01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_CumButtR.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_CumButtL"],
+		"part_name": "CoconaWhoreEV_B_Effect_CumButtL",
+		"x": "352",
+		"y": "233",
+		"layer":1100,
+		"bmps": {
+			"Cocona_Effect_CumButtL01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_CumButtL.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_CreamPie"],
+		"part_name": "CoconaWhoreEV_B_Effect_CreamPie",
+		"x": "503",
+		"y": "337",
+		"layer":1000,
+		"bmps": {
+			"Cocona_Effect_CreamPie01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Effect_CreamPie.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_VagOpen"],
+		"part_name": "CoconaWhoreEV_B_VagOpen",
+		"x": "450",
+		"y": "315",
+		"layer":900,
+		"bmps": {
+			"Cocona_VagOpen01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagOpen.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Dress"],
+		"part_name": "CoconaWhoreEV_B_Dress",
+		"x": "226",
+		"y": "152",
+		"layer":800,
+		"bmps": {
+			"Cocona_Dress#Maid": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Dress.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Body"],
+		"part_name": "CoconaWhoreEV_B_Body",
+		"x": "93",
+		"y": "154",
+		"layer":700,
+		"bmps": {
+			"Cocona_Body01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Body.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Eyes"],
+		"part_name": "CoconaWhoreEV_B_Eyes",
+		"x": "151",
+		"y": "41",
+		"layer":600,
+		"bmps": {
+			"Cocona_Eyes01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Eyes01.png",
+			"Cocona_Eyes02": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Eyes02.png",
+			"Cocona_Eyes03": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Eyes03.png",
+			"Cocona_Eyes04": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Eyes04.png",
+			"Cocona_Eyes05": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Eyes05.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Mouth"],
+		"part_name": "CoconaWhoreEV_B_Mouth",
+		"x": "199",
+		"y": "135",
+		"layer":400,
+		"bmps": {
+			"Cocona_Mouth01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Mouth01.png",
+			"Cocona_Mouth02": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Mouth02.png",
+			"Cocona_Mouth03": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Mouth03.png",
+			"Cocona_Mouth04": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_Mouth04.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_HeadBase"],
+		"part_name": "CoconaWhoreEV_B_HeadBase",
+		"x": "149",
+		"y": "5",
+		"layer":300,
+		"bmps": {
+			"Cocona_HeadBase01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_HeadBase.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_BOX"],
+		"part_name": "CoconaWhoreEV_B_BOX",
+		"x": "1",
+		"y": "283",
+		"layer":200,
+		"bmps": {
+			"Cocona_BOX01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_BOX.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_VagXray"],
+		"part_name": "CoconaWhoreEV_B_VagXray",
+		"x": "260",
+		"y": "1",
+		"layer":100,
+		"bmps": {
+			"Cocona_VagXray01": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagXray01.png",
+			"Cocona_VagXray02": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagXray02.png",
+			"Cocona_VagXray03": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagXray03.png",
+			"Cocona_VagXray04": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagXray04.png",
+			"Cocona_VagXray05": "../LayeredNPC/CoconaWhoreEV/CoconaWhoreEV_B_VagXray05.png"
+		}
+	}
+]
+

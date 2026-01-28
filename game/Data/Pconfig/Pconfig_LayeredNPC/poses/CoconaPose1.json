@@ -1,0 +1,111 @@
+[
+	{
+		"CanvasSetting": {
+			"char_name": "CoconaPose1",
+			"canvas": ["380", "637", "97", "27"]
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_HeadShock"],
+		"part_name": "CoconaPose1_head_HeadShock",
+		"x": "68",
+		"y": "74",
+		"layer":1000,
+		"bmps": {
+			"Cocona_Effect_HeadShock01": "../LayeredNPC/CoconaPose1/CoconaPose1_head_HeadShock.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_CumButtR"],
+		"part_name": "CoconaPose1_Effect_CumButtR",
+		"x": "172",
+		"y": "288",
+		"layer":900,
+		"bmps": {
+			"Cocona_Effect_CumButtR01": "../LayeredNPC/CoconaPose1/CoconaPose1_Effect_CumButtR.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_CumButtL"],
+		"part_name": "CoconaPose1_Effect_CumButtL",
+		"x": "96",
+		"y": "282",
+		"layer":800,
+		"bmps": {
+			"Cocona_Effect_CumButtL01": "../LayeredNPC/CoconaPose1/CoconaPose1_Effect_CumButtL.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Dress"],
+		"part_name": "CoconaPose1_Dress",
+		"x": "1",
+		"y": "1",
+		"layer":600,
+		"bmps": {
+			"Cocona_Dress#Maid": "../LayeredNPC/CoconaPose1/CoconaPose1_Dress_Maid.png",
+			"Cocona_Dress#Necro": "../LayeredNPC/CoconaPose1/CoconaPose1_Dress_Necro.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Mouth"],
+		"part_name": "CoconaPose1_Mouth",
+		"x": "126",
+		"y": "140",
+		"layer":500,
+		"bmps": {
+			"Cocona_Mouth01": "../LayeredNPC/CoconaPose1/CoconaPose1_Mouth01.png",
+			"Cocona_Mouth02": "../LayeredNPC/CoconaPose1/CoconaPose1_Mouth02.png",
+			"Cocona_Mouth03": "../LayeredNPC/CoconaPose1/CoconaPose1_Mouth03.png",
+			"Cocona_Mouth04": "../LayeredNPC/CoconaPose1/CoconaPose1_Mouth04.png",
+			"Cocona_Mouth05": "../LayeredNPC/CoconaPose1/CoconaPose1_Mouth05.png",
+			"Cocona_Mouth06": "../LayeredNPC/CoconaPose1/CoconaPose1_Mouth06.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Eyes"],
+		"part_name": "CoconaPose1_Eyes",
+		"x": "123",
+		"y": "115",
+		"layer":400,
+		"bmps": {
+			"Cocona_Eyes01": "../LayeredNPC/CoconaPose1/CoconaPose1_Eyes01.png",
+			"Cocona_Eyes02": "../LayeredNPC/CoconaPose1/CoconaPose1_Eyes02.png",
+			"Cocona_Eyes03": "../LayeredNPC/CoconaPose1/CoconaPose1_Eyes03.png",
+			"Cocona_Eyes04": "../LayeredNPC/CoconaPose1/CoconaPose1_Eyes04.png",
+			"Cocona_Eyes05": "../LayeredNPC/CoconaPose1/CoconaPose1_Eyes05.png",
+			"Cocona_Eyes06": "../LayeredNPC/CoconaPose1/CoconaPose1_Eyes06.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_HeadBase"],
+		"part_name": "CoconaPose1_head",
+		"x": "90",
+		"y": "35",
+		"layer":300,
+		"bmps": {
+			"Cocona_HeadBase01": "../LayeredNPC/CoconaPose1/CoconaPose1_head.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Effect_CreamPie"],
+		"part_name": "CoconaPose1_Effect_CreamPie",
+		"x": "112",
+		"y": "327",
+		"layer":200,
+		"bmps": {
+			"Cocona_Effect_CreamPie01": "../LayeredNPC/CoconaPose1/CoconaPose1_Effect_CreamPie.png"
+		}
+	},
+	{
+		"name_order": ["Cocona_Body","Cocona_Dress"],
+		"part_name": "CoconaPose1_Body",
+		"x": "66",
+		"y": "142",
+		"layer":100,
+		"bmps": {
+			"Cocona_Body01,Cocona_Dress#Nude": "../LayeredNPC/CoconaPose1/CoconaPose1_Body.png"
+		}
+	}
+	
+]
+

@@ -1,0 +1,65 @@
+[{
+	"mood_name": "cocona_normal",
+	"facesets": [{
+		"pose": ["CoconaPose1"],
+		"Cocona_Eyes": [1],
+		"Cocona_Mouth": [1, 3, 6],
+		"Cocona_Body": [1],
+		"Cocona_HeadBase": [1],
+		"Cocona_Effect_HeadShock": [0]
+	}]
+}, {
+	"mood_name": "cocona_shocked",
+	"facesets": [{
+		"pose": ["CoconaPose1"],
+		"Cocona_Eyes": [3,4],
+		"Cocona_Mouth": [4],
+		"Cocona_Body": [1],
+		"Cocona_HeadBase": [1],
+		"Cocona_Effect_HeadShock": [1]
+	}]
+}, {
+	"mood_name": "cocona_happy",
+	"facesets": [{
+		"pose": ["CoconaPose1"],
+		"Cocona_Eyes": [1,2],
+		"Cocona_Mouth": [2],
+		"Cocona_Body": [1],
+		"Cocona_HeadBase": [1],
+		"Cocona_Effect_HeadShock": [0]
+	}]
+}, {
+	"mood_name": "cocona_confused",
+	"facesets": [{
+		"pose": ["CoconaPose1"],
+		"Cocona_Eyes": [4,6],
+		"Cocona_Mouth": [1, 3, 4, 5, 6],
+		"Cocona_Body": [1],
+		"Cocona_HeadBase": [1],
+		"Cocona_Effect_HeadShock": [0]
+	}]
+}, {
+	"mood_name": "cocona_angry",
+	"facesets": [{
+		"pose": ["CoconaPose1"],
+		"Cocona_Eyes": [5],
+		"Cocona_Mouth": [1, 3, 4, 6],
+		"Cocona_Body": [1],
+		"Cocona_HeadBase": [1],
+		"Cocona_Effect_HeadShock": [0]
+	}]
+}, {
+	"mood_name": "cocona_sad",
+	"mood_min": "-300",
+	"mood_max": "300",
+	"sta_min": "-300",
+	"sta_max": "10000",
+	"facesets": [{
+		"pose": ["CoconaPose1"],
+		"Cocona_Eyes": [3],
+		"Cocona_Mouth": [1, 3, 5, 6],
+		"Cocona_Body": [1],
+		"Cocona_HeadBase": [1],
+		"Cocona_Effect_HeadShock": [0]
+	}]
+}]
