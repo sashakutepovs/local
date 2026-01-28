@@ -1,0 +1,104 @@
+{
+	"name": "HumanTorturer",
+	"race": "Human",
+	"fraction": 6,
+	"fraction_mode": 4,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 15,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectGovCharDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 600,
+	"sta": 800,
+	"sexy": 1,
+	"weak": "1",
+	"morality": 50,
+	"arousal": 0,
+	"will": 900,
+	"mood":100,
+	"sat":100,
+	"atk": 11,
+	"def": 2,
+	"constitution":50,
+	"survival":15,
+	"scoutcraft": 30,
+	"combat": 15,
+	"wisdom":15,
+	"move_speed": 2.8,
+	"ai": "Npc_Charge",
+	"sensors": ["Eyes"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["unique_event_VagNeedle","unique_event_AnalNeedle","unique_event_Enema","unique_event_AnalBeads"],
+		"sex_fetish_ending": ["unique_event_VagNeedle","unique_event_AnalNeedle"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["200", ">"],
+			"sexy": ["100", ">"],
+			"sex": ["0", "="]
+		},
+		"killer": {
+			"morality": ["10", "<"]
+		},
+		"assaulter": {
+			"morality": ["30", "<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "MaleWarriorFatAtk",
+		"sound_alert1": "MaleWarriorFatQuestion",
+		"sound_alert2": "MaleWarriorFatSpot",
+		"sound_skill": "MaleWarriorFatAtk",
+		"sound_lost": "MaleWarriorFatQuestion",
+		"sound_death": "MaleWarriorFatDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemMhWhip",
+			"chance": 10
+		},
+		{
+			"name": "ItemRawMeat",
+			"chance": 5
+		},
+		{
+			"name": "ItemDryFood",
+			"chance": 5
+		},
+		{
+			"name": "ItemApple",
+			"chance": 5
+		},
+		{
+			"name": "ItemCoin2",
+			"chance": 1
+		},
+		{
+			"name": "ItemCoin1",
+			"chance": 100
+		}
+	],
+	"skills_killer":["NpcMarkMoralityDown","WhipNormal","NpcBasicSh","BasicNormal","NpcThrowHook"],
+	"skills_assaulter":["NpcMarkMoralityDown","WhipNormal","NpcBasicSh","BasicNormal","NpcThrowHook"],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcMasturbationMale","NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"name": "MobEliseGagCrazy",
+	"race": "Human",
+	"fraction": 11,
+	"fraction_mode": 4,
+	"friendly_fire": true,
+	"friendly_aggro": 70,
+	"sensor_freq_base": 10,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"receiver_type": 1,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCharDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 40,
+	"sta": 1000,
+	"sexy": 1,
+	"weak": 1,
+	"morality": "-1",
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 15,
+	"def": 0,
+	"constitution": 20,
+	"survival": 20,
+	"scoutcraft": 20,
+	"combat": 8,
+	"wisdom": 1,
+	"move_speed": 4.5,
+	"ai": "Npc_Chacha",
+	"sensors": ["Multi"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 4,
+			"anal": 4,
+			"mouth": 4
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+		"sex": ["0","="]
+		},
+		"killer": {
+		"sex": ["0",">"]
+		},
+		"assaulter": {
+		"sex": ["0",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "",
+		"sound_alert1": "",
+		"sound_alert2": "",
+		"sound_skill": "",
+		"sound_lost": "",
+		"sound_death": ""
+	},
+	"drop_list": [],
+	"skills_killer": ["NpcWormBiteFast"],
+	"skills_assaulter": ["NpcWormBiteFast"],
+	"skills_fucker": ["NpcFuckerGrabWarrior","NpcHarassVagLick"],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	},
+	"default_state": {
+		"STD_WartAnal":{
+			"chance": 100,
+			"times": 1
+			},
+		"STD_WartVag":{
+			"chance": 100,
+			"times": 1
+			},
+		"STD_HerpesAnal":{
+			"chance": 100,
+			"times": 1
+			},
+		"STD_HerpesVag":{
+			"chance": 100,
+			"times": 1
+			}
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"name": "GeneralProjectile",
+	"race": "Missile",
+	"move_speed": 6.3,
+	"ai": "Game_PorjectileCharacter",
+	"sensors": ["GeneralProjectile"],
+	"is_object":true,
+	"tri_state": {},
+	"fraction":100,
+	"health": 60,
+	"sound": {
+		"sound_aggro": "",
+		"sound_alert1": "",
+		"sound_alert2": "",
+		"sound_skill": "",
+		"sound_lost": "",
+		"sound_death": ""
+	},
+	"drop_list": [
+		{
+			"name": "ItemApple",
+			"chance": 1
+		},
+		{
+			"name": "ItemOrange",
+			"chance": 3
+		},
+		{
+			"name": "ItemPepper",
+			"chance": 5
+		}
+	],
+	"skills_killer":["SelfDestruct"],
+	"skills_assaulter":["SelfDestruct"],
+	"skills_fucker":["SelfDestruct"],
+	"drop_amt": {
+		"min": 0,
+		"max": 0
+	},
+	"item_count": []
+}

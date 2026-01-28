@@ -1,0 +1,46 @@
+{
+	"name": "MissileWaterBallFul",
+	"race": "Missile",
+	"is_object":true,
+	"friendly_fire": true,
+	"move_speed": 7.5,
+	"ai": "Game_PorjectileCharacter",
+	"death_event": "EffectWaterNil",
+	"sensors": [],
+	"tri_state": {},
+	"fraction":100,
+	"health": 4,
+	"sta": 1,
+	"weak": 0,
+	"sexy": 0,
+	"morality": 50,
+	"arousal": 0,
+	"will": 0,
+	"mood":0,
+	"sat":0,
+	"atk": 0,
+	"def": 0,
+	"constitution": 0,
+	"survival": 0,
+	"scoutcraft": 0,
+	"combat": 0,
+	"wisdom": 0,
+
+	"sound": {
+		"sound_aggro": "",
+		"sound_alert1": "",
+		"sound_alert2": "",
+		"sound_skill": "",
+		"sound_lost": "",
+		"sound_death": ""
+	},
+	"drop_list": [],
+	"skills_killer":["MissileWaterBallFul"],
+	"skills_assaulter":["MissileWaterBallFul"],
+	"skills_fucker":["MissileWaterBallFul"],
+	"drop_amt": {
+		"min": 0,
+		"max": 0
+	},
+	"item_count": []
+}
