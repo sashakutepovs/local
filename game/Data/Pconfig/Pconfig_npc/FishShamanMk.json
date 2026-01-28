@@ -1,0 +1,19 @@
+{
+	"char_name": "FishShamanMk",
+	"statMap": {
+		"canvas": {
+			"default": ["519", "752", "-110", "-65"]
+		},
+		"NPCportrait": "FishShamanMk"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FishShamanMk"			: "FishShamanMk.png"
+			}
+		}
+
+	]
+}

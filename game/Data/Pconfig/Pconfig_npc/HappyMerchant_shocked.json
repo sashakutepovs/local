@@ -1,0 +1,19 @@
+{
+	"char_name": "HappyMerchant_shocked",
+	"statMap": {
+		"canvas": {
+			"default": ["273", "366", "-15", "20"]
+		},
+		"NPCportrait": "HappyMerchant_shocked"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HappyMerchant_shocked"			: "HappyMerchant_shocked.png"
+			}
+		}
+
+	]
+}

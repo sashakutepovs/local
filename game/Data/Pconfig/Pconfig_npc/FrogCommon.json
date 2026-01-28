@@ -1,0 +1,19 @@
+{
+	"char_name": "FrogCommon",
+	"statMap": {
+		"canvas": {
+			"default": ["271", "377", "-10", "40"]
+		},
+		"NPCportrait": "FrogCommon"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FrogCommon"			: "FrogCommon.png"
+			}
+		}
+
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"char_name": "FatDumbSad",
+	"statMap": {
+		"canvas": {
+			"default": ["391", "375", "-80", "25"]
+		},
+		"NPCportrait": "FatDumbSad"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FatDumbSad"			: "FatDumbSad.png"
+			}
+		}
+
+	]
+}

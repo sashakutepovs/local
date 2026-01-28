@@ -1,0 +1,19 @@
+{
+	"char_name": "HumanPenisNormal_CHCG",
+	"statMap": {
+		"canvas": {
+			"default": [669, 696, 0, 0]
+		},
+		"NPCportrait": "HumanPenisNormal_CHCG"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HumanPenisNormal_CHCG"			: "HumanPenisNormal_CHCG.png"
+			}
+		}
+
+	]
+}

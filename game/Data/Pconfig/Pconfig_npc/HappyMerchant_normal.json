@@ -1,0 +1,19 @@
+{
+	"char_name": "HappyMerchant_normal",
+	"statMap": {
+		"canvas": {
+			"default": ["273", "366", "-15", "20"]
+		},
+		"NPCportrait": "HappyMerchant_normal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HappyMerchant_normal"			: "HappyMerchant_normal.png"
+			}
+		}
+
+	]
+}

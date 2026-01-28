@@ -1,0 +1,19 @@
+{
+	"char_name": "FrogSpear",
+	"statMap": {
+		"canvas": {
+			"default": ["410", "401", "-30", "20"]
+		},
+		"NPCportrait": "FrogSpear"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FrogSpear"			: "FrogSpear.png"
+			}
+		}
+
+	]
+}

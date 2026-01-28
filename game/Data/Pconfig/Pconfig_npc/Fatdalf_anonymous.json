@@ -1,0 +1,19 @@
+{
+	"char_name": "Fatdalf_anonymous",
+	"statMap": {
+		"canvas": {
+			"default": [448, 726, -82, -50]
+		},
+		"NPCportrait": "Fatdalf_anonymous"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Fatdalf_anonymous"			: "Fatdalf_anonymous.png"
+			}
+		}
+
+	]
+}

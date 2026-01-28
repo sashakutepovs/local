@@ -1,0 +1,19 @@
+{
+	"char_name": "DavidBorn_angry",
+	"statMap": {
+		"canvas": {
+			"default": ["368", "436", "-60", "0"]
+		},
+		"NPCportrait": "DavidBorn_angry"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"DavidBorn_angry"			: "DavidBorn_angry.png"
+			}
+		}
+
+	]
+}

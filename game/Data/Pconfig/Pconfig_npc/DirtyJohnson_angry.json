@@ -1,0 +1,19 @@
+	{
+	"char_name": "DirtyJohnson_angry",
+	"statMap": {
+		"canvas": {
+			"default": ["245", "360", "-20", "0"]
+		},
+		"NPCportrait": "DirtyJohnson_angry"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"DirtyJohnson_angry"			: "DirtyJohnson_angry.png"
+			}
+		}
+
+	]
+}

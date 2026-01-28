@@ -1,0 +1,19 @@
+{
+	"char_name": "Lawbringer",
+	"statMap": {
+		"canvas": {
+			"default": ["333", "488", "-40", "-90"]
+		},
+		"NPCportrait": "Lawbringer"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Lawbringer"			: "Lawbringer.png"
+			}
+		}
+
+	]
+}

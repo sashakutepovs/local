@@ -1,0 +1,19 @@
+{
+	"char_name": "GrayRatShocked",
+	"statMap": {
+		"canvas": {
+			"default": ["381", "496", "-65", "-20"]
+		},
+		"NPCportrait": "GrayRatShocked"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"GrayRatShocked"			: "GrayRatShocked.png"
+			}
+		}
+
+	]
+}

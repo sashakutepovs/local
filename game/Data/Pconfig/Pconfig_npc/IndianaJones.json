@@ -1,0 +1,19 @@
+{
+	"char_name": "IndianaJones",
+	"statMap": {
+		"canvas": {
+			"default": ["272", "362", "-40", "35"]
+		},
+		"NPCportrait": "IndianaJones"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"IndianaJones"			: "IndianaJones.png"
+			}
+		}
+
+	]
+}

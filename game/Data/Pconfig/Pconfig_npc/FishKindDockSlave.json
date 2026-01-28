@@ -1,0 +1,17 @@
+{
+	"char_name": "FishKindDockSlave",
+	"statMap": {
+		"canvas": {
+			"default": ["887", "551", "248", "0"]
+		},
+		"NPCportrait": "FishKindDockSlave"
+	},
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FishKindDockSlave"			: "FishKindDockSlave.png"
+			}
+		}
+	]
+}

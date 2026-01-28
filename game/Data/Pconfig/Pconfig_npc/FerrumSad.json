@@ -1,0 +1,19 @@
+{
+	"char_name": "FerrumSad",
+	"statMap": {
+		"canvas": {
+			"default": ["212", "569", "-1", "42"]
+		},
+		"NPCportrait": "FerrumSad"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FerrumSad"			: "FerrumSad.png"
+			}
+		}
+
+	]
+}

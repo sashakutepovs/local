@@ -1,0 +1,19 @@
+	{
+	"char_name": "DirtyJohnson_penis",
+	"statMap": {
+		"canvas": {
+			"default": ["245", "393", "0", "-5"]
+		},
+		"NPCportrait": "DirtyJohnson_penis"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"DirtyJohnson_penis"			: "DirtyJohnson_penis.png"
+			}
+		}
+
+	]
+}

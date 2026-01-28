@@ -1,0 +1,19 @@
+{
+	"char_name": "HumanPenisMega_STD",
+	"statMap": {
+		"canvas": {
+			"default": [865, 1131, -480, -310]
+		},
+		"NPCportrait": "HumanPenisMega_STD"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HumanPenisMega_STD"			: "HumanPenisMega_STD.png"
+			}
+		}
+
+	]
+}

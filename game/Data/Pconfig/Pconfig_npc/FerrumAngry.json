@@ -1,0 +1,19 @@
+{
+	"char_name": "FerrumAngry",
+	"statMap": {
+		"canvas": {
+			"default": ["212", "569", "-1", "42"]
+		},
+		"NPCportrait": "FerrumAngry"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FerrumAngry"			: "FerrumAngry.png"
+			}
+		}
+
+	]
+}

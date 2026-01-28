@@ -1,0 +1,17 @@
+{
+	"char_name": "CoconaPriest06",
+	"statMap": {
+		"canvas": {
+			"default": ["887", "551", "248", "0"]
+		},
+		"NPCportrait": "CoconaPriest06"
+	},
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CoconaPriest06"			: "CoconaPriest06.png"
+			}
+		}
+	]
+}

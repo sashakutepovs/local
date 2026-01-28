@@ -1,0 +1,19 @@
+{
+	"char_name": "GrayRatNormalAr",
+	"statMap": {
+		"canvas": {
+			"default": ["433", "506", "-95", "-20"]
+		},
+		"NPCportrait": "GrayRatNormalAr"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"GrayRatNormalAr"			: "GrayRatNormalAr.png"
+			}
+		}
+
+	]
+}

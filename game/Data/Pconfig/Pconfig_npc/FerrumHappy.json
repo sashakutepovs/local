@@ -1,0 +1,19 @@
+{
+	"char_name": "FerrumHappy",
+	"statMap": {
+		"canvas": {
+			"default": ["212", "569", "-1", "42"]
+		},
+		"NPCportrait": "FerrumHappy"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FerrumHappy"			: "FerrumHappy.png"
+			}
+		}
+
+	]
+}

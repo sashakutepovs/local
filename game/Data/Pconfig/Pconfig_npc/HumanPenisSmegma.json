@@ -1,0 +1,19 @@
+{
+	"char_name": "HumanPenisSmegma",
+	"statMap": {
+		"canvas": {
+			"default": [1028, 1130, -530, -290]
+		},
+		"NPCportrait": "HumanPenisSmegma"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HumanPenisSmegma"			: "HumanPenisSmegma.png"
+			}
+		}
+
+	]
+}

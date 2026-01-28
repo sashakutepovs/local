@@ -1,0 +1,19 @@
+{
+	"char_name": "FerrumShocked",
+	"statMap": {
+		"canvas": {
+			"default": ["212", "569", "-1", "42"]
+		},
+		"NPCportrait": "FerrumShocked"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FerrumShocked"			: "FerrumShocked.png"
+			}
+		}
+
+	]
+}

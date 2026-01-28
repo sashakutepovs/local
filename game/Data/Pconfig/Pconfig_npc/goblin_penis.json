@@ -1,0 +1,19 @@
+{
+	"char_name": "goblin_penis",
+	"statMap": {
+		"canvas": {
+			"default": ["255", "393", "0", "0"]
+		},
+		"NPCportrait": "goblin_penis"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"goblin_penis"			: "goblin_penis.png"
+			}
+		}
+
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"char_name": "HumSnowflakeNormal",
+	"statMap": {
+		"canvas": {
+			"default": ["330", "631", "-40", "-15"]
+		},
+		"NPCportrait": "HumSnowflakeNormal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HumSnowflakeNormal"			: "HumSnowflakeNormal.png"
+			}
+		}
+
+	]
+}

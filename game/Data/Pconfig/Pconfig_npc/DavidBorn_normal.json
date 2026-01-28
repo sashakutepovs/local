@@ -1,0 +1,19 @@
+{
+	"char_name": "DavidBorn_normal",
+	"statMap": {
+		"canvas": {
+			"default": ["368", "436", "-60", "0"]
+		},
+		"NPCportrait": "DavidBorn_normal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"DavidBorn_normal"			: "DavidBorn_normal.png"
+			}
+		}
+
+	]
+}

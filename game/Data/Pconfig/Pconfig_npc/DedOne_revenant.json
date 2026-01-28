@@ -1,0 +1,19 @@
+{
+	"char_name": "DedOne_revenant",
+	"statMap": {
+		"canvas": {
+			"default": ["447", "642", "-60", "-100"]
+		},
+		"NPCportrait": "DedOne_revenant"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"DedOne_revenant"			: "DedOne_revenant.png"
+			}
+		}
+
+	]
+}

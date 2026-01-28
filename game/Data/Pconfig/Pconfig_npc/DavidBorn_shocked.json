@@ -1,0 +1,19 @@
+{
+	"char_name": "DavidBorn_shocked",
+	"statMap": {
+		"canvas": {
+			"default": ["368", "436", "-60", "0"]
+		},
+		"NPCportrait": "DavidBorn_shocked"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"DavidBorn_shocked"			: "DavidBorn_shocked.png"
+			}
+		}
+
+	]
+}

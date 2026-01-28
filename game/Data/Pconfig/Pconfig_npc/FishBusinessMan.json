@@ -1,0 +1,19 @@
+{
+	"char_name": "FishBusinessMan",
+	"statMap": {
+		"canvas": {
+			"default": ["350", "558", "-40", "15"]
+		},
+		"NPCportrait": "FishBusinessMan"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FishBusinessMan"			: "FishBusinessMan.png"
+			}
+		}
+
+	]
+}

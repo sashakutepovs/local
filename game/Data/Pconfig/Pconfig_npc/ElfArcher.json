@@ -1,0 +1,19 @@
+{
+	"char_name": "ElfArcher",
+	"statMap": {
+		"canvas": {
+			"default": ["426", "708", "-55", "-50"]
+		},
+		"NPCportrait": "ElfArcher"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"ElfArcher"			: "ElfArcher.png"
+			}
+		}
+
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"char_name": "HumanPenisHairly",
+	"statMap": {
+		"canvas": {
+			"default": [824, 1145, -430, -320]
+		},
+		"NPCportrait": "HumanPenisHairly"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HumanPenisHairly"			: "HumanPenisHairly.png"
+			}
+		}
+
+	]
+}

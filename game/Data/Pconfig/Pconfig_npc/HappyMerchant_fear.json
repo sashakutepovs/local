@@ -1,0 +1,19 @@
+{
+	"char_name": "HappyMerchant_fear",
+	"statMap": {
+		"canvas": {
+			"default": ["273", "366", "-15", "20"]
+		},
+		"NPCportrait": "HappyMerchant_fear"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HappyMerchant_fear"			: "HappyMerchant_fear.png"
+			}
+		}
+
+	]
+}

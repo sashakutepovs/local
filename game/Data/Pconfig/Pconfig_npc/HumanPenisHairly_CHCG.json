@@ -1,0 +1,19 @@
+{
+	"char_name": "HumanPenisHairly_CHCG",
+	"statMap": {
+		"canvas": {
+			"default": [669, 696, 0, 0]
+		},
+		"NPCportrait": "HumanPenisHairly_CHCG"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HumanPenisHairly_CHCG"			: "HumanPenisHairly_CHCG.png"
+			}
+		}
+
+	]
+}

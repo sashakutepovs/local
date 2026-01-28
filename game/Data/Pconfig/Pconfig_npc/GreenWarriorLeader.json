@@ -1,0 +1,19 @@
+{
+	"char_name": "GreenWarriorLeader",
+	"statMap": {
+		"canvas": {
+			"default": ["399", "646", "-80", "5"]
+		},
+		"NPCportrait": "GreenWarriorLeader"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"GreenWarriorLeader"			: "GreenWarriorLeader.png"
+			}
+		}
+
+	]
+}

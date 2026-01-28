@@ -1,0 +1,19 @@
+{
+	"char_name": "FishCaveRBQ",
+	"statMap": {
+		"canvas": {
+			"default": ["640", "360", "0", "0"]
+		},
+		"NPCportrait": "FishCaveRBQ"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FishCaveRBQ"			: "FishCaveRBQ.png"
+			}
+		}
+
+	]
+}

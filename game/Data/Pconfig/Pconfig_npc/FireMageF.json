@@ -1,0 +1,19 @@
+{
+	"char_name": "FireMageF",
+	"statMap": {
+		"canvas": {
+			"default": ["284", "414", "-5", "15"]
+		},
+		"NPCportrait": "FireMageF"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"FireMageF"			: "FireMageF.png"
+			}
+		}
+
+	]
+}

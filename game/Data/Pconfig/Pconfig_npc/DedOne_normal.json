@@ -1,0 +1,19 @@
+{
+	"char_name": "DedOne_angry",
+	"statMap": {
+		"canvas": {
+			"default": ["452", "420", "-100", "10"]
+		},
+		"NPCportrait": "DedOne_angry"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"DedOne_angry"			: "DedOne_angry.png"
+			}
+		}
+
+	]
+}

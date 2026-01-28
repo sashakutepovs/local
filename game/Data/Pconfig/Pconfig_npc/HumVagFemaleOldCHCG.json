@@ -1,0 +1,19 @@
+{
+	"char_name": "HumVagFemaleOldCHCG",
+	"statMap": {
+		"canvas": {
+			"default": ["474", "686", "0", "0"]
+		},
+		"NPCportrait": "HumVagFemaleOldCHCG"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HumVagFemaleOldCHCG"			: "HumVagFemaleOldCHCG.png"
+			}
+		}
+
+	]
+}

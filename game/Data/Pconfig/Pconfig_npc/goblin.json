@@ -1,0 +1,19 @@
+{
+	"char_name": "goblin",
+	"statMap": {
+		"canvas": {
+			"default": ["315", "360", "-50", "25"]
+		},
+		"NPCportrait": "goblin"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"goblin"			: "goblin.png"
+			}
+		}
+
+	]
+}

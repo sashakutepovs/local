@@ -1,0 +1,19 @@
+{
+	"char_name": "HumPriest",
+	"statMap": {
+		"canvas": {
+			"default": ["366", "392", "-60", "0"]
+		},
+		"NPCportrait": "HumPriest"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"HumPriest"			: "HumPriest.png"
+			}
+		}
+
+	]
+}
