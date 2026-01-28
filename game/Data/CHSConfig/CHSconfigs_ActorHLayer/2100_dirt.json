@@ -1,0 +1,9 @@
+[{
+	"name_order": ["always"],
+	"isDirt": true,
+	"part_name": "LonaMCC_Sex_body_dirt",
+	"layer": 2100,
+	"bmps": {
+		"always#on": "LonaMCC_dirt.png"
+	}
+}]

@@ -1,0 +1,9 @@
+[{
+		"name_order": ["equip_MidExtra"],
+		"part_name": "LonaMCC_Sex_equip_ChainMidExtra_top",
+		"layer": 1490,
+		"bmps": {
+			"equip_MidExtra#ChainMidExtra": "LonaMCC_equip_ChainMidExtra_top.png"
+		}
+	}
+]

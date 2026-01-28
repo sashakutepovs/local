@@ -1,0 +1,8 @@
+[{
+	"name_order": ["always"],
+	"part_name": "LonaMCC_body",
+	"layer": 300,
+	"bmps": {
+		"always#on": "LonaMCC_body.png"
+	}
+}]

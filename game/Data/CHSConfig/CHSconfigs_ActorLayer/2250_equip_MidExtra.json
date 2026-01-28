@@ -1,0 +1,47 @@
+[{
+		"name_order": ["preg", "equip_MidExtra"],
+		"part_name": "LonaMCC_equip_MidExtra",
+		"layer": 2250,
+		"bmps": {
+			"preg00,equip_MidExtra#NunMidExtra": "LonaMCC_equip_NunMidExtra.png",
+			"preg01,equip_MidExtra#NunMidExtra": "LonaMCC_equip_NunMidExtra.png",
+			"preg02,equip_MidExtra#NunMidExtra": "LonaMCC_preg6m_equip_NunMidExtra.png",
+			"preg03,equip_MidExtra#NunMidExtra": "LonaMCC_preg8m_equip_NunMidExtra.png",
+
+			"preg00,equip_MidExtra#SlaveMidExtra": "LonaMCC_equip_SlaveMidExtra.png",
+			"preg01,equip_MidExtra#SlaveMidExtra": "LonaMCC_equip_SlaveMidExtra.png",
+			"preg02,equip_MidExtra#SlaveMidExtra": "LonaMCC_preg6m_equip_SlaveMidExtra.png",
+			"preg03,equip_MidExtra#SlaveMidExtra": "LonaMCC_preg8m_equip_SlaveMidExtra.png",
+			
+			"preg00,equip_MidExtra#FootmanMidExtra": "LonaMCC_equip_FootmanMidExtra.png",
+			"preg01,equip_MidExtra#FootmanMidExtra": "LonaMCC_equip_FootmanMidExtra.png",
+			"preg02,equip_MidExtra#FootmanMidExtra": "LonaMCC_equip_FootmanMidExtra.png",
+			"preg03,equip_MidExtra#FootmanMidExtra": "LonaMCC_equip_FootmanMidExtra.png",
+			
+			"preg00,equip_MidExtra#SurMidExtra": "LonaMCC_equip_SurMidExtra.png",
+			"preg01,equip_MidExtra#SurMidExtra": "LonaMCC_equip_SurMidExtra.png",
+			"preg02,equip_MidExtra#SurMidExtra": "LonaMCC_preg6m_equip_SurMidExtra.png",
+			"preg03,equip_MidExtra#SurMidExtra": "LonaMCC_preg8m_equip_SurMidExtra.png",
+			
+			
+			"preg00,equip_MidExtra#AdvMidExtra": "LonaMCC_equip_AdvMidExtra.png",
+			"preg01,equip_MidExtra#AdvMidExtra": "LonaMCC_equip_AdvMidExtra.png",
+			"preg02,equip_MidExtra#AdvMidExtra": "LonaMCC_preg6m_equip_AdvMidExtra.png",
+			"preg03,equip_MidExtra#AdvMidExtra": "LonaMCC_preg8m_equip_AdvMidExtra.png",
+
+		
+
+			"preg00,equip_MidExtra#RagMidExtra": "LonaMCC_equip_RagMidExtra.png",
+			"preg01,equip_MidExtra#RagMidExtra": "LonaMCC_equip_RagMidExtra.png",
+			"preg02,equip_MidExtra#RagMidExtra": "LonaMCC_preg6m_equip_RagMidExtra.png",
+			"preg03,equip_MidExtra#RagMidExtra": "LonaMCC_preg8m_equip_RagMidExtra.png"
+		}
+	},{
+		"name_order": ["equip_MidExtra"],
+		"part_name": "LonaMCC_equip_DocMidExtra",
+		"layer": 2250,
+		"bmps": {
+			"equip_MidExtra#DocMidExtra": "LonaMCC_equip_DocMidExtra.png"
+		}
+	}
+]

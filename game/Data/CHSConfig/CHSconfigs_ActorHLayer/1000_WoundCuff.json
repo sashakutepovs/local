@@ -1,0 +1,8 @@
+[{
+	"name_order": ["WoundCuff"],
+	"part_name": "LonaMCC_Sex_WoundCuff",
+	"layer": 1000,
+	"bmps": {
+		"WoundCuff01": "LonaMCC_WoundCuff.png"
+	}
+}]

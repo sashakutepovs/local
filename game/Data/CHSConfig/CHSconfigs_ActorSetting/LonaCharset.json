@@ -1,0 +1,36 @@
+{
+	"chartype": "Lona",
+	"folder": "LonaMCC",
+	"balloon_height": -18,
+	"balloon_height_low": -36,
+	"cell_width" :64,
+	"cell_height": 64,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :10,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"parts": "",
+	"shadow":"LonaMCC_shadow.png",
+
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+
+	"supported_reciver": [
+		["mouth", "nil", "vag"],
+		["anal", "vag", "mouth"],
+		["vag", "mouth", "anal"],
+		["nil", "anal", "vag"],
+		["mouth", "vag", "anal"],
+		["vag", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+}

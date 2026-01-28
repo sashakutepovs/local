@@ -1,0 +1,8 @@
+[{
+	"name_order": ["always"],
+	"part_name": "LonaMCC_Sex_body",
+	"layer": 100,
+	"bmps": {
+		"always#on": "LonaMCC_body.png"
+	}
+}]

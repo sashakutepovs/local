@@ -1,0 +1,10 @@
+[{
+	"name_order": ["WoundSArm"],
+	"part_name": "LonaMCC_WoundSArm",
+	"layer": 800,
+	"bmps": {
+		"WoundSArm01": "LonaMCC_WoundSArm1.png",
+		"WoundSArm02": "LonaMCC_WoundSArm2.png",
+		"WoundSArm03": "LonaMCC_WoundSArm3.png"
+	}
+}]

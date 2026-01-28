@@ -1,0 +1,11 @@
+[{
+	"name_order": ["WoundMThigh"],
+	"part_name": "LonaMCC_Sex_WoundMThigh",
+	"layer": 400,
+	"bmps": {
+		"WoundMThigh01": "LonaMCC_WoundMThigh1.png",
+		"WoundMThigh02": "LonaMCC_WoundMThigh2.png",
+		"WoundMThigh03": "LonaMCC_WoundMThigh3.png"
+
+	}
+}]

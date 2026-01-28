@@ -1,0 +1,14 @@
+[{
+		"name_order": ["equip_Top"],
+		"part_name": "LonaMCC_Sex_equip_Top",
+		"layer": 1400,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "LonaMCC_equip_HoodCloakTop_Body.png",
+			"equip_Top#DocTop": "LonaMCC_equip_HoodCloakTop_Body.png",
+			"equip_Top#SurTop": "LonaMCC_equip_SurTop.png",
+			"equip_Top#AdvTop": "LonaMCC_equip_AdvTop.png",
+			"equip_Top#DancerTop": "LonaMCC_equip_DancerTop.png",
+			"equip_Top#RagTop": "LonaMCC_equip_RagTop.png"
+		}
+	}
+]

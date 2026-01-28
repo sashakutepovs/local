@@ -1,0 +1,10 @@
+[{
+	"name_order": ["CumsTop"],
+	"part_name": "LonaMCC_CumsTop",
+	"layer": 2900,
+	"bmps": {
+		"CumsTop01": "LonaMCC_CumsTop1.png",
+		"CumsTop02": "LonaMCC_CumsTop2.png",
+		"CumsTop03": "LonaMCC_CumsTop3.png"
+	}
+}]

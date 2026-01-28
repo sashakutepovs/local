@@ -1,0 +1,26 @@
+[{
+	"name_order": ["PiercingEar"],
+	"part_name": "LonaMCC_head_PiercingEar",
+	"layer": 1750,
+	"bmps": {
+		"PiercingEar01": "LonaMCC_head_PiercingEar1.png",
+		"PiercingEar02": "LonaMCC_head_PiercingEar2.png",
+		"PiercingEar03": "LonaMCC_head_PiercingEar3.png"
+	}
+},{
+	"name_order": ["PiercingNoseB"],
+	"part_name": "LonaMCC_head_PiercingNoseB",
+	"layer": 1750,
+	"bmps": {
+		"PiercingNoseB01": "LonaMCC_head_PiercingNoseB1.png",
+		"PiercingNoseB02": "LonaMCC_head_PiercingNoseB2.png",
+		"PiercingNoseB03": "LonaMCC_head_PiercingNoseB3.png"
+	}
+},{
+	"name_order": ["PiercingNose"],
+	"part_name": "LonaMCC_head_PiercingNose",
+	"layer": 1750,
+	"bmps": {
+		"PiercingNose01": "LonaMCC_head_PiercingNose.png"
+	}
+}]

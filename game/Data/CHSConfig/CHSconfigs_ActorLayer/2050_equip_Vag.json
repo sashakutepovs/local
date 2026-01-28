@@ -1,0 +1,22 @@
+[{
+		"name_order": ["preg", "equip_Vag"],
+		"part_name": "LonaMCC_equip_PantyVag",
+		"layer": 2050,
+		"bmps": {
+			"preg00,equip_Vag#PantyVag": "LonaMCC_equip_PantyVag.png",
+			"preg01,equip_Vag#PantyVag": "LonaMCC_equip_PantyVag.png",
+			"preg02,equip_Vag#PantyVag": "LonaMCC_preg6m_equip_PantyVag.png",
+			"preg03,equip_Vag#PantyVag": "LonaMCC_preg8m_equip_PantyVag.png",
+
+
+
+			"preg00,equip_Vag#RagVag": "LonaMCC_equip_RagVag.png",
+			"preg01,equip_Vag#RagVag": "LonaMCC_equip_RagVag.png",
+			"preg02,equip_Vag#RagVag": "LonaMCC_preg6m_equip_RagVag.png",
+			"preg03,equip_Vag#RagVag": "LonaMCC_preg8m_equip_RagVag.png"
+
+
+
+		}
+	}
+]

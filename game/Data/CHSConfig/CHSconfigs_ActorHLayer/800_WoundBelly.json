@@ -1,0 +1,19 @@
+[{
+	"name_order": ["preg", "WoundBelly"],
+	"part_name": "LonaMCC_Sex_WoundBelly",
+	"layer": 800,
+	"bmps": {
+		"preg00,WoundBelly01": "LonaMCC_WoundBelly1.png",
+		"preg00,WoundBelly02": "LonaMCC_WoundBelly2.png",
+		"preg00,WoundBelly03": "LonaMCC_WoundBelly3.png",
+		"preg01,WoundBelly01": "LonaMCC_WoundBelly1.png",
+		"preg01,WoundBelly02": "LonaMCC_WoundBelly2.png",
+		"preg01,WoundBelly03": "LonaMCC_WoundBelly3.png",
+		"preg02,WoundBelly01": "LonaMCC_preg6m_WoundBelly1.png",
+		"preg02,WoundBelly02": "LonaMCC_preg6m_WoundBelly2.png",
+		"preg02,WoundBelly03": "LonaMCC_preg6m_WoundBelly3.png",
+		"preg03,WoundBelly01": "LonaMCC_preg8m_WoundBelly1.png",
+		"preg03,WoundBelly02": "LonaMCC_preg8m_WoundBelly2.png",
+		"preg03,WoundBelly03": "LonaMCC_preg8m_WoundBelly3.png"
+	}
+}]

@@ -1,0 +1,9 @@
+[{
+		"name_order": ["Tail"],
+		"part_name": "LonaMCC_Tail",
+		"layer": 2275,
+		"bmps": {
+			"Tail01": "LonaMCC_Tail.png"
+		}
+	}
+]

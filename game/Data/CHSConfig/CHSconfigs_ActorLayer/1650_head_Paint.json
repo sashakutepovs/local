@@ -1,0 +1,10 @@
+[
+	{
+		"name_order": ["equip_Face"],
+		"part_name": "LonaMCC_face_PaintHead",
+		"layer": 1650,
+		"bmps": {
+			"equip_Face#PaintHead": "LonaMCC_face_PaintHead.png"
+		}
+	}
+]

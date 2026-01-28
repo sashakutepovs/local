@@ -1,0 +1,9 @@
+[{
+	"name_order": ["preg"],
+	"part_name": "LonaMCC_preg",
+	"layer": 400,
+	"bmps": {
+		"preg02": "LonaMCC_preg6m.png",
+		"preg03": "LonaMCC_preg8m.png"
+	}
+}]

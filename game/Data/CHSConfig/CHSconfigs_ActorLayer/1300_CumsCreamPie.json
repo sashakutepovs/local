@@ -1,0 +1,19 @@
+[{
+	"name_order": ["preg", "CumsCreamPie"],
+	"part_name": "LonaMCC_CumsCreamPie",
+	"layer": 1300,
+	"bmps": {
+		"preg00,CumsCreamPie01": "LonaMCC_CumsCreamPie1.png",
+		"preg00,CumsCreamPie02": "LonaMCC_CumsCreamPie2.png",
+		"preg00,CumsCreamPie03": "LonaMCC_CumsCreamPie3.png",
+		"preg01,CumsCreamPie01": "LonaMCC_CumsCreamPie1.png",
+		"preg01,CumsCreamPie02": "LonaMCC_CumsCreamPie2.png",
+		"preg01,CumsCreamPie03": "LonaMCC_CumsCreamPie3.png",
+		"preg02,CumsCreamPie01": "LonaMCC_preg6m_CumsCreamPie1.png",
+		"preg02,CumsCreamPie02": "LonaMCC_preg6m_CumsCreamPie2.png",
+		"preg02,CumsCreamPie03": "LonaMCC_preg6m_CumsCreamPie3.png",
+		"preg03,CumsCreamPie01": "LonaMCC_preg8m_CumsCreamPie1.png",
+		"preg03,CumsCreamPie02": "LonaMCC_preg8m_CumsCreamPie2.png",
+		"preg03,CumsCreamPie03": "LonaMCC_preg8m_CumsCreamPie3.png"
+	}
+}]

@@ -1,0 +1,21 @@
+[{
+		"name_order": ["equip_TopExtra"],
+		"part_name": "LonaMCC_equip_TopExtra",
+		"layer": 2500,
+		"bmps": {
+			"equip_TopExtra#ChainCollarTopExtra": "LonaMCC_equip_CollarTopExtra.png",
+			"equip_TopExtra#CollarTopExtra": "LonaMCC_equip_CollarTopExtra.png",
+			"equip_TopExtra#ChainCuffTopExtra": "LonaMCC_equip_CuffTopExtra.png",
+			"equip_TopExtra#CuffTopExtra": "LonaMCC_equip_CuffTopExtra.png"
+		}
+	},
+	{
+		"name_order": ["MainArm"],
+		"part_name": "LonaMCC_equip_MainArmTopExtra",
+		"layer": 2500,
+		"bmps": {
+			"MainArm#ChainCuffTopExtra": "LonaMCC_equip_CuffTopExtra.png",
+			"MainArm#CuffTopExtra": "LonaMCC_equip_CuffTopExtra.png"
+		}
+	}
+]

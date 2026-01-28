@@ -1,0 +1,22 @@
+[{
+	"name_order": ["equip_hair", "Race"],
+	"part_name": "LonaMCC_Sex_equip_hair_top",
+	"layer": 2000,
+	"bmps": {
+		"equip_hair#HairShortMessy,Race#Human": "LonaMCC_equip_HairShortMessy.png",
+		"equip_hair#HairShortMessy,Race#Deepone": "LonaMCC_moot_equip_HairShortMessy.png",
+		"equip_hair#HairShortMessy,Race#Moot": "LonaMCC_moot_equip_HairShortMessy.png",
+		"equip_hair#HairMessy,Race#Human": "LonaMCC_equip_HairMessy.png",
+		"equip_hair#HairMessy,Race#Deepone": "LonaMCC_moot_equip_HairMessy.png",
+		"equip_hair#HairMessy,Race#Moot": "LonaMCC_moot_equip_HairMessy.png",
+		"equip_hair#HairTwinBraid,Race#Human": "LonaMCC_equip_HairTwinBraid.png",
+		"equip_hair#HairTwinBraid,Race#Deepone": "LonaMCC_moot_equip_HairTwinBraid.png",
+		"equip_hair#HairTwinBraid,Race#Moot": "LonaMCC_moot_equip_HairTwinBraid.png",
+		"equip_hair#HairPony,Race#Human": "LonaMCC_equip_HairPony.png",
+		"equip_hair#HairPony,Race#Deepone": "LonaMCC_equip_HairPony.png",
+		"equip_hair#HairPony,Race#Moot": "LonaMCC_equip_HairPony.png",
+		"equip_hair#HairDancer,Race#Human": "LonaMCC_equip_HairDancer.png",
+		"equip_hair#HairDancer,Race#Deepone": "LonaMCC_moot_equip_HairDancer.png",
+		"equip_hair#HairDancer,Race#Moot": "LonaMCC_moot_equip_HairDancer.png"
+	}
+}]

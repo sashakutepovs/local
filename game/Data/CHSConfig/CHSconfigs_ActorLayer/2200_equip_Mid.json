@@ -1,0 +1,57 @@
+[{
+		"name_order": ["preg", "equip_Mid"],
+		"part_name": "LonaMCC_equip_Mid",
+		"layer": 2200,
+		"bmps": {
+			"preg00,equip_Mid#NunSexyMid": "LonaMCC_equip_NunSexyMid.png",
+			"preg01,equip_Mid#NunSexyMid": "LonaMCC_equip_NunSexyMid.png",
+			"preg02,equip_Mid#NunSexyMid": "LonaMCC_preg6m_equip_NunSexyMid.png",
+			"preg03,equip_Mid#NunSexyMid": "LonaMCC_preg8m_equip_NunSexyMid.png",
+
+			"preg00,equip_Mid#SlaveMid": "LonaMCC_equip_SlaveMid.png",
+			"preg01,equip_Mid#SlaveMid": "LonaMCC_equip_SlaveMid.png",
+			"preg02,equip_Mid#SlaveMid": "LonaMCC_preg6m_equip_SlaveMid.png",
+			"preg03,equip_Mid#SlaveMid": "LonaMCC_preg8m_equip_SlaveMid.png",
+			
+			"preg00,equip_Mid#FootmanMid": "LonaMCC_equip_FootmanMid.png",
+			"preg01,equip_Mid#FootmanMid": "LonaMCC_equip_FootmanMid.png",
+			"preg02,equip_Mid#FootmanMid": "LonaMCC_preg6m_equip_FootmanMid.png",
+			"preg03,equip_Mid#FootmanMid": "LonaMCC_preg8m_equip_FootmanMid.png",
+			
+			"preg00,equip_Mid#SurMid": "LonaMCC_equip_SurMid.png",
+			"preg01,equip_Mid#SurMid": "LonaMCC_equip_SurMid.png",
+			"preg02,equip_Mid#SurMid": "LonaMCC_equip_preg6m_SurMid.png",
+			"preg03,equip_Mid#SurMid": "LonaMCC_equip_preg8m_SurMid.png",
+			
+			"preg00,equip_Mid#AdvMid": "LonaMCC_equip_AdvMid.png",
+			"preg01,equip_Mid#AdvMid": "LonaMCC_equip_AdvMid.png",
+			"preg02,equip_Mid#AdvMid": "LonaMCC_equip_preg6m_AdvMid.png",
+			"preg03,equip_Mid#AdvMid": "LonaMCC_equip_preg8m_AdvMid.png",
+			
+			
+			"preg00,equip_Mid#RagMid": "LonaMCC_equip_RagMid.png",
+			"preg01,equip_Mid#RagMid": "LonaMCC_equip_RagMid.png",
+			"preg02,equip_Mid#RagMid": "LonaMCC_preg6m_equip_RagMid.png",
+			"preg03,equip_Mid#RagMid": "LonaMCC_preg6m_equip_RagMid.png",
+
+
+			"preg00,equip_Mid#SexyMid": "LonaMCC_equip_SexyMid.png",
+			"preg01,equip_Mid#SexyMid": "LonaMCC_equip_SexyMid.png",
+			"preg02,equip_Mid#SexyMid": "LonaMCC_preg6m_equip_SexyMid.png",
+			"preg03,equip_Mid#SexyMid": "LonaMCC_preg6m_equip_SexyMid.png",
+
+
+			"preg00,equip_Mid#DocMid": "LonaMCC_equip_DocMid.png",
+			"preg01,equip_Mid#DocMid": "LonaMCC_equip_DocMid.png",
+			"preg02,equip_Mid#DocMid": "LonaMCC_preg6m_equip_DocMid.png",
+			"preg03,equip_Mid#DocMid": "LonaMCC_preg8m_equip_DocMid.png"
+		}
+	},{
+		"name_order": ["equip_Mid"],
+		"part_name": "LonaMCC_equip_DancerMid",
+		"layer": 2200,
+		"bmps": {
+			"equip_Mid#DancerMid": "LonaMCC_equip_DancerMid.png"
+		}
+	}
+]

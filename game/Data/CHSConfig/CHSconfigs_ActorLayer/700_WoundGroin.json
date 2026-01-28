@@ -1,0 +1,19 @@
+[{
+	"name_order": ["preg", "WoundGroin"],
+	"part_name": "LonaMCC_WoundGroin",
+	"layer": 700,
+	"bmps": {
+		"preg00,WoundGroin01": "LonaMCC_WoundGroin1.png",
+		"preg00,WoundGroin02": "LonaMCC_WoundGroin2.png",
+		"preg00,WoundGroin03": "LonaMCC_WoundGroin3.png",
+		"preg01,WoundGroin01": "LonaMCC_WoundGroin1.png",
+		"preg01,WoundGroin02": "LonaMCC_WoundGroin2.png",
+		"preg01,WoundGroin03": "LonaMCC_WoundGroin3.png",
+		"preg02,WoundGroin01": "LonaMCC_preg6m_WoundGroin1.png",
+		"preg02,WoundGroin02": "LonaMCC_preg6m_WoundGroin2.png",
+		"preg02,WoundGroin03": "LonaMCC_preg6m_WoundGroin3.png",
+		"preg03,WoundGroin01": "LonaMCC_preg8m_WoundGroin1.png",
+		"preg03,WoundGroin02": "LonaMCC_preg8m_WoundGroin2.png",
+		"preg03,WoundGroin03": "LonaMCC_preg8m_WoundGroin3.png"
+	}
+}]

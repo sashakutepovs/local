@@ -1,0 +1,17 @@
+[{
+		"name_order": ["equip_hair","Race"],
+		"part_name": "LonaMCC_Sex_equip_hair_Bot",
+		"layer": 1900,
+		"bmps": {
+			"equip_hair#HairTwinBraid,Race#Human": "LonaMCC_equip_HairTwinBraid.png",
+			"equip_hair#HairTwinBraid,Race#Deepone": "LonaMCC_moot_equip_HairTwinBraid.png",
+			"equip_hair#HairTwinBraid,Race#Moot": "LonaMCC_moot_equip_HairTwinBraid.png",
+			"equip_hair#HairPony,Race#Human": "LonaMCC_equip_BasicHair.png",
+			"equip_hair#HairPony,Race#Deepone": "LonaMCC_moot_equip_BasicHair.png",
+			"equip_hair#HairPony,Race#Moot": "LonaMCC_moot_equip_BasicHair.png",
+			"equip_hair#Basic,Race#Human": "LonaMCC_equip_BasicHair.png",
+			"equip_hair#Basic,Race#Deepone": "LonaMCC_moot_equip_BasicHair.png",
+			"equip_hair#Basic,Race#Moot": "LonaMCC_moot_equip_BasicHair.png"
+		}
+	}
+]

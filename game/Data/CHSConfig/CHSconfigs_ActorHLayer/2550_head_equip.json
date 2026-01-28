@@ -1,0 +1,46 @@
+[{
+		"name_order": ["equip_Face"],
+		"part_name": "LonaMCC_Sex_equip_faceHigh",
+		"layer": 2549,
+		"bmps": {
+			"equip_Face#StarterGlass": "LonaMCC_face_equip_StarterGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "LonaMCC_Sex_equip_head",
+		"layer": 2550,
+		"bmps": {
+			"equip_head#DancerHeadEquip": "LonaMCC_head_equip_DancerHeadEquip.png",
+			"equip_head#DocHead": "LonaMCC_head_equip_DocHead_Head.png",
+			"equip_head#SunGlass": "LonaMCC_head_equip_SunGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "LonaMCC_Sex_equip_NunVeil",
+		"layer": 2550,
+		"bmps": {
+			"equip_head#NunVeil": "LonaMCC_head_equip_NunVeil.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "LonaMCC_Sex_head_equip_HoodCloakTop_Head",
+		"layer": 2551,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "LonaMCC_head_equip_HoodCloakTop_Head.png",
+			"equip_Top#DocTop": "LonaMCC_head_equip_DocTop_Head.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "LonaMCC_Sex_head_equip_HighHelmetLayers",
+		"layer": 2552,
+		"bmps": {
+			"equip_head#FootmanHelmet": "LonaMCC_head_equip_FootmanHelmet.png",
+			"equip_head#DocHead": "LonaMCC_head_equip_DocHead_Head.png",
+			"equip_head#BucketHelmet": "LonaMCC_head_equip_BucketHelmet.png"
+		}
+	}
+]

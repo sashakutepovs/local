@@ -1,0 +1,24 @@
+[{
+		"name_order": ["equip_Mid"],
+		"part_name": "LonaMCC_Sex_equip_Mid",
+		"layer": 1300,
+		"bmps": {
+			"equip_Mid#DocMid": "LonaMCC_equip_DocMid.png",
+			"equip_Mid#SurMid": "LonaMCC_equip_SurMid.png",
+			"equip_Mid#AdvMid": "LonaMCC_equip_AdvMid.png",
+			"equip_Mid#RagMid": "LonaMCC_equip_RagMid.png",
+			"equip_Mid#DancerMid": "LonaMCC_equip_DancerMid.png",
+			"equip_Mid#SexyMid": "LonaMCC_equip_SexyMid.png"
+		}
+	},{
+		"name_order": ["preg", "equip_Mid"],
+		"part_name": "LonaMCC_equip_SlaveMid",
+		"layer": 1300,
+		"bmps": {
+			"preg00,equip_Mid#SlaveMid": "LonaMCC_equip_SlaveMid.png",
+			"preg01,equip_Mid#SlaveMid": "LonaMCC_equip_SlaveMid.png",
+			"preg02,equip_Mid#SlaveMid": "LonaMCC_preg6m_equip_SlaveMid.png",
+			"preg03,equip_Mid#SlaveMid": "LonaMCC_preg8m_equip_SlaveMid.png"
+		}
+	}
+]

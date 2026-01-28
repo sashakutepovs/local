@@ -1,0 +1,8 @@
+[{
+	"name_order": ["head_blush"],
+	"part_name": "LonaMCC_head_blush",
+	"layer": 1600,
+	"bmps": {
+		"head_blush01": "LonaMCC_head_blush.png"
+	}
+}]

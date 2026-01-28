@@ -1,0 +1,33 @@
+[{
+	"name_order": ["SecondArm"],
+	"part_name": "LonaMCC_ArmLow_Sh",
+	"layer": 100,
+	"bmps": {
+		"SecondArm#ShLantern": "LonaMCC_ArmLow_ShLantern.png",
+		"SecondArm#ShTeslaBook": "LonaMCC_ArmLow_ShTeslaBook.png",
+		"SecondArm#ShWoodenShield": "LonaMCC_ArmLow_ShWoodenShield.png",
+		"SecondArm#ShDagger": "LonaMCC_ArmLow_ShDagger.png",
+		"SecondArm#ShAbominationTotem": "LonaMCC_ArmLow_ShAbominationTotem.png",
+		"SecondArm#ShFireBook": "LonaMCC_ArmLow_ShFireBook.png",
+		"SecondArm#ShWaterBook": "LonaMCC_ArmLow_ShWaterBook.png",
+		"SecondArm#ShBoneShield": "LonaMCC_ArmLow_ShBoneShield.png",
+		"SecondArm#ShMetalShield": "LonaMCC_ArmLow_ShMetalShield.png"
+	}
+},
+{
+	"name_order": ["SecondArm"],
+	"part_name": "LonaMCC_ArmHigh_Sh",
+	"layer": 65534,
+	"bmps": {
+		"SecondArm#ShLantern": "LonaMCC_ArmHigh_ShLantern.png",
+		"SecondArm#ShTeslaBook": "LonaMCC_ArmHigh_ShTeslaBook.png",
+		"SecondArm#ShWoodenShield": "LonaMCC_ArmHigh_ShWoodenShield.png",
+		"SecondArm#ShDagger": "LonaMCC_ArmHigh_ShDagger.png",
+		"SecondArm#ShAbominationTotem": "LonaMCC_ArmHigh_ShAbominationTotem.png",
+		"SecondArm#ShFireBook": "LonaMCC_ArmHigh_ShFireBook.png",
+		"SecondArm#ShWaterBook": "LonaMCC_ArmHigh_ShWaterBook.png",
+		"SecondArm#ShBoneShield": "LonaMCC_ArmHigh_ShBoneShield.png",
+		"SecondArm#ShMetalShield": "LonaMCC_ArmHigh_ShMetalShield.png"
+	}
+}
+]

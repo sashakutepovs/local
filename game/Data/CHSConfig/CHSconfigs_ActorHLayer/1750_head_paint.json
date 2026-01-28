@@ -1,0 +1,9 @@
+[
+	{
+		"name_order": ["equip_Face"],
+		"part_name": "LonaMCC_Sex_head_PaintHead",
+		"layer": 1750,
+		"bmps": {
+			"equip_Face#PaintHead": "LonaMCC_face_PaintHead.png"
+		}
+}]

@@ -1,0 +1,50 @@
+[{
+		"name_order": ["preg", "equip_Bot"],
+		"part_name": "LonaMCC_equip_Bot",
+		"layer": 2100,
+		"bmps": {
+			"preg00,equip_Bot#FootmanBot": "LonaMCC_equip_FootmanBot.png",
+			"preg01,equip_Bot#FootmanBot": "LonaMCC_equip_FootmanBot.png",
+			"preg02,equip_Bot#FootmanBot": "LonaMCC_preg6m_equip_FootmanBot.png",
+			"preg03,equip_Bot#FootmanBot": "LonaMCC_preg8m_equip_FootmanBot.png",
+
+			"preg00,equip_Bot#SurBot": "LonaMCC_equip_SurBot.png",
+			"preg01,equip_Bot#SurBot": "LonaMCC_equip_SurBot.png",
+			"preg02,equip_Bot#SurBot": "LonaMCC_preg6m_equip_SurBot.png",
+			"preg03,equip_Bot#SurBot": "LonaMCC_preg8m_equip_SurBot.png",
+
+			"preg00,equip_Bot#AdvBot": "LonaMCC_equip_AdvBot.png",
+			"preg01,equip_Bot#AdvBot": "LonaMCC_equip_AdvBot.png",
+			"preg02,equip_Bot#AdvBot": "LonaMCC_preg6m_equip_AdvBot.png",
+			"preg03,equip_Bot#AdvBot": "LonaMCC_preg8m_equip_AdvBot.png",
+
+
+			"preg00,equip_Bot#SexyBot": "LonaMCC_equip_SexyBot.png",
+			"preg01,equip_Bot#SexyBot": "LonaMCC_equip_SexyBot.png",
+			"preg02,equip_Bot#SexyBot": "LonaMCC_preg6m_equip_SexyBot.png",
+			"preg03,equip_Bot#SexyBot": "LonaMCC_preg8m_equip_SexyBot.png",
+
+
+
+			"preg00,equip_Bot#DancerBot": "LonaMCC_equip_DancerBot.png",
+			"preg01,equip_Bot#DancerBot": "LonaMCC_equip_DancerBot.png",
+			"preg02,equip_Bot#DancerBot": "LonaMCC_preg6m_equip_DancerBot.png",
+			"preg03,equip_Bot#DancerBot": "LonaMCC_preg8m_equip_DancerBot.png",
+
+
+
+			"preg00,equip_Bot#DocBot": "LonaMCC_equip_DocBot.png",
+			"preg01,equip_Bot#DocBot": "LonaMCC_equip_DocBot.png",
+			"preg02,equip_Bot#DocBot": "LonaMCC_preg6m_equip_DocBot.png",
+			"preg03,equip_Bot#DocBot": "LonaMCC_preg8m_equip_DocBot.png"
+		}
+	},
+	{
+		"name_order": ["equip_Bot"],
+		"part_name": "LonaMCC_equip_SimpleBot",
+		"layer": 2100,
+		"bmps": {
+			"equip_Bot#RagBot": "LonaMCC_equip_RagBot.png"
+		}
+	}
+]

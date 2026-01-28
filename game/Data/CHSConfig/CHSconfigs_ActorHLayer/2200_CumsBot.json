@@ -1,0 +1,10 @@
+[{
+	"name_order": ["CumsBot"],
+	"part_name": "LonaMCC_Sex_CumsBot",
+	"layer": 2200,
+	"bmps": {
+		"CumsBot01": "LonaMCC_CumsBot1.png",
+		"CumsBot02": "LonaMCC_CumsBot2.png",
+		"CumsBot03": "LonaMCC_CumsBot3.png"
+	}
+}]

@@ -1,0 +1,31 @@
+[{
+		"name_order": ["CharsetHead","Race"],
+		"part_name": "LonaMCC_CharsetHead",
+		"layer": 1500,
+		"bmps": {
+			"CharsetHead00,Race#Human": "LonaMCC_head_Good.png",
+			"CharsetHead01,Race#Human": "LonaMCC_head_GoodLewd.png",
+			"CharsetHead02,Race#Human": "LonaMCC_head_bad.png",
+			"CharsetHead03,Race#Human": "LonaMCC_head_BadLewd.png",
+			"CharsetHead04,Race#Human": "LonaMCC_head_Happy.png",
+			"CharsetHead05,Race#Human": "LonaMCC_head_Pain.png",
+			"CharsetHead06,Race#Human": "LonaMCC_head_Supprise.png",
+			
+			"CharsetHead00,Race#Deepone": "LonaMCC_head_moot_Good.png",
+			"CharsetHead01,Race#Deepone": "LonaMCC_head_moot_GoodLewd.png",
+			"CharsetHead02,Race#Deepone": "LonaMCC_head_moot_bad.png",
+			"CharsetHead03,Race#Deepone": "LonaMCC_head_moot_BadLewd.png",
+			"CharsetHead04,Race#Deepone": "LonaMCC_head_moot_Happy.png",
+			"CharsetHead05,Race#Deepone": "LonaMCC_head_moot_Pain.png",
+			"CharsetHead06,Race#Deepone": "LonaMCC_head_moot_Supprise.png",
+			
+			"CharsetHead00,Race#Moot": "LonaMCC_head_moot_Good.png",
+			"CharsetHead01,Race#Moot": "LonaMCC_head_moot_GoodLewd.png",
+			"CharsetHead02,Race#Moot": "LonaMCC_head_moot_bad.png",
+			"CharsetHead03,Race#Moot": "LonaMCC_head_moot_BadLewd.png",
+			"CharsetHead04,Race#Moot": "LonaMCC_head_moot_Happy.png",
+			"CharsetHead05,Race#Moot": "LonaMCC_head_moot_Pain.png",
+			"CharsetHead06,Race#Moot": "LonaMCC_head_moot_Supprise.png"
+		}
+	}
+]

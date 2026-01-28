@@ -1,0 +1,19 @@
+[{
+	"name_order": ["preg", "WoundSThigh"],
+	"part_name": "LonaMCC_WoundSThigh",
+	"layer": 500,
+	"bmps": {
+		"preg00,WoundSThigh01": "LonaMCC_WoundSThigh1.png",
+		"preg00,WoundSThigh02": "LonaMCC_WoundSThigh2.png",
+		"preg00,WoundSThigh03": "LonaMCC_WoundSThigh3.png",
+		"preg01,WoundSThigh01": "LonaMCC_WoundSThigh1.png",
+		"preg01,WoundSThigh02": "LonaMCC_WoundSThigh2.png",
+		"preg01,WoundSThigh03": "LonaMCC_WoundSThigh3.png",
+		"preg02,WoundSThigh01": "LonaMCC_preg6m_WoundSThigh1.png",
+		"preg02,WoundSThigh02": "LonaMCC_preg6m_WoundSThigh2.png",
+		"preg02,WoundSThigh03": "LonaMCC_preg6m_WoundSThigh3.png",
+		"preg03,WoundSThigh01": "LonaMCC_preg8m_WoundSThigh1.png",
+		"preg03,WoundSThigh02": "LonaMCC_preg8m_WoundSThigh2.png",
+		"preg03,WoundSThigh03": "LonaMCC_preg8m_WoundSThigh3.png"
+	}
+}]
