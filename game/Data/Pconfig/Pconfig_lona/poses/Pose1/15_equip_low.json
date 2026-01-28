@@ -1,0 +1,12 @@
+[
+{
+		"name_order": ["equip_head"],
+		"part_name": "pose1_head_equip_DancerHeadEquip_low",
+		"x": "109",
+		"y": "124",
+		"layer": 15,
+		"bmps": {
+			"equip_head#DancerHeadEquip": "pose1_head_equip_DancerHeadEquip_low.png"
+		}
+	}
+]

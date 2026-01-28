@@ -1,0 +1,43 @@
+[{
+	"name_order": ["eyes", "subeyes"],
+	"part_name": "pose1_head_eyes",
+	"x": "104",
+	"y": "83",
+	"layer": 2700,
+	"bmps": {
+		"eyes01,subeyes01": "pose1_head_eyes01_subeyes01.png",
+		"eyes01,subeyes02": "pose1_head_eyes01_subeyes02.png",
+		"eyes01,subeyes03": "pose1_head_eyes01_subeyes03.png",
+
+		"eyes02,subeyes01": "pose1_head_eyes02_subeyes01.png",
+		"eyes02,subeyes02": "pose1_head_eyes02_subeyes02.png",
+
+		"eyes03,subeyes01": "pose1_head_eyes03_subeyes01.png",
+		"eyes03,subeyes02": "pose1_head_eyes03_subeyes02.png",
+		"eyes03,subeyes03": "pose1_head_eyes03_subeyes03.png",
+		"eyes03,subeyes04": "pose1_head_eyes03_subeyes04.png",
+
+		"eyes04,subeyes01": "pose1_head_eyes04_subeyes01.png",
+
+		"eyes05,subeyes01": "pose1_head_eyes05_subeyes01.png",
+
+		"eyes06,subeyes01": "pose1_head_eyes06_subeyes01.png",
+		"eyes06,subeyes02": "pose1_head_eyes06_subeyes02.png",
+
+		"eyes07,subeyes01": "pose1_head_eyes07_subeyes01.png",
+
+		"eyes08,subeyes01": "pose1_head_eyes08_subeyes01.png",
+		"eyes08,subeyes02": "pose1_head_eyes08_subeyes02.png",
+
+		"eyes09,subeyes01": "pose1_head_eyes09_subeyes01.png",
+		"eyes09,subeyes02": "pose1_head_eyes09_subeyes02.png",
+		"eyes09,subeyes03": "pose1_head_eyes09_subeyes03.png",
+
+		"eyes10,subeyes01": "pose1_head_eyes10_subeyes01.png",
+
+		"eyes11,subeyes01": "pose1_head_eyes11_subeyes01.png",
+		"eyes11,subeyes02": "pose1_head_eyes11_subeyes02.png",
+		"eyes11,subeyes03": "pose1_head_eyes11_subeyes03.png",
+		"eyes11,subeyes04": "pose1_head_eyes11_subeyes04.png"
+	}
+}]

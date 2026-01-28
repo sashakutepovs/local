@@ -1,0 +1,13 @@
+[{
+	"name_order": ["always","Race"],
+	"isDirt": true,
+	"part_name": "pose1_head_dirt",
+	"x": "98",
+	"y": "61",
+	"layer": 3300,
+	"bmps": {
+		"always#on,Race#Human": "pose1_head_dirt.png",
+		"always#on,Race#Deepone": "pose1_head_moot_dirt.png",
+		"always#on,Race#Moot": "pose1_head_moot_dirt.png"
+	}
+}]

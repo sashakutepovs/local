@@ -1,0 +1,27 @@
+[
+
+	{
+		"name_order": ["equip_hair", "Race"],
+		"part_name": "pose1_head_HairDancer",
+		"x": 98,
+		"y": 56,
+		"layer": 3370,
+		"bmps": {
+			"equip_hair#HairDancer,Race#Human": "pose1_head_HairDancer.png",
+			"equip_hair#HairDancer,Race#Deepone": "pose1_head_moot_HairDancer.png",
+			"equip_hair#HairDancer,Race#Moot": "pose1_head_moot_HairDancer.png"
+		}
+	},{
+		"isDirt": true,
+		"name_order": ["equip_hair", "Race"],
+		"part_name": "pose1_head_HairDancer_dirt",
+		"x": 98,
+		"y": 56,
+		"layer": 3371,
+		"bmps": {
+			"equip_hair#HairDancer,Race#Human": "pose1_head_HairDancer_dirt.png",
+			"equip_hair#HairDancer,Race#Deepone": "pose1_head_moot_HairDancer_dirt.png",
+			"equip_hair#HairDancer,Race#Moot": "pose1_head_moot_HairDancer_dirt.png"
+		}
+	}
+]

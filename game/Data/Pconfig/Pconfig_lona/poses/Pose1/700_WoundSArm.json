@@ -1,0 +1,38 @@
+[{
+	"name_order" :["subpose","WoundSArm"],
+	"part_name": "pose1_subpose1_WoundSArm",
+	"x": "179",
+	"y": "182",
+	"layer": 700,
+	"bmps": {
+		"subpose01,WoundSArm01": "pose1_subpose1_WoundSArm1.png",
+		"subpose01,WoundSArm02": "pose1_subpose1_WoundSArm2.png",
+		"subpose01,WoundSArm03": "pose1_subpose1_WoundSArm3.png"
+	}
+},
+{
+	"name_order" :["subpose","WoundSArm"],
+	"part_name": "pose1_subpose2_WoundSArm",
+	"x": "100",
+	"y": "173",
+	"layer": 700,
+	"bmps": {
+		"subpose02,WoundSArm01": "pose1_subpose2_WoundSArm1.png",
+		"subpose02,WoundSArm02": "pose1_subpose2_WoundSArm2.png",
+		"subpose02,WoundSArm03": "pose1_subpose2_WoundSArm3.png"
+	}
+},
+
+{
+	"name_order" :["subpose","WoundSArm"],
+	"part_name": "pose1_subpose3_WoundSArm",
+	"x": "170",
+	"y": "160",
+	"layer": 700,
+	"bmps": {
+		"subpose03,WoundSArm01": "pose1_subpose3_WoundSArm1.png",
+		"subpose03,WoundSArm02": "pose1_subpose3_WoundSArm2.png",
+		"subpose03,WoundSArm03": "pose1_subpose3_WoundSArm3.png"
+	}
+}
+]

@@ -1,0 +1,32 @@
+[{
+		"name_order": ["subpose"],
+		"part_name": "pose1_subpose1",
+		"x": "1",
+		"y": "149",
+		"layer": 100,
+		"bmps": {
+			"subpose01": "pose1_subpose1_body.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose"],
+		"part_name": "pose1_subpose2",
+		"x": "78",
+		"y": "146",
+		"layer": 100,
+		"bmps": {
+			"subpose02": "pose1_subpose2_body.png"
+		}
+	},
+	{
+		"name_order": ["subpose"],
+		"part_name": "pose1_subpose3",
+		"x": "61",
+		"y": "149",
+		"layer": 100,
+		"bmps": {
+			"subpose03": "pose1_subpose3_body.png"
+		}
+	}
+]

@@ -1,0 +1,32 @@
+[{
+		"name_order": ["subpose", "EffectWet"],
+		"part_name": "pose1_subpose1_EffectWet",
+		"x": "100",
+		"y": "355",
+		"layer": 1400,
+		"bmps": {
+			"subpose01,EffectWet01": "pose1_subpose1_EffectWet.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "EffectWet"],
+		"part_name": "pose1_subpose2_EffectWet",
+		"x": "110",
+		"y": "338",
+		"layer": 1400,
+		"bmps": {
+			"subpose02,EffectWet01": "pose1_subpose2_EffectWet.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "EffectWet"],
+		"part_name": "pose1_subpose3_EffectWet",
+		"x": "100",
+		"y": "355",
+		"layer": 1400,
+		"bmps": {
+			"subpose03,EffectWet01": "pose1_subpose1_EffectWet.png"
+		}
+	}
+]

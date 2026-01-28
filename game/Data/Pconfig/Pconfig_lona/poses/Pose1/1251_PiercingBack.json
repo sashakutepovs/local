@@ -1,0 +1,23 @@
+[{
+		"name_order": ["subpose", "PiercingBack"],
+		"part_name": "pose1_subpose1_PiercingBack",
+		"x": 167,
+		"y": 243,
+		"layer": 1251,
+		"bmps": {
+			"subpose01,PiercingBack02": "pose1_subpose1_PiercingBack2.png",
+			"subpose01,PiercingBack03": "pose1_subpose1_PiercingBack3.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "PiercingBack"],
+		"part_name": "pose1_subpose3_PiercingBack",
+		"x": 167,
+		"y": 250,
+		"layer": 1251,
+		"bmps": {
+			"subpose03,PiercingBack02": "pose1_subpose3_PiercingBack2.png",
+			"subpose03,PiercingBack03": "pose1_subpose3_PiercingBack3.png"
+		}
+	}
+]

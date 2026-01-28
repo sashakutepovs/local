@@ -1,0 +1,16 @@
+[{
+		"name_order": ["subpose", "PiercingVag"],
+		"part_name": "pose1_subpose1_PiercingVag",
+		"x": "112",
+		"y": "362",
+		"layer": 1260,
+		"bmps": {
+			"subpose01,PiercingVag01": "pose1_subpose1_PiercingVag1.png",
+			"subpose01,PiercingVag02": "pose1_subpose1_PiercingVag2.png",
+			"subpose01,PiercingVag03": "pose1_subpose1_PiercingVag3.png",
+			"subpose03,PiercingVag01": "pose1_subpose1_PiercingVag1.png",
+			"subpose03,PiercingVag02": "pose1_subpose1_PiercingVag2.png",
+			"subpose03,PiercingVag03": "pose1_subpose1_PiercingVag3.png"
+		}
+	}
+]

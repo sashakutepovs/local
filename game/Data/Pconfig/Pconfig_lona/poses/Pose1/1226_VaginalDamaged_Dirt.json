@@ -1,0 +1,24 @@
+[{
+		"name_order": ["subpose", "VaginalDamaged"],
+		"isDirt": true,
+		"part_name": "pose1_subpose1_VaginalDamaged_dirt",
+		"x": "122",
+		"y": "366",
+		"layer": 1226,
+		"bmps": {
+			"subpose01,VaginalDamaged01": "pose1_subpose1_VaginalDamaged_dirt.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "VaginalDamaged"],
+		"isDirt": true,
+		"part_name": "pose1_subpose3_VaginalDamaged_dirt",
+		"x": "122",
+		"y": "366",
+		"layer": 1226,
+		"bmps": {
+			"subpose03,VaginalDamaged01": "pose1_subpose1_VaginalDamaged_dirt.png"
+		}
+	}
+]

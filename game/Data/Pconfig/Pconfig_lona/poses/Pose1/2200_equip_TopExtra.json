@@ -1,0 +1,114 @@
+[{
+		"name_order": ["subpose", "equip_TopExtra"],
+		"part_name": "pose1_subpose1_equip_ChainCollarTopExtra",
+		"x": "45",
+		"y": "145",
+		"layer": 2200,
+		"bmps": {
+			"subpose01,equip_TopExtra#ChainCollarTopExtra": "pose1_subpose1_equip_ChainCollarTopExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_TopExtra"],
+		"part_name": "pose1_subpose1_equip_CollarTopExtra",
+		"x": "136",
+		"y": "152",
+		"layer": 2200,
+		"bmps": {
+			"subpose01,equip_TopExtra#CollarTopExtra": "pose1_subpose1_equip_CollarTopExtra.png"
+		}
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name_order": ["subpose", "equip_TopExtra"],
+		"part_name": "pose1_subpose2_equip_ChainCollarTopExtra",
+		"x": "41",
+		"y": "144",
+		"layer": 2200,
+		"bmps": {
+			"subpose02,equip_TopExtra#ChainCollarTopExtra": "pose1_subpose2_equip_ChainCollarTopExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_TopExtra"],
+		"part_name": "pose1_subpose2_equip_CollarTopExtra",
+		"x": "134",
+		"y": "151",
+		"layer": 2200,
+		"bmps": {
+			"subpose02,equip_TopExtra#CollarTopExtra": "pose1_subpose2_equip_CollarTopExtra.png"
+		}
+	},
+
+
+
+
+
+
+
+
+
+
+
+	{
+		"name_order": ["subpose", "equip_TopExtra"],
+		"part_name": "pose1_subpose3_equip_ChainCollarTopExtra",
+		"x": "45",
+		"y": "150",
+		"layer": 2200,
+		"bmps": {
+			"subpose03,equip_TopExtra#ChainCollarTopExtra": "pose1_subpose3_equip_ChainCollarTopExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_TopExtra"],
+		"part_name": "pose1_subpose3_equip_CollarTopExtra.",
+		"x": "138",
+		"y": "159",
+		"layer": 2200,
+		"bmps": {
+			"subpose03,equip_TopExtra#CollarTopExtra": "pose1_subpose3_equip_CollarTopExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "MainArm"],
+		"part_name": "pose1_subpose3_equip_ChainCollarTopExtra2",
+		"x": "169",
+		"y": "134",
+		"layer": 50,
+		"bmps": {
+			"subpose03,MainArm#ChainCuffTopExtra": "pose1_subpose3_equip_ChainCollarTopExtra2.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "MainArm"],
+		"part_name": "pose1_subpose3_equip_ChainCuffTopExtra",
+		"x": "31",
+		"y": "157",
+		"layer": 2201,
+		"bmps": {
+			"subpose03,MainArm#ChainCuffTopExtra": "pose1_subpose3_equip_ChainCuffTopExtra.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "MainArm"],
+		"part_name": "pose1_subpose3_equip_CuffTopExtra",
+		"x": "78",
+		"y": "157",
+		"layer": 2201,
+		"bmps": {
+			"subpose03,MainArm#CuffTopExtra": "pose1_subpose3_equip_CuffTopExtra.png"
+		}
+	}
+]

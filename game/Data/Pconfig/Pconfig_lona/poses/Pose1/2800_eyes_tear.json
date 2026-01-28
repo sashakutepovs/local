@@ -1,0 +1,20 @@
+[{
+	"name_order": ["eyes", "eyes_tear"],
+	"part_name": "pose1_head_eyes_tear",
+	"x": "104",
+	"y": "83",
+	"layer": 2800,
+	"bmps": {
+		"eyes01,eyes_tear01": "pose1_head_eyes01_tear.png",
+		"eyes02,eyes_tear01": "pose1_head_eyes02_tear.png",
+		"eyes03,eyes_tear01": "pose1_head_eyes03_tear.png",
+		"eyes04,eyes_tear01": "pose1_head_eyes04_tear.png",
+		"eyes05,eyes_tear01": "pose1_head_eyes05_tear.png",
+		"eyes06,eyes_tear01": "pose1_head_eyes06_tear.png",
+		"eyes07,eyes_tear01": "pose1_head_eyes07_tear.png",
+		"eyes08,eyes_tear01": "pose1_head_eyes08_tear.png",
+		"eyes09,eyes_tear01": "pose1_head_eyes09_tear.png",
+		"eyes10,eyes_tear01": "pose1_head_eyes10_tear.png",
+		"eyes11,eyes_tear01": "pose1_head_eyes11_tear.png"
+	}
+}]

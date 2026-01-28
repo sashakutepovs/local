@@ -1,0 +1,40 @@
+[
+	{
+		"name_order": ["subpose", "equip_Top"],
+		"part_name": "pose1_equip_HoodCloakTop_HeadTop_Bot",
+		"x": 95,
+		"y": 148,
+		"layer": 2150,
+		"bmps": {
+			"subpose01,equip_Top#HoodCloakTop": "pose1_subpose1_equip_HoodCloakTop_BodyTop.png",
+			"subpose02,equip_Top#HoodCloakTop": "pose1_subpose2_equip_HoodCloakTop_BodyTop.png",
+			"subpose03,equip_Top#HoodCloakTop": "pose1_subpose3_equip_HoodCloakTop_BodyTop.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_Top"],
+		"part_name": "pose1_equip_HoodCloakTop_HeadTop_Bot",
+		"x": 86,
+		"y": 146,
+		"layer": 2150,
+		"bmps": {
+			"subpose01,equip_Top#DocTop": "pose1_subpose1_equip_DocTop_BodyTop.png",
+			"subpose02,equip_Top#DocTop": "pose1_subpose2_equip_DocTop_BodyTop.png",
+			"subpose03,equip_Top#DocTop": "pose1_subpose3_equip_DocTop_BodyTop.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "equip_head"],
+		"part_name": "pose1_equip_NunVeil_BodyTop",
+		"x": 173,
+		"y": 139,
+		"layer": 2149,
+		"bmps": {
+			"subpose01,equip_head#NunVeil": "pose1_subpose1_equip_NunVeil_BodyTop.png",
+			"subpose02,equip_head#NunVeil": "pose1_subpose1_equip_NunVeil_BodyTop.png",
+			"subpose03,equip_head#NunVeil": "pose1_subpose3_equip_NunVeil_BodyTop.png"
+		}
+	}
+
+]

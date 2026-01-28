@@ -1,0 +1,10 @@
+[{
+	"name_order": ["SlaveBrand"],
+	"part_name": "pose1_head_SlaveBrand",
+	"x": "120",
+	"y": "132",
+	"layer": 3310,
+	"bmps": {
+		"SlaveBrand01": "pose1_head_SlaveBrand.png"
+	}
+}]

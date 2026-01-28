@@ -1,0 +1,12 @@
+[{
+	"name_order": ["CumsMouth"],
+	"part_name": "pose1_head_CumsMouth",
+	"x": "125",
+	"y": "143",
+	"layer": 3501,
+	"bmps": {
+		"CumsMouth01": "pose1_head_CumsMouth1.png",
+		"CumsMouth02": "pose1_head_CumsMouth2.png",
+		"CumsMouth03": "pose1_head_CumsMouth3.png"
+	}
+}]

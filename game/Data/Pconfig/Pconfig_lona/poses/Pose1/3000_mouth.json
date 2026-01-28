@@ -1,0 +1,39 @@
+[{
+	"name_order": ["mouth"],
+	"part_name": "pose1_head_mouth",
+	"x": "122",
+	"y": "147",
+	"layer": 3000,
+	"bmps": {
+		"mouth01": "pose1_head_mouth01.png",
+		"mouth02": "pose1_head_mouth02.png",
+		"mouth03": "pose1_head_mouth03.png",
+		"mouth04": "pose1_head_mouth04.png",
+		"mouth05": "pose1_head_mouth05.png",
+		"mouth06": "pose1_head_mouth06.png",
+		"mouth07": "pose1_head_mouth07.png",
+		"mouth08": "pose1_head_mouth08.png",
+		"mouth09": "pose1_head_mouth09.png",
+		"mouth10": "pose1_head_mouth10.png",
+		"mouth11": "pose1_head_mouth11.png",
+		"mouth12": "pose1_head_mouth12.png",
+		"mouth13": "pose1_head_mouth13.png",
+		"mouth14": "pose1_head_mouth14.png",
+		"mouth15": "pose1_head_mouth15.png",
+		"mouth16": "pose1_head_mouth16.png",
+		"mouth17": "pose1_head_mouth17.png",
+		"mouth18": "pose1_head_mouth18.png"
+	}
+},{
+	"name_order": ["mouth"],
+	"part_name": "pose1_head_mouth_EXT",
+	"x": "122",
+	"y": "147",
+	"layer": 3001,
+	"bmps": {
+		"mouth07": "pose1_head_mouth07_EXT.png",
+		"mouth11": "pose1_head_mouth11_EXT.png",
+		"mouth13": "pose1_head_mouth13_EXT.png",
+		"mouth15": "pose1_head_mouth15_EXT.png"
+	}
+}]

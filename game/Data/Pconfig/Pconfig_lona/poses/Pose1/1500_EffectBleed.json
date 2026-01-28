@@ -1,0 +1,32 @@
+[{
+		"name_order": ["subpose", "EffectBleedVag"],
+		"part_name": "pose1_subpose1_EffectBleedVag",
+		"x": "107",
+		"y": "355",
+		"layer": 1500,
+		"bmps": {
+			"subpose01,EffectBleedVag01": "pose1_subpose1_EffectBleedVag.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "EffectBleedVag"],
+		"part_name": "pose1_subpose2_EffectBleedVag",
+		"x": "123",
+		"y": "351",
+		"layer": 1500,
+		"bmps": {
+			"subpose02,EffectBleedVag01": "pose1_subpose2_EffectBleedVag.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "EffectBleedVag"],
+		"part_name": "pose1_subpose3_EffectBleedVag",
+		"x": "107",
+		"y": "355",
+		"layer": 1500,
+		"bmps": {
+			"subpose03,EffectBleedVag01": "pose1_subpose1_EffectBleedVag.png"
+		}
+	}
+]

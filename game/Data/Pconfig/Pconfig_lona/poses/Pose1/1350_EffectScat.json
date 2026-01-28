@@ -1,0 +1,32 @@
+[{
+		"name_order": ["subpose", "EffectScat"],
+		"part_name": "pose1_subpose1_EffectScat",
+		"x": "66",
+		"y": "328",
+		"layer": 1350,
+		"bmps": {
+			"subpose01,EffectScat01": "pose1_subpose1_EffectScat.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "EffectScat"],
+		"part_name": "pose1_subpose2_EffectScat",
+		"x": "75",
+		"y": "311",
+		"layer": 1350,
+		"bmps": {
+			"subpose02,EffectScat01": "pose1_subpose2_EffectScat.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "EffectScat"],
+		"part_name": "pose1_subpose3_EffectScat",
+		"x": "66",
+		"y": "328",
+		"layer": 1350,
+		"bmps": {
+			"subpose03,EffectScat01": "pose1_subpose1_EffectScat.png"
+		}
+	}
+]

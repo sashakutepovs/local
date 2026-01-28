@@ -1,0 +1,18 @@
+[{
+	"name_order": ["eyes", "eyes_shock"],
+	"part_name": "pose1_head_eyes_shock",
+	"x": "104",
+	"y": "83",
+	"layer": 2900,
+	"bmps": {
+		"eyes01,eyes_shock01": "pose1_head_eyes01_shock.png",
+		"eyes02,eyes_shock01": "pose1_head_eyes02_shock.png",
+		"eyes03,eyes_shock01": "pose1_head_eyes03_shock.png",
+		"eyes04,eyes_shock01": "pose1_head_eyes04_shock.png",
+		"eyes05,eyes_shock01": "pose1_head_eyes05_shock.png",
+		"eyes06,eyes_shock01": "pose1_head_eyes06_shock.png",
+		"eyes07,eyes_shock01": "pose1_head_eyes07_shock.png",
+		"eyes08,eyes_shock01": "pose1_head_eyes08_shock.png",
+		"eyes09,eyes_shock01": "pose1_head_eyes09_shock.png"
+	}
+}]

@@ -1,0 +1,33 @@
+[
+	{
+		"name_order": ["subpose", "preg", "equip_Vag"],
+		"part_name": "pose1_subpose1_equip_PantyVag",
+		"x": 69,
+		"y": 300,
+		"layer": 1650,
+		"bmps": {
+			"subpose01,preg00,equip_Vag#PantyVag": "pose1_subpose1_equip_PantyVag.png",
+			"subpose01,preg01,equip_Vag#PantyVag": "pose1_subpose1_preg4m_equip_PantyVag.png",
+			"subpose01,preg02,equip_Vag#PantyVag": "pose1_subpose1_preg6m_equip_PantyVag.png",
+			"subpose01,preg03,equip_Vag#PantyVag": "pose1_subpose1_preg8m_equip_PantyVag.png",
+			"subpose03,preg00,equip_Vag#PantyVag": "pose1_subpose1_equip_PantyVag.png",
+			"subpose03,preg01,equip_Vag#PantyVag": "pose1_subpose1_preg4m_equip_PantyVag.png",
+			"subpose03,preg02,equip_Vag#PantyVag": "pose1_subpose1_preg6m_equip_PantyVag.png",
+			"subpose03,preg03,equip_Vag#PantyVag": "pose1_subpose1_preg8m_equip_PantyVag.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Vag"],
+		"part_name": "pose1_subpose2_equip_PantyVag",
+		"x": 88,
+		"y": 293,
+		"layer": 1650,
+		"bmps": {
+			"subpose02,preg00,equip_Vag#PantyVag": "pose1_subpose2_equip_PantyVag.png",
+			"subpose02,preg01,equip_Vag#PantyVag": "pose1_subpose2_preg4m_equip_PantyVag.png",
+			"subpose02,preg02,equip_Vag#PantyVag": "pose1_subpose2_preg4m_equip_PantyVag.png",
+			"subpose02,preg03,equip_Vag#PantyVag": "pose1_subpose2_preg4m_equip_PantyVag.png"
+		}
+	}
+
+]

@@ -1,0 +1,35 @@
+[{
+		"name_order": ["subpose", "EffectPee"],
+		"part_name": "pose1_subpose1_EffectPee",
+		"x": "97",
+		"y": "361",
+		"layer": 1600,
+		"bmps": {
+			"subpose01,EffectPee01": "pose1_subpose1_EffectPee1.png",
+			"subpose01,EffectPee02": "pose1_subpose1_EffectPee2.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "EffectPee"],
+		"part_name": "pose1_subpose2_EffectPee",
+		"x": "103",
+		"y": "329",
+		"layer": 1600,
+		"bmps": {
+			"subpose02,EffectPee01": "pose1_subpose2_EffectPee1.png",
+			"subpose02,EffectPee02": "pose1_subpose2_EffectPee2.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "EffectPee"],
+		"part_name": "pose1_subpose3_EffectPee",
+		"x": "97",
+		"y": "361",
+		"layer": 1600,
+		"bmps": {
+			"subpose03,EffectPee01": "pose1_subpose1_EffectPee1.png",
+			"subpose03,EffectPee02": "pose1_subpose1_EffectPee2.png"
+		}
+	}
+]

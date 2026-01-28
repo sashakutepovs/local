@@ -1,0 +1,38 @@
+[{
+		"name_order": ["subpose", "CumsBot"],
+		"part_name": "pose1_subpose1_CumsBot",
+		"x": "65",
+		"y": "295",
+		"layer": 2300,
+		"bmps": {
+			"subpose01,CumsBot01": "pose1_subpose1_CumsBot1.png",
+			"subpose01,CumsBot02": "pose1_subpose1_CumsBot2.png",
+			"subpose01,CumsBot03": "pose1_subpose1_CumsBot3.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "CumsBot"],
+		"part_name": "pose1_subpose2_CumsBot",
+		"x": "85",
+		"y": "282",
+		"layer": 2300,
+		"bmps": {
+			"subpose02,CumsBot01": "pose1_subpose2_CumsBot1.png",
+			"subpose02,CumsBot02": "pose1_subpose2_CumsBot2.png",
+			"subpose02,CumsBot03": "pose1_subpose2_CumsBot3.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "CumsBot"],
+		"part_name": "pose1_subpose3_CumsBot",
+		"x": "65",
+		"y": "295",
+		"layer": 2300,
+		"bmps": {
+			"subpose03,CumsBot01": "pose1_subpose1_CumsBot1.png",
+			"subpose03,CumsBot02": "pose1_subpose1_CumsBot2.png",
+			"subpose03,CumsBot03": "pose1_subpose1_CumsBot3.png"
+		}
+	}
+]

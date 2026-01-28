@@ -1,0 +1,65 @@
+[{
+		"name_order": ["subpose", "preg", "WoundGroin"],
+		"part_name": "pose1_subpose1_WoundGroin",
+		"x": "75",
+		"y": "329",
+		"layer": 500,
+		"bmps": {
+			"subpose01,preg00,WoundGroin01": "pose1_subpose1_WoundGroin1.png",
+			"subpose01,preg00,WoundGroin02": "pose1_subpose1_WoundGroin2.png",
+			"subpose01,preg00,WoundGroin03": "pose1_subpose1_WoundGroin3.png",
+			"subpose01,preg01,WoundGroin01": "pose1_subpose1_WoundGroin1.png",
+			"subpose01,preg01,WoundGroin02": "pose1_subpose1_WoundGroin2.png",
+			"subpose01,preg01,WoundGroin03": "pose1_subpose1_WoundGroin3.png",
+			"subpose01,preg02,WoundGroin01": "pose1_subpose1_preg6m_WoundGroin1.png",
+			"subpose01,preg02,WoundGroin02": "pose1_subpose1_preg6m_WoundGroin2.png",
+			"subpose01,preg02,WoundGroin03": "pose1_subpose1_preg6m_WoundGroin3.png",
+			"subpose01,preg03,WoundGroin01": "pose1_subpose1_preg8m_WoundGroin1.png",
+			"subpose01,preg03,WoundGroin02": "pose1_subpose1_preg8m_WoundGroin2.png",
+			"subpose01,preg03,WoundGroin03": "pose1_subpose1_preg8m_WoundGroin3.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "WoundGroin"],
+		"part_name": "pose1_subpose2_WoundGroin",
+		"x": "98",
+		"y": "302",
+		"layer": 500,
+		"bmps": {
+			"subpose02,preg00,WoundGroin01": "pose1_subpose2_WoundGroin1.png",
+			"subpose02,preg00,WoundGroin02": "pose1_subpose2_WoundGroin2.png",
+			"subpose02,preg00,WoundGroin03": "pose1_subpose2_WoundGroin3.png",
+			"subpose02,preg01,WoundGroin01": "pose1_subpose2_WoundGroin1.png",
+			"subpose02,preg01,WoundGroin02": "pose1_subpose2_WoundGroin2.png",
+			"subpose02,preg01,WoundGroin03": "pose1_subpose2_WoundGroin3.png",
+			"subpose02,preg02,WoundGroin01": "pose1_subpose2_WoundGroin1.png",
+			"subpose02,preg02,WoundGroin02": "pose1_subpose2_WoundGroin2.png",
+			"subpose02,preg02,WoundGroin03": "pose1_subpose2_WoundGroin3.png",
+			"subpose02,preg03,WoundGroin01": "pose1_subpose2_WoundGroin1.png",
+			"subpose02,preg03,WoundGroin02": "pose1_subpose2_WoundGroin2.png",
+			"subpose02,preg03,WoundGroin03": "pose1_subpose2_WoundGroin3.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "preg", "WoundGroin"],
+		"part_name": "pose1_subpose3_WoundGroin",
+		"x": "75",
+		"y": "329",
+		"layer": 500,
+		"bmps": {
+			"subpose03,preg00,WoundGroin01": "pose1_subpose1_WoundGroin1.png",
+			"subpose03,preg00,WoundGroin02": "pose1_subpose1_WoundGroin2.png",
+			"subpose03,preg00,WoundGroin03": "pose1_subpose1_WoundGroin3.png",
+			"subpose03,preg01,WoundGroin01": "pose1_subpose1_WoundGroin1.png",
+			"subpose03,preg01,WoundGroin02": "pose1_subpose1_WoundGroin2.png",
+			"subpose03,preg01,WoundGroin03": "pose1_subpose1_WoundGroin3.png",
+			"subpose03,preg02,WoundGroin01": "pose1_subpose1_preg6m_WoundGroin1.png",
+			"subpose03,preg02,WoundGroin02": "pose1_subpose1_preg6m_WoundGroin2.png",
+			"subpose03,preg02,WoundGroin03": "pose1_subpose1_preg6m_WoundGroin3.png",
+			"subpose03,preg03,WoundGroin01": "pose1_subpose1_preg8m_WoundGroin1.png",
+			"subpose03,preg03,WoundGroin02": "pose1_subpose1_preg8m_WoundGroin2.png",
+			"subpose03,preg03,WoundGroin03": "pose1_subpose1_preg8m_WoundGroin3.png"
+		}
+	}
+]

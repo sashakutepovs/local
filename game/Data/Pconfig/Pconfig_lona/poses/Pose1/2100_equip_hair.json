@@ -1,0 +1,93 @@
+[{
+		"name_order": ["subpose", "equip_hair"],
+		"part_name": "pose1_subpose1_equip_hair",
+		"x": "108",
+		"y": "121",
+		"layer": 2100,
+		"bmps": {
+			"subpose01,equip_hair#HairMessy": "pose1_subpose1_equip_HairMessy.png",
+			"subpose01,equip_hair#HairDancer": "pose1_subpose1_equip_HairMessy.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_hair"],
+		"part_name": "pose1_subpose2_equip_hair",
+		"x": "103",
+		"y": "125",
+		"layer": 2100,
+		"bmps": {
+			"subpose02,equip_hair#HairMessy": "pose1_subpose2_equip_HairMessy.png",
+			"subpose02,equip_hair#HairDancer": "pose1_subpose2_equip_HairMessy.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_hair"],
+		"part_name": "pose1_subpose3_equip_hair",
+		"x": "105",
+		"y": "121",
+		"layer": 2100,
+		"bmps": {
+			"subpose03,equip_hair#HairMessy": "pose1_subpose3_equip_HairMessy.png",
+			"subpose03,equip_hair#HairDancer": "pose1_subpose3_equip_HairMessy.png"
+		}
+	},
+	
+	
+	{
+		"name_order": ["subpose", "equip_hair"],
+		"part_name": "pose1_subpose1_equip_hair",
+		"x": "108",
+		"y": "121",
+		"layer": 2100,
+		"bmps": {
+			"subpose01,equip_hair#HairTwinBraid": "pose1_subpose1_equip_HairTwinBraid.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_hair"],
+		"part_name": "pose1_subpose2_equip_hair",
+		"x": "109",
+		"y": "133",
+		"layer": 2100,
+		"bmps": {
+			"subpose02,equip_hair#HairTwinBraid": "pose1_subpose2_equip_HairTwinBraid.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_hair"],
+		"part_name": "pose1_subpose3_equip_hair",
+		"x": "110",
+		"y": "121",
+		"layer": 2100,
+		"bmps": {
+			"subpose03,equip_hair#HairTwinBraid": "pose1_subpose3_equip_HairTwinBraid.png"
+		}
+	},
+	
+	
+	
+	
+	
+{
+		"name_order": ["subpose", "equip_hair"],
+		"part_name": "pose1_subpose1_equip_HairPony",
+		"x": "57",
+		"y": "121",
+		"layer": 25,
+		"bmps": {
+			"subpose01,equip_hair#HairPony": "pose1_subpose1_equip_HairPony.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_hair"],
+		"part_name": "pose1_subpose2_equip_HairPony",
+		"x": "26",
+		"y": "124",
+		"layer": 25,
+		"bmps": {
+			"subpose02,equip_hair#HairPony": "pose1_subpose2_equip_HairPony.png",
+			"subpose03,equip_hair#HairPony": "pose1_subpose2_equip_HairPony.png"
+		}
+	}
+
+]

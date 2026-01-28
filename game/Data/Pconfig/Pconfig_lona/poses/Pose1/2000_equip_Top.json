@@ -1,0 +1,173 @@
+[{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose1_equip_AdvTop",
+		"x": "65",
+		"y": "152",
+		"layer": 2000,
+		"bmps": {
+			"subpose01,preg00,equip_Top#AdvTop": "pose1_subpose1_equip_AdvTop.png",
+			"subpose01,preg01,equip_Top#AdvTop": "pose1_subpose1_preg4m_equip_AdvTop.png",
+			"subpose01,preg02,equip_Top#AdvTop": "pose1_subpose1_preg6m_equip_AdvTop.png",
+			"subpose01,preg03,equip_Top#AdvTop": "pose1_subpose1_preg8m_equip_AdvTop.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose2_equip_AdvTop",
+		"x": "73",
+		"y": "148",
+		"layer": 2000,
+		"bmps": {
+			"subpose02,preg00,equip_Top#AdvTop": "pose1_subpose2_equip_AdvTop.png",
+			"subpose02,preg01,equip_Top#AdvTop": "pose1_subpose2_equip_AdvTop.png",
+			"subpose02,preg02,equip_Top#AdvTop": "pose1_subpose2_equip_AdvTop.png",
+			"subpose02,preg03,equip_Top#AdvTop": "pose1_subpose2_equip_AdvTop.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose3_equip_AdvTop",
+		"x": "56",
+		"y": "150",
+		"layer": 2000,
+		"bmps": {
+			"subpose03,preg00,equip_Top#AdvTop": "pose1_subpose3_equip_AdvTop.png",
+			"subpose03,preg01,equip_Top#AdvTop": "pose1_subpose3_equip_AdvTop.png",
+			"subpose03,preg02,equip_Top#AdvTop": "pose1_subpose3_preg6m_equip_AdvTop.png",
+			"subpose03,preg03,equip_Top#AdvTop": "pose1_subpose3_preg8m_equip_AdvTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose1_equip_RagTop",
+		"x": "42",
+		"y": "154",
+		"layer": 2000,
+		"bmps": {
+			"subpose01,preg00,equip_Top#RagTop": "pose1_subpose1_equip_RagTop.png",
+			"subpose01,preg01,equip_Top#RagTop": "pose1_subpose1_preg4m_equip_RagTop.png",
+			"subpose01,preg02,equip_Top#RagTop": "pose1_subpose1_preg6m_equip_RagTop.png",
+			"subpose01,preg03,equip_Top#RagTop": "pose1_subpose1_preg8m_equip_RagTop.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose2_equip_RagTop",
+		"x": "56",
+		"y": "159",
+		"layer": 2000,
+		"bmps": {
+			"subpose02,preg00,equip_Top#RagTop": "pose1_subpose2_equip_RagTop.png",
+			"subpose02,preg01,equip_Top#RagTop": "pose1_subpose2_equip_RagTop.png",
+			"subpose02,preg02,equip_Top#RagTop": "pose1_subpose2_equip_RagTop.png",
+			"subpose02,preg03,equip_Top#RagTop": "pose1_subpose2_equip_RagTop.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "preg", "equip_Top"],
+		"part_name": "pose1_subpose3_equip_RagTop",
+		"x": "40",
+		"y": "150",
+		"layer": 2000,
+		"bmps": {
+			"subpose03,preg00,equip_Top#RagTop": "pose1_subpose3_equip_RagTop.png",
+			"subpose03,preg01,equip_Top#RagTop": "pose1_subpose3_preg4m_equip_RagTop.png",
+			"subpose03,preg02,equip_Top#RagTop": "pose1_subpose3_preg6m_equip_RagTop.png",
+			"subpose03,preg03,equip_Top#RagTop": "pose1_subpose3_preg8m_equip_RagTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["subpose", "equip_Top"],
+		"part_name": "pose1_subpose1_equip_SurTop",
+		"x": "108",
+		"y": "153",
+		"layer": 2000,
+		"bmps": {
+			"subpose01,equip_Top#SurTop": "pose1_subpose1_equip_SurTop.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_Top"],
+		"part_name": "pose1_subpose2_equip_SurTop",
+		"x": "102",
+		"y": "140",
+		"layer": 2000,
+		"bmps": {
+			"subpose02,equip_Top#SurTop": "pose1_subpose2_equip_SurTop.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "equip_Top"],
+		"part_name": "pose1_subpose3_equip_SurTop",
+		"x": "113",
+		"y": "145",
+		"layer": 2000,
+		"bmps": {
+			"subpose03,equip_Top#SurTop": "pose1_subpose3_equip_SurTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["subpose", "equip_Top"],
+		"part_name": "pose1_subpose1_equip_DancerTop",
+		"x": "47",
+		"y": "216",
+		"layer": 2000,
+		"bmps": {
+			"subpose01,equip_Top#DancerTop": "pose1_subpose1_equip_DancerTop.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "equip_Top"],
+		"part_name": "pose1_subpose2_equip_DancerTop",
+		"x": "45",
+		"y": "191",
+		"layer": 2000,
+		"bmps": {
+			"subpose02,equip_Top#DancerTop": "pose1_subpose2_equip_DancerTop.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "equip_Top"],
+		"part_name": "pose1_subpose3_equip_DancerTop",
+		"x": "28",
+		"y": "195",
+		"layer": 2000,
+		"bmps": {
+			"subpose03,equip_Top#DancerTop": "pose1_subpose3_equip_DancerTop.png"
+		}
+	},
+
+	//doc mask, neck part
+	{
+		"name_order": ["subpose", "equip_head"],
+		"part_name": "pose1_equip_DocHead_BodyTop",
+		"x": 129,
+		"y": 148,
+		"layer": 1999,
+		"bmps": {
+			"subpose01,equip_head#DocHead": "pose1_subpose1_equip_DocHead_BodyTop.png",
+			"subpose02,equip_head#DocHead": "pose1_subpose2_equip_DocHead_BodyTop.png",
+			"subpose03,equip_head#DocHead": "pose1_subpose3_equip_DocHead_BodyTop.png"
+		}
+	},
+
+]
