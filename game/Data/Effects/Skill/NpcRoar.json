@@ -1,0 +1,35 @@
+{
+	"item_name": "NpcRoar",
+	"CHS_animation": "animation_roar_release",
+	"wait_hit_frame": true,
+	"range": 2,
+	"back_stab":3,
+	"stealth": false,
+	"hit_frame":6,
+	"summon_user": "EffectRoar",
+	"summon_hold": "EffectBackStabHold",
+	"summon_hit": "EffectRoarHit",
+	"no_interrupt": true,
+	"no_parry":true,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_roar_hold",
+	"hit_detection":"LargeFrontAE",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 59,
+	"launch_max" : 60,
+	"ai_value": {
+		"assulter": 30,
+		"killer": 30,
+		"fucker": 0
+	},
+	"cost": [],
+	"effect": [],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["Stun3"],
+		"chance":100
+	}]
+}

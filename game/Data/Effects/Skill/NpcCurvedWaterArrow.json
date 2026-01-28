@@ -1,0 +1,48 @@
+{
+	"item_name": "NpcCurvedWaterArrow",
+	"CHS_animation": "animation_casting_mh",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_hold_casting_mh",
+	"range": 7,
+	"back_stab":1,
+	"stealth": false,
+	"no_parry":true,
+	"no_dodge":true,
+	"sap":false,
+	"no_aggro":true,
+	"hit_frame":20,
+	"summon_hit": null,
+	"summon_user": "ProjectileNpcCurvedWaterArrow",
+	"hold_type": "none",
+	"hit_detection":"NpcRangeArtilleryType2",
+	"projectile_type": 2,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "-200",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

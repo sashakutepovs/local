@@ -1,0 +1,40 @@
+{
+	"item_name": "NpcFireShotgun",
+	"icon_index": 668,
+	"is_mind_control_usable": true,
+	"CHS_animation": "animation_casting_mh",
+	"wait_hit_frame": true,
+	"range": 2,
+	"back_stab":1.1,
+	"hit_frame":8,
+	"summon_hit": null,
+	"summon_user": "FireBallChargeLowProjectile",
+	"no_parry":false,
+	"no_dodge":false,
+	"no_action_change":true,
+	"no_aggro":true,
+	"sap":false,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection":"FrontAE",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "3",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

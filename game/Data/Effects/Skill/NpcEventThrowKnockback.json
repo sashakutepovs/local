@@ -1,0 +1,87 @@
+{
+	"item_name": "NpcEventThrowKnockback",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1,
+	"hit_frame": 0,
+	"summon_hit": "EffectThrowKnockbackHit",
+	"summon_user": null,
+	"no_parry":true,
+	"no_dodge":false,
+	"no_aggro":true,
+	"sap":false,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection":"BasicHeavy",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "health",
+			"lowest_req" : "0",
+			"highest_req" : "60001"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "1"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.5"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+		
+		
+		],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundGroin","WoundSThigh","WoundMThigh","WoundSArm","WoundMArm","WoundBelly","WoundChest","WoundHead"],
+		"chance":100
+	},{
+		"popup_type": "State",
+		"states": ["Stun3"],
+		"chance":100
+	}]
+}

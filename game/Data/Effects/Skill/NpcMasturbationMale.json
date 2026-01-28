@@ -1,0 +1,52 @@
+{
+	"item_name": "NpcMasturbationMale",
+	"icon_index": 674,
+	"is_mind_control_usable": true,
+	"CHS_animation": "animation_masturbation_cumming",
+	"wait_hit_frame": true,
+	"range": 3,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":120,
+	"summon_user": "EffectSperm",
+	"summon_hold": "EffectMasturbationHold",
+	"summon_hit": "SpermProjectile",
+	"no_parry":true,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_masturbation",
+	"hit_detection":"SexLargeFrontAE",
+	"projectile_type": 1,
+	"effect_since" : 0,
+	"launch_since" : 180,
+	"launch_max" : 181,
+	"ai_value": {
+		"assulter": 5,
+		"killer": 5,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "arousal",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "20",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

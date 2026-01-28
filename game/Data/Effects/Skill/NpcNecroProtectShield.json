@@ -1,0 +1,41 @@
+{
+	"item_name": "NpcNecroProtectShield",
+	"CHS_animation": "animation_casting_mh",
+	"wait_hit_frame": true,
+	"range": 5,
+	"back_stab":1,
+	"hit_frame":8,
+	"summon_hit": "EfxNpcNecroShield",
+	"summon_hold": "EffectLifeMagicHold",
+	"summon_user": "EfxNecroShield",
+	"no_parry":true,
+	"no_dodge":true,
+	"no_aggro":true,
+	"sap":false,
+	"is_support" : true,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_casting_mh",
+	"hit_detection":"MarkSkill",
+	"projectile_type": 2,
+	"launch_since" : 60,
+	"launch_max" : 61,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "3",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

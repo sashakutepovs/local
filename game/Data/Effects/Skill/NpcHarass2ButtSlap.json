@@ -1,0 +1,100 @@
+{
+	"item_name": "NpcHarass2ButtSlap",
+	"CHS_animation": "animation_atk_charge",
+	"is_sex_skill": true,
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":3,
+	"summon_hit": "EffectButtSlapHit",
+	"summon_hold": "EffectHarassmentHold",
+	"summon_user": null,
+	"no_parry":false,
+	"no_dodge":false,
+	"no_action_change":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_harass_hold",
+	"hit_detection": "SexSkillFront",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 60,
+	"launch_max" : 90,
+	"ai_value": {
+		"assulter": 1,
+		"killer": 1,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "arousal",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "100",
+			"highest_req" : "201"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "1"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "1000"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Arousal",
+			"base": {
+				"attribute_name": "constitution",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "10"
+			},
+			"compare": {
+				"attribute_name": "constitution",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "+",
+				"attribute_name": "arousal",
+				"attribute_type": "current"
+			}
+		}],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["Stun3"],
+		"chance":30
+	},{
+		"popup_type": "State",
+		"states": ["Slow6"],
+		"chance":100
+	}]
+}

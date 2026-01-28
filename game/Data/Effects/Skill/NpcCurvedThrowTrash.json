@@ -1,0 +1,42 @@
+{
+	"item_name": "NpcCurvedThrowTrash",
+	"CHS_animation": "animation_atk_mh_long",
+	"wait_hit_frame": true,
+	"range": 5,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":12,
+	"summon_user": "ProjNpcCurvedTrash",
+	"summon_hold": "EffectHoldNil2",
+	"summon_hit": null,
+	"sap":false,
+	"no_aggro":true,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_action_change":true,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection":"NpcRangeArtilleryType2",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 70,
+	"launch_max" : 71,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

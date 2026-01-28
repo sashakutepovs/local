@@ -1,0 +1,43 @@
+{
+	"item_name": "NpcDashDodgeCombo",
+	"CHS_animation": "animation_charge_run",
+	"wait_hit_frame": true,
+	"range": 20,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":1,
+	"summon_user": "EfxComboDashDodge",
+	"summon_hold": null,
+	"summon_hit": null,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_aggro":true,
+	"no_interrupt": true,
+	"no_action_change":true,
+	"sap":false,
+	"hold_type": "none",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection":"LargeFrontAE",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 10,
+	"launch_max" : 11,
+	"ai_value": {
+		"assulter": 50,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

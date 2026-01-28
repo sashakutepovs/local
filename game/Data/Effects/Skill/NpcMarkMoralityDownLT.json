@@ -1,0 +1,48 @@
+{
+	"item_name": "NpcMarkMoralityDownLT",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": false,
+	"range": 5,
+	"back_stab":1,
+	"hit_frame":1,
+	"summon_hit": null,
+	"summon_user": "EffectMarkMoralityDownLT",
+	"sap":false,
+	"no_aggro":true,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_action_change":true,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection":"MarkSkill",
+	"projectile_type": 3,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "-65535",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "10",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

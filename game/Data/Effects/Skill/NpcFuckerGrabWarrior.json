@@ -1,0 +1,86 @@
+{
+	"item_name": "NpcFuckerGrabWarrior",
+	"CHS_animation": "animation_atk_backstab",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1,
+	"stealth": true,
+	"hit_frame":8,
+	"summon_hit": "EffectGrabHit",
+	"summon_user": null,
+	"summon_hold": "EffectHarassmentHold",
+	"no_parry":true,
+	"no_dodge":false,
+	"no_action_change":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_sh",
+	"hit_detection":"BasicAttack",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 60,
+	"launch_max" : 61,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "1.2"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.5"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundGroin","WoundSThigh","WoundMThigh"],
+		"chance":50
+	}]
+}

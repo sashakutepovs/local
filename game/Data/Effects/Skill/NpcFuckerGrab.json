@@ -1,0 +1,48 @@
+{
+	"item_name": "NpcFuckerGrab",
+	"CHS_animation": "animation_atk_backstab",
+	"icon_index": 783,
+	"is_mind_control_usable": true,
+	"is_sex_skill": true,
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1,
+	"stealth": true,
+	"hit_frame":8,
+	"summon_hit": "EffectGrabHit",
+	"summon_user": null,
+	"summon_hold": "EffectHarassmentHold",
+	"no_parry":true,
+	"no_dodge":false,
+	"no_action_change":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_sh",
+	"hit_detection":"SexSkillFront",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 60,
+	"launch_max" : 61,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundGroin","WoundSThigh","WoundMThigh"],
+		"chance":50
+	}]
+}

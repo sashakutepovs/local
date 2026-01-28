@@ -1,0 +1,38 @@
+{
+	"item_name": "NpcJumpShort",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": false,
+	"range": 5,
+	"back_stab":1,
+	"hit_frame":1,
+	"summon_hit": null,
+	"summon_user": "EffectJumpToTarget",
+	"sap":false,
+	"no_aggro":true,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_action_change":true,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection":"ActionSkillIgnoreCloseShort",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 30,
+		"killer": 30,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}
