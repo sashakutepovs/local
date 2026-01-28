@@ -1,0 +1,57 @@
+{
+  "id": "darkPot_FinalResult",
+  "recipes": [
+    {
+      "export_name": "ItemCarbon",
+      "requirements": {
+        "Wood": 1
+      },
+      "output": {
+        "ItemCarbon": {
+          "quantity": "Wood * 3"
+        }
+      },
+      "postProcess": {
+        "Wood": "= 0"
+      }
+    },
+    {
+      "export_name": "ItemPhosphorus",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+      "requirements": {
+        "Pee": 1
+      },
+      "output": {
+        "ItemPhosphorus": {
+          "quantity": "Pee"
+        }
+      },
+      "postProcess": {
+        "Pee": "= 0"
+      }
+    },
+    {
+      "export_name": "ItemSaltpeter",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+      "requirements": {
+        "Poo": 1
+      },
+      "output": {
+        "ItemSaltpeter": {
+          "quantity": "Poo"
+        }
+      },
+      "postProcess": {
+        "Poo": "= 0"
+      }
+    }
+  ]
+}

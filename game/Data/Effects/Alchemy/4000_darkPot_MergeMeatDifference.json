@@ -1,0 +1,18 @@
+{
+  "id": "darkPot_MergeMeatDifference",
+  "recipes": [
+    {
+      "export_name": null,
+      "conditions": {
+        "customCondition": "(tmpList['HumanMysticMeat'] || 0) >= 1 || ((tmpList['HumanMeat'] || 0) >= 1 && (tmpList['MysticMeat'] || 0) >= 1)"
+      },
+      "requirements": {},
+      "output": {},
+      "postProcess": {
+        "HumanMysticMeat": "+= HumanMeat + MysticMeat",
+        "HumanMeat": "= 0",
+        "MysticMeat": "= 0"
+      }
+    }
+  ]
+}

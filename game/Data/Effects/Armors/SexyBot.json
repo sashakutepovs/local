@@ -1,0 +1,71 @@
+{
+	"item_name": "ItemSexyBot",
+	"icon_index": 533,
+	"atype_id": "WhoreDress",
+	"etype_id": "Bot",
+	"weight": 1,
+	"price": 15000,
+	"lonaStat_json_hash": {
+			"stat": "equip_Bot",
+			"link": null,
+			"value": "SexyBot",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:SexyBot/item_name",
+			"description": "DataEquip:SexyBot/description"
+		},
+	"pot_data": {
+		"Cloth": 1,
+		"Gold": 1
+		},
+	"attribute_change": [
+	{
+		"stats_key" 	: "DirtState",
+		"stats_value"	: [2],
+		"stats_filter"	: false,
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 20
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 3
+	},
+	{
+		"attribute_name": "dirt",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 60
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	},
+	{
+		"block_by_part_cover": ["Anal","Vag","Groin"],
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 2
+	}
+	]
+}

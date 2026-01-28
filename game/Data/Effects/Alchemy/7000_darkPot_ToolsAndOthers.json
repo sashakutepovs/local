@@ -1,0 +1,76 @@
+{
+  "id": "darkPot_ToolsAndOthers",
+  "recipes": [
+    {
+      "export_name": "ItemFlameBottle",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 5
+        }
+      },
+      "requirements": {
+        "Oil": 6
+      },
+      "output": {
+        "ItemFlameBottle": {
+          "quantity": "Oil / 6"
+        }
+      },
+      "postProcess": {
+        "Oil": "-= max_output_quantity * 6"
+      }
+    },
+    {
+      "export_name": "ItemOil",
+      "requirements": {
+        "Fat": 1
+      },
+      "output": {
+        "ItemOil": {
+          "quantity": "Fat"
+        }
+      },
+      "postProcess": {
+        "Fat": "-= max_output_quantity"
+      }
+    },
+    {
+      "export_name": "ItemDryProtein",
+      "requirements": {
+        "Protein": 2
+      },
+      "output": {
+        "ItemDryProtein": {
+          "quantity": "Protein / 2"
+        }
+      },
+      "postProcess": {
+        "Protein": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemCheese",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 20
+        }
+      },
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "Milk": 3
+      },
+      "output": {
+        "ItemCheese": {
+          "quantity": "Milk / 3"
+        }
+      },
+      "postProcess": {
+        "Milk": "-= max_output_quantity * 3"
+      }
+    }
+  ]
+}

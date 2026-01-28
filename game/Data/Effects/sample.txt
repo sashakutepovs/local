@@ -1,0 +1,278 @@
+
+			0 => [		"MH",			true,			true], #MH
+			1 => [		"SH",			true,			true], #SH
+			2 => [		"Top",			true,			true],
+			3 => [		"Mid",			true,			true],
+			4 => [		"Bot",			true,			true],
+			5 => [		"TopExt",		true,			true],#TopExtra
+			6 => [		"MidExt",		true,			true],#MidExtra
+			7 => [		"Hair",			true,			true],
+			8 => [		"Head",			true,			true],#mask tattoo glass hat etc
+			9 => [		"EXT1",			true,			true], #ext item1
+			10=> [		"EXT2",			true,			true], #ext item2
+			11=> [		"EXT3",			true,			true], #ext item3
+			12=> [		"EXT4",			true,			true], #ext item4
+			13=> [		"EXT5",			true,			true], #ext item5
+			14=> [		"Neck",			true,			true], #acc2 basicly neck, collar
+			15=> [		"Vag",			true,			true], #dildo, drug packget, panty
+			16=> [		"Anal",			true,			true] #dildo, drug packget, panty
+
+
+	def hold_type=(jsonData)
+		case jsonData
+			when "none";@hold_type = 0;	#一般攻擊，沒有holding
+			when "holding";@hold_type = 1; #舉著一個東西啥事都沒有
+			when "blocking";@hold_type = 2; #舉盾
+			when "energizing";@hold_type = 3; #蓄力攻擊
+			else @hold_type = 0;
+		end
+	end
+	def hit_cancel_mode=(jsonData)
+		case jsonData
+			when true ;@hit_cancel_mode = true; 		#skill cancel when hit
+			when "Hit";@hit_cancel_mode = true; 		#skill cancel when hit
+			when "Differen";@hit_cancel_mode = 0;	#skill cancel when hit and must not == last_skill
+			when "Marked";@hit_cancel_mode = 1; 		#skill cancel when hit and hit_cancel_req_last_skill == last_skill.name
+			when "Always";@hit_cancel_mode = 2; 		#skill always cancel after hit frame
+			else @hit_cancel_mode = false;
+		end
+		msgbox @hit_cancel_mode if @hit_cancel_mode
+	end
+
+	"banned_receiver_holes":	["mouth"], #block spec slots from common sex,  allowed 3 string, mouth anal vag
+
+	"ext_slot_skill": [ ### item only  for quick slot
+		"SkillName": "asdasdasd",
+		"CostAfterLaunch": true,							#sta cost after skill success launch
+		"DirectUsage": true,								#when true.  u dont need shift to launch skill
+	],
+	"item_name": "Item2MhBareHand",
+	"icon_index": 400,
+	"price": 0,
+	"wtype_id": "BareHand",
+	"sealed_equip_type": ["SH"],
+	"player_item_usage_event_summon": "IEFX_Alcohol",  #summon a event    and close GUI
+	"player_item_usage_eval": "$game_player.actor.health -= 1000",  #run a eval
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["1", "DailyDrunkLevel"]}
+	],
+	"hud_trace_icon": "ModScripts/_Mods/NewBars/Slow_Layout.png",   #for hud  12x12 icon, state only.
+	"common_tags":{
+		"cannot_steal": true,									#cant steal
+		"baby_MouthRace": "Abomination",						#when breast feeding. get baby race from this tag
+		"baby_LonaHumChild": true,								#is Lona's human child? if not. child may escape, spec dialog with abandon baby dialog
+		"baby_HumChild": true,									#is human child?  if not. child may escape
+		"Lock_TravelStorage": true,								#cannot put to Horse
+		"Lock_BankStorage": true,								#cannot put to bank
+		"DyeHairColor": true,									#dye color id
+		"TravelTricketTo": true									#use on relay, travel to target map.
+		"traitItemID": "Nymph_link"								#trait only, to use an item when pick the trait in trait menu. use item_name please.
+		},
+	"lonaStat_json_hash": {
+			"stat": "MainArm",									#lona stat target slot
+			"value": "2MhBareHand",								#lona stat KEY
+			"link": null,										#Link to any other Stat?
+			"initial": null										#init val
+		},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Equip2H",
+		"consumable": true,
+		"key_item": true
+
+	},
+	"textFlag": {
+			"name": "DataEquip:2MhBareHand/item_name",
+			"description": "DataEquip:2MhBareHand/description"
+		},
+	"part_key_blacklist":	[									#array, for state and equip, block spec part name,
+		"pose1_head_equip_DancerHeadEquip"
+	],
+	"attribute_change": []
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"fixed_hard_equip_type": ["Mid"], > lock equip slot and cant remove by ev or herself
+"fixed_equip_type": ["Mid"], > lock equip slot, cant remove by lona her self
+sealed_equip_type  > ban equip slot
+	"wtype_ok": ["NormalEQ","CollarEQ","BareHand"], >can equip those weapon type
+	"atype_ok": ["NormalEQ","CollarEQ","Cloak","Hair"] >can equip those armor type
+
+
+	"equip_part_covered": ["Groin","Butt","Vag","Anal","Thighs","Legs","Feet"],
+	"equip_part_covered": ["Chest","Belly","Back","Arms","Wrist","Neck"],
+	"equip_part_covered": ["Head","Face"],
+		"block_by_part_cover": ["Thighs"],
+		"block_by_part_cover": ["Groin"],
+		"block_by_part_cover": ["Face"],
+
+{
+	"is_combat_state": true,						< dev
+	"is_daily_state": true,					< dev
+	"player_usage_warning": "",					 # TODO.  will warning when use in item/ equip page############################################################
+
+
+	"player_item_remove_equip": [{
+		"tgt_slot":0,
+		"skip_Bondage": true
+		},{
+		},
+	"player_item_usage_manage_state": [{
+		"hom_mode": true, 							>>>> no effect unless handle_on_move_fps_update
+		"block_by_part_cover": ["Butt"],                  >>>> no effect when butt is covered
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"stats_key": "FeelsSick",
+		"stats_value": [1],										>>>> ["nil","null"] >> when its nil pass
+		"stats_filter": true,
+		"chance_max": 100,
+		"chance_req": 0
+
+	}]
+	"player_add_state_SndLib": "sound_eat_debuff",					 # to play a sndlib when state add to player.
+	"player_nap_get_state_when": [{
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"stats_key": "FeelsSick",
+		"stats_value": [1],
+		"stats_filter": true,
+		"req_dirt": [">=","200"],
+		"chance_max": 100,
+		"chance_req": 50
+		},{
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"stats_key": "FeelsSick",
+		"stats_value": [2],
+		"stats_filter": true,
+		"req_dirt": [">=","150"],
+		"chance_max": 100,
+		"chance_req": 45
+		},{
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"stats_key": "FeelsSick",
+		"stats_value": [3],
+		"stats_filter": true,
+		"req_dirt": [">=","100"],
+		"chance_max": 100,
+		"chance_req": 40
+		},{
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"stats_key": "EffectBleedVag",
+		"stats_value": [1],
+		"stats_filter": true,
+		"req_dirt": [">=","125"],
+		"chance_max": 100,
+		"chance_req": 35
+		},
+
+		{
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"stats_key": "FeelsSick",
+		"stats_value": [1],
+		"stats_filter": true,
+		"req_CumsCreamPie": [">=","200"],
+		"chance_max": 100,
+		"chance_req": 50
+		},{
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"stats_key": "FeelsSick",
+		"stats_value": [2],
+		"stats_filter": true,
+		"req_CumsCreamPie": [">=","180"],
+		"chance_max": 100,
+		"chance_req": 45
+		},{
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"stats_key": "FeelsSick",
+		"stats_value": [3],
+		"stats_filter": true,
+		"req_CumsCreamPie": [">=","150"],
+		"chance_max": 100,
+		"chance_req": 40
+		},{
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"stats_key": "EffectBleedVag",
+		"stats_value": [1],
+		"stats_filter": true,
+		"req_CumsCreamPie": [">=","100"],
+		"chance_max": 100,
+		"chance_req": 35
+		},
+		{
+		"tar_state_name": ["1", "STD_Leukorrhea"],
+		"req_CumsCreamPie": [">=","500"],
+		"req_dirt": [">=","200"],
+		"req_sat": ["<","20"],
+		"chance_max": 100,
+		"chance_req": 90
+		}],
+	"player_nap_state_control": [{				< when nap. and this state/equip is on, add/check following effect
+
+		"state_stack_check": true,					<if there are more then 1 stack.  check state_stack.times, always 1 in default
+		"tar_state_name": ["-2", "FeelsHorniness"]
+
+	}, {
+		"state_stack_check": false,
+		"dirt": ["-=","30"],
+		"sat": ["+=","30"],
+		"anal_damage": ["-=","150"],
+		"urinary_damage": ["+=","150"],
+		"vag_damage": ["+=","150"],
+
+
+		"stats_key2": "EffectBleedVag",
+		"stats_value2": [0],
+		"stats_filter2": true,
+		"req_dirt": ["<","200"],
+		"req_CumsCreamPie": ["<","100"],
+
+
+		"tar_state_name": ["1", "EffectWet"],		<  >=1 to add N state, <= -1 to remove N state
+		"stats_filter": true,						<if stats_value.include?(stat["equip_TopExtra"]) ==  stats_filter then do this thing.
+		"stats_key": "equip_TopExtra",				<part of above
+		"stats_value": ["NeckleAtonerIshub"],		<part of above
+		"eval_rule"				: "self.state_stack('FeelsSick') == 0",
+		"chance_max": 100,				< if rand(chance_max) > chance_req then do this thing
+		"chance_req": 0
+	}, {
+		"state_stack_check": false,
+		"tar_state_name": ["1", "OverCummed"]
+	}],
+	"attribute_change": [{
+			"attribute_name": "sta",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": "10"
+		},
+		{
+			"attribute_name": "health",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": "20"
+		},
+		{
+			"attribute_name": "arousal",
+			"attribute_type": "min",
+			"adjustor": "+",
+			"adjustment": "3"
+		},
+		{
+			"attribute_name": "state_preg_rate",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": "0.1"
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"item_name": "ItemRagTop",
+	"icon_index": 436,
+	"price": 1,
+	"atype_id": "Cloak",
+	"etype_id": "Top",
+	"equip_part_covered": ["Back","Arms"],
+	"weight": 3.5,
+	"lonaStat_json_hash": {
+			"stat": "equip_Top",
+			"link": null,
+			"value": "RagTop",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:RagTop/item_name",
+			"description": "DataEquip:RagTop/description"
+		},
+	"pot_data": {
+		"Cloth": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.4
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 10
+	},
+	{
+		"attribute_name": "dirt",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": 50
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 2
+	},
+	{
+		"attribute_name": "scoutcraft_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

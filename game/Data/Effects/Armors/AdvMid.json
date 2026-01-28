@@ -1,0 +1,73 @@
+{
+	"item_name": "ItemAdvMid",
+	"icon_index": 433,
+	"atype_id": "NormalEQ",
+	"etype_id": "Mid",
+	"equip_part_covered": ["Chest","Belly","Back"],
+	"weight": 3.5,
+	"price": 400,
+	"lonaStat_json_hash": {
+			"stat": "equip_Mid",
+			"link": null,
+			"value": "AdvMid",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:AdvMid/item_name",
+			"description": "DataEquip:AdvMid/description"
+	},
+	"part_key_blacklist":	[
+		"pose5_subpose1_ext_PiercingChest",
+		
+		"pose1_subpose1_PiercingBack",
+		"pose1_subpose3_PiercingBack",
+		"pose5_subpose1_PiercingBack"
+	],
+	"pot_data": {
+		"Cloth": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 2
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 0.4
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 0.1
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "darkPot_DangerousFormula",
+  "recipes": [
+    {
+      "export_name": "Dangerous_recipe_Samele",
+      "requirements": {
+        "Poo": 999,
+        "Meat": 999
+      },
+      "postProcess": {
+        "__clearAll__": "msgbox('Something went wrong. All items have been cleared.')"
+      }
+    },
+    {
+      "export_name": "Dangerous_AbomCreatureManager",
+      "requirements": {
+        "Baby_HumanoidBaby": 1,
+        "Baby_AbominationBaby": 1
+      },
+      "postProcess": {
+        "__clearAll__": "EvLib.sum('AbomCreatureManager')"
+      }
+    }
+  ]
+}

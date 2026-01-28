@@ -1,0 +1,135 @@
+{
+  "id": "darkPot_Bombs",
+  "recipes": [
+    {
+      "export_name": "ItemBombFragPasstive",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+      "requirements": {
+        "Wood": 1,
+        "Saltpeter": 2,
+        "Carbon": 2
+      },
+      "output": {
+        "ItemBombFragPasstive": {
+          "quantity": "[Saltpeter/2, Carbon/2, Wood].min"
+        }
+      },
+      "postProcess": {
+        "Wood": "-= max_output_quantity",
+        "Saltpeter": "-= max_output_quantity * 2",
+        "Carbon": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemBombFragTimer",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+      "requirements": {
+        "BombFragPasstive": 1,
+        "Cloth": 1
+      },
+      "output": {
+        "ItemBombFragTimer": {
+          "quantity": "[BombFragPasstive, Cloth].min"
+        }
+      },
+      "postProcess": {
+        "BombFragPasstive": "-= max_output_quantity",
+        "Cloth": "-= max_output_quantity"
+      }
+    },
+    {
+      "export_name": "ItemBombFragTrigger",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+      "requirements": {
+        "BombFragTimer": 1,
+        "Cloth": 1
+      },
+      "output": {
+        "ItemBombFragTrigger": {
+          "quantity": "[BombFragTimer, Cloth].min"
+        }
+      },
+      "postProcess": {
+        "BombFragTimer": "-= max_output_quantity",
+        "Cloth": "-= max_output_quantity"
+      }
+    },
+    {
+      "export_name": "ItemBombShockPasstive",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+      "requirements": {
+        "Wood": 1,
+        "Phosphorus": 1,
+        "Carbon": 1
+      },
+      "output": {
+        "ItemBombShockPasstive": {
+          "quantity": "[Wood, Phosphorus, Carbon].min"
+        }
+      },
+      "postProcess": {
+        "Wood": "-= max_output_quantity",
+        "Phosphorus": "-= max_output_quantity",
+        "Carbon": "-= max_output_quantity"
+      }
+    },
+    {
+      "export_name": "ItemBombShockTimer",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+      "requirements": {
+        "BombShockPasstive": 1,
+        "Cloth": 1
+      },
+      "output": {
+        "ItemBombShockTimer": {
+          "quantity": "[BombShockPasstive, Cloth].min"
+        }
+      },
+      "postProcess": {
+        "BombShockPasstive": "-= max_output_quantity",
+        "Cloth": "-= max_output_quantity"
+      }
+    },
+    {
+      "export_name": "ItemBombShockTrigger",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+      "requirements": {
+        "BombShockTimer": 1,
+        "Cloth": 1
+      },
+      "output": {
+        "ItemBombShockTrigger": {
+          "quantity": "[BombShockTimer, Cloth].min"
+        }
+      },
+      "postProcess": {
+        "BombShockTimer": "-= max_output_quantity",
+        "Cloth": "-= max_output_quantity"
+      }
+    }
+  ]
+}

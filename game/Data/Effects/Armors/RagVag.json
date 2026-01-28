@@ -1,0 +1,55 @@
+{
+	"item_name": "ItemRagVag",
+	"icon_index": 528,
+	"atype_id": "Underwear",
+	"etype_id": "Vag",
+	//"sealed_equip_type": ["Anal"],
+	"equip_part_covered": ["Vag","Anal"],
+	"weight": 1,
+	"price": 1,
+	"lonaStat_json_hash": {
+			"stat": "equip_Vag",
+			"link": null,
+			"value": "RagVag",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:RagVag/item_name",
+			"description": "DataEquip:RagVag/description"
+	},
+	"pot_data": {
+		"Cloth": 1
+		},
+	"part_key_blacklist":	[
+		"pose1_subpose1_PiercingVag",
+		"pose5_subpose1_PiercingVag"
+		],
+	"attribute_change": [{
+		"block_by_part_cover": ["Groin"],
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.2
+		
+	},
+	{
+		"block_by_part_cover": ["Groin"],
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "dirt",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": 25
+	}
+	]
+}

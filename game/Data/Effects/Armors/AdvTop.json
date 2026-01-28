@@ -1,0 +1,60 @@
+{
+	"item_name": "ItemAdvTop",
+	"icon_index": 446,
+	"price": 400,
+	"atype_id": "Cloak",
+	"etype_id": "Top",
+	"equip_part_covered": ["Back","Arms"],
+	"weight": 3.5,
+	"lonaStat_json_hash": {
+			"stat": "equip_Top",
+			"link": null,
+			"value": "AdvTop",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:AdvTop/item_name",
+			"description": "DataEquip:AdvTop/description"
+		},
+	"pot_data": {
+		"Cloth": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 3
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 0.4
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

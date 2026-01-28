@@ -1,0 +1,65 @@
+{
+	"item_name": "ItemDancerHeadEquip",
+	"icon_index": 184,
+	"atype_id": "WhoreDress",
+	"etype_id": "Head",
+	"weight": 2,
+	"price": 15000,
+	"lonaStat_json_hash": {
+		"stat": "equip_head",
+		"link": null,
+		"value": "DancerHeadEquip",
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:DancerHeadEquip/item_name",
+			"description": "DataEquip:DancerHeadEquip/description"
+	},
+	"pot_data": {
+		"Cloth": 1,
+		"Gold": 1
+		},
+	"attribute_change": [
+	{
+		"attribute_name": "dirt",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 60
+	}
+	,{
+		"stats_key" 	: "DirtState",
+		"stats_value"	: [2],
+		"stats_filter"	: false,
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 13
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	},
+	{
+		"block_by_part_cover": ["Anal","Vag","Groin"],
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 0.05
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

@@ -1,0 +1,82 @@
+{
+	"item_name": "ItemHoodCloakTop",
+	"icon_index": 432,
+	"atype_id": "Cloak",
+	"etype_id": "Top",
+	"equip_part_covered": ["Back","Arms","Head"],
+	"weight": "5",
+	"price": 2000,
+	"lonaStat_json_hash": {
+			"stat": "equip_Top",
+			"link": null,
+			"value": "HoodCloakTop",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:HoodCloakTop/item_name",
+			"description": "DataEquip:HoodCloakTop/description"
+	},
+	"pot_data": {
+		"Cloth": 1
+		},
+	"part_key_blacklist": [
+		"pose1_equip_NunVeil_BodyTop",
+		"pose1_equip_NunVeil_BodyBot",
+		"pose5_subpose1_equip_NunVeil_BodyTop",
+		"pose5_equip_NunVeil_BodyBot",
+		//"pose4_equip_NunVeil_BodyBot",
+		"chcg1_equip_NunVeil_BodyBot",
+		"chcg1_equip_NunVeil_BodyTop",
+		"chcg2_equip_NunVeil",
+		"chcg4_equip_NunVeil",
+		"chcg4_equip_NunVeil_BodyBot",
+		"chcg5_equip_NunVeil_BodyBot",
+		"chcg5_equip_NunVeil_BodyBot_HeadGround",
+		"chcg5_equip_NunVeil",
+		"chcg5_equip_NunVeil_HeadGround",
+
+		"pose1_head_equip_DancerHeadEquip",
+		"LonaMCC_head_equip_NunVeil",
+		"LonaMCC_Sex_head_equip_NunVeil",
+		"LonaMCC_equip_hair_Top",
+		"LonaMCC_Sex_equip_hair_top"
+	],
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "5"
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "5"
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "2"
+	},
+	{
+		"attribute_name": "scoutcraft_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "2"
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "2"
+	}
+	]
+}

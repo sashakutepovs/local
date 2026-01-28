@@ -1,0 +1,53 @@
+{
+	"atype_id": "NormalEQ",
+	"etype_id": "MidExt",
+	"equip_part_covered": ["Chest","Back"],
+	"weight": "20",
+	"pot_data": {
+		"Metal": 3
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "5"
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "5"
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "3"
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "4"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "0.5"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "0.1"
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "2"
+	}
+	]
+}

@@ -1,0 +1,68 @@
+{
+	"item_name": "ItemDancerMid",
+	"icon_index": 185,
+	"atype_id": "WhoreDress",
+	"etype_id": "Mid",
+	"equip_part_covered": ["Chest"],
+	"weight": 2,
+	"price": 5000,
+	"lonaStat_json_hash": {
+			"stat": "equip_Mid",
+			"link": null,
+			"value": "DancerMid",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:DancerMid/item_name",
+			"description": "DataEquip:DancerMid/description"
+		},
+	"pot_data": {
+		"Cloth": 1
+		},
+	"part_key_blacklist":	[
+		"pose5_subpose1_ext_PiercingChest"
+	],
+	"attribute_change": [
+	{
+		"attribute_name": "dirt",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 60
+	}
+	,{
+		"stats_key" 	: "DirtState",
+		"stats_value"	: [2],
+		"stats_filter"	: false,
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 13
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	},
+	{
+		"block_by_part_cover": ["Anal","Vag","Groin"],
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 0.05
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

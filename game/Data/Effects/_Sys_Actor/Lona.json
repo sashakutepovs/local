@@ -1,0 +1,6 @@
+{
+	"wtype_ok": ["NormalEQ","CollarEQ","BareHand"],
+	"atype_ok": ["NormalEQ","CollarEQ","Cloak","Hair","Neckle","SaintNun","Underwear","Dildo"],
+
+	"chs_config": "LonaCharset.json"
+}

@@ -1,0 +1,75 @@
+{
+	"item_name": "ItemSlaveMid",
+	"icon_index": 537,
+	"atype_id": "NormalEQ",
+	"etype_id": "Mid",
+	"equip_part_covered": ["Chest","Belly","Groin"],
+	"weight": 3.5,
+	"price": 1,
+	"lonaStat_json_hash": {
+			"stat": "equip_Mid",
+			"link": null,
+			"value": "SlaveMid",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:SlaveMid/item_name",
+			"description": "DataEquip:SlaveMid/description"
+	},
+	"pot_data": {
+		"Cloth": 1
+		},
+	"part_key_blacklist":	[
+		"pose5_subpose1_ext_PiercingChest"
+	],
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": "0.7"
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "10"
+	},
+	{
+		"attribute_name": "dirt",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "50"
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "2"
+	},
+	{
+		"attribute_name": "scoutcraft_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "0.5"
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "0.1"
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "2"
+	}
+	]
+}

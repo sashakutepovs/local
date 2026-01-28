@@ -1,0 +1,71 @@
+{
+	"item_name": "ItemDocMid",
+	"icon_index": 438,
+	"atype_id": "NormalEQ",
+	"etype_id": "Mid",
+	"equip_part_covered": ["Chest","Belly","Back"],
+	"weight": 3.5,
+	"price": 3000,
+	"lonaStat_json_hash": {
+			"stat": "equip_Mid",
+			"link": null,
+			"value": "DocMid",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:DocMid/item_name",
+			"description": "DataEquip:DocMid/description"
+	},
+	"pot_data": {
+		"Cloth": 2
+		},
+	"part_key_blacklist":	[
+		"pose5_subpose1_PiercingArms",
+		"pose5_subpose1_PiercingChest",
+		"pose5_subpose1_ext_PiercingChest"
+	],
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1
+	},
+	{
+		"attribute_name": "survival_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 0.1
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

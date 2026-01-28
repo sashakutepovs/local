@@ -1,0 +1,65 @@
+{
+	"item_name": "ItemCollar",
+	"icon_index": 808,
+	"price": 50,
+	"weight": 20,
+	"atype_id": "CollarEQ",
+	"etype_id": "TopExt",
+	"fixed_hard_equip_type": ["TopExt"],
+	"sealed_equip_type": ["Neck"],
+	"lonaStat_json_hash": {
+		"stat": "equip_TopExtra",
+		"value": "ChainCollarTopExtra",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Bondage",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:ChainCollarTopExtra/item_name",
+		"description": "DataEquip:ChainCollarTopExtra/description"
+	},
+	"pot_data": {
+		"Metal": 3
+		},
+	"player_nap_state_control": [{
+		"tar_state_name": [1, "WoundCollar"]
+	}],
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 15
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 30
+	},
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.95
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 0.1
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 4
+	}
+	]
+}

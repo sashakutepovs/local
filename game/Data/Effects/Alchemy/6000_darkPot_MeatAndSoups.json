@@ -1,0 +1,360 @@
+{
+  "id": "darkPot_MeatAndSoups",
+  "recipes": [
+    {
+      "export_name": "ItemJunkFood",
+      "conditions": {},
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "Plant": 1,
+        "Starch": 1,
+        "Oil": 1
+      },
+      "output": {
+        "ItemJunkFood": {
+          "quantity": "[Plant, Starch].min * 3"
+        }
+      },
+      "postProcess": {
+        "Plant": "-= max_output_quantity / 3",
+        "Starch": "-= max_output_quantity / 3",
+        "Oil": "-= 1"
+      }
+    },
+    {
+      "export_name": "ItemSopGoodHumanMystery",
+      "conditions": {
+        "MinStatReq": {}
+      },
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1,
+			"Wood": 1
+		},
+      "requirements": {
+        "Plant": 1,
+        "HumanMysticMeat": 1,
+        "Meat": 1
+      },
+      "output": {
+        "ItemSopGoodHumanMystery": {
+          "quantity": "[Plant, HumanMysticMeat].min"
+        }
+      },
+      "postProcess": {
+        "Plant": "-= max_output_quantity",
+        "HumanMysticMeat": "-= max_output_quantity",
+        "Meat": "-= max_output_quantity"
+      }
+    },
+    {
+      "export_name": "ItemSopGoodHuman",
+      "conditions": {},
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1,
+			"Wood": 1
+		},
+      "requirements": {
+        "Plant": 1,
+        "HumanMeat": 1,
+        "Meat": 1
+      },
+      "output": {
+        "ItemSopGoodHuman": {
+          "quantity": "[Plant, Meat].min"
+        }
+      },
+      "postProcess": {
+        "Plant": "-= max_output_quantity",
+        "HumanMeat": "-= max_output_quantity",
+        "Meat": "-= max_output_quantity"
+      }
+    },
+    {
+      "export_name": "ItemSopGoodMystery",
+      "conditions": {},
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1,
+			"Wood": 1
+		},
+      "requirements": {
+        "Plant": 1,
+        "MysticMeat": 1,
+        "Meat": 1
+      },
+      "output": {
+        "ItemSopGoodMystery": {
+          "quantity": "[Plant, Meat].min"
+        }
+      },
+      "postProcess": {
+        "Plant": "-= max_output_quantity",
+        "MysticMeat": "-= max_output_quantity",
+        "Meat": "-= max_output_quantity"
+      }
+    },
+    {
+      "export_name": "ItemSopGood",
+      "conditions": {},
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1,
+			"Wood": 1
+		},
+      "requirements": {
+        "Plant": 1,
+        "Meat": 1
+      },
+      "output": {
+        "ItemSopGood": {
+          "quantity": "[Plant, Meat].min"
+        }
+      },
+      "postProcess": {
+        "Plant": "-= max_output_quantity",
+        "Meat": "-= max_output_quantity"
+      }
+    },
+    {
+      "export_name": "ItemDryFood",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "Plant": 2,
+        "Wood": 1
+      },
+      "output": {
+        "ItemDryFood": {
+          "quantity": "Plant / 2"
+        }
+      },
+      "postProcess": {
+        "Plant": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemSmokedMeatHumanMystery",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "HumanMysticMeat": 1,
+        "Meat": 2,
+        "Wood": 1
+      },
+      "output": {
+        "ItemSmokedMeatHumanMystery": {
+          "quantity": "Meat / 2"
+        }
+      },
+      "postProcess": {
+        "Meat": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemSmokedMeatHuman",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "HumanMeat": 1,
+        "Meat": 2,
+        "Wood": 1
+      },
+      "output": {
+        "ItemSmokedMeatHuman": {
+          "quantity": "Meat / 2"
+        }
+      },
+      "postProcess": {
+        "Meat": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemSmokedMeatMystery",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "MysticMeat": 1,
+        "Meat": 2,
+        "Wood": 1
+      },
+      "output": {
+        "ItemSmokedMeatMystery": {
+          "quantity": "Meat / 2"
+        }
+      },
+      "postProcess": {
+        "Meat": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemSmokedMeat",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "Meat": 2,
+        "Wood": 1
+      },
+      "output": {
+        "ItemSmokedMeat": {
+          "quantity": "Meat / 2"
+        }
+      },
+      "postProcess": {
+        "Meat": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemSopPlant",
+      "conditions": {},
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "Plant": 2
+      },
+      "output": {
+        "ItemSopPlant": {
+          "quantity": "Plant / 2"
+        }
+      },
+      "postProcess": {
+        "Plant": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemSopMeatHumanMystery",
+      "conditions": {},
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "HumanMysticMeat": 1,
+        "Meat": 2
+      },
+      "output": {
+        "ItemSopMeatHumanMystery": {
+          "quantity": "Meat / 2"
+        }
+      },
+      "postProcess": {
+        "Meat": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemSopMeatHuman",
+      "conditions": {},
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "HumanMeat": 1,
+        "Meat": 2
+      },
+      "output": {
+        "ItemSopMeatHuman": {
+          "quantity": "Meat / 2"
+        }
+      },
+      "postProcess": {
+        "Meat": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemSopMeatMystery",
+      "conditions": {},
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "MysticMeat": 1,
+        "Meat": 2
+      },
+      "output": {
+        "ItemSopMeatMystery": {
+          "quantity": "Meat / 2"
+        }
+      },
+      "postProcess": {
+        "Meat": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemSopMeat",
+      "conditions": {},
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "Meat": 2
+      },
+      "output": {
+        "ItemSopMeat": {
+          "quantity": "Meat / 2"
+        }
+      },
+      "postProcess": {
+        "Meat": "-= max_output_quantity * 2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+	"item_name": "ItemNeckleAtoner",
+	"icon_index": 526,
+	"atype_id": "Neckle",
+	"etype_id": "Neck",
+	"weight": "2",
+	"price": 400,
+	"lonaStat_json_hash": {
+		"stat": "equip_TopExtra",
+		"link": null,
+		"value": "NeckleAtoner",
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:NeckleAtoner/item_name",
+			"description": "DataEquip:NeckleAtoner/description"
+	},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "5"
+
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "10"
+	}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"item_name": "ItemTamponUsed",		//Todo
+	"icon_index": 687,				//Todo
+	"atype_id": "Underwear",
+	"etype_id": "Anal",	// thats why i dont draw slot graphics in equip menuu
+	"weight": 1,
+	"price": 100,
+	// this equip have no graphics
+	//todo add grp
+	"lonaStat_json_hash": {
+			"stat": "equip_Tampon",
+			"link": null,
+			"value": "Used",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:PantyVag/item_name",
+			"description": "DataEquip:PantyVag/description"
+	},
+	"pot_data": {
+		"Cloth": 1
+		}
+}

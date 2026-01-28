@@ -1,0 +1,50 @@
+{
+	"item_name": "ItemNeckleBelt",
+	"icon_index": 527,
+	"atype_id": "Neckle",
+	"etype_id": "Neck",
+	"weight": "1",
+	"price": 800,
+	"lonaStat_json_hash": {
+		"stat": "equip_TopExtra",
+		"link": null,
+		"value": "NeckleBelt",
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:NeckleBelt/item_name",
+			"description": "DataEquip:NeckleBelt/description"
+	},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "5"
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "10"
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": "1"
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "1.1"
+	}
+	]
+}

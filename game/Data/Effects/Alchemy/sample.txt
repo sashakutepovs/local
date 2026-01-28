@@ -1,0 +1,32 @@
+{
+  "id": "darkPot_UniqueFoodFormula",   // do noting  unused for human read
+  "recipes": [
+    {
+      "export_name": "ItemMeatSalad",   // do noting  unused for human read
+      "conditions": {
+        "excludeIngredients": ["MysticMeat", "HumanMeat"], // not with those items
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10 // stats requirements, can be multi lines
+        }
+      },
+		"bannedItem": {  //any item in this list will cause this formula failed
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {  //full requirements
+        "SmokedMeat": 1,
+        "Plant": 4,
+        "Furit": 2,
+        "Vegetable": 2,
+        "Oil": 1,
+        "Fat": 2
+      },
+      "output": { //output what item,
+        "ItemMeatSalad": {
+          "quantity": "[SmokedMeat, Plant/4, Furit/2, Vegetable/2, Oil, Fat/2].min" // formula
+        }
+      }
+    }
+  ]
+}

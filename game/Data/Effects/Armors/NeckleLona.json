@@ -1,0 +1,32 @@
+{
+	"item_name": "ItemNeckleLona",
+	"icon_index": 525,
+	"atype_id": "Neckle",
+	"etype_id": "Neck",
+	"weight": "1",
+	"price": 2000,
+	"lonaStat_json_hash": {
+		"stat": "equip_TopExtra",
+		"link": null,
+		"value": "NeckleLona",
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:NeckleLona/item_name",
+			"description": "DataEquip:NeckleLona/description"
+	},
+	"attribute_change": [{
+		"attribute_name": "mood",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": "26"
+		
+	}
+	]
+}

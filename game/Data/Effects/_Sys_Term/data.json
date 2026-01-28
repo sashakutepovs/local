@@ -1,0 +1,77 @@
+// this file is auto load and build in DataManager.load_system_term_configs
+// will load into class RPG::System in 1_DataStructure.rb
+{
+	"armor_types": [
+					"",
+					"NormalEQ",
+					"MagicEQ",
+					"SaintEQ",
+					"HighQuEQ",
+					"CollarEQ",
+					"Hair",
+					"WhoreDress",
+					"Cloak",
+					"Neckle",
+					"SaintNun",
+					"Underwear",
+					"Dildo",
+					"Tampon"
+				],
+	"weapon_types": [
+					"",
+					"NormalEQ",
+					"MagicEQ",
+					"SaintEQ",
+					"HighQuEQ",
+					"CollarEQ",
+					"",
+					"",
+					"",
+					"BareHand",
+					""
+				],
+	"skill_types": [
+					"",
+					"Special",
+					"Magic",
+					"Basic",
+					"Deepone"
+				],
+
+	//$data_system.starting_equip
+	"starting_equip":{
+		"NoerNormal": ["ItemAdvTop", "ItemAdvMid", "ItemAdvBot", "ItemAdvMidExtra", "ItemHairTwinBraid","ItemShLantern","ItemMhWoodenClub","ItemPantyVag"],
+	},
+	//$data_system.gear_stats_update_flow
+	"gear_stats_update_flow": ["equip_head","equip_TopExtra","equip_hair","equip_Top","equip_MidExtra","equip_Mid","equip_Bot","SecondArm","MainArm"],
+
+	"weapon_slots": [0,1], //some event req check weapon slots. ex item drop or pick.
+	"equip_type": {
+			// TypeID => ["Type Name",	Removable?,		Optimize?	CombatDroppable?],
+			// Removable > RGSS shits
+			// Optimize > RGSS shits
+			// CombatDroppable > drop from hitted by enemy
+			// in $data_system.equip
+			// for reverse search.  use $data_system.equip_slots_name it has {"MH"=>0}
+			"0": [			"MH",		true,			true,		true],
+			"1": [			"SH",		true,			true,		true],
+			"2": [			"Top",		true,			true,		true],
+			"3": [			"Mid",		true,			true,		true],
+			"4": [			"Bot",		true,			true,		true],
+			"5": [			"TopExt",	true,			true,		true],
+			"6": [			"MidExt",	true,			true,		true],
+			"7": [			"Hair",		true,			true,		false],
+			"8": [			"Head",		true,			true,		true],
+			"9": [			"EXT1",		true,			true,		false],
+			"10": [			"EXT2",		true,			true,		false],
+			"11": [			"EXT3",		true,			true,		false],
+			"12": [			"EXT4",		true,			true,		false],
+			"13": [			"EXT5",		true,			true,		false],
+			"14": [			"Neck",		true,			true,		false],
+			"15": [			"Vag",		true,			true,		true],
+			"16": [			"Anal",		true,			true,		true],
+			"17": [			"Unused1",	true,			true,		false],
+			"18": [			"Face", 	true,			true,		false],
+			"19": [			"Unused2",	true,			true,		false]
+		}
+}

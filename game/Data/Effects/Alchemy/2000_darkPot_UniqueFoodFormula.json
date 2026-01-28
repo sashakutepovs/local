@@ -1,0 +1,40 @@
+{
+  "id": "darkPot_UniqueFoodFormula",
+  "recipes": [
+    {
+      "export_name": "ItemMeatSalad",
+      "conditions": {
+        "excludeIngredients": ["MysticMeat", "HumanMeat"],
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 10
+        }
+      },
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "SmokedMeat": 1,
+        "Plant": 4,
+        "Fruit": 2,
+        "Vegetable": 2,
+        "Oil": 1,
+        "Fat": 2
+      },
+      "output": {
+        "ItemMeatSalad": {
+          "quantity": "[SmokedMeat, Plant/4, Fruit/2, Vegetable/2, Oil, Fat/2].min"
+        }
+      },
+      "postProcess": {
+        "SmokedMeat": "-= max_output_quantity",
+        "Plant": "-= max_output_quantity * 4",
+        "Fruit": "-= max_output_quantity * 2",
+        "Vegetable": "-= max_output_quantity * 2",
+        "Oil": "-= max_output_quantity",
+        "Fat": "-= max_output_quantity * 2"
+      }
+    }
+  ]
+}

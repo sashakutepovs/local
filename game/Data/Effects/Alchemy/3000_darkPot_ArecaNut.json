@@ -1,0 +1,32 @@
+{
+  "id": "darkPot_ArecaNut",
+  "recipes": [
+    {
+      "export_name": "ItemNoerTea",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 15
+        }
+      },
+		"bannedItem": {
+			"Waste": 1,
+			"Pee": 1,
+			"Poo": 1
+		},
+      "requirements": {
+        "ArecaNut": 2,
+        "HerbSta": 1
+      },
+      "output": {
+        "ItemNoerTea": {
+          "quantity": "[ArecaNut/2, HerbSta].min"
+        }
+      },
+      "postProcess": {
+        "Wood": "-= max_output_quantity",
+        "Saltpeter": "-= max_output_quantity * 2",
+        "Carbon": "-= max_output_quantity * 2"
+      }
+    }
+  ]
+}

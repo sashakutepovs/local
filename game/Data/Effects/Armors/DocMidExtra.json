@@ -1,0 +1,65 @@
+{
+	"item_name": "ItemDocMidExtra",
+	"icon_index": 440,
+	"atype_id": "NormalEQ",
+	"etype_id": "MidExt",
+	"weight": 3.5,
+	"price": 3000,
+	"lonaStat_json_hash": {
+			"stat": "equip_MidExtra",
+			"link": null,
+			"value": "DocMidExtra",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:DocMidExtra/item_name",
+			"description": "DataEquip:DocMidExtra/description"
+		},
+	"pot_data": {
+		"Cloth": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "survival_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1
+	},
+	{
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 1
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 0.1
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

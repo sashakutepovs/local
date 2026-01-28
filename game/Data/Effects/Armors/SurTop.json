@@ -1,0 +1,72 @@
+{
+	"item_name": "ItemSurTop",
+	"icon_index": 444,
+	"price": 1200,
+	"atype_id": "Cloak",
+	"etype_id": "Top",
+	"equip_part_covered": ["Back"],
+	"weight": 5,
+	"lonaStat_json_hash": {
+			"stat": "equip_Top",
+			"link": null,
+			"value": "SurTop",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:SurTop/item_name",
+			"description": "DataEquip:SurTop/description"
+		},
+	"pot_data": {
+		"Cloth": 1
+		},
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 10
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 10
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 0.05
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 3
+	},
+	{
+		"attribute_name": "survival_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 3
+	},
+	{
+		"attribute_name": "scoutcraft_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 0.4
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	"item_name": "ItemSexyMid",
+	"icon_index": 545,
+	"atype_id": "WhoreDress",
+	"etype_id": "Mid",
+	"weight": 1,
+	"price": 15000,
+	"lonaStat_json_hash": {
+			"stat": "equip_Mid",
+			"link": null,
+			"value": "SexyMid",
+			"initial": null
+		},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:SexyMid/item_name",
+			"description": "DataEquip:SexyMid/description"
+		},
+	"pot_data": {
+		"Cloth": 1,
+		"Gold": 1
+		},
+	"attribute_change": [
+	{
+		"stats_key" 	: "DirtState",
+		"stats_value"	: [2],
+		"stats_filter"	: false,
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 20
+
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	},
+	{
+		"attribute_name": "def_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 3
+	},
+	{
+		"attribute_name": "dirt",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 60
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 0.1
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

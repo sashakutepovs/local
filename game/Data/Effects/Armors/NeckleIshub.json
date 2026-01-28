@@ -1,0 +1,55 @@
+{
+	"item_name": "ItemNeckleIshub",
+	"icon_index": 524,
+	"atype_id": "Neckle",
+	"etype_id": "Neck",
+	"fixed_equip_type": ["Neck"],
+	"weight": "1",
+	"price": 400,
+	"lonaStat_json_hash": {
+		"stat": "equip_TopExtra",
+		"link": null,
+		"value": "NeckleIshub",
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:NeckleIshub/item_name",
+			"description": "DataEquip:NeckleIshub/description"
+	},
+	"player_nap_state_control": [{
+		"tar_state_name": [1, "FeelsWarm"],
+		"stats_filter": true,
+		"stats_key": "equip_TopExtra",
+		"stats_value": ["NeckleAtonerIshub"],
+		"chance_max": 100,
+		"chance_req": 0
+	}, {
+		"dirt": ["-=","30"],
+		"tar_state_name": ["1", "EffectWet"],
+		"stats_filter": true,
+		"stats_key": "equip_TopExtra",
+		"stats_value": ["NeckleAtonerIshub"],
+		"chance_max": 100,
+		"chance_req": 0
+	}],
+	"attribute_change": [{
+			"attribute_name": "sexy",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": "5"
+
+	},
+	{
+			"attribute_name": "weak",
+			"attribute_type": "max",
+			"adjustor": "+",
+			"adjustment": "10"
+	}
+	]
+}

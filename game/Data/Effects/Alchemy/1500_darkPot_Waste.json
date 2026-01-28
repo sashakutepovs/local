@@ -1,0 +1,34 @@
+{
+	"id": "darkPot_Waste",
+	"recipes": [
+		{
+			"export_name": "ItemDreg_Meat",
+			"requirements": {
+				"Meat": 1,
+				"Waste": 1,
+			},
+			"output": {
+				"ItemDreg": {
+				"quantity": "Meat"
+				}
+			},
+			"postProcess": {
+				"Meat": "-= max_output_quantity"
+			}
+		},{
+			"export_name": "ItemDreg_Plant",
+			"requirements": {
+				"Plant": 1,
+				"Waste": 1,
+			},
+			"output": {
+				"ItemDreg": {
+				"quantity": "Plant"
+				}
+			},
+			"postProcess": {
+				"Plant": "-= max_output_quantity"
+			}
+		}
+	]
+}

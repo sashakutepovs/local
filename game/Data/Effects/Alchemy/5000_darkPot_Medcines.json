@@ -1,0 +1,103 @@
+{
+  "id": "darkPot_Medcines",
+  "recipes": [
+    {
+      "export_name": "ItemBluePotion",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 15
+        }
+      },
+      "requirements": {
+        "HerbSta": 2
+      },
+      "output": {
+        "ItemBluePotion": {
+          "quantity": "HerbSta / 2"
+        }
+      },
+      "postProcess": {
+        "HerbSta": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemRedPotion",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 15
+        }
+      },
+      "requirements": {
+        "HerbCure": 2
+      },
+      "output": {
+        "ItemRedPotion": {
+          "quantity": "HerbCure / 2"
+        }
+      },
+      "postProcess": {
+        "HerbCure": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemContraceptivePills",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 15
+        }
+      },
+      "requirements": {
+        "HerbContraceptive": 2
+      },
+      "output": {
+        "ItemContraceptivePills": {
+          "quantity": "HerbContraceptive / 2"
+        }
+      },
+      "postProcess": {
+        "HerbContraceptive": "-= max_output_quantity * 2"
+      }
+    },
+    {
+      "export_name": "ItemRepellents",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 15
+        }
+      },
+      "requirements": {
+        "HerbRepellents": 4
+      },
+      "output": {
+        "ItemRepellents": {
+          "quantity": "HerbRepellents / 4"
+        }
+      },
+      "postProcess": {
+        "HerbRepellents": "-= max_output_quantity * 4"
+      }
+    },
+    {
+      "export_name": "ItemHiPotionLV2",
+      "conditions": {
+        "MinStatReq": {
+          "$game_player.actor.survival_trait": 15
+        },
+        "customCondition": "HerbHi >= 4 && RedPotion >= 1"
+      },
+      "requirements": {
+        "HerbHi": 4,
+        "RedPotion": 1
+      },
+      "output": {
+        "ItemHiPotionLV2": {
+          "quantity": "[HerbHi / 4, RedPotion].min"
+        }
+      },
+      "postProcess": {
+        "HerbHi": "-= max_output_quantity * 4",
+        "RedPotion": "-= max_output_quantity"
+      }
+    }
+  ]
+}

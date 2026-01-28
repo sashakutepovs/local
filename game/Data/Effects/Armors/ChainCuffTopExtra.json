@@ -1,0 +1,68 @@
+{
+	"item_name": "ItemChainCuff",
+	"icon_index": 806,
+	"price": 100,
+	"weight": 50,
+	"atype_id": "CollarEQ",
+	"etype_id": "MH",
+	"fixed_hard_equip_type": ["MH"],
+	"sealed_equip_type": ["SH","TopExt","Neck"],
+	"skill_sealed": ["BasicNormal","BasicHeavy","BasicControl","BasicThrow","BasicTrapItem","BasicNunHeal","BasicQuickExt5","BasicPickRock","BasicAbomGrab","BasicFuckerGrab","BasicSteal","BasicAbomEatDed"],
+	"lonaStat_json_hash": {
+		"stat": "MainArm",
+		"value": "ChainCuffTopExtra",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Weapon",
+		"tag": "Bondage",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:ChainCuffTopExtra/item_name",
+		"description": "DataEquip:ChainCuffTopExtra/description"
+	},
+	"pot_data": {
+		"Metal": 3
+		},
+	"player_nap_state_control": [{
+		"tar_state_name": [1, "WoundCollar"]
+	},{
+		"tar_state_name": [1, "WoundCuff"]
+	}],
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 50
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 100
+	},
+	{
+		"attribute_name": "sta",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.8
+	},
+	{
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 10
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 4
+	}
+	]
+}

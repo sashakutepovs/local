@@ -1,0 +1,13 @@
+{
+	"atype_id": "Neckle",
+	"etype_id": "Neck",
+	"weight": 2,
+	"attribute_change": [{
+		"attribute_name": "mood",
+		"attribute_type": "min",
+		"adjustor": "+",
+		"adjustment": 26
+		
+	}
+	]
+}

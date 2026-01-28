@@ -1,0 +1,66 @@
+{
+	"item_name": "ItemStarterGlass",
+	"icon_index": 803,
+	"atype_id": "NormalEQ",
+	"etype_id": "Face",
+	"weight": 0.1,
+	"price": 4000,
+	"lonaStat_json_hash": {
+		"stat": "equip_Face",
+		"link": null,
+		"value": "StarterGlass",
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Equip",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataEquip:StarterGlass/item_name",
+			"description": "DataEquip:StarterGlass/description"
+	},
+	"attribute_change": [{
+		"block_by_part_cover": ["Face"],
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 5
+		
+	},
+	{
+		"block_by_part_cover": ["Face"],
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 20
+	},
+	{
+		"block_by_part_cover": ["Face"],
+		"attribute_name": "wisdom_plus",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+	},
+	{
+		"block_by_part_cover": ["Face"],
+		"attribute_name": "atk_plus",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 3
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 0.1
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 2
+	}
+	]
+}

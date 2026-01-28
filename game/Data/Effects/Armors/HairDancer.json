@@ -1,0 +1,13 @@
+{
+	"atype_id": "Hair",
+	"etype_id": "Hair",
+	"weight": "0.1",
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": "5"
+		
+	}
+	]
+}

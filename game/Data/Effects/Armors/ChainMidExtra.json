@@ -1,0 +1,59 @@
+{
+	"item_name": "ItemChainMidExtra",
+	"icon_index": 816,
+	"price": 100,
+	"weight": 20,
+	"atype_id": "CollarEQ",
+	"etype_id": "MidExt",
+	"fixed_hard_equip_type": ["MidExt"],
+	"sealed_equip_type": ["TopExt","Neck"],
+	"lonaStat_json_hash": {
+		"stat": "equip_MidExtra",
+		"value": "ChainMidExtra",
+		"type": null,
+		"link": null,
+		"initial": null
+	},
+	"tag_main_settings": {
+		"type": "Armor",
+		"tag": "Bondage",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+		"name": "DataEquip:ChainMidExtra/item_name",
+		"description": "DataEquip:ChainMidExtra/description"
+	},
+	"pot_data": {
+		"Metal": 3
+		},
+	"player_nap_state_control": [{
+		"tar_state_name": [1, "WoundCollar"]
+	}],
+	"attribute_change": [{
+		"attribute_name": "sexy",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 5
+		
+	},
+	{
+		"attribute_name": "weak",
+		"attribute_type": "max",
+		"adjustor": "+",
+		"adjustment": 50
+	},
+	{
+		"attribute_name": "move_speed",
+		"attribute_type": "max",
+		"adjustor": "*",
+		"adjustment": 0.5
+	},
+	{
+		"attribute_name": "dodge_frame",
+		"attribute_type": "max",
+		"adjustor": "-",
+		"adjustment": 4
+	}
+	]
+}
