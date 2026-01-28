@@ -1,0 +1,11 @@
+[{
+	"name_order": ["always"],
+	"isDirt": true,
+	"part_name": "pose4_body_dirt_high",
+	"x": "277",
+	"y": "24",
+	"layer": 16750,
+	"bmps": {
+		"always#on": "pose4_body_dirt_high.png"
+	}
+}]

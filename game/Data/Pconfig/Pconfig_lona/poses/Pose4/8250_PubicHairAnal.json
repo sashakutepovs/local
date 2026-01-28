@@ -1,0 +1,16 @@
+[	{
+		"name_order": ["PubicHairAnal", "analopen"],
+		"part_name": "pose4_PubicHairAnal",
+		"x": "235",
+		"y": "453",
+		"layer": 8250,
+		"bmps": {
+			"PubicHairAnal02,analopen00": "pose4_PubicHairAnal1.png",
+			"PubicHairAnal03,analopen00": "pose4_PubicHairAnal2.png",
+			"PubicHairAnal04,analopen00": "pose4_PubicHairAnal3.png",
+			"PubicHairAnal02,analopen01": "pose4_PubicHairAnal1_analopen.png",
+			"PubicHairAnal03,analopen01": "pose4_PubicHairAnal2_analopen.png",
+			"PubicHairAnal04,analopen01": "pose4_PubicHairAnal3_analopen.png"
+		}
+	}
+]

@@ -1,0 +1,11 @@
+[{
+	"name_order": ["analopen","SphincterDamaged"],
+	"part_name": "pose4_SphincterDamaged",
+	"x": "244",
+	"y": "464",
+	"layer": 4500,
+	"bmps": {
+		"analopen01,SphincterDamaged01": "pose4_SphincterDamaged.png"
+
+	}
+}]

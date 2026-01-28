@@ -1,0 +1,15 @@
+[{
+	"name_order": ["EventAnal", "ParasitedMoonWorm"],
+	"part_name": "pose4_EventAnal_DefecateIncontinent",
+	"x": "139",
+	"y": "448",
+	"layer": 9550,
+	"bmps": {
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm00": "pose4_EventAnal_DefecateIncontinent1.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm01": "pose4_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm02": "pose4_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm03": "pose4_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm04": "pose4_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png",
+		"EventAnal#DefecateIncontinent,ParasitedMoonWorm05": "pose4_EventAnal_DefecateIncontinent1_ParasitedMoonWorm.png"
+	}
+}]

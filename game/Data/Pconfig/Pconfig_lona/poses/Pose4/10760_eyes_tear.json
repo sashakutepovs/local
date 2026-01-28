@@ -1,0 +1,11 @@
+[{
+	"name_order": ["eyes", "eyes_tear"],
+	"part_name": "pose4_head_eyes_tear",
+	"x": "210",
+	"y": "208",
+	"layer": 10760,
+	"bmps": {
+		"eyes01,eyes_tear01": "pose4_head_eyes01_tear.png",
+		"eyes02,eyes_tear01": "pose4_head_eyes02_tear.png"
+	}
+}]

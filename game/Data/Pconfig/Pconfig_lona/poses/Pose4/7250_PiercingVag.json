@@ -1,0 +1,17 @@
+[{
+	"name_order": ["vagopen","PiercingVag"],
+	"part_name": "pose4_PiercingVag",
+	"x": "222",
+	"y": "397",
+	"layer": 7250,
+	"bmps": {
+		"vagopen00,PiercingVag01": "pose4_PiercingVag1.png",
+		"vagopen00,PiercingVag02": "pose4_PiercingVag2.png",
+		"vagopen00,PiercingVag03": "pose4_PiercingVag3.png",
+
+		"vagopen01,PiercingVag01": "pose4_vagopen_PiercingVag1.png",
+		"vagopen01,PiercingVag02": "pose4_vagopen_PiercingVag2.png",
+		"vagopen01,PiercingVag03": "pose4_vagopen_PiercingVag3.png"
+
+	}
+}]

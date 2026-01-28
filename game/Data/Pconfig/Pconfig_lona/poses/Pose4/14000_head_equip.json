@@ -1,0 +1,114 @@
+[{
+		"name_order": ["equip_Face"],
+		"part_name": "pose4_face_equip_StarterGlass",
+		"x": 221,
+		"y": 228,
+		"layer": 13999,
+		"bmps": {
+			"equip_Face#StarterGlass": "pose4_face_equip_StarterGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose4_head_equip_SunGlass",
+		"x": 203,
+		"y": 205,
+		"layer": 14000,
+		"bmps": {
+			"equip_head#SunGlass": "pose4_head_equip_SunGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose4_head_equip_SexyHeadEquip",
+		"x": 161,
+		"y": 181,
+		"layer": 14000,
+		"bmps": {
+			"equip_head#SexyHeadEquip": "pose4_head_equip_SexyHeadEquip.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose4_head_equip_DancerHeadEquip_high",
+		"x": 171,
+		"y": 135,
+		"layer": 14000,
+		"bmps": {
+			"equip_head#DancerHeadEquip": "pose4_head_equip_DancerHeadEquip_high.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose4_equip_DocHead_Head",
+		"x": 196,
+		"y": 177,
+		"layer": 14000,
+		"bmps": {
+			"equip_head#DocHead": "pose4_equip_DocHead_Head.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_HoodCloakTop_Head_Top",
+		"x": 172,
+		"y": 170,
+		"layer": 14001,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "pose4_equip_HoodCloakTop_Head_Top.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_DocTop_Head",
+		"x": 186,
+		"y": 155,
+		"layer": 14001,
+		"bmps": {
+			"equip_Top#DocTop": "pose4_equip_DocTop_Head.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose4_equip_BucketHelmet",
+		"x": 170,
+		"y": 160,
+		"layer": 14001,
+		"bmps": {
+			"equip_head#BucketHelmet": "pose4_equip_BucketHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose4_head_equip_FootmanHelmet",
+		"x": 179,
+		"y": 134,
+		"layer": 14002,
+		"bmps": {
+			"equip_head#FootmanHelmet": "pose4_head_equip_FootmanHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose4_equip_DocHead_HeadTop",
+		"x": 275,
+		"y": 264,
+		"layer": 14002,
+		"bmps": {
+			"equip_head#DocHead": "pose4_equip_DocHead_HeadTop.png"
+		}
+	},
+	{
+		"name_order": ["preg", "equip_head"],
+		"part_name": "pose4_equip_NunVeil_HeadTop",
+		"x": 182,
+		"y": 166,
+		"layer": 14000,
+		"bmps": {
+			"preg00,equip_head#NunVeil": "pose4_equip_NunVeil_HeadTop.png",
+			"preg01,equip_head#NunVeil": "pose4_equip_NunVeil_HeadTop.png",
+			"preg02,equip_head#NunVeil": "pose4_equip_NunVeil_HeadTop.png",
+			"preg03,equip_head#NunVeil": "pose4_preg8m_equip_NunVeil_HeadTop.png"
+		}
+	}
+]

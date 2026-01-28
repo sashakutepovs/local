@@ -1,0 +1,20 @@
+[{
+	"name_order": ["WoundCollar"],
+	"part_name": "pose4_WoundCollar",
+	"x": "278",
+	"y": "247",
+	"layer": 6200,
+	"bmps": {
+		"WoundCollar01": "pose4_WoundCollar.png"
+	}
+},{
+	"name_order": ["WoundHead"],
+	"part_name": "pose4_WoundHead_WoundCollar",
+	"x": "278",
+	"y": "247",
+	"layer": 6200,
+	"bmps": {
+		"WoundHead04": "pose4_WoundCollar.png"
+	}
+}
+]

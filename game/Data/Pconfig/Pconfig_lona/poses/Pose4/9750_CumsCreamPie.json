@@ -1,0 +1,28 @@
+[{
+		"name_order": ["vagopen", "VaginalDamaged", "CumsCreamPie"],
+		"part_name": "pose4_CumsCreamPie",
+		"x": "201",
+		"y": "393",
+		"layer": 9750,
+		"bmps": {
+			"vagopen00,VaginalDamaged00,CumsCreamPie01": "pose4_CumsCreamPie1.png",
+			"vagopen00,VaginalDamaged00,CumsCreamPie02": "pose4_CumsCreamPie2.png",
+			"vagopen00,VaginalDamaged00,CumsCreamPie03": "pose4_CumsCreamPie3.png",
+			"vagopen01,VaginalDamaged00,CumsCreamPie01": "pose4_vagopen_CumsCreamPie1.png",
+			"vagopen01,VaginalDamaged00,CumsCreamPie02": "pose4_vagopen_CumsCreamPie2.png",
+			"vagopen01,VaginalDamaged00,CumsCreamPie03": "pose4_vagopen_CumsCreamPie3.png"
+		}
+	},
+	{
+		"name_order": ["vagopen", "VaginalDamaged", "CumsCreamPie"],
+		"part_name": "pose4_VaginalDamaged_CumsCreamPie",
+		"x": "197",
+		"y": "401",
+		"layer": 9751,
+		"bmps": {
+			"vagopen01,VaginalDamaged01,CumsCreamPie01": "pose4_CumsCreamPie1.png",
+			"vagopen01,VaginalDamaged01,CumsCreamPie02": "pose4_CumsCreamPie2.png",
+			"vagopen01,VaginalDamaged01,CumsCreamPie03": "pose4_CumsCreamPie3.png"
+		}
+	}
+]

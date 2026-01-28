@@ -1,0 +1,144 @@
+[
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_Body1",
+		"x": "25",
+		"y": "35",
+		"layer": 500,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV1": "pose4_EventVag_Orkind_WarBossEV_Body1.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_Body2",
+		"x": "35",
+		"y": "25",
+		"layer": 500,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV2": "pose4_EventVag_Orkind_WarBossEV_Body2.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_Body3",
+		"x": "44",
+		"y": "20",
+		"layer": 500,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV3": "pose4_EventVag_Orkind_WarBossEV_Body3.png",
+			"EventVagRace#Orkind,EventVag#WarBossEV4": "pose4_EventVag_Orkind_WarBossEV_Body3.png"
+		}
+	},
+	
+	
+	
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_ArmL_1",
+		"x": "54",
+		"y": "165",
+		"layer": 5000,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV1": "pose4_EventVag_Orkind_WarBossEV_ArmL_1.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_ArmL_2",
+		"x": "59",
+		"y": "175",
+		"layer": 5000,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV2": "pose4_EventVag_Orkind_WarBossEV_ArmL_2.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_ArmL_3",
+		"x": "64",
+		"y": "180",
+		"layer": 5000,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV3": "pose4_EventVag_Orkind_WarBossEV_ArmL_3.png",
+			"EventVagRace#Orkind,EventVag#WarBossEV4": "pose4_EventVag_Orkind_WarBossEV_ArmL_3.png"
+		}
+	},
+	
+	
+	
+	
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_Dick",
+		"x": "198",
+		"y": "395",
+		"layer": 15500,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV1": "pose4_EventVag_Orkind_WarBossEV_Dick_1.png",
+			"EventVagRace#Orkind,EventVag#WarBossEV2": "pose4_EventVag_Orkind_WarBossEV_Dick_2.png",
+			"EventVagRace#Orkind,EventVag#WarBossEV3": "pose4_EventVag_Orkind_WarBossEV_Dick_3.png",
+			"EventVagRace#Orkind,EventVag#WarBossEV4": "pose4_EventVag_Orkind_WarBossEV_Dick_3.png"
+		}
+	},
+	
+	
+	
+	
+	
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_ArmR_1",
+		"x": "226",
+		"y": "137",
+		"layer": 25000,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV1": "pose4_EventVag_Orkind_WarBossEV_ArmR_1.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_ArmR_2",
+		"x": "219",
+		"y": "127",
+		"layer": 25000,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV2": "pose4_EventVag_Orkind_WarBossEV_ArmR_2.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_ArmR_3",
+		"x": "219",
+		"y": "122",
+		"layer": 25000,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV3": "pose4_EventVag_Orkind_WarBossEV_ArmR_3.png",
+			"EventVagRace#Orkind,EventVag#WarBossEV4": "pose4_EventVag_Orkind_WarBossEV_ArmR_3.png"
+		}
+	},
+	
+	{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_Head1",
+		"x": "96",
+		"y": "46",
+		"layer": 25250,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV1": "pose4_EventVag_Orkind_WarBossEV_Head_1.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_Head2",
+		"x": "100",
+		"y": "41",
+		"layer": 25250,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV2": "pose4_EventVag_Orkind_WarBossEV_Head_1.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVag_Orkind_WarBossEV_Head3",
+		"x": "105",
+		"y": "38",
+		"layer": 25250,
+		"bmps": {
+			"EventVagRace#Orkind,EventVag#WarBossEV3": "pose4_EventVag_Orkind_WarBossEV_Head_1.png",
+			"EventVagRace#Orkind,EventVag#WarBossEV4": "pose4_EventVag_Orkind_WarBossEV_Head_2.png"
+		}
+	}
+]

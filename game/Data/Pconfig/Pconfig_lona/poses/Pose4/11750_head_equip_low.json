@@ -1,0 +1,12 @@
+	[{
+		"name_order": ["equip_Face", "Race"],
+		"part_name": "pose4_face_PaintHead",
+		"x": 207,
+		"y": 213,
+		"layer": 11750,
+		"bmps": {
+			"equip_Face#PaintHead,Race#Human": "pose4_face_PaintHead.png",
+			"equip_Face#PaintHead,Race#Deepone": "pose4_face_moot_PaintHead.png",
+			"equip_Face#PaintHead,Race#Moot": "pose4_face_moot_PaintHead.png"
+		}
+	}]

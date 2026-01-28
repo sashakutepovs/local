@@ -1,0 +1,10 @@
+[{
+	"name_order": ["MilkSplash"],
+	"part_name": "pose4_MilkSplash",
+	"x": "252",
+	"y": "163",
+	"layer": 16000,
+	"bmps": {
+		"MilkSplash01": "pose4_MilkSplash.png"
+	}
+}]

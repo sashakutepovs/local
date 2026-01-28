@@ -1,0 +1,39 @@
+[
+	{
+		"name_order": ["EventAnalRace", "EventAnal"],
+		"part_name": "pose4_EventAnal_Human",
+		"x": "221",
+		"y": "455",
+		"layer": 9550,
+		"bmps": {
+			"EventAnalRace#Human,EventAnal#Common1": "pose4_EventAnal_Human_Common1.png",
+			"EventAnalRace#Human,EventAnal#Common2": "pose4_EventAnal_Human_Common2.png",
+			"EventAnalRace#Moot,EventAnal#Common1": "pose4_EventAnal_Human_Common1.png",
+			"EventAnalRace#Moot,EventAnal#Common2": "pose4_EventAnal_Human_Common2.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVagRace_Human",
+		"x": "168",
+		"y": "398",
+		"layer": 17300,
+		"bmps": {
+			"EventVagRace#Human,EventVag#Common1": "pose4_EventVagRace_Human_Common1.png",
+			"EventVagRace#Human,EventVag#Common2": "pose4_EventVagRace_Human_Common2.png",
+			"EventVagRace#Moot,EventVag#Common1": "pose4_EventVagRace_Human_Common1.png",
+			"EventVagRace#Moot,EventVag#Common2": "pose4_EventVagRace_Human_Common2.png"
+		}
+	},{
+		"name_order": ["EventMouthRace", "EventMouth"],
+		"part_name": "pose4_EventMouthRace_Human",
+		"x": "145",
+		"y": "259",
+		"layer": 25000,
+		"bmps": {
+			"EventMouthRace#Human,EventMouth#Common1": "pose4_EventMouthRace_Human_Common1.png",
+			"EventMouthRace#Human,EventMouth#Common2": "pose4_EventMouthRace_Human_Common2.png",
+			"EventMouthRace#Moot,EventMouth#Common1": "pose4_EventMouthRace_Human_Common1.png",
+			"EventMouthRace#Moot,EventMouth#Common2": "pose4_EventMouthRace_Human_Common2.png"
+		}
+	}
+]

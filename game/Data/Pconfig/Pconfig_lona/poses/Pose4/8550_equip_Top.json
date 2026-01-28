@@ -1,0 +1,41 @@
+[{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_RagTop",
+		"x": "246",
+		"y": "231",
+		"layer": 8550,
+		"bmps": {
+			"equip_Top#RagTop": "pose4_equip_RagTop.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_AdvTop",
+		"x": "248",
+		"y": "224",
+		"layer": 8550,
+		"bmps": {
+			"equip_Top#AdvTop": "pose4_equip_AdvTop.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_SurTop",
+		"x": "248",
+		"y": "227",
+		"layer": 8550,
+		"bmps": {
+			"equip_Top#SurTop": "pose4_equip_SurTop.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_DancerTop",
+		"x": "240",
+		"y": "144",
+		"layer": 8550,
+		"bmps": {
+			"equip_Top#DancerTop": "pose4_equip_DancerTop.png"
+		}
+	}
+]

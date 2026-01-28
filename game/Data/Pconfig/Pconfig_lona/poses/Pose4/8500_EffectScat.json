@@ -1,0 +1,10 @@
+[{
+	"name_order": ["EffectScat"],
+	"part_name": "pose4_EffectScat",
+	"x": "193",
+	"y": "445",
+	"layer": 8500,
+	"bmps": {
+		"EffectScat01": "pose4_EffectScat.png"
+	}
+}]

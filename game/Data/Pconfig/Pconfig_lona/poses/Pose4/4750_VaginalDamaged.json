@@ -1,0 +1,11 @@
+[{
+	"name_order": ["vagopen","VaginalDamaged"],
+	"part_name": "pose4_VaginalDamaged",
+	"x": "232",
+	"y": "409",
+	"layer": 4750,
+	"bmps": {
+		"vagopen01,VaginalDamaged01": "pose4_VaginalDamaged.png"
+
+	}
+}]

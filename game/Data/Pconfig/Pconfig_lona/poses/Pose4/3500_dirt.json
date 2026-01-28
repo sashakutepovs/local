@@ -1,0 +1,15 @@
+[{
+		"name_order": ["vagopen", "analopen"],
+		"isDirt": true,
+		"part_name": "pose4_dirt_low",
+		"x": "18",
+		"y": "141",
+		"layer": 3500,
+		"bmps": {
+			"vagopen00,analopen00": "pose4_dirt_low.png",
+			"vagopen01,analopen00": "pose4_vagopen_dirt_low.png",
+			"vagopen00,analopen01": "pose4_analopen_dirt_low.png",
+			"vagopen01,analopen01": "pose4_vagopen_analopen_dirt_low.png"
+		}
+	}
+]

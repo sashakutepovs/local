@@ -1,0 +1,77 @@
+[{
+		"name_order": ["Tail"],
+		"part_name": "pose4_Tail",
+		"x": "211",
+		"y": "479",
+		"layer": 1500,
+		"bmps": {
+			"Tail01": "pose4_Tail.png"
+		}
+	},
+	{
+		"name_order": ["Tail", "WoundSThigh"],
+		"part_name": "pose4_Tail_WoundSThigh",
+		"x": "211",
+		"y": "479",
+		"layer": 1501,
+		"bmps": {
+			"Tail01,WoundSThigh01": "pose4_Tail_WoundSThigh1.png",
+			"Tail01,WoundSThigh02": "pose4_Tail_WoundSThigh2.png",
+			"Tail01,WoundSThigh03": "pose4_Tail_WoundSThigh3.png"
+		}
+	},
+	{
+		"name_order": ["Tail", "WoundMThigh"],
+		"part_name": "pose4_Tail_WoundMThigh",
+		"x": "211",
+		"y": "479",
+		"layer": 1502,
+		"bmps": {
+			"Tail01,WoundMThigh01": "pose4_Tail_WoundMThigh1.png",
+			"Tail01,WoundMThigh02": "pose4_Tail_WoundMThigh2.png",
+			"Tail01,WoundMThigh03": "pose4_Tail_WoundMThigh3.png"
+		}
+	},
+	{
+		"isDirt": true,
+		"name_order": ["Tail"],
+		"part_name": "pose4_Tail_dirt",
+		"x": "211",
+		"y": "479",
+		"layer": 1503,
+		"bmps": {
+			"Tail01": "pose4_Tail_dirt.png"
+		}
+	},
+	{
+		"name_order": ["Tail", "EffectBleedAnal"],
+		"part_name": "pose4_Tail_EffectBleedAnal",
+		"x": "211",
+		"y": "479",
+		"layer": 1354,
+		"bmps": {
+			"Tail01,EffectBleedAnal01": "pose4_Tail_EffectBleedAnal.png"
+		}
+	},
+	{
+		"name_order": ["Tail", "EffectBleedVag"],
+		"part_name": "pose4_Tail_EffectBleedVag",
+		"x": "211",
+		"y": "479",
+		"layer": 1505,
+		"bmps": {
+			"Tail01,EffectBleedVag01": "pose4_Tail_EffectBleedVag.png"
+		}
+	},
+	{
+		"name_order": ["Tail", "EffectWet"],
+		"part_name": "pose4_Tail_EffectWet",
+		"x": "211",
+		"y": "479",
+		"layer": 1506,
+		"bmps": {
+			"Tail01,EffectWet01": "pose4_Tail_EffectWet.png"
+		}
+	}
+]
+

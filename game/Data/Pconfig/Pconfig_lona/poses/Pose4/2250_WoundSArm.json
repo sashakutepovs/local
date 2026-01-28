@@ -1,0 +1,12 @@
+[{
+	"name_order": ["WoundSArm"],
+	"part_name": "pose4_WoundSArm",
+	"x": "224",
+	"y": "140",
+	"layer": 2250,
+	"bmps": {
+		"WoundSArm01": "pose4_WoundSArm1.png",
+		"WoundSArm02": "pose4_WoundSArm2.png",
+		"WoundSArm03": "pose4_WoundSArm3.png"
+	}
+}]

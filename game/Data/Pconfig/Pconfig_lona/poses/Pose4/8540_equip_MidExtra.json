@@ -1,0 +1,38 @@
+[
+	{
+		"name_order": ["preg", "equip_MidExtra"],
+		"part_name": "pose4_equip_FootmanMidExtra",
+		"x": 243,
+		"y": 248,
+		"layer": 8540,
+		"bmps": {
+			"preg00,equip_MidExtra#FootmanMidExtra": "pose4_equip_FootmanMidExtra.png",
+			"preg01,equip_MidExtra#FootmanMidExtra": "pose4_equip_FootmanMidExtra.png",
+			"preg02,equip_MidExtra#FootmanMidExtra": "pose4_preg6m_equip_FootmanMidExtra.png",
+			"preg03,equip_MidExtra#FootmanMidExtra": "pose4_preg8m_equip_FootmanMidExtra.png"
+		}
+	},
+	{
+		"name_order": ["equip_MidExtra"],
+		"part_name": "pose4_equip_DocMidExtra",
+		"x": 272,
+		"y": 286,
+		"layer": 8540,
+		"bmps": {
+			"equip_MidExtra#DocMidExtra": "pose4_equip_DocMidExtra.png"
+		}
+	},
+	{
+		"name_order": ["preg", "equip_MidExtra"],
+		"part_name": "pose4_equip_NunMidExtra",
+		"x": 222,
+		"y": 251,
+		"layer": 8540,
+		"bmps": {
+			"preg00,equip_MidExtra#NunMidExtra": "pose4_equip_NunMidExtra.png",
+			"preg01,equip_MidExtra#NunMidExtra": "pose4_preg4m_equip_NunMidExtra.png",
+			"preg02,equip_MidExtra#NunMidExtra": "pose4_preg6m_equip_NunMidExtra.png",
+			"preg03,equip_MidExtra#NunMidExtra": "pose4_preg8m_equip_NunMidExtra.png"
+		}
+	}
+]

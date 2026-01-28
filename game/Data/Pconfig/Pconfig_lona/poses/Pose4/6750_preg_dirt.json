@@ -1,0 +1,15 @@
+[
+	{
+		"name_order": ["preg"],
+		"isDirt": true,
+		"part_name": "pose4_preg_dirt",
+		"x": "195",
+		"y": "308",
+		"layer": 6750,
+		"bmps": {
+			"preg01": "pose4_preg4m_dirt.png",
+			"preg02": "pose4_preg6m_dirt.png",
+			"preg03": "pose4_preg8m_dirt.png"
+		}
+	}
+]

@@ -1,0 +1,12 @@
+[{
+	"name_order": ["always","Race"],
+	"part_name": "pose4_head",
+	"x": "197",
+	"y": "185",
+	"layer": 10500,
+	"bmps": {
+		"always#on,Race#Human": "pose4_head.png",
+		"always#on,Race#Deepone": "pose4_head_moot.png",
+		"always#on,Race#Moot": "pose4_head_moot.png"
+	}
+}]

@@ -1,0 +1,22 @@
+[
+	{
+		"name_order": ["equip_head"],
+		"part_name": "pose4_equip_DocHead_BodyTop",
+		"x": 267,
+		"y": 239,
+		"layer": 8700,
+		"bmps": {
+			"equip_head#DocHead": "pose4_equip_DocHead_BodyTop.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_HoodCloakTop_Body_Top",
+		"x": 254,
+		"y": 231,
+		"layer": 8701,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "pose4_equip_HoodCloakTop_Body_Top.png"
+		}
+	}
+]

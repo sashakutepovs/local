@@ -1,0 +1,22 @@
+[{
+	"name_order": ["CumsTop","preg"],
+	"part_name": "pose4_CumsTop",
+	"x": "180",
+	"y": "123",
+	"layer": 8750,
+	"bmps": {
+		"CumsTop01,preg00": "pose4_CumsTop1.png",
+		"CumsTop02,preg00": "pose4_CumsTop2.png",
+		"CumsTop03,preg00": "pose4_CumsTop3.png",
+		"CumsTop01,preg01": "pose4_preg4m_CumsTop1.png",
+		"CumsTop02,preg01": "pose4_preg6m_CumsTop1.png",
+		"CumsTop03,preg01": "pose4_preg8m_CumsTop1.png",
+		"CumsTop01,preg02": "pose4_preg4m_CumsTop2.png",
+		"CumsTop02,preg02": "pose4_preg6m_CumsTop2.png",
+		"CumsTop03,preg02": "pose4_preg8m_CumsTop2.png",
+		"CumsTop01,preg03": "pose4_preg4m_CumsTop3.png",
+		"CumsTop02,preg03": "pose4_preg6m_CumsTop3.png",
+		"CumsTop03,preg03": "pose4_preg8m_CumsTop3.png"
+		
+	}
+}]

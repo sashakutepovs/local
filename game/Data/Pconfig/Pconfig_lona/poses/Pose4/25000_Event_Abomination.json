@@ -1,0 +1,33 @@
+[
+	{
+		"name_order": ["EventAnalRace", "EventAnal"],
+		"part_name": "pose4_EventAnal_Abomination",
+		"x": "143",
+		"y": "298",
+		"layer": 9550,
+		"bmps": {
+			"EventAnalRace#Abomination,EventAnal#Common1": "pose4_EventAnal_Abomination_Common1.png",
+			"EventAnalRace#Abomination,EventAnal#Common2": "pose4_EventAnal_Abomination_Common2.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVagRace_Abomination",
+		"x": "127",
+		"y": "298",
+		"layer": 17300,
+		"bmps": {
+			"EventVagRace#Abomination,EventVag#Common1": "pose4_EventVagRace_Abomination_Common1.png",
+			"EventVagRace#Abomination,EventVag#Common2": "pose4_EventVagRace_Abomination_Common2.png"
+		}
+	},{
+		"name_order": ["EventMouthRace", "EventMouth"],
+		"part_name": "pose4_EventMouthRace_Abomination",
+		"x": "152",
+		"y": "163",
+		"layer": 25000,
+		"bmps": {
+			"EventMouthRace#Abomination,EventMouth#Common1": "pose4_EventMouthRace_Abomination_Common1.png",
+			"EventMouthRace#Abomination,EventMouth#Common2": "pose4_EventMouthRace_Abomination_Common2.png"
+		}
+	}
+]

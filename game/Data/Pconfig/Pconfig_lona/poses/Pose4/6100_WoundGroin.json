@@ -1,0 +1,24 @@
+[{
+	"name_order": ["vagopen", "analopen", "WoundGroin"],
+	"part_name": "pose4_WoundGroin",
+	"x": "193",
+	"y": "378",
+	"layer": 6100,
+	"bmps": {
+		"vagopen00,analopen00,WoundGroin01": "pose4_WoundGroin1.png",
+		"vagopen00,analopen00,WoundGroin02": "pose4_WoundGroin2.png",
+		"vagopen00,analopen00,WoundGroin03": "pose4_WoundGroin3.png",
+
+		"vagopen00,analopen01,WoundGroin01": "pose4_analopen_WoundGroin1.png",
+		"vagopen00,analopen01,WoundGroin02": "pose4_analopen_WoundGroin2.png",
+		"vagopen00,analopen01,WoundGroin03": "pose4_analopen_WoundGroin3.png",
+
+		"vagopen01,analopen00,WoundGroin01": "pose4_vagopen_WoundGroin1.png",
+		"vagopen01,analopen00,WoundGroin02": "pose4_vagopen_WoundGroin2.png",
+		"vagopen01,analopen00,WoundGroin03": "pose4_vagopen_WoundGroin3.png",
+
+		"vagopen01,analopen01,WoundGroin01": "pose4_vagopen_analopen_WoundGroin1.png",
+		"vagopen01,analopen01,WoundGroin02": "pose4_vagopen_analopen_WoundGroin2.png",
+		"vagopen01,analopen01,WoundGroin03": "pose4_vagopen_analopen_WoundGroin3.png"
+	}
+}]

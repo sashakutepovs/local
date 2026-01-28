@@ -1,0 +1,20 @@
+[{
+	"name_order": ["WoundCuff"],
+	"part_name": "pose4_WoundCuff",
+	"x": "227",
+	"y": "142",
+	"layer": 2750,
+	"bmps": {
+		"WoundCuff01": "pose4_WoundCuff.png"
+	}
+},{
+	"name_order": ["WoundMArm"],
+	"part_name": "pose4_WoundMArm_WoundCuff",
+	"x": "227",
+	"y": "142",
+	"layer": 2750,
+	"bmps": {
+		"WoundMArm04": "pose4_WoundCuff.png"
+	}
+}
+]

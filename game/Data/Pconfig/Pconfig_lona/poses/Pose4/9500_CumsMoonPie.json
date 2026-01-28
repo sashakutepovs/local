@@ -1,0 +1,26 @@
+[{
+	"name_order": ["analopen", "CumsMoonPie"],
+	"part_name": "pose4_CumsMoonPie",
+	"x": "216",
+	"y": "448",
+	"layer": 9500,
+	"bmps": {
+		"analopen00,CumsMoonPie01": "pose4_CumsMoonPie1.png",
+		"analopen00,CumsMoonPie02": "pose4_CumsMoonPie2.png",
+		"analopen00,CumsMoonPie03": "pose4_CumsMoonPie3.png",
+		"analopen01,CumsMoonPie01": "pose4_analopen_CumsMoonPie1.png",
+		"analopen01,CumsMoonPie02": "pose4_analopen_CumsMoonPie2.png",
+		"analopen01,CumsMoonPie03": "pose4_analopen_CumsMoonPie3.png"
+	}
+}, {
+	"name_order": ["analopen", "SphincterDamaged", "CumsMoonPie"],
+	"part_name": "pose4_SphincterDamaged_CumsMoonPie",
+	"x": "214",
+	"y": "453",
+	"layer": 9501,
+	"bmps": {
+		"analopen01,SphincterDamaged01,CumsMoonPie01": "pose4_CumsMoonPie1.png",
+		"analopen01,SphincterDamaged01,CumsMoonPie02": "pose4_CumsMoonPie2.png",
+		"analopen01,SphincterDamaged01,CumsMoonPie03": "pose4_CumsMoonPie3.png"
+	}
+}]

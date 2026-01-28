@@ -1,0 +1,39 @@
+[	{
+		"name_order": ["vagopen"],
+		"isDirt": true,
+		"dirtKey":"MelaninVag",
+		"part_name": "pose4_MelaninVag",
+		"x": "211",
+		"y": "383",
+		"layer": 5750,
+		"bmps": {
+			"vagopen00": "pose4_MelaninVag.png",
+			"vagopen01": "pose4_vagopen_MelaninVag.png"
+		}
+	},
+	{
+		"name_order": ["analopen"],
+		"isDirt": true,
+		"dirtKey":"MelaninAnal",
+		"part_name": "pose4_MelaninAnal",
+		"x": "224",
+		"y": "448",
+		"layer": 5750,
+		"bmps": {
+			"analopen00": "pose4_MelaninAnal.png",
+			"analopen01": "pose4_analopen_MelaninAnal.png"
+		}
+	},
+	{
+		"name_order": ["always"],
+		"isDirt": true,
+		"dirtKey":"MelaninNipple",
+		"part_name": "pose4_MelaninSNipple",
+		"x": "248",
+		"y": "318",
+		"layer": 5750,
+		"bmps": {
+			"always#on": "pose4_MelaninSNipple.png"
+		}
+	}
+]

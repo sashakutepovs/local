@@ -1,0 +1,12 @@
+[{
+	"name_order": ["vagopen","VaginalDamaged"],
+	"isDirt": true,
+	"part_name": "pose4_VaginalDamaged_dirt",
+	"x": "232",
+	"y": "409",
+	"layer": 4751,
+	"bmps": {
+		"vagopen01,VaginalDamaged01": "pose4_VaginalDamaged_dirt.png"
+
+	}
+}]

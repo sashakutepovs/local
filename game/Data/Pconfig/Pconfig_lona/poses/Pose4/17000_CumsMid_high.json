@@ -1,0 +1,11 @@
+[{
+	"name_order": ["CumsMid"],
+	"part_name": "pose4_CumsMid_high",
+	"x": "229",
+	"y": "18",
+	"layer": 17000,
+	"bmps": {
+		"CumsMid02": "pose4_CumsMid2_high.png",
+		"CumsMid03": "pose4_CumsMid3_high.png"
+	}
+}]

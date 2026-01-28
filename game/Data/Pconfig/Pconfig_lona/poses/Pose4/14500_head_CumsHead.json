@@ -1,0 +1,12 @@
+[{
+	"name_order": ["CumsHead"],
+	"part_name": "pose4_head_CumsHead",
+	"x": "180",
+	"y": "168",
+	"layer": 14500,
+	"bmps": {
+		"CumsHead01": "pose4_head_CumsHead1.png",
+		"CumsHead02": "pose4_head_CumsHead2.png",
+		"CumsHead03": "pose4_head_CumsHead3.png"
+	}
+}]

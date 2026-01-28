@@ -1,0 +1,25 @@
+[
+	{
+		"isDirt": true,
+		"name_order": ["equip_hair"],
+		"part_name": "pose4_equip_HairMessy_mid_dirt",
+		"x": "228",
+		"y": "201",
+		"layer": 8601,
+		"bmps": {
+			"equip_hair#HairMessy": "pose4_equip_HairMessy_mid_dirt.png",
+			"equip_hair#HairDancer": "pose4_equip_HairMessy_mid_dirt.png"
+		}
+	},
+	{
+		"isDirt": true,
+		"name_order": ["equip_hair"],
+		"part_name": "pose4_equip_HairTwinBraid_mid_dirt",
+		"x": "229",
+		"y": "202",
+		"layer": 8601,
+		"bmps": {
+			"equip_hair#HairTwinBraid": "pose4_equip_HairTwinBraid_mid_dirt.png"
+		}
+	}
+]

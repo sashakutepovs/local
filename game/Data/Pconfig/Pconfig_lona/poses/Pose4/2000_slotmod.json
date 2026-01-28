@@ -1,0 +1,21 @@
+[{
+		"name_order": ["vagopen"],
+		"part_name": "pose4_vagopen",
+		"x": "208",
+		"y": "394",
+		"layer": 2000,
+		"bmps": {
+			"vagopen01": "pose4_vagopen.png"
+		}
+	},
+	{
+		"name_order": ["analopen"],
+		"part_name": "pose4_analopen",
+		"x": "237",
+		"y": "457",
+		"layer": 2001,
+		"bmps": {
+			"analopen01": "pose4_analopen.png"
+		}
+	}
+]

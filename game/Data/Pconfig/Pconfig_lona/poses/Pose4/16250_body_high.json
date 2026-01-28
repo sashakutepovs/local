@@ -1,0 +1,10 @@
+[{
+	"name_order": ["always"],
+	"part_name": "pose4_body_high",
+	"x": "277",
+	"y": "24",
+	"layer": 16250,
+	"bmps": {
+		"always#on": "pose4_body_high.png"
+	}
+}]

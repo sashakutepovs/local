@@ -1,0 +1,33 @@
+[
+	{
+		"name_order": ["EventAnalRace", "EventAnal"],
+		"part_name": "pose4_EventAnal_Goblin",
+		"x": "221",
+		"y": "455",
+		"layer": 9550,
+		"bmps": {
+			"EventAnalRace#Goblin,EventAnal#Common1": "pose4_EventAnal_Goblin_Common1.png",
+			"EventAnalRace#Goblin,EventAnal#Common2": "pose4_EventAnal_Goblin_Common2.png"
+		}
+	},{
+		"name_order": ["EventVagRace", "EventVag"],
+		"part_name": "pose4_EventVagRace_Goblin",
+		"x": "168",
+		"y": "398",
+		"layer": 17300,
+		"bmps": {
+			"EventVagRace#Goblin,EventVag#Common1": "pose4_EventVagRace_Goblin_Common1.png",
+			"EventVagRace#Goblin,EventVag#Common2": "pose4_EventVagRace_Goblin_Common2.png"
+		}
+	},{
+		"name_order": ["EventMouthRace", "EventMouth"],
+		"part_name": "pose4_EventMouthRace_Goblin",
+		"x": "145",
+		"y": "259",
+		"layer": 25000,
+		"bmps": {
+			"EventMouthRace#Goblin,EventMouth#Common1": "pose4_EventMouthRace_Goblin_Common1.png",
+			"EventMouthRace#Goblin,EventMouth#Common2": "pose4_EventMouthRace_Goblin_Common2.png"
+		}
+	}
+]

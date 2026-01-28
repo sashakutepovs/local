@@ -1,0 +1,62 @@
+[
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_RagTop_low",
+		"x": 150,
+		"y": 235,
+		"layer": 10,
+		"bmps": {
+			"equip_Top#RagTop": "pose4_equip_RagTop_low.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_AdvTop_low",
+		"x": 231,
+		"y": 234,
+		"layer": 10,
+		"bmps": {
+			"equip_Top#AdvTop": "pose4_equip_AdvTop_low.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_SurTop_low",
+		"x": 238,
+		"y": 266,
+		"layer": 10,
+		"bmps": {
+			"equip_Top#SurTop": "pose4_equip_SurTop_low.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_DancerTop_low",
+		"x": 235,
+		"y": 159,
+		"layer": 10,
+		"bmps": {
+			"equip_Top#DancerTop": "pose4_equip_DancerTop_low.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_HoodCloakTop_Body_Bot",
+		"x": 157,
+		"y": 309,
+		"layer": 10,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "pose4_equip_HoodCloakTop_Body_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "pose4_equip_DocTop_BodyLow_Bot",
+		"x": 87,
+		"y": 192,
+		"layer": 10,
+		"bmps": {
+			"equip_Top#DocTop": "pose4_equip_DocTop_BodyLow_Bot.png"
+		}
+	}
+]
