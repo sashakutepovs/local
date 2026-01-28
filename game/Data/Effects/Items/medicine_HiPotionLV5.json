@@ -1,0 +1,89 @@
+{
+	"item_name": "ItemHiPotionLV5",
+	"price": 10000,
+	"icon_index": 211,
+	"weight": "2",
+	"dmg_multiplier":	"3.5",
+	"tag_main_settings": {
+		"type": "Medicine",
+		"tag": "Medicine",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:HiPotionLV5/item_name",
+			"description": "DataItem:HiPotionLV5/description"
+	},
+	"player_item_usage_event_summon": "IEFX_HiPotionLV5",
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["5", "FeelsHorniness"]},
+		{"tar_state_name": ["-1", "STD_Leukorrhea"]},
+		{"tar_state_name": ["-1", "STD_WartAnal"]},
+		{"tar_state_name": ["-1", "STD_WartVag"]},
+		{"tar_state_name": ["-1", "STD_HerpesAnal"]},
+		{"tar_state_name": ["-1", "STD_HerpesVag"]}
+	],
+	"use_item_effect": [{
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "1000"
+		},{
+		"attribute_name": "mood",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "200"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "80"
+		},{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"stats_key" 	: "DrugAddiction",
+		"stats_value"	: [1,2,3,4,5],
+		"stats_filter"	: false,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "800"
+		},{
+		"attribute_name": "vag_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "500"
+		},{
+		"attribute_name": "urinary_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "500"
+		},{
+		"attribute_name": "anal_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "500"
+		},{
+		"attribute_name": "drug_addiction_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "600"
+		},{
+		"attribute_name": "drug_addiction_level",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "1000"
+		}
+	]
+}

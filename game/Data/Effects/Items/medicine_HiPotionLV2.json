@@ -1,0 +1,83 @@
+{
+	"item_name": "ItemHiPotionLV2",
+	"price": 3400,
+	"icon_index": 223,
+	"weight": "2",
+	"dmg_multiplier":	"3.5",
+	"tag_main_settings": {
+		"type": "Medicine",
+		"tag": "Medicine",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:HiPotionLV2/item_name",
+			"description": "DataItem:HiPotionLV2/description"
+	},
+	"pot_data": {
+		"HiPotionLV2": 1
+		},
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["2", "FeelsHorniness"]},
+		{"tar_state_name": ["-1", "STD_Leukorrhea"]},
+		{"tar_state_name": ["-1", "STD_WartAnal"]},
+		{"tar_state_name": ["-1", "STD_WartVag"]},
+		{"tar_state_name": ["-1", "STD_HerpesAnal"]},
+		{"tar_state_name": ["-1", "STD_HerpesVag"]}
+	],
+	"use_item_effect": [{
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "60"
+		},{
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"attribute_name": "mood",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "90"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "80"
+		},{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"attribute_name": "vag_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"attribute_name": "urinary_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"attribute_name": "anal_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"attribute_name": "drug_addiction_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"attribute_name": "drug_addiction_level",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "200"
+		}
+	]
+}

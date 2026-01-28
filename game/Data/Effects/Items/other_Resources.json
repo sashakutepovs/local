@@ -1,0 +1,41 @@
+{
+	"weight": "3",
+	"use_item_effect": [{
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "1"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "80"
+		},{
+		"stats_key" 	: "Omnivore",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "12"
+		},{
+		"attribute_name": "urinary_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "25"
+		},{
+		"attribute_name": "defecate_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "25"
+		},{
+		"attribute_name": "dirt",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "1"
+		}
+	]
+}

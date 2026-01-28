@@ -1,0 +1,38 @@
+{
+	"weight": "1",
+	"dmg_multiplier":	"4.5",
+	"pot_data": {
+		"Alcohol": 1
+		},
+	"player_item_usage_event_summon": "IEFX_Alcohol",
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["1", "DailyDrunkLevel"]}
+	],
+	"use_item_effect": [{
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "5"
+		},{
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "10"
+		},{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "200"
+		},{
+		"attribute_name": "mood",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "20"
+		},{
+		"attribute_name": "urinary_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "200"
+		}
+	]
+}

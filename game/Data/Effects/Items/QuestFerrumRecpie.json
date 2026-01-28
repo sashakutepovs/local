@@ -1,0 +1,19 @@
+{
+	"item_name": "ItemQuestFerrumRecpie",
+	"price": 0,
+	"icon_index": 862,
+	"tag_main_settings": {
+		"type": "Key",
+		"tag": "Key",
+		"consumable": false,
+		"key_item": true
+	},
+	"textFlag": {
+			"name": "DataItem:QuestFerrumRecpie/item_name",
+			"description": "DataItem:QuestFerrumRecpie/description"
+		},
+	"common_tags":{
+		"cannot_steal": true
+		},
+	"use_item_effect": []
+}

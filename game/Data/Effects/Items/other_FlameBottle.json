@@ -1,0 +1,26 @@
+{
+	"item_name": "ItemFlameBottle",
+	"price": 280,
+	"icon_index": 480,
+	"weight": 3,
+	"dmg_multiplier": 1.5,
+	"tag_main_settings": {
+		"type": "Other",
+		"tag": "Tools",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:FlameBottle/item_name",
+			"description": "DataItem:FlameBottle/description"
+	},
+
+	"ext_slot_skill": {
+		"SkillName": "Item_FlameBottle",
+		"CostAfterLaunch": true,
+		"DirectUsage": true
+		},
+	"pot_data": {
+		"Oil": 3
+		}
+}

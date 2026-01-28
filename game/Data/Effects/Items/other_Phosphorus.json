@@ -1,0 +1,20 @@
+{
+	"item_name": "ItemPhosphorus",
+	"price": 100,
+	"icon_index": 344,
+	"weight": 3,
+	"dmg_multiplier":	1.5,
+	"tag_main_settings": {
+		"type": "Other",
+		"tag": "Other",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Phosphorus/item_name",
+			"description": "DataItem:Phosphorus/dsescription"
+	},
+	"pot_data": {
+		"Phosphorus": 1
+		}
+}

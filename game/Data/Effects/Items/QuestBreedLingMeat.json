@@ -1,0 +1,19 @@
+{
+	"item_name": "ItemQuestBreedLingMeat",
+	"price": 0,
+	"icon_index": 190,
+	"tag_main_settings": {
+		"type": "Key",
+		"tag": "Key",
+		"consumable": false,
+		"key_item": true
+	},
+	"textFlag": {
+			"name": "DataItem:QuestBreedLingMeat/item_name",
+			"description": "DataItem:QuestBreedLingMeat/description"
+		},
+	"common_tags":{
+		"cannot_steal": true
+		},
+	"use_item_effect": []
+}

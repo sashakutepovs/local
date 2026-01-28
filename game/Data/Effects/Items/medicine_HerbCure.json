@@ -1,0 +1,73 @@
+{
+	"item_name": "ItemHerbCure",
+	"price": 300,
+	"icon_index": 207,
+	"weight": "2",
+	"dmg_multiplier":	"3.5",
+	"tag_main_settings": {
+		"type": "Medicine",
+		"tag": "Medicine",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:HerbCure/item_name",
+			"description": "DataItem:HerbCure/description"
+	},
+	"pot_data": {
+		"HerbCure": 1,
+		"HerbPlant":1
+		},
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["-1", "WoundHead"]},
+		{"tar_state_name": ["-1", "WoundChest"]},
+		{"tar_state_name": ["-1", "WoundCuff"]},
+		{"tar_state_name": ["-1", "WoundSArm"]},
+		{"tar_state_name": ["-1", "WoundMArm"]},
+		{"tar_state_name": ["-1", "WoundCollar"]},
+		{"tar_state_name": ["-1", "WoundBelly"]},
+		{"tar_state_name": ["-1", "WoundGroin"]},
+		{"tar_state_name": ["-1", "WoundSThigh"]},
+		{"tar_state_name": ["-1", "WoundMThigh"]}
+	],
+	"use_item_effect": [{
+		"attribute_name": "health",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "10"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "80"
+		},{
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "5"
+		},{
+		"attribute_name": "urinary_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "100"
+		},{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "40"
+		},{
+		"attribute_name": "drug_addiction_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "16"
+		},{
+		"attribute_name": "drug_addiction_level",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "300"
+		}
+	]
+}

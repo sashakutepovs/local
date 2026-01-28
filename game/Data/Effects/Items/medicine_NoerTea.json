@@ -1,0 +1,61 @@
+{
+	"item_name": "ItemNoerTea",
+	"price": 450,
+	"icon_index": 214,
+	"weight": 0.5,
+	"dmg_multiplier": 4,
+	"raw_date":	4,
+	"tag_main_settings": {
+		"type": "Medicine",
+		"tag": "RawPlant",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:NoerTea/item_name",
+			"description": "DataItem:NoerTea/description"
+	},
+	"rot_progress":	["ItemRottenMatter",1],
+	"use_item_effect": [{
+		"attribute_name": "mood",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 5
+		},{
+		"attribute_name": "health",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": 5
+		},{
+		"attribute_name": "baby_health",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 100
+		},{
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 7
+		},{
+		"attribute_name": "urinary_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 200
+		},{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 100
+		},{
+		"attribute_name": "drug_addiction_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 33
+		},{
+		"attribute_name": "drug_addiction_level",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": 250
+		}
+	]
+}

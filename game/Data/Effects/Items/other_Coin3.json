@@ -1,0 +1,23 @@
+{
+	"item_name": "ItemCoin3",
+	"price": 20000,
+	"icon_index": 581,
+	"weight": 2,
+	"dmg_multiplier":	4.5,
+	"tag_main_settings": {
+		"type": "Other",
+		"tag": "Money",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Coin3/item_name",
+			"description": "DataItem:Coin3/description"
+	},
+	"pot_data": {
+		"Gold": 1
+	},
+	"common_tags": {
+		"cannot_steal": true
+	}
+}

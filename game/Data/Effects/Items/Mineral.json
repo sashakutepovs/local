@@ -1,0 +1,7 @@
+{
+	"weight": "3",
+	"dmg_multiplier":	"1.5",
+	"common_tags":{
+		"cannot_steal": true
+		}
+}

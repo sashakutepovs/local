@@ -1,0 +1,55 @@
+{
+	"weight": "1",
+	"dmg_multiplier":	"7",
+	"pot_data": {
+		"Waste": 1,
+		"Protein": 1
+		},
+	"use_item_effect": [{
+		"stats_key" 	: "Omnivore",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "5"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "80"
+		},{
+		"stats_key" 	: "Mod_Taste",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "8"
+		},{
+		"stats_key" 	: "Omnivore",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "defecate_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "60"
+		},{
+		"attribute_name": "dirt",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "255"
+		},{
+		"stats_key" 	: "Omnivore",
+		"stats_value"	: [1],
+		"stats_filter"	: false,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "1000"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"item_name": "ItemQuestDfSgtTag",
+	"price": 0,
+	"icon_index": 591,
+	"tag_main_settings": {
+		"type": "Key",
+		"tag": "Key",
+		"consumable": false,
+		"key_item": true
+	},
+	"textFlag": {
+			"name": "DataItem:QuestDfSgtTag/item_name",
+			"description": "DataItem:QuestDfSgtTag/description"
+		},
+	"common_tags":{
+		"cannot_steal": false
+		},
+	"use_item_effect": []
+}

@@ -1,0 +1,70 @@
+{
+	"item_name": "ItemNuts",
+	"price": 200,
+	"icon_index": 294,
+	"weight": "1.5",
+	"dmg_multiplier":	"4",
+	"tag_main_settings": {
+		"type": "Food",
+		"tag": "Food",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Nuts/item_name",
+			"description": "DataItem:Nuts/description"
+	},
+	"pot_data": {
+		"Starch": 1,
+		"Fat": 2
+	},
+	"use_item_effect": [{
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "5"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "50"
+		},{
+		"attribute_name": "defecate_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "50"
+		},{
+		"attribute_name": "dirt",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "5"
+		},{
+		"stats_key" 	: "SemenAddiction",
+		"stats_value"	: [2,3,4,5],
+		"stats_filter"	: true,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "50"
+		},{
+		"stats_key" 	: "SemenAddiction",
+		"stats_value"	: [4,5],
+		"stats_filter"	: true,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "1000"
+		},{
+		"stats_key" 	: "Mod_Taste",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "1000"
+		}
+	]
+}

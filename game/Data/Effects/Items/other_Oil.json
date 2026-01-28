@@ -1,0 +1,20 @@
+{
+	"ItemOil": "ItemOil",
+	"price": 1,
+	"icon_index": 327,
+	"weight": "1",
+	"dmg_multiplier":	"1.5",
+	"tag_main_settings": {
+		"type": "Other",
+		"tag": "Other",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Oil/item_name",
+			"description": "DataItem:Oil/description"
+	},
+	"pot_data": {
+		"Oil": 1
+	}
+}

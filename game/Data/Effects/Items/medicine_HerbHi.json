@@ -1,0 +1,74 @@
+{
+	"item_name": "ItemHerbHi",
+	"price": 800,
+	"icon_index": 314,
+	"weight": "1",
+	"dmg_multiplier":	"4",
+	"tag_main_settings": {
+		"type": "Medicine",
+		"tag": "Medicine",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:HerbHi/item_name",
+			"description": "DataItem:HerbHi/description"
+	},
+	"pot_data": {
+		"HerbHi_ParasiteFlower": 1
+		},
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["1", "FeelsHorniness"]}
+	],
+	"use_item_effect": [{
+		"note": "YES SAT, for desertIsland",
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "10"
+		},{
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "10"
+		},{
+		"attribute_name": "mood",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "30"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "80"
+		},{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "10"
+		},{
+		"attribute_name": "urinary_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "10"
+		},{
+		"attribute_name": "anal_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "10"
+		},{
+		"attribute_name": "drug_addiction_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "50"
+		},{
+		"attribute_name": "drug_addiction_level",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "200"
+		}
+	]
+}

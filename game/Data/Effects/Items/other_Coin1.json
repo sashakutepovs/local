@@ -1,0 +1,19 @@
+{
+	"item_name": "ItemCoin1",
+	"price": 200,
+	"icon_index": 583,
+	"weight": 0.1,
+	"tag_main_settings": {
+		"type": "Other",
+		"tag": "Money",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Coin1/item_name",
+			"description": "DataItem:Coin1/description"
+		},
+	"pot_data": {
+		"Metal": 0.1
+		}
+}

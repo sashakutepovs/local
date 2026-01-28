@@ -1,0 +1,19 @@
+{
+	"item_name": "ItemQuestCoconaShip",
+	"price": 0,
+	"icon_index": 228,
+	"tag_main_settings": {
+		"type": "Key",
+		"tag": "Key",
+		"consumable": false,
+		"key_item": true
+	},
+	"textFlag": {
+			"name": "DataItem:QuestCoconaShip/item_name",
+			"description": "DataItem:QuestCoconaShip/description"
+		},
+	"common_tags":{
+		"cannot_steal": true
+		},
+	"use_item_effect": []
+}

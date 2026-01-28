@@ -1,0 +1,20 @@
+{
+	"item_name": "ItemSaltpeter",
+	"price": 75,
+	"icon_index": 462,
+	"weight": 3,
+	"dmg_multiplier":	1.5,
+	"tag_main_settings": {
+		"type": "Other",
+		"tag": "Other",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Saltpeter/item_name",
+			"description": "DataItem:Saltpeter/dsescription"
+	},
+	"pot_data": {
+		"Saltpeter": 1
+		}
+}

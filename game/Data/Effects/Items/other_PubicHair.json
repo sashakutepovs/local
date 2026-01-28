@@ -1,0 +1,25 @@
+{
+	"item_name": "ItemPubicHair",
+	"price": 0,
+	"icon_index": 161,
+	"weight": 0.5,
+	"dmg_multiplier":	1,
+	"tag_main_settings": {
+		"type": "Other",
+		"tag": "Other",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:PubicHair/item_name",
+			"description": "DataItem:PubicHair/dsescription"
+	},
+	"ext_slot_skill":	{
+		"SkillName": "Item_PubicHair",
+		"CostAfterLaunch": false,
+		"DirectUsage": true
+		},
+	"pot_data": {
+		"PubicHair": 1
+		}
+}

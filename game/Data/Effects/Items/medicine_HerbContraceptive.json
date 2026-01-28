@@ -1,0 +1,72 @@
+{
+	"item_name": "ItemHerbContraceptive",
+	"price": 300,
+	"icon_index": 204,
+	"weight": "1",
+	"dmg_multiplier":	"4",
+	"tag_main_settings": {
+		"type": "Medicine",
+		"tag": "Medicine",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:HerbContraceptive/item_name",
+			"description": "DataItem:HerbContraceptive/description"
+	},
+	"pot_data": {
+		"HerbContraceptive": 1,
+		"HerbPlant":1
+		},
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["1", "Contraceptived"]},
+		{"tar_state_name": ["-1", "FeelsSick"]},
+		{"tar_state_name": ["-1", "FeelsWarm"]},
+		{"tar_state_name": ["-1", "FeelsHorniness"]}
+	],
+	"use_item_effect": [{
+		"attribute_name": "urinary_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "70"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "80"
+		},{
+		"attribute_name": "defecate_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "33"
+		},{
+		"attribute_name": "urinary_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "133"
+		},{
+		"attribute_name": "anal_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "133"
+		},{
+		"attribute_name": "drug_addiction_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "70"
+		},{
+		"attribute_name": "drug_addiction_level",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "210"
+		},{
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "330"
+		}
+	]
+}

@@ -1,0 +1,143 @@
+{
+	"weight": "2",
+	"dmg_multiplier":	"3.5",
+	"pot_data": {
+		"medicine_Abortion": 1
+		},
+	"player_item_usage_manage_state": [
+		{"tar_state_name": ["1", "FeelsSick"]},
+		{"tar_state_name": ["1", "StomachSpasm"]}
+	],
+	"use_item_effect": [{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "80"
+		},{
+		"stats_key" 	: "WombSeedBed",
+		"stats_value"	: [1,2,3,4,5,6,7,8,9,10],
+		"stats_filter"	: true,
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "5"
+		},{
+		"stats_key" 	: "WombSeedBed",
+		"stats_value"	: [3,4,5,6,7,8,9,10],
+		"stats_filter"	: true,
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "5"
+		},{
+		"stats_key" 	: "WombSeedBed",
+		"stats_value"	: [5,6,7,8,9,10],
+		"stats_filter"	: true,
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "5"
+		},{
+		"stats_key" 	: "WombSeedBed",
+		"stats_value"	: [7,8,9,10],
+		"stats_filter"	: true,
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "5"
+		},{
+		"stats_key" 	: "WombSeedBed",
+		"stats_value"	: [9,10],
+		"stats_filter"	: true,
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "10"
+		},{
+		"stats_key" 	: "WombSeedBed",
+		"stats_value"	: [5,6,7,8,9,10],
+		"stats_filter"	: true,
+		"attribute_name": "health",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "5"
+		},{
+		"stats_key" 	: "WombSeedBed",
+		"stats_value"	: [7,8,9,10],
+		"stats_filter"	: true,
+		"attribute_name": "health",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "5"
+		},{
+		"stats_key" 	: "WombSeedBed",
+		"stats_value"	: [9,10],
+		"stats_filter"	: true,
+		"attribute_name": "health",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "10"
+		},{
+		"stats_key" 	: "WombSeedBed",
+		"stats_value"	: [10],
+		"stats_filter"	: true,
+		"attribute_name": "health",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "10"
+		},{
+		"attribute_name": "urinary_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "200"
+		},{
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "1200"
+		},{
+		"attribute_name": "health",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "20"
+		},{
+		"attribute_name": "sta",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "20"
+		},{
+		"attribute_name": "baby_health",
+		"attribute_type": "current",
+		"adjustor": "*",
+		"adjustment": "0.25"
+		},{
+		"attribute_name": "baby_health",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "25"
+		},{
+		"attribute_name": "urinary_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "600"
+		},{
+		"attribute_name": "vag_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "250"
+		},{
+		"attribute_name": "drug_addiction_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "270"
+		},{
+		"attribute_name": "drug_addiction_level",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "1000"
+		}
+	]
+}
