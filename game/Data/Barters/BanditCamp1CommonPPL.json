@@ -1,0 +1,58 @@
+{
+	"name": "BanditCamp1CommonPPL",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(150+rand(800)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"note": 250,
+		"item_name": "AnimalRattus",
+		"price": "(itemPrice*5)*(shopNerf+1)",
+		"amount": "1+rand(3)"
+	},{
+		"note": 250,
+		"item_name": "AnimalRoach",
+		"price": "(itemPrice*25)*(shopNerf+1)",
+		"amount": "1+rand(3)"
+	},{
+		"note": 350,
+		"item_name": "ItemApple",
+		"price": "(itemPrice*3.5)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 350,
+		"item_name": "ItemBanana",
+		"price": "(itemPrice*3.5)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 400,
+		"item_name": "ItemBread",
+		"price": "(itemPrice*2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 280,
+		"item_name": "ItemHumanFlesh",
+		"price": "(itemPrice*7)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 450,
+		"item_name": "ItemHerbCure",
+		"price": "(itemPrice*1.5)*(shopNerf+1)",
+		"amount": "[rand(2),0].sample"
+	},{
+		"note": 450,
+		"item_name": "ItemHerbSta",
+		"price": "(itemPrice*1.5)*(shopNerf+1)",
+		"amount": "[rand(2),0].sample"
+	},{
+		"item_name": "ItemBluePotion",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemRedPotion",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

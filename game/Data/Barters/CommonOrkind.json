@@ -1,0 +1,74 @@
+{
+	"name": "CommonOrkind",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  500+rand(2000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "WasteSemenOrcish",
+		"price": 10,
+		"amount": "10+rand(100)"
+	},{
+		"note": 400,
+		"item_name": "AnimalRattus",
+		"price": "itemPrice*8",
+		"amount": "1+rand(3)"
+	},{
+		"note": 200,
+		"item_name": "AnimalRoach",
+		"price": "itemPrice*20",
+		"amount": "3+rand(4)"
+	},{
+		"note": 320,
+		"item_name": "ItemHumanFlesh",
+		"price": "itemPrice*8",
+		"amount": "rand(2)"
+	},{
+		"note": 640,
+		"item_name": "ItemRawMeat",
+		"price": "itemPrice*16",
+		"amount": "rand(2)"
+	},{
+		"note": 860,
+		"item_name": "ItemHumpshroom",
+		"price": "itemPrice+60",
+		"amount": "rand(2)"
+	},{
+		"note": 860,
+		"item_name": "ItemHumpshroom",
+		"price": "itemPrice+60",
+		"amount": "rand(2)"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemRagTop",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemRagMid",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemRagBot",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemRagVag",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemRagMidExtra",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 700",
+		"item_name": "ItemMhWoodenClub",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"name": "HumanPrisonerM",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  400  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"note": 200,
+		"item_name": "ItemDreg",
+		"price": "(200)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 350,
+		"item_name": "AnimalRattus",
+		"price": "(itemPrice*7)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 200,
+		"item_name": "AnimalRoach",
+		"price": "(itemPrice*20)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 500,
+		"item_name": "ItemBread",
+		"price": "(itemPrice*2.5)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},
+
+
+	{
+		"item_name": "ItemHerbSta",
+		"price": "(itemPrice*3.5)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},
+	]
+}

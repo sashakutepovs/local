@@ -1,0 +1,46 @@
+{
+	"name": "PenisTribeWitch",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  3000+rand(6000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemBeer",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "ItemFruitWine",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "ItemRawMeat",
+		"price": "itemPrice",
+		"amount": 5
+	},{
+		"item_name": "ItemSmokedMeat",
+		"price": "itemPrice",
+		"amount": "1+rand(3)"
+	},{
+		"item_name": "ItemRawMeat",
+		"price": "itemPrice",
+		"amount": "5+rand(10)"
+	},{
+		"item_name": "AnimalRattus",
+		"price": "itemPrice",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "AnimalRoach",
+		"price": "itemPrice",
+		"amount": "1+rand(10)"
+	},
+
+
+	{
+		"condition": "$story_stats['RecQuestPenisTribeHelp'] >= 4",
+		"item_name": "ItemPaintHead",
+		"price": 1000,
+		"amount": 1
+	}
+	]
+}

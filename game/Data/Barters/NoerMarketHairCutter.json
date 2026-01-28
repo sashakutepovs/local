@@ -1,0 +1,65 @@
+{
+	"name": "NoerMarketHairCutter",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  3000+rand(6000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemHairPony",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "ItemHairTwinBraid",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "ItemHairShortMessy",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "ItemHairDancer",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "ItemHairMessy",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "AddHairDefault",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "AddHairBlack",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "AddHairWhite",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "AddHairLightLavender",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "AddHairRed",
+		"price": "(itemPrice)",
+		"amount": 1
+	},{
+		"item_name": "AddHairYellow",
+		"price": "(itemPrice)",
+		"amount": 1
+	},
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.2)",
+		"amount": "30+rand(100)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "(itemPrice*1.2)",
+		"amount": "8+rand(20)"
+	}
+	]
+}

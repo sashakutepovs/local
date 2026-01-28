@@ -1,0 +1,53 @@
+{
+	"name": "HumanPrisonMineQuartermaster",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  1000  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemDryFood",
+		"price": "(itemPrice*1.5)*(shopNerf+1)",
+		"amount": 20
+	},{
+		"item_name": "ItemShLantern",
+		"price": "(itemPrice*1.5)*(shopNerf+1)",
+		"amount": 2
+	},{
+		"item_name": "ItemMhPickAxe",
+		"price": 1500,
+		"amount": 2
+	},
+
+
+	{
+		"item_name": "ItemRagTop",
+		"price": 1250,
+		"amount": 5
+	},{
+		"item_name": "ItemRagMid",
+		"price": 1250,
+		"amount": 5
+	},{
+		"item_name": "ItemRagBot",
+		"price": 1250,
+		"amount": 5
+	},{
+		"item_name": "ItemRagVag",
+		"price": 1250,
+		"amount": 5
+	},{
+		"item_name": "ItemRagMidExtra",
+		"price": 1250,
+		"amount": 5
+	},{
+		"item_name": "ItemSlaveMid",
+		"price": 1250,
+		"amount": 5
+	},{
+		"item_name": "ItemSlaveMidExtra",
+		"price": 1250,
+		"amount": 5
+	}
+	]
+}

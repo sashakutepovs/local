@@ -1,0 +1,53 @@
+{
+	"name": "NorthFL_INN_WhoreQuartermaster",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 1,
+	"charStoreTP": "[( (500+rand(2000))*(shopBuff+1)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemDreg",
+		"price": "200*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "AnimalRattus",
+		"price": "(310)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "AnimalRoach",
+		"price": "(310)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "ItemHerbCure",
+		"price": "(1000)*(shopNerf+1)",
+		"amount": "1+rand(3)"
+	},{
+		"item_name": "ItemHerbSta",
+		"price": "(1000)*(shopNerf+1)",
+		"amount": "1+rand(3)"
+	},{
+		"item_name": "ItemRagMid",
+		"price": "(500)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemRagTop",
+		"price": "(500)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},
+
+
+
+	{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbContraceptive",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbRepellents",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},
+
+	]
+}

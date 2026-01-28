@@ -1,0 +1,147 @@
+{
+	"name": "NoerRecRoomHappyMerchant",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  0  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemBread",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "10+rand(10)"
+	},{
+		"item_name": "ItemPotato",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "10+rand(10)"
+	},{
+		"item_name": "ItemDryFood",
+		"price": "(itemPrice*1.4)*(shopNerf+1)",
+		"amount": "10+rand(10)"
+	},{
+		"item_name": "ItemSmokedMeat",
+		"price": "(itemPrice*1.4)*(shopNerf+1)",
+		"amount": "10+rand(10)"
+	},
+
+	{
+		"item_name": "ItemAbortion",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "5+rand(5)"
+	},{
+		"item_name": "ItemBluePotion",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "5+rand(5)"
+	},{
+		"item_name": "ItemHerbRepellents",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "5+rand(5)"
+	},{
+		"item_name": "ItemHiPotionLV2",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "5+rand(5)"
+	},{
+		"item_name": "ItemBluePotion",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "5+rand(5)"
+	},
+
+
+
+	{
+		"condition": "$story_stats['RecQuestDancerSetReturned'] >= 1",
+		"item_name": "ItemDancerHeadEquip",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"condition": "$story_stats['RecQuestDancerSetReturned'] >= 1",
+		"item_name": "ItemDancerTop",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"condition": "$story_stats['RecQuestDancerSetReturned'] >= 1",
+		"item_name": "ItemDancerMid",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"condition": "$story_stats['RecQuestDancerSetReturned'] >= 1",
+		"item_name": "ItemDancerBot",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": 1
+	},
+
+
+	{
+		"item_name": "ItemRagTop",
+		"price": 1000,
+		"amount": 3
+	},{
+		"item_name": "ItemRagMid",
+		"price": 1000,
+		"amount": 3
+	},{
+		"item_name": "ItemRagBot",
+		"price": 1000,
+		"amount": 3
+	},{
+		"item_name": "ItemRagVag",
+		"price": 1000,
+		"amount": 3
+	},{
+		"item_name": "ItemRagMidExtra",
+		"price": 1000,
+		"amount": 3
+	},{
+		"item_name": "ItemSlaveMid",
+		"price": 1000,
+		"amount": 3
+	},{
+		"item_name": "ItemSlaveMidExtra",
+		"price": 1000,
+		"amount": 3
+	},
+
+
+
+	{
+		"item_name": "ItemBombFragTimer",
+		"price": "(itemPrice*1.3)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemBombFragPasstive",
+		"price": "(itemPrice*1.3)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemBombFragTrigger",
+		"price": "(itemPrice*1.3)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemBombShockTimer",
+		"price": "(itemPrice*1.3)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemBombShockPasstive",
+		"price": "(itemPrice*1.3)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemBombShockTrigger",
+		"price": "(itemPrice*1.3)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},
+
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.25",
+		"amount": "1+rand(100)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice*1.25",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "ItemCoin3",
+		"price": "itemPrice*1.25",
+		"amount": "1+rand(2)"
+	}
+	]
+}

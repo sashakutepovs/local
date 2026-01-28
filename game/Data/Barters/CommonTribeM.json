@@ -1,0 +1,39 @@
+{
+	"name": "CommonTribeM",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  500+rand(2000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"note": 300,
+		"item_name": "ItemBeer",
+		"price": "(itemPrice*3)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 550,
+		"item_name": "ItemFruitWine",
+		"price": "(itemPrice*1.1)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 200,
+		"item_name": "ItemRawMeat",
+		"price": "(itemPrice*4)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 250,
+		"item_name": "AnimalRattus",
+		"price": "(itemPrice*5)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 150,
+		"item_name": "AnimalRattus",
+		"price": "(itemPrice*15)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemDryFood",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

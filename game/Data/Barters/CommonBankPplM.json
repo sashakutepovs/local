@@ -1,0 +1,18 @@
+{
+	"name": "CommonBankPplM",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  rand(1000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.5",
+		"amount": "rand(10)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice*1.5",
+		"amount": "rand(2)"
+	},
+	]
+}

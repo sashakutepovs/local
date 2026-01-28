@@ -1,0 +1,68 @@
+{
+	"name": "NoerBackStreetGangBoss",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": 0,
+	"noSell": false,
+	"noBuy": false,
+	"items": [
+	{
+		"item_name": "ItemPassportFake",
+		"price": 10000,
+		"amount": "1+rand(3)"
+	},{
+		"item_name": "ItemPassportNob",
+		"price": 10000,
+		"amount": "1+rand(3)"
+	},
+
+
+	{
+		"item_name": "ItemBread",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "ItemPotato",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "ItemRedPotion",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemBluePotion",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemHerbRepellents",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemHiPotionLV2",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "1+rand(20)"
+	},{
+		"item_name": "ItemNoerTea",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},
+
+
+
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.25)",
+		"amount": "30+rand(1000)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "(itemPrice*1.25)",
+		"amount": "8+rand(100)"
+	},{
+		"item_name": "ItemCoin3",
+		"price": "(itemPrice*1.25)",
+		"amount": "1+rand(10)"
+	}
+	]
+}

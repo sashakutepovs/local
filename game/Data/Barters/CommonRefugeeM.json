@@ -1,0 +1,42 @@
+{
+	"name": "CommonRefugeeM",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  150+rand(800)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemDreg",
+		"price": "(180)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemFish",
+		"price": "(itemPrice*3.2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "AnimalRattus",
+		"price": "(itemPrice*6)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "AnimalRoach",
+		"price": "(itemPrice*25)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemBread",
+		"price": "(itemPrice*2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemHumanFlesh",
+		"price": "(itemPrice*7)*(shopNerf+1)",
+		"amount": "[0,rand(2)].sample"
+	},{
+		"item_name": "ItemRawMeat",
+		"price": "(itemPrice*7)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemHerbSta",
+		"price": "(itemPrice*7)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

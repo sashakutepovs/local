@@ -1,0 +1,22 @@
+{
+	"name": "NoerBankMaani",
+	"charStoreHashName": "Bank",
+	"charStoreExpireDate": null,
+	"charStoreTP": 100000000,
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice",
+		"amount": 10000
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice",
+		"amount": 1000
+	},{
+		"item_name": "ItemCoin3",
+		"price": "itemPrice",
+		"amount": 100
+	}
+	]
+}

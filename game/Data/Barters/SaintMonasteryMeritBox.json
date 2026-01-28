@@ -1,0 +1,26 @@
+{
+	"name": "SaintMonasteryMeritBox",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "0",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemNunVeilHeadEquip",
+		"price": "(itemPrice*1)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemNunSexyMid",
+		"price": "(itemPrice*1)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemNunMidExtra",
+		"price": "(itemPrice*1)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemHolyWater",
+		"price": 2000,
+		"amount": 99
+	}
+	]
+}

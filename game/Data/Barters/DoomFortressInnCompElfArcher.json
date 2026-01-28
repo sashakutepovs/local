@@ -1,0 +1,21 @@
+{
+	"name": "DoomFortressInnCompElfArcher",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  150+rand(800)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "Item2MhLongBow",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": 1
+	},
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.4)",
+		"amount": "rand(10)"
+	}
+	]
+}

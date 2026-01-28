@@ -1,0 +1,266 @@
+{
+	"name": "NoerGynecologyEliseDay",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  3000+rand(6000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemRedPotion",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(10)"
+	},{
+		"item_name": "ItemBluePotion",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(10)"
+	},{
+		"item_name": "ItemContraceptivePills",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(10)"
+	},{
+		"item_name": "ItemMenstrualMed",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(10)"
+	},{
+		"item_name": "ItemRepellents",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(10)"
+	},{
+		"item_name": "ItemAbortion",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(10)"
+	},{
+		"item_name": "ItemNoerTea",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(10)"
+	},{
+		"item_name": "ItemHiPotionLV2",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(10)"
+	},
+
+
+
+
+	{
+		"item_name": "AidPregnancy",
+		"price": "itemPrice",
+		"amount": 100
+	},{
+		"item_name": "AidLactation",
+		"price": "itemPrice",
+		"amount": 3
+	},	{
+		"item_name": "AidFeelsSick",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidStomachSpasm",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidWound",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidVaginalDamaged",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidUrethralDamaged",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidSphincterDamaged",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidSlaveBrand",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidModWombSeedBed",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidWormParasite",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidSemenAddiction",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidOgrasmAddiction",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidDrugAddiction",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidSTD",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingNose",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidPiercingNoseB",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingEar",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingChest",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingBelly",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingArms",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingAnal",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingVag",
+		"price": "itemPrice",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingBack",
+		"price": "itemPrice",
+		"amount": 3
+	},
+
+
+
+
+	{
+		"item_name": "AddModVagGlandsLink",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AddVulvaMilkGland",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AddVulvaSkin",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AddVulvaAnal",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AddVulvaUrethra",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AddVulvaEsophageal",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AddModTaste",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AddModMilkGland",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AddModSterilization",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AddModVagGlandsSurgical",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidModVagGlandsLink",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidVulvaMilkGland",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidVulvaSkin",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidVulvaAnal",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidVulvaUrethra",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidVulvaEsophageal",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidModTaste",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidModMilkGland",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidModSterilization",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidModVagGlandsSurgical",
+		"price": "itemPrice",
+		"amount": 1
+	},
+
+
+
+
+	{
+		"item_name": "ItemDocHead",
+		"amount": 1
+	},
+
+
+	{
+		"item_name": "ItemDocTop",
+		"amount": 1
+	},
+
+
+	{
+		"item_name": "ItemDocMid",
+		"amount": 1
+	},
+
+
+	{
+		"item_name": "ItemDocMidExtra",
+		"amount": 1
+	},
+
+
+	{
+		"item_name": "ItemDocBot",
+		"amount": 1
+	},
+	{
+		"condition": "$story_stats['RecQuestElise'] >= 40",
+		"item_name": "ItemBerserkDrug",
+		"price": 20000,
+		"amount": 1
+	}
+	]
+}

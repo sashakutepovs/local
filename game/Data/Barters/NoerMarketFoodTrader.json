@@ -1,0 +1,38 @@
+{
+	"name": "NoerMarketFoodTrader",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  3000+rand(6000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemBread",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(15)"
+	},{
+		"item_name": "ItemCheese",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemSausage",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(7)"
+	},{
+		"item_name": "ItemSmokedMeat",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(7)"
+	},{
+		"item_name": "ItemDryFood",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(7)"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*(shopNerf+1.2)",
+		"amount": "30+rand(100)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice*(shopNerf+1.2)",
+		"amount": "8+rand(20)"
+	}
+	]
+}

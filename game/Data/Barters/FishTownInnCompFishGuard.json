@@ -1,0 +1,40 @@
+{
+	"name": "FishTownInnCompFishGuard",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(150+rand(800)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemFish",
+		"price": "(itemPrice*3)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.7)",
+		"amount": "rand(6)"
+	},
+
+
+
+	{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbSta",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemDryFood",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbCure",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

@@ -1,0 +1,69 @@
+{
+	"name": "CommonVegetableTrader",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": " [(  3000+rand(6000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemPotato",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},{
+		"item_name": "ItemApple",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemMushroom",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemGrapes",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemOrange",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemOnion",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemPepper",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemBlueBerry",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemCarrot",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemTomato",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemCherry",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemBanana",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.2)",
+		"amount": "30+rand(100)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "(itemPrice*1.2)",
+		"amount": "8+rand(20)"
+	}
+	]
+}

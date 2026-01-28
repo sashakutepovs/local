@@ -1,0 +1,87 @@
+{
+	"name": "NoerArenaB1_SlaveFight",
+	"charStoreHashName": "Temp",
+	"charStoreExpireDate": null,
+	"charStoreTP": 0,
+	"noSell": true,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemMhShortSword",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemMhWoodenClub",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "Item2MhWoodenSpear",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "Item2MhLongBow",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "Item2MhManCatcher",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "Item2MhHalberd",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemMhSickle",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemMhPickAxe",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "Item2MhRake",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemShDagger",
+		"price": 0,
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemShThrowingKnives",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemShWoodenShield",
+		"price": 1000,
+		"amount": 1
+	},{
+		"item_name": "ItemRagTop",
+		"price": 1000,
+		"amount": 1
+	},{
+		"item_name": "ItemRagMid",
+		"price": 1000,
+		"amount": 1
+	},{
+		"item_name": "ItemRagBot",
+		"price": 1000,
+		"amount": 1
+	},{
+		"item_name": "ItemRagVag",
+		"price": 1000,
+		"amount": 1
+	},{
+		"item_name": "ItemRagMid",
+		"price": 1000,
+		"amount": 1
+	},{
+		"item_name": "ItemSlaveMid",
+		"price": 1000,
+		"amount": 1
+	},{
+		"item_name": "ItemSlaveMidExtra",
+		"price": 1000,
+		"amount": 1
+	}
+	]
+}

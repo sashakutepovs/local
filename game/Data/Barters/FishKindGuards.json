@@ -1,0 +1,35 @@
+{
+	"name": "FishKindGuards",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  150+rand(800)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"note": 300,
+		"item_name": "ItemFish",
+		"price": "(itemPrice*3)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"note": 300,
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.5",
+		"amount": "rand(6)"
+	},{
+		"item_name": "ItemHerbCure",
+		"condition": "rand(1000) >= 950",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemDryFood",
+		"condition": "rand(1000) >= 950",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemHerbSta",
+		"condition": "rand(1000) >= 950",
+		"price": "itemPrice",
+		"amount": 1
+	}
+	]
+}

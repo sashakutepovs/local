@@ -1,0 +1,34 @@
+{
+	"name": "FishTownInnCompFishShaman",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  150+rand(800)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"note": 300,
+		"item_name": "ItemFish",
+		"price": "(itemPrice*3)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.45",
+		"amount": "rand(6)"
+	},{
+		"condition": "rand(1000) >= 900",
+		"item_name": "ItemHerbSta",
+		"price": "itemPrice",
+		"amount": "rand(2)"
+	},{
+		"condition": "rand(1000) >= 900",
+		"item_name": "ItemDryFood",
+		"price": "itemPrice",
+		"amount": "rand(2)"
+	},{
+		"condition": "rand(1000) >= 900",
+		"item_name": "ItemHerbCure",
+		"price": "itemPrice",
+		"amount": "rand(2)"
+	}
+	]
+}

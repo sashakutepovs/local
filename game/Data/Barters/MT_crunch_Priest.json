@@ -1,0 +1,94 @@
+{
+	"name": "MT_crunch_Priest",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  3000+rand(6000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemHolyWater",
+		"price": 1000,
+		"amount": 99
+	},{
+		"item_name": "ItemFish",
+		"price": "(itemPrice*2.5)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},
+
+
+	{
+		"item_name": "ItemFish",
+		"price": "(itemPrice*2.5)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "ItemNoerTea",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},{
+		"item_name": "ItemHerbCure",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},{
+		"item_name": "ItemHerbSta",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},{
+		"item_name": "ItemHerbContraceptive",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},{
+		"item_name": "ItemRedPotion",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemBluePotion",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemRepellents",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(3)"
+	},{
+		"item_name": "ItemContraceptivePills",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemHiPotionLV2",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemAbortion",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},
+
+
+	{
+		"item_name": "ItemShSaintPurge",
+		"price": "(itemPrice*10)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemShSaintProtect",
+		"price": "(itemPrice*10)*(shopNerf+1)",
+		"amount": 1
+	},
+
+
+	{
+		"condition": "rand(1000) >= 900 && $story_stats['Setup_ScatEffect'] >= 1",
+		"item_name": "WastePoo0",
+		"price": "itemPrice",
+		"amount": "rand(2)"
+	},{
+		"condition": "rand(1000) >= 900",
+		"item_name": "WasteVomit0",
+		"price": "itemPrice",
+		"amount": "rand(2)"
+	},{
+		"condition": "rand(1000) >= 900",
+		"item_name": "ItemSopMeat",
+		"price": "itemPrice",
+		"amount": "rand(2)"
+	}
+	]
+}

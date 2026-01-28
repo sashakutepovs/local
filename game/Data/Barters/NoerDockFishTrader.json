@@ -1,0 +1,47 @@
+{
+	"name": "NoerDockFishTrader",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(3000+rand(2500)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemFish",
+		"price": "(itemPrice*2.5)*(shopNerf+1)",
+		"amount": "1+rand(999)"
+	},
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.5)",
+		"amount": "1+rand(100)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "(itemPrice*1.5)",
+		"amount": "1+rand(50)"
+	},{
+		"item_name": "ItemCoin3",
+		"price": "(itemPrice*1.5)",
+		"amount": "1+rand(10)"
+	},
+
+
+	{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbSta",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemDryFood",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbCure",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

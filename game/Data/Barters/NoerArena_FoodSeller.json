@@ -1,0 +1,34 @@
+{
+	"name": "NoerArena_FoodSeller",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  1000+rand(2500)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemJunkFood",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 100
+	},{
+		"item_name": "ItemBeer",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "5+rand(8)"
+	},{
+		"item_name": "ItemBottledBeer",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "5+rand(8)"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.25",
+		"amount": "1000+rand(10)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice*1.25",
+		"amount": "60+rand(10)"
+	},{
+		"item_name": "ItemCoin3",
+		"price": "itemPrice*1.25",
+		"amount": "10+rand(10)"
+	}
+	]
+}

@@ -1,0 +1,30 @@
+{
+	"name": "CommonNoblePplM",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  300+rand(1000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.75)",
+		"amount": "10+rand(10)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "(itemPrice*1.75)",
+		"amount": "4+rand(3)"
+	},{
+		"item_name": "ItemCoin3",
+		"price": "(itemPrice*1.75)",
+		"amount": "1+rand(2)"
+	},
+
+
+	{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemFruitWine",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

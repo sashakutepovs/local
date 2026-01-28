@@ -1,0 +1,30 @@
+{
+	"name": "SaintMonasteryBelieverM",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  0  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"note": 400,
+		"item_name": "ItemBread",
+		"price": "(itemPrice*2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"condition": "rand(1000) >= 900 && $story_stats['Setup_ScatEffect'] >= 1",
+		"item_name": "WastePoo0",
+		"price": "itemPrice",
+		"amount": "rand(2)"
+	},{
+		"condition": "rand(1000) >= 900",
+		"item_name": "WasteVomit0",
+		"price": "itemPrice",
+		"amount": "rand(2)"
+	},{
+		"condition": "rand(1000) >= 900",
+		"item_name": "ItemSopMeat",
+		"price": "itemPrice",
+		"amount": "rand(2)"
+	}
+	]
+}

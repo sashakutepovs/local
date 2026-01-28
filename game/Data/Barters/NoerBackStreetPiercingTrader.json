@@ -1,0 +1,116 @@
+{
+	"name": "NoerBackStreetPiercingTrader",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": " [( 1000+rand(2500)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "AddPiercingNose",
+		"price": "$game_player.actor.stat['SlaveBrand'] ==0 ? itemPrice : 100",
+		"amount": 1
+	},{
+		"item_name": "AddPiercingNoseB",
+		"price": "$game_player.actor.stat['SlaveBrand'] ==0 ? itemPrice : 100",
+		"amount": 3
+	},{
+		"item_name": "AddPiercingEar",
+		"price": "$game_player.actor.stat['SlaveBrand'] ==0 ? itemPrice : 100",
+		"amount": 3
+	},{
+		"item_name": "AddPiercingChest",
+		"price": "$game_player.actor.stat['SlaveBrand'] ==0 ? itemPrice : 100",
+		"amount": 3
+	},{
+		"item_name": "AddPiercingBelly",
+		"price": "$game_player.actor.stat['SlaveBrand'] ==0 ? itemPrice : 100",
+		"amount": 1
+	},{
+		"item_name": "AddPiercingArms",
+		"price": "$game_player.actor.stat['SlaveBrand'] ==0 ? itemPrice : 100",
+		"amount": 3
+	},{
+		"item_name": "AddPiercingAnal",
+		"price": "$game_player.actor.stat['SlaveBrand'] ==0 ? itemPrice : 100",
+		"amount": 3
+	},{
+		"item_name": "AddPiercingVag",
+		"price": "$game_player.actor.stat['SlaveBrand'] ==0 ? itemPrice : 100",
+		"amount": 3
+	},{
+		"item_name": "AddPiercingBack",
+		"price": "$game_player.actor.stat['SlaveBrand'] ==0 ? itemPrice : 100",
+		"amount": 3
+	},
+
+
+	{
+		"item_name": "AidPiercingNose",
+		"price": "itemPrice*2",
+		"amount": 1
+	},{
+		"item_name": "AidPiercingNoseB",
+		"price": "itemPrice*2",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingEar",
+		"price": "itemPrice*2",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingChest",
+		"price": "itemPrice*2",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingBelly",
+		"price": "itemPrice*2",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingArms",
+		"price": "itemPrice*2",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingAnal",
+		"price": "itemPrice*2",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingVag",
+		"price": "itemPrice*2",
+		"amount": 3
+	},{
+		"item_name": "AidPiercingBack",
+		"price": "itemPrice*2",
+		"amount": 3
+	},
+
+
+
+
+	{
+		"item_name": "ItemFish",
+		"price": "(itemPrice*2.5)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.4)",
+		"amount": "1+rand(6)"
+	},
+
+
+	{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbSta",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemDryFood",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbCure",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},
+	]
+}

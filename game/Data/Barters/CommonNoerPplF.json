@@ -1,0 +1,75 @@
+{
+	"name": "CommonNoerPplF",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[( (500+rand(2000))*(shopBuff+1) )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemApple",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemMushroom",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemGrapes",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemOrange",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemOnion",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemPepper",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemBlueBerry",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemCarrot",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemTomato",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemCherry",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemPotato",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemBanana",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.4)",
+		"amount": "rand(5)"
+	},
+
+
+	{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemAbortion",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemContraceptivePills",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

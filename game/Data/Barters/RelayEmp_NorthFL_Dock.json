@@ -1,0 +1,88 @@
+{
+	"name": "RelayEmp_NorthFL_Dock",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  1000+rand(1000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemBread",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"item_name": "ItemCheese",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemSausage",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(3)"
+	},{
+		"item_name": "ItemSmokedMeat",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(3)"
+	},{
+		"item_name": "ItemDryFood",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "rand(3)"
+	},{
+		"item_name": "ItemMhWoodenClub",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},
+
+
+	{
+		"condition": true,
+		"item_name": "ToNoerRelay",
+		"price": "(4000)*(shopNerf+1)",
+		"amount": "1+rand(2) - rand($story_stats['Setup_Hardcore']+1)"
+	},{
+		"condition": true,
+		"item_name": "ToPirateBane",
+		"price": "(6000)*(shopNerf+1)",
+		"amount": "1+rand(2) - rand($story_stats['Setup_Hardcore']+1)"
+	},{
+		"condition": true,
+		"item_name": "ToDoomFortressR",
+		"price": "(2000)*(shopNerf+1)",
+		"amount": "1+rand(2) - rand($story_stats['Setup_Hardcore']+1)"
+	},{
+		"condition": true,
+		"item_name": "ToFishTownL",
+		"price": "(6000)*(shopNerf+1)",
+		"amount": 5
+	},{
+		"condition": false,
+		"item_name": "ToNoerDock",
+		"price": "(1000)*(shopNerf+1)",
+		"amount": 5
+	},{
+		"condition": false,
+		"item_name": "ToWestFL",
+		"price": "(1000)*(shopNerf+1)",
+		"amount": "1+rand(2) - rand($story_stats['Setup_Hardcore']+1)"
+	},{
+		"condition": false,
+		"item_name": "ToNorthFL_INN",
+		"price": "(2000)*(shopNerf+1)",
+		"amount": "1+rand(2) - rand($story_stats['Setup_Hardcore']+1)"
+	},{
+		"condition": "$story_stats['RecQuestSouthFLMain'] >= 6",
+		"item_name": "ToSouthFL",
+		"price": "(8000)*(shopNerf+1)",
+		"amount": "1+rand(2) - rand($story_stats['Setup_Hardcore']+1)"
+	},
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.15",
+		"amount": "10+rand(10)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice*1.15",
+		"amount": "1+rand(2)"
+	}
+	]
+}

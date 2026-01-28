@@ -1,0 +1,26 @@
+{
+	"name": "HumanPrisonWarden",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  300+rand(1000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemDryFood",
+		"price": "(itemPrice*1.5)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemShLantern",
+		"price": "(itemPrice*1.5)*(shopNerf+1)",
+		"amount": 2
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.4",
+		"amount": "10+rand(10)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice*1.4",
+		"amount": "1+rand(2)"
+	}
+	]
+}

@@ -1,0 +1,36 @@
+{
+	"name": "GoldenBarPplM",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": 0,
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*5)",
+		"amount": "30+rand(10)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "(itemPrice*5)",
+		"amount": "8+rand(5)"
+	},
+
+
+	{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHiPotionLV2",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHiPotionLV5",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemGoldenMilk",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

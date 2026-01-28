@@ -1,0 +1,138 @@
+{
+	"name": "NoerBlackSmithShopTrader",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(3000+rand(6000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemMhWoodenClub",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "Item2MhWoodenSpear",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "Item2MhRake",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemMhSickle",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemMhPickAxe",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemMhShortSword",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "Item2MhMetalSpear",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "Item2MhLongBow",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "Item2MhManCatcher",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "Item2MhHalberd",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemMhSabar",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemMhChainMace",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemShLantern",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemShDagger",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemThrowingKnivesI",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": "15+rand(10)"
+	},{
+		"item_name": "ItemShWoodenShield",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemShMetalShield",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},
+
+
+
+	{
+		"item_name": "ItemCollar",
+		"price": 500,
+		"amount": 1
+	},{
+		"item_name": "ItemChainCollar",
+		"price": 1000,
+		"amount": 1
+	},{
+		"item_name": "ItemCuff",
+		"price": 1500,
+		"amount": 1
+	},{
+		"item_name": "ItemChainCuff",
+		"price": 2000,
+		"amount": 1
+	},{
+		"item_name": "ItemChainMidExtra",
+		"price": 2000,
+		"amount": 1
+	},
+
+
+
+	{
+		"item_name": "AidChainCuff",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidCuff",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidChainCollar",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidChainMidExtra",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "AidCollar",
+		"price": "itemPrice",
+		"amount": 1
+	},
+
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.25)",
+		"amount": "30+rand(100)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "(itemPrice*1.25)",
+		"amount": "8+rand(20)"
+	}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	"name": "SouthFL_INN_RefugeeM",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(  150+rand(800)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [
+	{
+		"note": 180,
+		"item_name": "ItemDreg",
+		"price": "(180)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 250,
+		"item_name": "AnimalRoach",
+		"price": "(itemPrice*25)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"note": 280,
+		"item_name": "ItemHumanFlesh",
+		"price": "(itemPrice*7)*(shopNerf+1)",
+		"amount": "[0,rand(2)].sample"
+	},{
+		"note": 340,
+		"item_name": "ItemMutantFlesh",
+		"price": "(itemPrice*17)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemHerbCure",
+		"condition": "rand(1000) > 950",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemHerbSta",
+		"condition": "rand(1000) > 950",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemHumpshroom",
+		"condition": "rand(1000) > 950",
+		"price": "itemPrice",
+		"amount": 1
+	}
+	]
+}

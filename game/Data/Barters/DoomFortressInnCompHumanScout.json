@@ -1,0 +1,25 @@
+{
+	"name": "DoomFortressInnCompHumanScout",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  150+rand(800)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemDryFood",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "1+rand(10)"
+	},{
+		"item_name": "ItemBread",
+		"price": "(itemPrice*2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.5)",
+		"amount": "rand(10)"
+	}
+	]
+}

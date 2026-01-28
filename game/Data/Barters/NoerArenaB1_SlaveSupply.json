@@ -1,0 +1,26 @@
+{
+	"name": "NoerArenaB1_SlaveSupply",
+	"charStoreHashName": "Temp",
+	"charStoreExpireDate": null,
+	"charStoreTP": 0,
+	"noSell": true,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemRedPotion",
+		"price": "itemPrice",
+		"amount": 1
+	},{
+		"item_name": "ItemHiPotionLV2",
+		"price": 500,
+		"amount": 6
+	},{
+		"item_name": "ItemAbortion",
+		"price": "itemPrice",
+		"amount": 5
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.4",
+		"amount": "rand(10)"
+	}
+	]
+}

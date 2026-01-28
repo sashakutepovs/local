@@ -1,0 +1,52 @@
+{
+	"name": "NoerMarketLisa",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[( (1000+rand(2500))*(shopBuff+1)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemBombFragTimer",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 10
+	},{
+		"item_name": "ItemBombFragPasstive",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 10
+	},{
+		"item_name": "ItemBombFragTrigger",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 10
+	},{
+		"item_name": "ItemBombShockTimer",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 10
+	},{
+		"item_name": "ItemBombShockPasstive",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 10
+	},{
+		"item_name": "ItemBombShockTrigger",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 10
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbContraceptive",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbRepellents",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*(shopNerf+1.25)",
+		"amount": "8+rand(100)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice*(shopNerf+1.25)",
+		"amount": "1+rand(10)"
+	}
+	]
+}

@@ -1,0 +1,55 @@
+
+shopNerf = ([([$story_stats["WorldDifficulty"].round,100].min)-0,0].max*0.001) #put the varible u want nerf shop,  if none put 0. var1=max  var2=min.   max-min must with in 100 (ex:weak125, -25)
+charStoreTP =  0  #wildHobo 150+rand(800) hobo 300+rand(1000) #Normie 500+rand(2000) #NonTradeShop 1000+rand(2500) #innkeeper 1000+rand(2500) #storeMarket 3000+rand(6000)
+charStoreExpireDate = $game_date.dateAmt+1+rand(4+$story_stats["Setup_Hardcore"]) #if nil. delete after close.  if < date. delete after nap.
+charStoreHashName = "#{@map_id}_#{get_character(0).id}".to_sym  #can be register with character name like "COCONA"
+
+
+
+
+
+
+
+
+		basicExtData = "                                #### data u can use in eval in json
+			shopNerf = #{shopNerf};
+			dateAmt = #{$game_date.dateAmt};
+			itemPrice
+			gameDiff = #{$story_stats["Setup_Hardcore"]};
+			"
+
+	{
+	"name": "NoerTavernCommonPPL",
+	"shopNerf": true, 													#can be string to eval or true as default  >> ([([$story_stats["WorldDifficulty"].round,100].min)-0,0].max*0.001)
+	"charStoreHashName": true,											#can be string to eval or true as default  >> "#{@map_id}_#{get_character(0).id}".to_sym
+	"charStoreExpireDate": 0,											#can be string to eval or 0 or number, true as default >> $game_date.dateAmt+1+rand(4+$story_stats["Setup_Hardcore"]), 0 reset after reset map, >1 reset after nap.times
+	"charStoreTP": "[(300+rand(1000))*(1-(shopNerf*2)),0].max",			#can be string to eval or 0 or number
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemBeer",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",						#string to eval, or number
+		"amount": "rand(2)"												#string to eval, or number
+	},{
+		"item_name": "ItemBottledBeer",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemFruitWine",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,rand(2)].sample"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.4",
+		"amount": "rand(10)"
+	},{
+		"condition": "rand(1000) > 950",									#string to eval, report true or false
+		"item_name": "ItemHerbSta",
+		"amount": 1
+	},{
+		"condition": "rand(1000) > 950",
+		"item_name": "ItemHerbHi",
+		"amount": 1
+	}
+	]
+}

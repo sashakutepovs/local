@@ -1,0 +1,26 @@
+{
+	"name": "NoerTavernCompCommon",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  300+rand(1000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemBeer",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemBottledBeer",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemFruitWine",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,rand(2)].sample"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.4",
+		"amount": "rand(10)"
+	}
+	]
+}

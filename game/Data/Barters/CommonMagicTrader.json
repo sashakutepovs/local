@@ -1,0 +1,53 @@
+{
+	"name": "CommonMagicTrader",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  1000+rand(2500)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemMhFireStaff",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemShFireBook",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemMhWaterStaff",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemShWaterBook",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemMhTeslaStaff",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemShTeslaBook",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemStarterGlass",
+		"price": "(itemPrice)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemFlameBottle",
+		"price": "1+rand(2)",
+		"amount": 1
+	},
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.2)",
+		"amount": "30+rand(100)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "(itemPrice*1.2)",
+		"amount": "8+rand(20)"
+	}
+	]
+}

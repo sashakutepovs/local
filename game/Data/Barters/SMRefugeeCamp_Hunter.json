@@ -1,0 +1,26 @@
+{
+	"name": "SMRefugeeCamp_Hunter",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  150+rand(800)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemRedPotion",
+		"price": "400*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},{
+		"item_name": "ItemHumanoidFlesh",
+		"price": "350*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},{
+		"item_name": "AnimalRattus",
+		"price": "250*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},{
+		"item_name": "AnimalRoach",
+		"price": "250*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	}
+	]
+}

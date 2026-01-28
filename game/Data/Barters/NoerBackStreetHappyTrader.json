@@ -1,0 +1,99 @@
+{
+	"name": "NoerBackStreetHappyTrader",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": 0,
+	"noSell": false,
+	"noBuy": false,
+	"items": [
+	{
+		"item_name": "ItemBread",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "1+rand(100)"
+	},{
+		"item_name": "ItemPotato",
+		"price": "(itemPrice*1.4)*(shopNerf+1)",
+		"amount": "1+rand(100)"
+	},{
+		"item_name": "ItemDryFood",
+		"price": "(itemPrice*1.4)*(shopNerf+1)",
+		"amount": "1+rand(100)"
+	},{
+		"item_name": "ItemSmokedMeat",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "1+rand(100)"
+	},{
+		"item_name": "ItemAbortion",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemRedPotion",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemBluePotion",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemHerbRepellents",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"item_name": "ItemHiPotionLV2",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "1+rand(20)"
+	},{
+		"item_name": "ItemNoerTea",
+		"price": "(itemPrice*1.15)*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},
+
+
+
+	{
+		"item_name": "ItemRagTop",
+		"price": 200,
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemRagMid",
+		"price": 200,
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemRagBot",
+		"price": 200,
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemRagVag",
+		"price": 200,
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemRagMidExtra",
+		"price": 200,
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemSlaveMid",
+		"price": 200,
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemSlaveMidExtra",
+		"price": 200,
+		"amount": "rand(2)"
+	},
+
+
+
+	{
+		"item_name": "ItemCoin1",
+		"price": "(itemPrice*1.25)",
+		"amount": "30+rand(1000)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "(itemPrice*1.25)",
+		"amount": "8+rand(100)"
+	},{
+		"item_name": "ItemCoin3",
+		"price": "(itemPrice*1.25)",
+		"amount": "1+rand(10)"
+	}
+	]
+}

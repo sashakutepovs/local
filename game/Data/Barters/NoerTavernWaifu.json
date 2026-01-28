@@ -1,0 +1,69 @@
+{
+	"name": "NoerTavernWaifu",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(3000+rand(6000))*(1-(shopNerf*2)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemNoerTavernNapKey",
+		"amount": 100
+	},{
+		"item_name": "ItemNoerTea",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "rand(5)"
+	},{
+		"note": 250,
+		"item_name": "ItemSopMeat",
+		"price": "(itemPrice*25)*(shopNerf+1)",
+		"amount": "5+rand(8)"
+	},{
+		"note": 250,
+		"item_name": "ItemSopPlant",
+		"price": "(itemPrice*25)*(shopNerf+1)",
+		"amount": "5+rand(8)"
+	},{
+		"note": 350,
+		"item_name": "ItemSopGood",
+		"price": "(itemPrice*35)*(shopNerf+1)",
+		"amount": "5+rand(8)"
+	},{
+		"item_name": "ItemBeer",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "5+rand(8)"
+	},{
+		"item_name": "ItemBottledBeer",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "5+rand(8)"
+	},{
+		"item_name": "ItemFruitWine",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "1+rand(2)"
+	},{
+		"note": 375,
+		"item_name": "ItemDryFood",
+		"price": "(itemPrice*1.25)*(shopNerf+1)",
+		"amount": "3+rand(5)"
+	},{
+		"item_name": "ItemMhWoodenClub",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},{
+		"item_name": "ItemRedPotion",
+		"price": "itemPrice*(shopNerf+1.5)",
+		"amount": 1
+	},{
+		"item_name": "ItemBluePotion",
+		"price": "itemPrice*(shopNerf+1.5)",
+		"amount": 1
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.2",
+		"amount": "30+rand(10)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice*1.2",
+		"amount": "8+rand(5)"
+	}
+	]
+}

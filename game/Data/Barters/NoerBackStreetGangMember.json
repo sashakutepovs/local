@@ -1,0 +1,42 @@
+{
+	"name": "NoerBackStreetGangMember",
+	"charStoreHashName": true,
+	"charStoreExpireDate": 0,
+	"charStoreTP": "[(300+rand(1000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemBeer",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemBottledBeer",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemFruitWine",
+		"price": "(itemPrice*1.2)*(shopNerf+1)",
+		"amount": "[0,rand(2)].sample"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*2",
+		"amount": "rand(10)"
+	},{
+		"item_name": "ItemHiPotionLV2",
+		"price": "(itemPrice*1.3)*(shopNerf+1)",
+		"amount": "1+rand(5)"
+	},
+
+	{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbSta",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	},{
+		"condition": "rand(1000) > 500",
+		"item_name": "ItemHerbCure",
+		"price": "itemPrice",
+		"amount": "[0,0,rand(2)].sample"
+	}
+	]
+}

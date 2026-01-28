@@ -1,0 +1,70 @@
+{
+	"name": "CommonHoboTrader",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(  3000+rand(6000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"item_name": "ItemDreg",
+		"price": "((200)*(shopNerf+1))",
+		"amount": "5+rand(2)"
+	},{
+		"item_name": "ItemMutantFlesh",
+		"price": "((200*2 )*(shopNerf+1))",
+		"amount": "rand(3)"
+	},{
+		"item_name": "ItemHumanoidFlesh",
+		"price": "((200*2 )*(shopNerf+1))",
+		"amount": "rand(3)"
+	},{
+		"item_name": "AnimalRoach",
+		"price": "((280*2 )*(shopNerf+1))",
+		"amount": "rand(8)"
+	},{
+		"item_name": "AnimalRattus",
+		"price": "((280*2 )*(shopNerf+1))",
+		"amount": "rand(3)"
+	},{
+		"item_name": "ItemDryFood",
+		"price": "((350*2 )*(shopNerf+1))",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemSmokedMeat",
+		"price": "((1500*2)*(shopNerf+1))",
+		"amount": "rand(2)"
+	},{
+		"item_name": "ItemMhWoodenClub",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemRagTop",
+		"price": 250,
+		"amount": 1
+	},{
+		"item_name": "ItemRagMid",
+		"price": 250,
+		"amount": 1
+	},{
+		"item_name": "ItemRagBot",
+		"price": 250,
+		"amount": 1
+	},{
+		"item_name": "ItemRagVag",
+		"price": 250,
+		"amount": 1
+	},{
+		"item_name": "ItemRagMidExtra",
+		"price": 250,
+		"amount": 1
+	},{
+		"item_name": "ItemSlaveMid",
+		"price": 320,
+		"amount": 1
+	},{
+		"item_name": "ItemSlaveMidExtra",
+		"price": 320,
+		"amount": 1
+	}
+	]
+}

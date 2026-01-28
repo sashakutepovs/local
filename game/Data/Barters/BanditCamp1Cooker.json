@@ -1,0 +1,20 @@
+{
+	"name": "BanditCamp1Cooker",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(300+rand(1000)  )*(1-(shopNerf+shopNerf)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [{
+		"note": 300,
+		"item_name": "ItemSopMeat",
+		"price": "(itemPrice*30)*(shopNerf+1)",
+		"amount": "5+rand(8)"
+	},{
+		"note": 300,
+		"item_name": "ItemSopPlant",
+		"price": "(itemPrice*30)*(shopNerf+1)",
+		"amount": "5+rand(8)"
+	}
+	]
+}

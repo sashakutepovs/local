@@ -1,0 +1,53 @@
+{
+	"name": "CommonDressTrader",
+	"charStoreHashName": true,
+	"charStoreExpireDate": true,
+	"charStoreTP": "[(3000+rand(6000))*(1-(shopNerf*2)),0].max",
+	"noSell": false,
+	"noBuy": false,
+	"items": [
+	{
+		"item_name": "ItemAdvTop",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemAdvMid",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemAdvBot",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemPantyVag",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemAdvMidExtra",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": 1
+	},{
+		"note": 200,
+		"item_name": "ItemSlaveMidExtra",
+		"price": "(200)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"note": 200,
+		"item_name": "ItemSlaveMid",
+		"price": "(200)*(shopNerf+1)",
+		"amount": 1
+	},{
+		"item_name": "ItemShLantern",
+		"price": "itemPrice*(shopNerf+1)",
+		"amount": "2+rand(3)"
+	},{
+		"item_name": "ItemCoin1",
+		"price": "itemPrice*1.2",
+		"amount": "30+rand(100)"
+	},{
+		"item_name": "ItemCoin2",
+		"price": "itemPrice*1.2",
+		"amount": "8+rand(20)"
+	}
+	]
+}
