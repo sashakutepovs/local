@@ -1,0 +1,21 @@
+{
+	"item_name": "trait_link_Nymph",
+	"icon_index": 0,
+	"tag_main_settings": {
+		"type": "none",
+		"tag": "Trait",
+		"consumable": true,
+		"key_item": false
+	},
+	"use_item_effect": [{
+		"attribute_name": "sat",
+		"attribute_type": "Tmax",
+		"adjustor": "-",
+		"adjustment": "10"
+	}, {
+		"attribute_name": "sta",
+		"attribute_type": "Tmax",
+		"adjustor": "+",
+		"adjustment": "20"
+	}]
+}

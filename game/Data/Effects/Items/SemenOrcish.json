@@ -1,0 +1,103 @@
+{
+	"weight": "0.1",
+	"raw_date":	1,
+	"rot_progress":	["ItemRottenMatter",1],
+	"pot_data": {
+		"Protein": 1,
+		"Semen": 1
+		},
+	"ext_slot_skill":	{
+		"SkillName": "Item_Semen",
+		"CostAfterLaunch": false,
+		"DirectUsage": false
+		},
+	"player_item_usage_manage_state": [{
+		"tar_state_name": ["1", "FeelsHorniness"],
+		"chance_max": 100,
+		"chance_req": 80
+		},{
+		"tar_state_name": ["1", "WombSeedBed"],
+		"chance_max": 100,
+		"chance_req": 98
+		}],
+	"use_item_effect": [{
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "2"
+		},{
+		"stats_key" 	: "SemenGulper",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "2"
+		},{
+		"stats_key" 	: "SemenAddiction",
+		"stats_value"	: [5],
+		"stats_filter"	: true,
+		"attribute_name": "sat",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "4"
+		},{
+		"stats_key" 	: "AsVulva_Esophageal",
+		"stats_value"	: [1],
+		"stats_filter"	: true,
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "60"
+		},{
+		"attribute_name": "arousal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "20"
+		},{
+		"attribute_name": "urinary_level",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "20"
+		},{
+		"attribute_name": "semen_addiction_damage",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "19"
+		},{
+		"attribute_name": "semen_addiction_level",
+		"attribute_type": "current",
+		"adjustor": "-",
+		"adjustment": "120"
+		},{
+		"attribute_name": "dirt",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "40"
+		},{
+		"stats_key" 	: "SemenGulper",
+		"stats_value"	: [1],
+		"stats_filter"	: false,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "7"
+		},{
+		"stats_key" 	: "SemenAddiction",
+		"stats_value"	: [2,3,4,5],
+		"stats_filter"	: false,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "7"
+		},{
+		"stats_key" 	: "SemenAddiction",
+		"stats_value"	: [4,5],
+		"stats_filter"	: false,
+		"attribute_name": "puke_value_normal",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": "7"
+		}
+	]
+}

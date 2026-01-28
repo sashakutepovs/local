@@ -1,0 +1,6 @@
+{
+	"common_tags":{
+		"cannot_steal": true
+		},
+	"dmg_multiplier":	"1.5"
+}

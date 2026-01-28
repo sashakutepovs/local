@@ -1,0 +1,21 @@
+{
+	"item_name": "trait_Survival",
+	"icon_index": 795,
+	"tag_main_settings": {
+		"type": "none",
+		"tag": "Trait",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Trait_Survival/item_name",
+			"description": "DataItem:Trait_Survival/description"
+	},
+	"use_item_effect": [{
+			"attribute_name": "survival_trait",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": 1
+		}
+	]
+}

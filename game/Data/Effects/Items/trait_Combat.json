@@ -1,0 +1,22 @@
+{
+	"item_name": "trait_Combat",
+	"icon_index": 791,
+	"tag_main_settings": {
+		"type": "none",
+		"tag": "Trait",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Trait_Combat/item_name",
+			"description": "DataItem:Trait_Combat/description"
+	},
+	"use_item_effect": [{
+		"attribute_name": "combat_trait",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 1
+	}
+	
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"item_name": "ItemQuestMonsterBone",
+	"price": 0,
+	"icon_index": 189,
+	"tag_main_settings": {
+		"type": "Key",
+		"tag": "Key",
+		"consumable": false,
+		"key_item": true
+	},
+	"textFlag": {
+			"name": "DataItem:QuestMonsterBone/item_name",
+			"description": "DataItem:QuestMonsterBone/description"
+		},
+	"common_tags":{
+		"cannot_steal": true
+		},
+	"use_item_effect": []
+}

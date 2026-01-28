@@ -1,0 +1,9 @@
+{
+	"ext_slot_skill":	{
+		"SkillName": "Item_Rock",
+		"CostAfterLaunch": false,
+		"DirectUsage": true
+		},
+	"weight": "3",
+	"dmg_multiplier":	"1.5"
+}

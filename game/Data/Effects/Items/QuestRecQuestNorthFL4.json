@@ -1,0 +1,19 @@
+{
+	"item_name": "ItemQuestRecQuestNorthFL4",
+	"price": 0,
+	"icon_index": 235,
+	"tag_main_settings": {
+		"type": "Key",
+		"tag": "Key",
+		"consumable": false,
+		"key_item": true
+	},
+	"textFlag": {
+			"name": "DataItem:QuestRecQuestNorthFL4/item_name",
+			"description": "DataItem:QuestRecQuestNorthFL4/description"
+		},
+	"common_tags":{
+		"cannot_steal": true
+		},
+	"use_item_effect": []
+}

@@ -1,0 +1,27 @@
+{
+	"item_name": "trait_Scoutcraft",
+	"icon_index": 793,
+	"tag_main_settings": {
+		"type": "none",
+		"tag": "Trait",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Trait_Scoutcraft/item_name",
+			"description": "DataItem:Trait_Scoutcraft/description"
+	},
+	"use_item_effect": [{
+			"attribute_name": "move_speed",
+			"attribute_type": "Tmax",
+			"adjustor": "+",
+			"adjustment": 0.01
+		},
+		{
+			"attribute_name": "scoutcraft_trait",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": 1
+		}
+	]
+}

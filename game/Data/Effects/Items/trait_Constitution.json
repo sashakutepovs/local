@@ -1,0 +1,33 @@
+{
+	"item_name": "trait_Constitution",
+	"icon_index": 791,
+	"tag_main_settings": {
+		"type": "none",
+		"tag": "Trait",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Trait_Constitution/item_name",
+			"description": "DataItem:Trait_Constitution/description"
+	},
+	"use_item_effect": [{
+		"attribute_name": "health",
+		"attribute_type": "Tmax",
+		"adjustor": "+",
+		"adjustment": 1
+		},
+		{
+		"attribute_name": "sta",
+		"attribute_type": "Tmax",
+		"adjustor": "+",
+		"adjustment": 2.5
+		},
+		{
+		"attribute_name": "constitution_trait",
+		"attribute_type": "current",
+		"adjustor": "+",
+		"adjustment": 1
+		}
+	]
+}

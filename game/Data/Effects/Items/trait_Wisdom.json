@@ -1,0 +1,28 @@
+{
+	"item_name": "trait_Wisdom",
+	"icon_index": 795,
+	"tag_main_settings": {
+		"type": "none",
+		"tag": "Trait",
+		"consumable": true,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:Trait_Wisdom/item_name",
+			"description": "DataItem:Trait_Wisdom/description"
+	},
+	"use_item_effect": [
+	{
+		"attribute_name": "will",
+		"attribute_type": "Tmax",
+		"adjustor": "+",
+		"adjustment": 10
+	},
+	{
+			"attribute_name": "wisdom_trait",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": 1
+	}
+	]
+}

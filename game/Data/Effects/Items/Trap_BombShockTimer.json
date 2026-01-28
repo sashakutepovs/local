@@ -1,0 +1,11 @@
+{
+	"ext_slot_skill":{
+		"SkillName": "ItemBombShockTimer",
+		"CostAfterLaunch": false,
+		"DirectUsage": true
+		},
+	"weight": "4",
+	"pot_data": {
+		"BombShockTimer": 1
+		}
+}

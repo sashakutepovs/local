@@ -1,0 +1,19 @@
+{
+	"item_name": "ItemQuestSpiderLeg",
+	"price": 0,
+	"icon_index": 188,
+	"tag_main_settings": {
+		"type": "Key",
+		"tag": "Key",
+		"consumable": false,
+		"key_item": true
+	},
+	"textFlag": {
+			"name": "DataItem:ItemQuestSpiderLeg/item_name",
+			"description": "DataItem:ItemQuestSpiderLeg/description"
+		},
+	"common_tags":{
+		"cannot_steal": true
+		},
+	"use_item_effect": []
+}

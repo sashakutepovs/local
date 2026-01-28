@@ -1,0 +1,22 @@
+{
+	"item_name": "ItemThrowingKnivesI",
+	"price": 50,
+	"icon_index": 58,
+	"weight": "1.5",
+	"dmg_multiplier":	"1.5",
+	"tag_main_settings": {
+		"type": "Other",
+		"tag": "Other",
+		"consumable": false,
+		"key_item": false
+	},
+	"textFlag": {
+			"name": "DataItem:ThrowingKnivesI/item_name",
+			"description": "DataItem:ThrowingKnivesI/description"
+		},
+	"ext_slot_skill":{
+		"SkillName": "ThrowingKnivesHeavy",
+		"CostAfterLaunch": false,
+		"DirectUsage": true
+		},
+}
