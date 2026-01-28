@@ -1,0 +1,1 @@
+get_character(0).erase
