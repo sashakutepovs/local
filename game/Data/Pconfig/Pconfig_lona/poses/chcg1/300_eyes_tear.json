@@ -1,0 +1,12 @@
+[{
+	"name_order": ["eyes", "eyes_tear"],
+	"part_name": "chcg1_head_eyes_tear",
+	"x": "548",
+	"y": "87",
+	"layer": 300,
+	"bmps": {
+		"eyes01,eyes_tear01": "chcg1_head_eyes01_tear.png",
+		"eyes02,eyes_tear01": "chcg1_head_eyes02_tear.png",
+		"eyes03,eyes_tear01": "chcg1_head_eyes03_tear.png"
+	}
+}]

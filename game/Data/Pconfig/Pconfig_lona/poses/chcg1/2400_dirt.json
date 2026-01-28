@@ -1,0 +1,44 @@
+[{
+		"name_order": ["vagopen", "analopen"],
+		"isDirt": true,
+		"part_name": "chcg1_BotBody_dirt",
+		"x": "74",
+		"y": "1",
+		"layer": 2400,
+		"bmps": {
+			"vagopen00,analopen00": "chcg1_BotBody_dirt.png",
+			"vagopen01,analopen00": "chcg1_BotBody_vagopen_dirt.png",
+			"vagopen00,analopen01": "chcg1_BotBody_analopen_dirt.png",
+			"vagopen01,analopen01": "chcg1_BotBody_vagopen_analopen_dirt.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "preg"],
+		"isDirt": true,
+		"part_name": "chcg1_subpose1_TopBody_dirt",
+		"x": "268",
+		"y": "111",
+		"layer": 2400,
+		"bmps": {
+			"subpose01,preg00": "chcg1_subpose1_dirt.png",
+			"subpose01,preg01": "chcg1_subpose1_preg4m_dirt.png",
+			"subpose01,preg02": "chcg1_subpose1_preg6m_dirt.png",
+			"subpose01,preg03": "chcg1_subpose1_preg8m_dirt.png"
+		}
+	},
+
+	{
+		"name_order": ["subpose", "preg"],
+		"isDirt": true,
+		"part_name": "chcg1_subpose2_TopBody_dirt",
+		"x": "269",
+		"y": "109",
+		"layer": 2400,
+		"bmps": {
+			"subpose02,preg00": "chcg1_subpose2_dirt.png",
+			"subpose02,preg01": "chcg1_subpose2_preg4m_dirt.png",
+			"subpose02,preg02": "chcg1_subpose2_preg6m_dirt.png",
+			"subpose02,preg03": "chcg1_subpose2_preg8m_dirt.png"
+		}
+	}
+]

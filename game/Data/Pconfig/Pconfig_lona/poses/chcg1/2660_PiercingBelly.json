@@ -1,0 +1,21 @@
+[{
+	"name_order": [ "preg", "PiercingBelly"],
+	"part_name": "chcg1_PiercingBelly",
+	"x": "353",
+	"y": "183",
+	"layer": 2660,
+	"bmps": {
+		"preg00,PiercingBelly01": "chcg1_PiercingBelly1.png",
+		"preg00,PiercingBelly02": "chcg1_PiercingBelly2.png",
+		"preg00,PiercingBelly03": "chcg1_PiercingBelly3.png",
+		"preg01,PiercingBelly01": "chcg1_preg4m_PiercingBelly1.png",
+		"preg01,PiercingBelly02": "chcg1_preg4m_PiercingBelly2.png",
+		"preg01,PiercingBelly03": "chcg1_preg4m_PiercingBelly3.png",
+		"preg02,PiercingBelly01": "chcg1_preg6m_PiercingBelly1.png",
+		"preg02,PiercingBelly02": "chcg1_preg6m_PiercingBelly2.png",
+		"preg02,PiercingBelly03": "chcg1_preg6m_PiercingBelly3.png",
+		"preg03,PiercingBelly01": "chcg1_preg8m_PiercingBelly1.png",
+		"preg03,PiercingBelly02": "chcg1_preg8m_PiercingBelly2.png",
+		"preg03,PiercingBelly03": "chcg1_preg8m_PiercingBelly3.png"
+	}
+}]

@@ -1,0 +1,84 @@
+[{
+		"name_order": ["EventMouthRace", "EventMouth"],
+		"part_name": "chcg1_EventMouth_Human",
+		"x": "364",
+		"y": "1",
+		"layer": 3700,
+		"bmps": {
+			"EventMouthRace#Human,EventMouth#Common1": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Human,EventMouth#Common2": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Human,EventMouth#CumInside1": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Human,EventMouth#CumInside2": "chcg1_EventMouth_Human_2.png",
+			"EventMouthRace#Human,EventMouth#CumInside3": "chcg1_EventMouth_Human_3.png",
+			"EventMouthRace#Human,EventMouth#CumInsidePeein3": "chcg1_EventMouth_Human_3Peein.png",
+			"EventMouthRace#Human,EventMouth#CumInsidePeein4": "chcg1_EventMouth_Human_4Peein.png",
+			"EventMouthRace#Human,EventMouth#CumInsidePeein5": "chcg1_EventMouth_Human_5Peein.png",
+			"EventMouthRace#Human,EventMouth#CumOutside2": "chcg1_EventMouth_Human_2Out.png",
+			"EventMouthRace#Human,EventMouth#DeepThroat2": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Human,EventMouth#DeepThroat3": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Human,EventMouth#DeepThroat4": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Human,EventMouth#DeepThroat5": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Human,EventMouth#DeepThroat6": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Human,EventMouth#DeepThroat7": "chcg1_EventMouth_Human_1.png",
+			
+			"EventMouthRace#Moot,EventMouth#Common1": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Moot,EventMouth#Common2": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Moot,EventMouth#CumInside1": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Moot,EventMouth#CumInside2": "chcg1_EventMouth_Human_2.png",
+			"EventMouthRace#Moot,EventMouth#CumInside3": "chcg1_EventMouth_Human_3.png",
+			"EventMouthRace#Moot,EventMouth#CumInsidePeein3": "chcg1_EventMouth_Human_3Peein.png",
+			"EventMouthRace#Moot,EventMouth#CumInsidePeein4": "chcg1_EventMouth_Human_4Peein.png",
+			"EventMouthRace#Moot,EventMouth#CumInsidePeein5": "chcg1_EventMouth_Human_5Peein.png",
+			"EventMouthRace#Moot,EventMouth#CumOutside2": "chcg1_EventMouth_Human_2Out.png",
+			"EventMouthRace#moot,EventMouth#DeepThroat2": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#moot,EventMouth#DeepThroat3": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#moot,EventMouth#DeepThroat4": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#moot,EventMouth#DeepThroat5": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#moot,EventMouth#DeepThroat6": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#moot,EventMouth#DeepThroat7": "chcg1_EventMouth_Human_1.png",
+			
+			"EventMouthRace#Deepone,EventMouth#Common1": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Deepone,EventMouth#Common2": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Deepone,EventMouth#CumInside1": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Deepone,EventMouth#CumInside2": "chcg1_EventMouth_Human_2.png",
+			"EventMouthRace#Deepone,EventMouth#CumInside3": "chcg1_EventMouth_Human_3.png",
+			"EventMouthRace#Deepone,EventMouth#CumInsidePeein3": "chcg1_EventMouth_Human_3Peein.png",
+			"EventMouthRace#Deepone,EventMouth#CumInsidePeein4": "chcg1_EventMouth_Human_4Peein.png",
+			"EventMouthRace#Deepone,EventMouth#CumInsidePeein5": "chcg1_EventMouth_Human_5Peein.png",
+			"EventMouthRace#Deepone,EventMouth#CumOutside2": "chcg1_EventMouth_Human_2Out.png",
+			"EventMouthRace#Deepone,EventMouth#DeepThroat2": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Deepone,EventMouth#DeepThroat3": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Deepone,EventMouth#DeepThroat4": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Deepone,EventMouth#DeepThroat5": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Deepone,EventMouth#DeepThroat6": "chcg1_EventMouth_Human_1.png",
+			"EventMouthRace#Deepone,EventMouth#DeepThroat7": "chcg1_EventMouth_Human_1.png"
+		}
+	},
+	{
+		"name_order": ["EventMouthRace", "EventMouth"],
+		"part_name": "chcg1_EventMouth_Feeding",
+		"x": "203",
+		"y": "1",
+		"layer": 3700,
+		"bmps": {
+			"EventMouthRace#Human,EventMouth#Feeding": "chcg1_EventMouth_Human_Feeding.png",
+			"EventMouthRace#Moot,EventMouth#Feeding": "chcg1_EventMouth_Moot_Feeding.png",
+			"EventMouthRace#AdultHuman,EventMouth#Feeding": "chcg1_EventMouth_AdultHuman_Feeding.png",
+			"EventMouthRace#Deepone,EventMouth#Feeding": "chcg1_EventMouth_Human_Feeding.png"
+		}
+	},
+
+	{
+		"name_order": ["EventMouth"],
+		"part_name": "chcg1_EventMouth_Punch",
+		"x": "161",
+		"y": "1",
+		"layer": 3700,
+		"bmps": {
+			"EventMouth#Punch1": "chcg1_EventMouth_Punch1.png",
+			"EventMouth#Punch2": "chcg1_EventMouth_Punch2.png",
+			"EventMouth#Punch3": "chcg1_EventMouth_Punch3.png"
+			
+	}
+	}
+]

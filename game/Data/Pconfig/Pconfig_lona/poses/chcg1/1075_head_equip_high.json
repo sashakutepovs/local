@@ -1,0 +1,91 @@
+[{
+		"name_order": ["equip_head"],
+		"part_name": "chcg1_head_equip_DancerHeadEquip",
+		"x": 569,
+		"y": 29,
+		"layer": 1075,
+		"bmps": {
+			"equip_head#DancerHeadEquip": "chcg1_head_equip_DancerHeadEquip.png"
+			}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg1_head_equip_SexyHeadEquip",
+		"x": 510,
+		"y": 44,
+		"layer": 1075,
+		"bmps": {
+			"equip_head#SexyHeadEquip": "chcg1_head_equip_SexyHeadEquip.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg1_equip_DocHead_Head",
+		"x": 500,
+		"y": 70,
+		"layer": 1075,
+		"bmps": {
+			"equip_head#DocHead": "chcg1_equip_DocHead_Head.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg1_equip_HoodCloakTop_Head_Top",
+		"x": 601,
+		"y": 23,
+		"layer": 1076,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg1_equip_HoodCloakTop_Head_Top.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg1_equip_DocTop_Head",
+		"x": 637,
+		"y": 21,
+		"layer": 1077,
+		"bmps": {
+			"equip_Top#DocTop": "chcg1_equip_DocTop_Head.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg1_head_equip_FootmanHelmet",
+		"x": 609,
+		"y": 19,
+		"layer": 1077,
+		"bmps": {
+			"equip_head#FootmanHelmet": "chcg1_head_equip_FootmanHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg1_equip_BucketHelmet",
+		"x": 517,
+		"y": 1,
+		"layer": 1076,
+		"bmps": {
+			"equip_head#BucketHelmet": "chcg1_equip_BucketHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg1_equip_NunVeil",
+		"x": 571,
+		"y": 19,
+		"layer": 1076,
+		"bmps": {
+			"equip_head#NunVeil": "chcg1_equip_NunVeil.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg1_equip_NunVeil_HeadTop", // for some reason.  this extre layer is needed so i can turn off chcg1_equip_NunVeil to support Dochoods
+		"x": 569,
+		"y": 29,
+		"layer": 1076,
+		"bmps": {
+			"equip_head#NunVeil": "chcg1_equip_NunVeil_HeadTop.png"
+		}
+	}
+]

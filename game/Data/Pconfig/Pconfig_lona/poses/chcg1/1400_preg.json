@@ -1,0 +1,12 @@
+[{
+	"name_order": ["preg"],
+	"part_name": "chcg1_preg",
+	"x": "258",
+	"y": "149",
+	"layer": 1400,
+	"bmps": {
+		"preg01": "chcg1_preg4m.png",
+		"preg02": "chcg1_preg6m.png",
+		"preg03": "chcg1_preg8m.png"
+	}
+}]

@@ -1,0 +1,13 @@
+[{
+	"name_order": ["vagopen", "analopen", "EffectWet"],
+	"part_name": "chcg1_EffectWet",
+	"x": "73",
+	"y": "194",
+	"layer": 2600,
+	"bmps": {
+		"vagopen00,analopen00,EffectWet01": "chcg1_EffectWet.png",
+		"vagopen01,analopen00,EffectWet01": "chcg1_vagopen_EffectWet.png",
+		"vagopen00,analopen01,EffectWet01": "chcg1_analopen_EffectWet.png",
+		"vagopen01,analopen01,EffectWet01": "chcg1_vagopen_analopen_EffectWet.png"
+	}
+}]

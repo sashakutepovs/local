@@ -1,0 +1,25 @@
+[{
+		"name_order": ["subpose", "WoundSArm"],
+		"part_name": "chcg1_subpose1_WoundSArm",
+		"x": "509",
+		"y": "254",
+		"layer": 2100,
+		"bmps": {
+			"subpose01,WoundSArm01": "chcg1_subpose1_WoundSArm1.png",
+			"subpose01,WoundSArm02": "chcg1_subpose1_WoundSArm2.png",
+			"subpose01,WoundSArm03": "chcg1_subpose1_WoundSArm3.png"
+		}
+	},
+	{
+		"name_order": ["subpose", "WoundSArm"],
+		"part_name": "chcg1_subpose2_WoundSArm",
+		"x": "491",
+		"y": "189",
+		"layer": 2100,
+		"bmps": {
+			"subpose02,WoundSArm01": "chcg1_subpose2_WoundSArm1.png",
+			"subpose02,WoundSArm02": "chcg1_subpose2_WoundSArm2.png",
+			"subpose02,WoundSArm03": "chcg1_subpose2_WoundSArm3.png"
+		}
+	}
+]

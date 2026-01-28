@@ -1,0 +1,15 @@
+[
+	{
+		"name_order": ["preg", "equip_Bot"],
+		"part_name": "chcg1_equip_SexyBot",
+		"x": "308",
+		"y": "163",
+		"layer": 2950,
+		"bmps": {
+			"preg00,equip_Bot#SexyBot": "chcg1_equip_SexyBot.png",
+			"preg01,equip_Bot#SexyBot": "chcg1_preg4m_equip_SexyBot.png",
+			"preg02,equip_Bot#SexyBot": "chcg1_preg6m_equip_SexyBot.png",
+			"preg03,equip_Bot#SexyBot": "chcg1_preg8m_equip_SexyBot.png"
+		}
+	}
+]

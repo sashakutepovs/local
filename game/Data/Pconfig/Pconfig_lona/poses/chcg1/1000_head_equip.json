@@ -1,0 +1,34 @@
+[
+	{
+		"name_order": ["equip_Face"],
+		"part_name": "chcg1_face_equip_StarterGlass",
+		"x": 567,
+		"y": 117,
+		"layer": 1000,
+		"bmps": {
+			"equip_Face#StarterGlass": "chcg1_face_equip_StarterGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg1_equip_head_SunGlass",
+		"x": 556,
+		"y": 111,
+		"layer": 1030,
+		"bmps": {
+			"equip_head#SunGlass": "chcg1_head_equip_SunGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_Face", "Race"],
+		"part_name": "chcg1_face_PaintHead",
+		"x": 525,
+		"y": 84,
+		"layer": 550,
+		"bmps": {
+			"equip_Face#PaintHead,Race#Human": "chcg1_face_PaintHead.png",
+			"equip_Face#PaintHead,Race#Deepone": "chcg1_face_moot_PaintHead.png",
+			"equip_Face#PaintHead,Race#Moot": "chcg1_face_moot_PaintHead.png"
+		}
+	}
+]

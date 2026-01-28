@@ -1,0 +1,24 @@
+[{
+	"name_order": ["always","Race"],
+	"isDirt": true,
+	"part_name": "chcg1_head_dirt",
+	"x": "550",
+	"y": "67",
+	"layer": 700,
+	"bmps": {
+		"always#on,Race#Human": "chcg1_head_dirt.png"
+	}
+},
+{
+	"name_order": ["always","Race"],
+	"isDirt": true,
+	"part_name": "chcg1_head_moot_dirt",
+	"x": "529",
+	"y": "70",
+	"layer": 700,
+	"bmps": {
+		"always#on,Race#Deepone": "chcg1_head_moot_dirt.png",
+		"always#on,Race#Moot": "chcg1_head_moot_dirt.png"
+	}
+}
+]

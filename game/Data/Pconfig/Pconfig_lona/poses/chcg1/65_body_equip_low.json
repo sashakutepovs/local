@@ -1,0 +1,82 @@
+[
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg1_equip_RagTop_low",
+		"x": 1,
+		"y": 212,
+		"layer": 65,
+		"bmps": {
+			"equip_Top#RagTop": "chcg1_equip_RagTop_low.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg1_equip_AdvTop_low",
+		"x": 475,
+		"y": 342,
+		"layer": 65,
+		"bmps": {
+			"equip_Top#AdvTop": "chcg1_equip_AdvTop_low.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg1_equip_SurTop_low",
+		"x": 475,
+		"y": 342,
+		"layer": 65,
+		"bmps": {
+			"equip_Top#SurTop": "chcg1_equip_SurTop_low.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg1_equip_HoodCloakTop_Body_Bot",
+		"x": 1,
+		"y": 30,
+		"layer": 65,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg1_equip_HoodCloakTop_Body_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg1_equip_DocTop_Head_Bot",
+		"x": 521,
+		"y": 19,
+		"layer": 65,
+		"bmps": {
+			"equip_Top#DocTop": "chcg1_equip_DocTop_Head_Bot.png"
+		}
+	},{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg1_equip_DocTop_Head_Side",
+		"x": 521,
+		"y": 125,
+		"layer": 64,
+		"bmps": {
+			"equip_Top#DocTop": "chcg1_equip_DocTop_Head_Side.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg1_equip_DocTop_Body_Bot",
+		"x": 1,
+		"y": 146,
+		"layer": 65,
+		"bmps": {
+			"equip_Top#DocTop": "chcg1_equip_DocTop_Body_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg1_equip_NunVeil_BodyBot",
+		"x": 479,
+		"y": 19,
+		"layer": 65,
+		"bmps": {
+			"equip_head#NunVeil": "chcg1_equip_NunVeil_BodyBot.png"
+		}
+	}
+]
+

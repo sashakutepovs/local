@@ -1,0 +1,35 @@
+[{
+	"name_order": ["eyes", "subeyes"],
+	"part_name": "chcg1_head_eyes",
+	"x": "559",
+	"y": "76",
+	"layer": 200,
+	"bmps": {
+		"eyes01,subeyes01": "chcg1_head_eyes01_subeyes01.png",
+		"eyes01,subeyes02": "chcg1_head_eyes01_subeyes02.png",
+		"eyes01,subeyes03": "chcg1_head_eyes01_subeyes03.png",
+		"eyes01,subeyes04": "chcg1_head_eyes01_subeyes04.png",
+		"eyes01,subeyes05": "chcg1_head_eyes01_subeyes05.png",
+		"eyes01,subeyes06": "chcg1_head_eyes01_subeyes06.png",
+		"eyes01,subeyes07": "chcg1_head_eyes01_subeyes07.png",
+		"eyes01,subeyes08": "chcg1_head_eyes01_subeyes08.png",
+
+		"eyes02,subeyes01": "chcg1_head_eyes02_subeyes01.png",
+
+		"eyes03,subeyes01": "chcg1_head_eyes03_subeyes01.png",
+		"eyes03,subeyes02": "chcg1_head_eyes03_subeyes02.png"
+	}
+},{
+	"name_order": ["eyes", "subeyes"],
+	"part_name": "chcg1_head_eyes_EXT",
+	"x": "559",
+	"y": "76",
+	"layer": 201,
+	"bmps": {
+		"eyes01,subeyes04": "chcg1_head_eyes01_subeyes04_EXT.png",
+		"eyes01,subeyes05": "chcg1_head_eyes01_subeyes05_EXT.png",
+		"eyes01,subeyes06": "chcg1_head_eyes01_subeyes06_EXT.png",
+		"eyes01,subeyes07": "chcg1_head_eyes01_subeyes07_EXT.png",
+		"eyes01,subeyes08": "chcg1_head_eyes01_subeyes08_EXT.png"
+	}
+}]

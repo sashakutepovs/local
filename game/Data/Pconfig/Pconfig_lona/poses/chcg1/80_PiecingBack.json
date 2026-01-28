@@ -1,0 +1,13 @@
+[{
+	"name_order": ["PiecingBack"],
+	"part_name": "chcg1_PiecingBack",
+	"x": "466",
+	"y": "337",
+	"layer": 80,
+	"bmps": {
+		"PiecingBack01": "chcg1_PiercingBack1.png",
+		"PiecingBack02": "chcg1_PiercingBack2.png",
+		"PiecingBack03": "chcg1_PiercingBack3.png"
+	}
+}
+]

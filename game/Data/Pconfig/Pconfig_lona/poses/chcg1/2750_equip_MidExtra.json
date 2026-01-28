@@ -1,0 +1,61 @@
+[
+	
+	{
+		"name_order": ["subpose", "preg", "equip_MidExtra"],
+		"part_name": "chcg1_subpose1_equip_FootmanMidExtra",
+		"x": 348,
+		"y": 174,
+		"layer": 2750,
+		"bmps": {
+			"subpose01,preg00,equip_MidExtra#FootmanMidExtra": "chcg1_subpose1_equip_FootmanMidExtra.png",
+			"subpose01,preg01,equip_MidExtra#FootmanMidExtra": "chcg1_subpose1_equip_FootmanMidExtra.png",
+			"subpose01,preg02,equip_MidExtra#FootmanMidExtra": "chcg1_subpose1_preg6m_equip_FootmanMidExtra.png",
+			"subpose01,preg03,equip_MidExtra#FootmanMidExtra": "chcg1_subpose1_preg8m_equip_FootmanMidExtra.png"
+		}
+	},{
+		"name_order": ["subpose", "preg", "equip_MidExtra"],
+		"part_name": "chcg1_subpose2_equip_FootmanMidExtra",
+		"x": 437,
+		"y": 172,
+		"layer": 2750,
+		"bmps": {
+			"subpose02,preg00,equip_MidExtra#FootmanMidExtra": "chcg1_subpose2_equip_FootmanMidExtra.png",
+			"subpose02,preg01,equip_MidExtra#FootmanMidExtra": "chcg1_subpose2_equip_FootmanMidExtra.png",
+			"subpose02,preg02,equip_MidExtra#FootmanMidExtra": "chcg1_subpose2_preg6m_equip_FootmanMidExtra.png",
+			"subpose02,preg03,equip_MidExtra#FootmanMidExtra": "chcg1_subpose2_preg8m_equip_FootmanMidExtra.png"
+		}
+	},{
+		"name_order": ["preg", "equip_MidExtra"],
+		"part_name": "chcg1_equip_SlaveMidExtra",
+		"x": 318,
+		"y": 151,
+		"layer": 2750,
+		"bmps": {
+			"preg00,equip_MidExtra#SlaveMidExtra": "chcg1_subpose1_equip_SlaveMidExtra.png",
+			"preg01,equip_MidExtra#SlaveMidExtra": "chcg1_subpose1_preg4m_equip_SlaveMidExtra.png",
+			"preg02,equip_MidExtra#SlaveMidExtra": "chcg1_subpose1_preg6m_equip_SlaveMidExtra.png",
+			"preg03,equip_MidExtra#SlaveMidExtra": "chcg1_subpose1_preg8m_equip_SlaveMidExtra.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["subpose", "preg", "equip_MidExtra"],
+		"part_name": "chcg1_equip_NunMidExtra",
+		"x": 442,
+		"y": 182,
+		"layer": 2700,
+		"bmps": {
+			"subpose01,preg00,equip_MidExtra#NunMidExtra": "chcg1_subpose1_equip_NunMidExtra.png",
+			"subpose01,preg01,equip_MidExtra#NunMidExtra": "chcg1_subpose1_preg4m_equip_NunMidExtra.png",
+			"subpose01,preg02,equip_MidExtra#NunMidExtra": "chcg1_subpose1_preg6m_equip_NunMidExtra.png",
+			"subpose01,preg03,equip_MidExtra#NunMidExtra": "chcg1_subpose1_preg8m_equip_NunMidExtra.png",
+			"subpose02,preg00,equip_MidExtra#NunMidExtra": "chcg1_subpose2_equip_NunMidExtra.png",
+			"subpose02,preg01,equip_MidExtra#NunMidExtra": "chcg1_subpose2_preg4m_equip_NunMidExtra.png",
+			"subpose02,preg02,equip_MidExtra#NunMidExtra": "chcg1_subpose2_preg6m_equip_NunMidExtra.png",
+			"subpose02,preg03,equip_MidExtra#NunMidExtra": "chcg1_subpose2_preg8m_equip_NunMidExtra.png"
+		}
+	}
+]

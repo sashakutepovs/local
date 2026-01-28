@@ -1,0 +1,32 @@
+[{
+	"name_order": ["equip_MidExtra"],
+	"part_name": "chcg1_equip_ChainMidExtra_bot",
+	"x": 24,
+	"y": 267,
+	"layer": 2920,
+	"bmps": {
+		"equip_MidExtra#ChainMidExtra": "chcg1_equip_ChainMidExtra_bot.png"
+	}
+},{
+	"name_order": ["subpose", "equip_MidExtra"],
+	"part_name": "chcg1_equip_ChainMidExtra_mid",
+	"x": 421,
+	"y": 206,
+	"layer": 2920,
+	"bmps": {
+		"subpose01,equip_MidExtra#ChainMidExtra": "chcg1_subpose1_equip_ChainMidExtra_mid.png",
+		"subpose02,equip_MidExtra#ChainMidExtra": "chcg1_subpose2_equip_ChainMidExtra_mid.png"
+	}
+},
+	{
+		"name_order": ["equip_TopExtra"],
+		"part_name": "chcg1_equip_ChainMidExtra_CollarTopExtra",
+		"x": 587,
+		"y": 235,
+		"layer": 2900,
+		"bmps": {
+			"equip_TopExtra#ChainMidExtra": "chcg1_equip_CollarTopExtra.png"
+		}
+	}
+	]
+	

@@ -1,0 +1,10 @@
+[{
+	"name_order": ["head_blush"],
+	"part_name": "chcg1_head_blush",
+	"x": "533",
+	"y": "64",
+	"layer": 500,
+	"bmps": {
+		"head_blush01": "chcg1_head_blush.png"
+	}
+}]

@@ -1,0 +1,23 @@
+[
+	{
+		"name_order": ["PiercingNose"],
+		"part_name": "chcg1_head_PiercingNose",
+		"x": "585",
+		"y": "165",
+		"layer": 755,
+		"bmps": {
+			"PiercingNose01": "chcg1_head_PiercingNose.png"
+		}
+	},{
+		"name_order": ["PiercingNoseB"],
+		"part_name": "chcg1_head_PiercingNoseB",
+		"x": "599",
+		"y": "147",
+		"layer": 755,
+		"bmps": {
+			"PiercingNoseB01": "chcg1_head_PiercingNoseB1.png",
+			"PiercingNoseB02": "chcg1_head_PiercingNoseB2.png",
+			"PiercingNoseB03": "chcg1_head_PiercingNoseB3.png"
+		}
+	}
+]

@@ -1,0 +1,13 @@
+[{
+	"name_order": ["vagopen", "analopen", "EffectBleedVag"],
+	"part_name": "chcg1_EffectBleedVag",
+	"x": "101",
+	"y": "242",
+	"layer": 2500,
+	"bmps": {
+		"vagopen00,analopen00,EffectBleedVag01": "chcg1_EffectBleedVag.png",
+		"vagopen01,analopen00,EffectBleedVag01": "chcg1_vagopen_EffectBleedVag.png",
+		"vagopen00,analopen01,EffectBleedVag01": "chcg1_analopen_EffectBleedVag.png",
+		"vagopen01,analopen01,EffectBleedVag01": "chcg1_vagopen_analopen_EffectBleedVag.png"
+	}
+}]
