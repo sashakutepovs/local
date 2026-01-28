@@ -1,0 +1,89 @@
+{
+	"item_name": "LongBowControl",
+	"CHS_animation": "animation_atk_shoot",
+	"wait_hit_frame": true,
+	"range": 8,
+	"back_stab":1.3,
+	"stealth": true,
+	"hit_frame":20,
+	"summon_hit": "EffectSnipeArrowHit",
+	"summon_hold": "EffectSnipeArrowHold",
+	"summon_user": "EffectPiercingLong",
+	"no_parry":true,
+	"no_dodge":false,
+	"no_aggro":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_atk_shoot_hold",
+	"hit_detection": "SnipeMissile",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 120,
+	"launch_max" : 360,
+	"ai_value": {
+		"assulter": 50,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "5",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "1.4"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "-",
+				"adjustment": "10"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "1.5"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "-",
+				"adjustment": "6"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundGroin","WoundSThigh","WoundMThigh"],
+		"chance":100
+	},{
+		"popup_type": "State",
+		"states": ["Slow6"],
+		"chance":100
+	}]
+}

@@ -1,0 +1,86 @@
+{
+	"item_name": "MusketCurved",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": false,
+	"hold_animation": "animation_nil",
+	"range": 1,
+	"back_stab": 1,
+	"hit_frame": 1,
+	"summon_hit": "EffectMusketHit",
+	"summon_user": null,
+	"no_parry": false,
+	"no_dodge": false,
+	"no_aggro": true,
+	"sap": false,
+	"hold_type": "none",
+	"hit_detection": "BasicTrapV",
+	"projectile_type": 0,
+	"effect_since": 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "health",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "60",
+			"lowest_req": "0",
+			"highest_req": "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "30"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "wisdom",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "30"
+			},
+			"compare": {
+				"attribute_name": "survival",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundGroin", "WoundSThigh", "WoundMThigh"],
+		"chance": 5
+	}, {
+		"popup_type": "State",
+		"states": ["Slow1"],
+		"chance": 50
+	}]
+}

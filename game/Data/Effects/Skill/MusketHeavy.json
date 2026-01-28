@@ -1,0 +1,39 @@
+{
+	"item_name": "MusketHeavy",
+	"CHS_animation": "animation_casting_musket",
+	"wait_hit_frame": true,
+	"range": 7,
+	"back_stab":0,
+	"summon_hit": "ProjectileMusket",
+	"summon_user": "EffectCastingMusket",
+	"summon_hold": "EffectHold3Musket",
+	"hold_animation": "animation_hold_shield",
+	"hold_type": "holding",
+	"stealth": false,
+	"no_parry":true,
+	"no_dodge":false,
+	"sap":false,
+	"hit_detection":"BasicOnSelf",
+	"hit_frame":30,
+	"projectile_type": 0,
+	"launch_since": 30 ,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "2",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

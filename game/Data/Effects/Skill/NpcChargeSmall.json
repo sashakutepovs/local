@@ -1,0 +1,49 @@
+{
+	"item_name": "NpcChargeSmall",
+	
+	
+	"CHS_animation": "animation_charge_run",
+	"wait_hit_frame": true,
+	"range": 7,
+	"back_stab":3,
+	"stealth": false,
+	"hit_frame":1,
+	"summon_user": "EfxComboRunTowardTargetSmall",
+	"summon_hold": "EffectBackStabHold",
+	"summon_hit": null,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_aggro":true,
+	"no_interrupt": true,
+	"no_action_change":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection":"ChargeSmall",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 30,
+	"launch_max" : 31,
+	
+	
+	
+	
+	"ai_value": {
+		"assulter": 50,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "3",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

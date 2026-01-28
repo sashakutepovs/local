@@ -1,0 +1,37 @@
+{
+	"item_name": "LongBowHeavy",
+	"CHS_animation": "animation_atk_ArrowBarraage",
+	"wait_hit_frame": true,
+	"range": 7,
+	"back_stab":0,
+	"sap":false,
+	"summon_hit": "ProjectileArrowBarrage",
+	"summon_user": null,
+	"summon_hold": "EffectHoldArrowBarrage",
+	"hold_animation": "animation_atk_shoot_hold",
+	"hold_type": "holding",
+	"stealth": false,
+	"hit_detection":"BasicBox",
+	"hit_frame":30,
+	"projectile_type": 0,
+	"launch_since": 30 ,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "4",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

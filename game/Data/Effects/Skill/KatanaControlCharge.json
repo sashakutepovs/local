@@ -1,0 +1,88 @@
+{
+	"item_name": "KatanaControlCharge",
+	"CHS_animation": "animation_atk_KatanaSwing",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":4,
+	"hit_cancel_mode": "Always",
+	"hit_cancel_req_a_tgt": true,
+	"summon_hold": "EffectHoldKatana",
+	"summon_hit": "EffectKatanaChargeHit",
+	"summon_user": "EffectKatanaCharge",
+	"no_parry":false,
+	"no_dodge":false,
+	"no_action_change":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_casting_sh",
+	"hit_detection":"Front2Tile",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 19,
+	"launch_max" : 20,
+	"ai_hold_to_max" : true,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.5"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "5"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundSArm","WoundMArm","WoundBelly"],
+		"chance":10
+	}]
+}

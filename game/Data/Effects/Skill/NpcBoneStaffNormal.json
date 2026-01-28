@@ -1,0 +1,50 @@
+{
+	"item_name": "NpcBoneStaffNormal",
+	"CHS_animation": "animation_casting_mh",
+	"wait_hit_frame": true,
+	"range": 6,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":19,
+	"summon_user": "EffectCastingCorrosionMissile",
+	"summon_hold": "EffectBloodMagicShortHold",
+	"summon_hit": "CorrosionMissileProjectile",
+	"no_parry":true,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_casting_mh",
+	"hit_detection":"Missile",
+	"projectile_type": 1,
+	"effect_since" : 0,
+	"launch_since" : 10,
+	"launch_max" : 11,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": "1",
+			"lowest_req" : "-100",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

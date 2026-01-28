@@ -1,0 +1,40 @@
+{
+	"item_name": "LanternHeavy",
+	"CHS_animation": "animation_atk_backstab",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":8,
+	"summon_user": "ProjectileLanternFire",
+	"summon_hold": "EffectHoldNil2",
+	"summon_hit": "EffectLanternHit",
+	"no_parry":false,
+	"no_dodge":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_sh",
+	"hit_detection":"BasicAttack",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 20,
+	"launch_max" : 21,
+	"ai_value": {
+		"assulter": 30,
+		"killer": 30,
+		"fucker": 30
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "4",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

@@ -1,0 +1,33 @@
+{
+	"item_name": "Item_PubicHair",
+	"CHS_animation": "animation_atk_mh",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_nil",
+	"range": 2,
+	"back_stab":1,
+	"hit_frame":10,
+	"summon_hit": "Projectile_Item_PubicHair",
+	"summon_user": null,
+	"hold_type": "none",
+	"hit_detection":"CloseMissile",
+	"projectile_type": 1,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

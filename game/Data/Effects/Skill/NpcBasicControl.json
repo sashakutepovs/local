@@ -1,0 +1,70 @@
+{
+	"item_name": "NpcBasicControl",
+	"icon_index": 772,
+	"stype_id": "Basic",
+	"tag_main_settings": {
+		"type": "control",
+		"tag": "BasicControl"
+	},
+	"textFlag": {
+			"name": "DataSkill:BasicControl/item_name",
+			"description": "DataSkill:BasicControl/description"
+		},
+	"is_mind_control_usable": true,
+	"CHS_animation": "animation_atk_charge",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":10,
+	"summon_hold": "EffectHoldNil2",
+	"summon_hit": "EffectRamControlHit",
+	"summon_user": "EffectRamControl",
+	"no_parry":false,
+	"no_dodge":false,
+	"no_interrupt": true,
+	"sap" :true,
+	"hold_type": "energizing",
+	"hold_animation": "animation_atk_pray_hold",
+	"hit_detection":"BasicHeavy",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 49,
+	"launch_max" : 50,
+	"ai_value": {
+		"assulter": 10,
+		"killer": 10,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "4",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "3"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "4"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		}],
+	"add_state": []
+}

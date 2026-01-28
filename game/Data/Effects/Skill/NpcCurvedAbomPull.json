@@ -1,0 +1,38 @@
+{
+	"item_name": "NpcCurvedAbomPull",
+	"CHS_animation": "animation_atk_AbomFapShoot_long",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_atk_heavy",
+	"range": 5,
+	"back_stab":1,
+	"stealth": false,
+	"no_parry":true,
+	"no_dodge":true,
+	"sap":false,
+	"no_aggro":true,
+	"hit_frame":25,
+	"summon_hit": null,
+	"summon_user": "ProjectileNpcCurvedAbomPull",
+	"hold_type": "none",
+	"hit_detection":"NpcRangeArtilleryType2",
+	"projectile_type": 2,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

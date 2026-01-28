@@ -1,0 +1,36 @@
+{
+	"item_name": "Item_WastePoo0",
+	"CHS_animation": "animation_atk_mh",
+	"wait_hit_frame": true,
+	"range": 6,
+	"back_stab":0,
+	"summon_hit": "Projectile_Item_WastePoo0",
+	"summon_user": null,
+	"summon_hold": "EffectHold_Item_WastePoo0",
+	"hold_animation": "animation_hold_shield",
+	"hold_type": "holding",
+	"stealth": true,
+	"hit_detection":"BasicOnSelf",
+	"hit_frame":30,
+	"projectile_type": 0,
+	"launch_since": 30 ,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "4",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

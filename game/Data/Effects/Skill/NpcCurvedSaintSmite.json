@@ -1,0 +1,51 @@
+{
+	"item_name": "NpcCurvedSaintSmite",
+	"CHS_animation": "animation_casting_mh",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_atk_pray_hold",
+	"range": 7,
+	"back_stab":1,
+	"no_parry":false,
+	"no_dodge":false,
+	"sap":false,
+	"no_aggro":false,
+	"no_action_change":true,
+	"hit_frame":20,
+	"summon_user": "ProjSaintSmite",
+	"summon_hold": "EffectSaintMagicHold",
+	"summon_hit": null,
+	"hit_detection":"NpcRangeArtilleryType2",
+	"hold_type": "energizing",
+	"projectile_type": 2,
+	"effect_since" : 0,
+	"launch_since" : 60,
+	"launch_max" : 61,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": "2",
+			"lowest_req" : "-100",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

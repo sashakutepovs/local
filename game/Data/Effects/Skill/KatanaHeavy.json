@@ -1,0 +1,81 @@
+{
+	"item_name": "KatanaHeavy",
+	"CHS_animation": "animation_atk_SingleSpin",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":4,
+	"summon_hit": "EffectKatanaGoreHit",
+	"summon_user": "EffectKatanaAOE",
+	"no_parry":false,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "none",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection":"SpinFront",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 20,
+		"killer": 20,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "2",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.4"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "1"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.8"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "1"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundSArm","WoundMArm","WoundBelly"],
+		"chance":6
+	}]
+}

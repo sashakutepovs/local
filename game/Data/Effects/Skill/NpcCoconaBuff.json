@@ -1,0 +1,51 @@
+{
+	"item_name": "NpcCoconaBuff",
+	"CHS_animation": "animation_casting_mh",
+	"wait_hit_frame": true,
+	"range": 5,
+	"back_stab":1,
+	"hit_frame":8,
+	"summon_hit": "EfxNpcCoconaBuff",
+	"summon_hold": "EffectLifeMagicHold",
+	"summon_user": null,
+	"no_parry":false,
+	"no_dodge":false,
+	"no_aggro":true,
+	"sap":false,
+	"is_support" : true,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_casting_mh",
+	"hit_detection":"MarkSkill",
+	"projectile_type": 2,
+	"launch_since" : 90,
+	"launch_max" : 91,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 10
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": "5",
+			"lowest_req" : "-100",
+			"highest_req" : "30"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

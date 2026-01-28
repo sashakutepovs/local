@@ -1,0 +1,52 @@
+{
+	"item_name": "NpcCurvedMusket",
+	"CHS_animation": "animation_casting_musket",
+	"wait_hit_frame": true,
+	"range": 8,
+	"back_stab": 1,
+	"hit_frame": 10,
+	"summon_hit": null,
+	"summon_hold": "EffectHoldMusket",
+	"summon_user": "EffectNpcCastingMusket",
+	"stealth": false,
+	"no_parry":true,
+	"no_dodge":true,
+	"sap":false,
+	"no_aggro":true,
+	"no_action_change":true,
+	"hold_animation": "animation_hold_casting_mh",
+	"hit_detection": "NpcRangeArtillery",
+	"hold_type": "energizing",
+	"projectile_type": 2,
+	"effect_since" : 0,
+	"launch_since" : 200,
+	"launch_max" : 201,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "+",
+			"adjustment": "1",
+			"lowest_req" : "-100",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

@@ -1,0 +1,37 @@
+{
+	"item_name": "MusketHeavyRLD",
+	"CHS_animation": "animation_mc_pick_up",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_hold_sh",
+	"range": 1,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":20,
+	"summon_hold": "EffectHoldNil2",
+	"summon_hit": null,
+	"summon_user": "EffectMCreloadAmmo",
+	"hold_type": "energizing",
+	"hit_detection":"NoRangeMap",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 60,
+	"launch_max" : 61,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

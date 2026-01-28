@@ -1,0 +1,33 @@
+{
+	"item_name": "ItemBombShockTimer",
+	"wait_hit_frame": true,
+	"range": 0,
+	"back_stab":0,
+	"summon_hit": null,
+	"summon_user": "Projectile_Item_BombShockTimer",
+	"hold_type": "none",
+	"hold_animation": null,
+	"hit_detection":"BasicOnSelf",
+	"hit_frame":24,
+	"CHS_animation": "animation_atk_sh",
+	"projectile_type": -1,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 10,
+		"killer": 10,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

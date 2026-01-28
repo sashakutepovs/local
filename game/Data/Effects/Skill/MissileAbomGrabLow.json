@@ -1,0 +1,84 @@
+{
+	"item_name": "MissileAbomGrabLow",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": false,
+	"hold_animation": "animation_nil",
+	"range": 5,
+	"back_stab":1,
+	"hit_frame": 0,
+	"summon_hit": "EffectAbomGrabHit",
+	"summon_user": null,
+	"no_parry":false,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "none",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"hit_detection":"GeneralProjectileHit",
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "health",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "60",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "1"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "1"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "1"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundChest","WoundHead"],
+		"chance":2
+	},{
+		"popup_type": "State",
+		"states": ["Stun1"],
+		"chance":10
+	}]
+}

@@ -1,0 +1,90 @@
+{
+	"item_name": "ManCatcherHeavy",
+	"CHS_animation": "animation_atk_heavy",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":14,
+	"summon_hold": "EffectHoldNil2",
+	"summon_hit": "EffectPunchDoubleHit",
+	"summon_user": "EffectPunch2hHeavy",
+	"no_parry":false,
+	"no_dodge":false,
+	"no_interrupt_LonaOnly": true,
+	"sap":true,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_casting_mh",
+	"hit_detection":"BasicHeavy",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 1,
+	"launch_max" : 20,
+	"ai_hold_to_max" : true,
+	"ai_value": {
+		"assulter": 20,
+		"killer": 20,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "2",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "1.2"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.5"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundChest", "WoundHead"],
+		"chance":25
+	},{
+		"popup_type": "State",
+		"states": ["Stun3"],
+		"chance":20
+	}]
+}

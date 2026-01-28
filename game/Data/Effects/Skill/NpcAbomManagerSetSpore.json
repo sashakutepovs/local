@@ -1,0 +1,42 @@
+{
+	"item_name": "NpcAbomManagerSetSpore",
+	"CHS_animation": "animation_atk_charge",
+	"wait_hit_frame": true,
+	"range": 5,
+	"back_stab":1,
+	"hit_frame":25,
+	"summon_hit": null,
+	"summon_hold": "EffectHarassmentHold",
+	"summon_user": "AbomManagerTrap",
+	"stealth": false,
+	"no_parry":true,
+	"no_dodge":true,
+	"sap":false,
+	"no_aggro":true,
+	"no_action_change":true,
+	"hold_animation": "animation_harass_hold",
+	"hit_detection":"NpcRangeArtilleryType2",
+	"hold_type": "energizing",
+	"projectile_type": 2,
+	"effect_since" : 0,
+	"launch_since" : 60,
+	"launch_max" : 61,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "10",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

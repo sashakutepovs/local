@@ -1,0 +1,75 @@
+{
+	"item_name": "MetorStrikeStompF0",
+	"CHS_animation": "animation_atk_piercing",
+	"wait_hit_frame": true,
+	"range": 2,
+	"back_stab":1,
+	"hit_frame": 0,
+	"summon_hit": "EffectKnockbackPunchHit",
+	"summon_user": "EffectMetorStompCrack",
+	"no_parry":true,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "none",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection":"SpinNuke",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "1"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "-",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.1"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "-",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundChest","WoundHead"],
+		"chance":100
+	},{
+		"popup_type": "State",
+		"states": ["Stun2"],
+		"chance":100
+	}]
+}
