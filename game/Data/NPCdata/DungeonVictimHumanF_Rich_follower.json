@@ -1,0 +1,74 @@
+{
+	"name": "DungeonVictimHumanF_Rich_follower",
+	"race": "Human",
+	"fraction": 0,
+	"fraction_mode": 4,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 300,
+	"sensor_freq_rand" : 300,
+	"ranged":false,
+	"safe_distance": 1,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"no_aggro": true,
+	"receiver_type": 2,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"sex": 0,
+	"kinsey": 1,
+	"health": 70,
+	"sta": -1,
+	"sexy": 20,
+	"weak": 200,
+	"morality": 50,
+	"arousal": 0,
+	"will": 1000,
+	"mood":100,
+	"sat":100,
+	"atk": 8,
+	"def": 3,
+	"constitution": 5,
+	"survival": 5,
+	"scoutcraft": 0,
+	"combat": 5,
+	"wisdom": 1,
+	"move_speed": 1.8,
+	"ai": "Npc_RunAway",
+	"sex_fetish": [],
+	"sensors": [
+		"CloseNose"
+	],
+	"tri_state": {
+		"fucker": {
+			"health": ["-1000","<"]
+		},
+		"killer": {
+			"health": ["-1000","<"]
+		},
+		"assaulter": {
+			"health": ["-1000","<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "",
+		"sound_alert1": "",
+		"sound_alert2": "",
+		"sound_skill": "",
+		"sound_lost": "",
+		"sound_death": "sound_HumanFemaleDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemHumanFlesh",
+			"chance": 10
+		}],
+	"skills_killer": [],
+	"skills_assaulter": [],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}

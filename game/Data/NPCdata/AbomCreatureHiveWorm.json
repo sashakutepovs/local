@@ -1,0 +1,79 @@
+{
+	"name": "AbomCreatureHiveWorm",
+	"race": "Abomination",
+	"fraction": 9,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 60,
+	"sensor_freq_rand" : 60,
+	"ranged":true,
+	"safe_distance": 2,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"immune_tgt_states": [],
+	"immune_tgt_state_type": ["STD_AbomParasite"],
+	"is_object": false,
+	"is_tiny":true,
+	"is_small":false,
+	"is_flyer":false,
+	"delete_when_death" : "60",
+	"delete_when_frame" : "-1",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 20,
+	"sta": 100,
+	"sexy": 1,
+	"weak": 25,
+	"morality": "-100",
+	"arousal": 0,
+	"will": 300,
+	"mood":100,
+	"sat":100,
+	"atk": 1,
+	"def": 0,
+	"constitution": 6,
+	"survival": 1,
+	"scoutcraft": 15,
+	"combat": 1,
+	"wisdom": 1,
+	"move_speed": 2,
+	"ai": "Npc_AbomHiveGuard",
+	"sensors": ["Nose"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535","="]
+		},
+		"killer": {
+			"sex": ["65535","="]
+		},
+		"assaulter": {
+			"sex": ["65535","="]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_WormSpotAtk",
+		"sound_alert1": "sound_WormQuestion",
+		"sound_alert2": "sound_WormSpotAtk",
+		"sound_skill": "sound_WormSpotAtk",
+		"sound_lost": "sound_WormQuestion",
+		"sound_death": "sound_WormDed"
+	},
+	"drop_list": [],
+	"skills_killer": ["NpcWormBiteFast","NpcJumpShort"],
+	"skills_assaulter": ["NpcWormBiteFast","NpcJumpShort"],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 0
+	}
+}

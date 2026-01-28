@@ -1,0 +1,79 @@
+{
+	"name": "FishkindPlayerChargerF",
+	"race": "Fishkind",
+	"fraction": 14,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 70,
+	"sensor_freq_base": 15,
+	"sensor_freq_rand" : 25,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"receiver_type": 1,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectOverKill",
+	"sex": 0,
+	"kinsey": 1,
+	"health": 100,
+	"sta": 200,
+	"sexy": 1,
+	"weak": 1,
+	"morality": "-100",
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 15,
+	"def": 2,
+	"constitution": 40,
+	"survival": 20,
+	"scoutcraft": 15,
+	"combat": 8,
+	"wisdom": 1,
+	"move_speed": 3.5,
+	"ai": "Npc_PlayerMasterFriendCharge",
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 4,
+			"anal": 4,
+			"mouth": 4
+		},
+		"sex_fetish_appetizer": ["none","none","none"],
+		"sex_fetish_ending": ["none","none","none"]
+	},
+	"sensors": [
+		"Multi"
+	],
+	"tri_state": {
+		"fucker": {
+			"weak": ["40",">"],
+			"sex": ["1","="]
+		},
+		"killer": {
+			"weak": ["10","<"]
+		},
+		"assaulter": {
+			"weak": ["9",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "FishkindSmHurt",
+		"sound_alert1": "FishkindSmQuestion",
+		"sound_alert2": "FishkindSmSpot",
+		"sound_skill": "FishkindSmSkill",
+		"sound_lost": "FishkindSmQuestion",
+		"sound_death": "FishkindSmDed"
+	},
+	"drop_list": [],
+	"skills_killer": ["BasicNormal", "NpcBasicSh", "BasicHeavy","NpcJumpShort"],
+	"skills_assaulter": ["BasicNormal", "NpcBasicSh", "BasicHeavy","NpcJumpShort"],
+	"skills_fucker":["NpcFuckerGrabWarrior"],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

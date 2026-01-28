@@ -1,0 +1,77 @@
+{
+	"name": "CompDoggy",
+	"race": "Dog",
+	"fraction": 4,
+	"fraction_mode": 4,
+	"friendly_fire": true,
+	"friendly_aggro": 100,
+	"sensor_freq_base": 5,
+	"sensor_freq_rand" : 40,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCompanionFrontDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 100,
+	"sta": 200,
+	"sexy": 1,
+	"weak": 1,
+	"morality": 50,
+	"arousal": 0,
+	"will": 65535,
+	"mood":100,
+	"sat":100,
+	"atk": 10,
+	"def": 1,
+	"constitution": 6,
+	"survival": 1,
+	"scoutcraft": 50,
+	"combat": 1,
+	"wisdom": 1,
+	"move_speed":4.5,
+	"ai": "Npc_CompanionCharge",
+	"sensors": ["Nose_follower","ExplorerTrapDestroyer"],
+	"sex_fetish": [],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535","="]
+		},
+		"killer": {
+			"sex": ["65535","="]
+		},
+		"assaulter": {
+			"sex": ["65535","="]
+		}
+	},
+	"sound": {
+		"sound_aggro": "dogHurt",
+		"sound_alert1": "dogSpot",
+		"sound_alert2": "dogSpot",
+		"sound_skill": "dogAtk",
+		"sound_lost": "dogHurt",
+		"sound_death": "dogDead"
+	},
+
+	"drop_list": [],
+	"skills_fucker":		["NpcSwordHeavy","NpcSlashMH","NpcWormBiteFast","NpcJumpShort"],
+	"skills_killer":		["NpcSwordHeavy","NpcSlashMH","NpcWormBiteFast","NpcJumpShort"],
+	"skills_assaulter":		["NpcSwordHeavy","NpcSlashMH","NpcWormBiteFast","NpcJumpShort"],
+	"drop_amt": {
+		"min": 0 ,
+		"max": 0
+	}
+}

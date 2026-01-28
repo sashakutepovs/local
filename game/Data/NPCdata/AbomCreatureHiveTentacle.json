@@ -1,0 +1,69 @@
+{
+	"name": "AbomCreatureHiveTentacle",
+	"race": "Abomination",
+	"fraction":9,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 15,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 1,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"immune_tgt_states": [],
+	"immune_tgt_state_type": ["STD_AbomParasite"],
+	"is_object":false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectOverKill",
+	"sex": 99,
+	"kinsey": 99,
+	"health": 15,
+	"sta": 60000,
+	"weak": "-50",
+	"sexy": 0,
+	"morality": "-100",
+	"arousal": 0,
+	"will": 0,
+	"mood":0,
+	"sat":0,
+	"atk": 30,
+	"def": 70,
+	"constitution": 60,
+	"survival": 2,
+	"scoutcraft": 15,
+	"combat": 0,
+	"wisdom": 0,
+	"move_speed": 0,
+	"ai": "Npc_AbomHiveTentcle",
+	"sensors": ["MeleeTurretVision"],
+	"sex_fetish": [],
+	"tri_state": {
+		"fucker": {
+			"health": ["-65535","<"]
+		},
+		"killer": {
+			"health": ["0",">"]
+		},
+		"assaulter": {
+			"health": ["0",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_TetacleHurt",
+		"sound_alert1": "sound_TetacleSpot",
+		"sound_alert2": "sound_TetacleSpot",
+		"sound_skill": "sound_TetacleAtk",
+		"sound_lost": "",
+		"sound_death": "sound_TetacleDed"
+	},
+	"skills_killer":["NpcTentacleNormalMh","NpcTentacleNormalMhAngle1","NpcTentacleNormalMhAngle2"],
+	"skills_assaulter":["NpcTentacleNormalMh","NpcTentacleNormalMhAngle1","NpcTentacleNormalMhAngle2"],
+	"skills_fucker":["NpcTentacleNormalMh","NpcTentacleNormalMhAngle1","NpcTentacleNormalMhAngle2"],
+	"drop_list": [],
+	"drop_amt": {
+		"min": 0,
+		"max": 0
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"name": "AbomCreatureTentacleHide",
+	"race": "Abomination",
+	"fraction":9,
+	"fraction_mode": 0,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 1,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 1,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"immune_tgt_states": [],
+	"immune_tgt_state_type": ["STD_AbomParasite"],
+	"is_object":true,
+	"delete_when_death" : "0",
+	"delete_when_frame" : "-1",
+	"death_event":"ProjectileNpcAbomTrap",
+	"sex": 99,
+	"kinsey": 99,
+	"health": 1,
+	"sta": 1,
+	"weak": "-50",
+	"sexy": 0,
+	"morality": "-100",
+	"arousal": 0,
+	"will": 0,
+	"mood":0,
+	"sat":0,
+	"atk": 0,
+	"def": 0,
+	"constitution": 0,
+	"survival": 0,
+	"scoutcraft": 9999,
+	"combat": 0,
+	"wisdom": 0,
+	"move_speed": 0,
+	"ai": "GameTrap",
+	"sex_fetish": [
+		"事件名稱"
+	],
+	"sensors": ["TrapVision"],
+	"tri_state": {
+		"fucker": {
+			"health": ["-1000","<"]
+		},
+		"killer": {
+			"health": ["0",">"]
+		},
+		"assaulter": {
+			"health": ["-1000","<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "",
+		"sound_alert1": "",
+		"sound_alert2": "",
+		"sound_skill": "",
+		"sound_lost": "",
+		"sound_death": ""
+	},
+	"drop_list": [],
+	"skills_killer":["TrapAbominationSupprise"],
+	"skills_assaulter":["TrapAbominationSupprise"],
+	"skills_fucker":["TrapAbominationSupprise"],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	},
+	"item_count": [3,5]
+}

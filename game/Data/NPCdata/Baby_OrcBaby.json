@@ -1,0 +1,87 @@
+{
+	"name": "Baby_OrcBaby",
+	"race": "Orkind",
+	"fraction": 5,
+	"fraction_mode": 4,
+	"friendly_fire": true,
+	"friendly_aggro": 80,
+	"sensor_freq_base": 25,
+	"sensor_freq_rand" : 50,
+	"ranged":false,
+	"safe_distance": 5,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"is_tiny":false,
+	"is_small":true,
+	"is_flyer":false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCharDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 20,
+	"sta": 40,
+	"sexy": 1,
+	"weak": 25,
+	"morality": "-100",
+	"arousal": 0,
+	"will": 300,
+	"mood":100,
+	"sat":100,
+	"atk": 1,
+	"def": 0,
+	"constitution": 6,
+	"survival": 1,
+	"scoutcraft": 15,
+	"combat": 1,
+	"wisdom": 1,
+	"move_speed": 1.5,
+	"ai": "Npc_HitRunCharge",
+	"sensors": ["Nose"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["600",">"],
+			"sex": ["100",">"],
+			"lactation_level": ["10","<"]
+		},
+		"killer": {
+			"weak": ["50","<"]
+		},
+		"assaulter": {
+			"lactation_level": ["10",">"],
+			"sex": ["0","="]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_goblinBB_roar",
+		"sound_alert1": "sound_goblinBB_idle",
+		"sound_alert2": "sound_goblinBB_spot",
+		"sound_skill": "sound_goblinBB_roar",
+		"sound_lost": "sound_goblinBB_idle",
+		"sound_death": "sound_goblinBB_death"
+	},
+	"drop_list": [
+		{
+			"name": "ItemHumanoidFlesh",
+			"chance": 100
+		}
+	],
+	"skills_killer": ["NpcBabyAttack","NpcBabyAttack2"],
+	"skills_assaulter":["NpcHarassFeeding"],
+	"skills_fucker": ["NpcMasturbationMale","NpcFuckerGrab"],
+	"drop_amt": {
+		"min": 1,
+		"max": 1
+	}
+
+}

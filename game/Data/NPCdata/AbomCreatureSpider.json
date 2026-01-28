@@ -1,0 +1,95 @@
+{
+	"name": "AbomCreatureSpider",
+	"race": "Abomination",
+	"fraction": 9,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 10,
+	"sensor_freq_rand" : 40,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"immune_tgt_states": [],
+	"immune_tgt_state_type": ["STD_AbomParasite"],
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectAbomDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 40,
+	"sta": 200,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": "-100",
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 10,
+	"def": 15,
+	"constitution": 15,
+	"survival": 1,
+	"scoutcraft": 40,
+	"combat": 10,
+	"wisdom": 1,
+	"move_speed": 2.5,
+	"ai": "Npc_AbomSpiderCharge",
+	"sensors": ["Nose"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 4,
+			"anal": 4,
+			"mouth": 4
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["40",">"],
+			"sex": ["2","<"]
+		},
+		"killer": {
+			"weak": ["10","<"]
+		},
+		"assaulter": {
+			"weak": ["9",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_WormCommonLoud",
+		"sound_alert1": "sound_WormCommonLoud",
+		"sound_alert2": "sound_WormCommonLoud",
+		"sound_skill": "sound_WormCommonLoud",
+		"sound_lost": "sound_WormCommonLoud",
+		"sound_death": "sound_WormCommonDedLoud"
+	},
+	"drop_list": [
+		{
+			"name": "ItemMutantFlesh",
+			"chance": 100
+		}
+	],
+	"skills_killer": ["BasicNormal","NpcAbomSpiderBite","NpcAbomSpiderSetTrap"],
+	"skills_assaulter": ["BasicNormal","NpcAbomSpiderSetTrap"],
+	"skills_fucker":["NpcFuckerMh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch",
+					"NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 1,
+		"max": 1
+	},
+	"default_state": {
+		"ParasitedPotWorm":{
+			"chance": 100,
+			"times": 5
+			},
+		"ParasitedMoonWorm":{
+			"chance": 100,
+			"times": 5
+			}
+	}
+}

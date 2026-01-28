@@ -1,0 +1,108 @@
+{
+	"name": "CompHumanWarrior",
+	"race": "Human",
+	"fraction": 7,
+	"fraction_mode": 4,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 15,
+	"sensor_freq_rand" : 20,
+	"fated_enemy": [5,6,9,10],
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage": false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCompanionFrontDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 190,
+	"sta": 500,
+	"sexy": 1,
+	"weak": 1,
+	"morality": 20,
+	"arousal": 0,
+	"will": 1000,
+	"mood":100,
+	"sat":100,
+	"atk": 13,
+	"def": 3,
+	"constitution": 15,
+	"survival": 10,
+	"scoutcraft": 27,
+	"combat": 8,
+	"wisdom": 1,
+	"move_speed": 4,
+	"ai": "Npc_CompanionCharge",
+	"sensors": ["Eyes_follower"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["400", ">"],
+			"sexy": ["300", ">"],
+			"sex": ["0", "="]
+		},
+		"killer": {
+			"sex": ["65535", "="]
+		},
+		"assaulter": {
+			"sex": ["65535", "="]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_MaleWarriorAtk",
+		"sound_alert1": "sound_MaleWarriorQuestion",
+		"sound_alert2": "sound_MaleWarriorSpot",
+		"sound_skill": "sound_MaleWarriorAtk",
+		"sound_lost": "sound_MaleWarriorQuestion",
+		"sound_death": "sound_MaleWarriorDed"
+	},
+	"drop_list": [{
+			"name": "ItemMhWoodenClub",
+			"chance": 1
+		},
+		{
+			"name": "ItemShWoodenShield",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagBot",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagVag",
+			"chance": 1
+		},
+		{
+			"name": "ItemRagMidExtra",
+			"chance": 1
+		},
+		{
+			"name": "ItemDryFood",
+			"chance": 1
+		},
+		{
+			"name": "ItemFish",
+			"chance": 5
+		}
+	],
+	"skills_killer": ["WoodenClubNormal", "NpcBasicSh", "BasicHeavy","WoodenShieldControl"],
+	"skills_assaulter": ["WoodenClubNormal", "NpcBasicSh", "BasicHeavy","WoodenShieldControl"],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcMasturbationMale","NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}

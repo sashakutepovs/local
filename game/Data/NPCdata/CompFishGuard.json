@@ -1,0 +1,104 @@
+{
+	"name": "CompFishGuard",
+	"race": "Fishkind",
+	"fraction": 8,
+	"fraction_mode": 4,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 23,
+	"sensor_freq_rand" : 20,
+	"fated_enemy": [13,14],
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCompanionFrontDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 400,
+	"sta": 400,
+	"sexy": 1,
+	"weak": 1,
+	"morality": 50,
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 18,
+	"def": 4,
+	"constitution":23,
+	"survival":8,
+	"scoutcraft": 25,
+	"combat": 25,
+	"wisdom":2,
+	"move_speed": 3.2,
+	"ai": "Npc_CompanionCharge",
+	"sensors": ["Multi_follower"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["unique_event_Piercing","none","none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["19",">"],
+			"sex": ["0","="]
+		},
+		"killer": {
+		"morality": ["0","<"]
+		},
+		"assaulter": {
+		"morality": ["1","<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "FishkindLgHurt",
+		"sound_alert1": "FishkindLgQuestion",
+		"sound_alert2": "FishkindLgSpot",
+		"sound_skill": "FishkindLgSkill",
+		"sound_lost": "FishkindLgQuestion",
+		"sound_death": "FishkindLgDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemRawMeat",
+			"chance": 10
+		},
+		{
+			"name": "ItemHumanFlesh",
+			"chance": 10
+		},
+		{
+			"name": "ItemFish",
+			"chance": 10
+		},
+		{
+			"name": "Item2MhManCatcher",
+			"chance": 10
+		},
+		{
+			"name": "ItemCoin2",
+			"chance": 5
+		},
+		{
+			"name": "ItemCoin1",
+			"chance": 100
+		}
+	],
+	"skills_killer": ["ManCatcherNormal","BasicNormal","NpcBasicSh","NpcJumpShort","NpcThrowHook"],
+	"skills_assaulter": ["ManCatcherNormal","BasicNormal","NpcBasicSh","NpcJumpShort","NpcThrowHook"],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcMasturbationMale","NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

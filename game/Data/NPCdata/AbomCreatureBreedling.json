@@ -1,0 +1,93 @@
+{
+	"name": "AbomCreatureBreedling",
+	"race": "Abomination",
+	"fraction": 9,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 10,
+	"sensor_freq_rand" : 20,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"immune_tgt_states": [],
+	"immune_tgt_state_type": ["STD_AbomParasite"],
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectAbomDed",
+	"sex": 1,
+	"kinsey": 1,
+	"health": 60,
+	"sta": 120,
+	"sexy": 1,
+	"weak": 25,
+	"morality": "-100",
+	"arousal": 0,
+	"will": 300,
+	"mood":100,
+	"sat":100,
+	"atk": 5,
+	"def": 1,
+	"constitution": 12,
+	"survival": 1,
+	"scoutcraft": 15,
+	"combat": 1,
+	"wisdom": 1,
+	"move_speed": 4.8,
+	"ai": "Npc_AbomCharge",
+	"sensors": ["Nose"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["40",">"],
+			"sex": ["2","<"]
+		},
+		"killer": {
+			"weak": ["10","<"]
+		},
+		"assaulter": {
+			"weak": ["9",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "BreedlingPain",
+		"sound_alert1": "BreedlingSpot",
+		"sound_alert2": "BreedlingSpot",
+		"sound_skill": "BreedlingAtk",
+		"sound_lost": "BreedlingSpot",
+		"sound_death": "BreedlingDed"
+	},
+	"skills_killer": ["BasicNormalNoEFX"],
+	"skills_assaulter": ["BasicNormalNoEFX"],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerGrab"],
+	"drop_list": [
+		{
+			"name": "ItemMutantFlesh",
+			"chance": 100
+		}
+	],
+	"drop_amt": {
+		"min": 1,
+		"max": 1
+	},
+	"default_state": {
+		"ParasitedPotWorm":{
+			"chance": 100,
+			"times": 5
+			},
+		"ParasitedMoonWorm":{
+			"chance": 100,
+			"times": 5
+			}
+	}
+}

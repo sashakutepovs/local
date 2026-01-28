@@ -1,0 +1,85 @@
+{
+	"name": "CompFireMage",
+	"race": "Human",
+	"fraction": 3,
+	"fraction_mode": 4,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 15,
+	"sensor_freq_rand" : 20,
+	"fated_enemy": [5,9,10],
+	"ranged":true,
+	"safe_distance": 3,
+	"immune_state_effect": false,
+	"immune_damage" : false,
+	"is_object": false,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCompanionBackDed",
+	"sex": 0,
+	"kinsey": 1,
+	"health": 70,
+	"sta": 50,
+	"sexy": 1,
+	"weak": 1,
+	"morality": 50,
+	"arousal": 0,
+	"will": 1000,
+	"mood":100,
+	"sat":100,
+	"atk": 2,
+	"def": 1,
+	"constitution":1,
+	"survival":8,
+	"scoutcraft": 10,
+	"combat": 1,
+	"wisdom":65,
+	"move_speed": 3.0,
+	"ai": "Npc_CompanionSlowMage",
+	"sensors": ["Eyes_follower"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535","="]
+		},
+			"killer": {
+			"morality": ["0","<"]
+		},
+			"assaulter": {
+			"morality": ["1","<"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "teenHighHurt",
+		"sound_alert1": "teenHighQuestion",
+		"sound_alert2": "teenHighAtk",
+		"sound_skill": "teenHighAtk",
+		"sound_lost": "teenHighLost",
+		"sound_death": "teenHighDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemMhFireStaff",
+			"chance": 3
+		},
+		{
+			"name": "ItemCoin1",
+			"chance": 100
+		}
+	],
+	"skills_killer": ["NpcFireShotgun","FireStaffNormal","NpcCurvedFireArtillery", "NpcBasicSh", "BasicHeavy"],
+	"skills_assaulter": ["NpcFireShotgun","FireStaffNormal","NpcCurvedFireArtillery", "NpcBasicSh", "BasicHeavy"],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 2
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"name": "AbomCreatureZombieRegST",
+	"race": "Abomination",
+	"fraction": 9,
+	"fraction_mode": 0,
+	"friendly_fire": true,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 60,
+	"sensor_freq_rand" : 60,
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": true,
+	"immune_damage" : false,
+	"immune_tgt_states": [],
+	"immune_tgt_state_type": ["STD_AbomParasite"],
+	"is_object": false,
+	"delete_when_death" : "0",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectAbomZBDed",
+	"sex": 1,
+	"health": 300,
+	"sta": 50,
+	"sexy": 1,
+	"weak": "-50",
+	"morality": "-100",
+	"arousal": 0,
+	"will": 600,
+	"mood":100,
+	"sat":100,
+	"atk": 5,
+	"def": 3,
+	"constitution": 15,
+	"survival": 1,
+	"scoutcraft": 10,
+	"combat": 8,
+	"wisdom": 1,
+	"move_speed": 2,
+	"ai": "Npc_UndeadCharge",
+	"sensors": ["Multi_short"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 4,
+			"anal": 4,
+			"mouth": 4
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"weak": ["40",">"],
+			"sex": ["2","<"]
+		},
+		"killer": {
+			"weak": ["10","<"]
+		},
+		"assaulter": {
+			"weak": ["9",">"]
+		}
+	},
+	"sound": {
+		"sound_aggro": "sound_ZombieSpot",
+		"sound_alert1": "sound_ZombieATK",
+		"sound_alert2": "sound_ZombieATK",
+		"sound_skill": "sound_ZombieATK",
+		"sound_lost": "sound_ZombieSpot",
+		"sound_death": "sound_ZombieDED"
+	},
+
+	"drop_list": [],
+	"skills_killer": ["NpcAbomSpiderBite"],
+	"skills_assaulter": ["NpcAbomSpiderBite"],
+	"skills_fucker":["NpcFuckerMh","NpcFuckerSh","NpcHarassBoobTouch","NpcHarassAnalTouch","NpcHarassVagTouch","NpcHarassKissed","NpcHarassVagLick","NpcHarassPunch"
+					,"NpcFuckerGrab"
+					],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	},
+	"default_state": {
+		"ParasitedPotWorm":{
+			"chance": 100,
+			"times": 5
+			},
+		"ParasitedMoonWorm":{
+			"chance": 100,
+			"times": 5
+			}
+	}
+}

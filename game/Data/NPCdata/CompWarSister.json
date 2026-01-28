@@ -1,0 +1,90 @@
+{
+	"name": "CompWarSister",
+	"race": "Moot",
+	"fraction": 13,
+	"fraction_mode": 4,
+	"friendly_fire": false,
+	"friendly_aggro": 0,
+	"sensor_freq_base": 12,
+	"sensor_freq_rand" : 20,
+	"fated_enemy": [8,9,10,14,15],
+	"ranged":false,
+	"safe_distance": 2,
+	"immune_state_effect": false,
+	"immune_damage": false,
+	"is_object": false,
+	"receiver_type": 0,
+	"delete_when_death" : "1234",
+	"delete_when_frame" : "-1",
+	"death_event":"EffectCompanionFrontDed",
+	"sex": 0,
+	"kinsey": 1,
+	"health": 200,
+	"sta": 400,
+	"sexy": 10,
+	"weak": 1,
+	"morality": 50,
+	"arousal": 0,
+	"will": 1000,
+	"mood":100,
+	"sat":100,
+	"atk": 15,
+	"def": 9,
+	"constitution": 30,
+	"survival": 15,
+	"scoutcraft": 25,
+	"combat": 10,
+	"wisdom": 15,
+	"move_speed": 4,
+	"ai": "Npc_CompanionCharge",
+	"sensors": ["Eyes_follower"],
+	"sex_taste": {
+		"sex_strength": {
+			"vag": 3,
+			"anal": 3,
+			"mouth": 3
+		},
+		"sex_fetish_appetizer": ["none"],
+		"sex_fetish_ending": ["none"]
+	},
+	"tri_state": {
+		"fucker": {
+			"sex": ["65535", "="]
+		},
+		"killer": {
+			"weak": ["999", ">"],
+			"sexy": ["999", ">"]
+		},
+		"assaulter": {
+			"sex": ["65535", "="]
+		}
+	},
+	"sound": {
+		"sound_aggro": "FemaleWarriorSpot",
+		"sound_alert1": "sound_HumanFemaleLost",
+		"sound_alert2": "FemaleWarriorAtk",
+		"sound_skill": "FemaleWarriorAtk",
+		"sound_lost": "sound_HumanFemaleLost",
+		"sound_death": "FemaleWarriorDed"
+	},
+	"drop_list": [
+		{
+			"name": "ItemHumanoidFlesh",
+			"chance": 50
+		},
+		{
+			"name": "ItemCoin2",
+			"chance": 1
+		},{
+			"name": "ItemCoin1",
+			"chance": 100
+		}
+		],
+	"skills_killer": ["WoodenClubNormal", "NpcBasicSh","LanternHeavy","WoodenClubNormal","WoodenShieldControl","NpcBasicSh","LanternHeavy","NpcCurvedMolotov"],
+	"skills_assaulter": ["WoodenClubNormal", "NpcBasicSh","LanternHeavy","WoodenClubNormal","WoodenShieldControl","NpcBasicSh","LanternHeavy","NpcCurvedMolotov"],
+	"skills_fucker":[],
+	"drop_amt": {
+		"min": 0,
+		"max": 1
+	}
+}
