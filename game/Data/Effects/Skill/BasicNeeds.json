@@ -1,0 +1,25 @@
+{
+	"item_name": "BasicNeeds",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": false,
+	"hold_animation": "animation_nil",
+	"range": 1,
+	"back_stab":1,
+	"stealth": true,
+	"is_support" : true,
+	"hit_frame":1,
+	"summon_hit": null,
+	"summon_user": "EffectBasicNeeds",
+	"hold_type": "none",
+	"hit_detection":"NoRangeMap",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [],
+	"effect": [],
+	"add_state": []
+}

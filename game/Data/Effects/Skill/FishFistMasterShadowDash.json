@@ -1,0 +1,32 @@
+{
+	"item_name": "FishFistMasterShadowDash",
+	"CHS_animation": "animation_FishFistMasterShadowDashEnd",
+	"icon_index": 698,
+	"is_mind_control_usable": true,
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":6,
+	"summon_hit": null,
+	"summon_hold": "EffecFishFistMasterShadowDashHold",
+	"summon_user": null,
+	"no_parry":false,
+	"no_dodge":false,
+	"no_interrupt": true,
+	"sap":true,
+	"hold_type": "energizing",
+	"hold_animation": "animation_FishFistMasterShadowDashHold",
+	"hit_detection":"BasicOnSelf",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 49,
+	"launch_max" : 50,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [],
+	"effect": [],
+	"add_state": []
+}

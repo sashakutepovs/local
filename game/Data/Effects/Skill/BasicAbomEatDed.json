@@ -1,0 +1,39 @@
+{
+	"item_name": "BasicAbomEatDed",
+	"CHS_animation": "animation_mc_pick_up",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_hold_casting_mh",
+	"range": 1,
+	"back_stab":1,
+	"stealth": false,
+	"no_interrupt": true,
+	"is_support" : true,
+	"hit_frame":20,
+	"summon_hold": "EffectAbomGrabHoldEatDed",
+	"summon_hit": null,
+	"summon_user": "EffectAbomEatDed",
+	"hold_type": "energizing",
+	"hit_detection":"NoRangeMap",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 1,
+	"launch_max" : 60,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

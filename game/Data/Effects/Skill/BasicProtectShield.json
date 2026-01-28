@@ -1,0 +1,42 @@
+{
+	"item_name": "BasicProtectShield",
+	"CHS_animation": "animation_casting_mh",
+	"wait_hit_frame": true,
+	"range": 5,
+	"back_stab":0,
+	"summon_hit": "ProjPlayerSaintShield",
+	"summon_user": "EfxPlayerSaintShield",
+	"summon_hold": "EffectSaintMagicHold3",
+	"hold_animation": "animation_atk_pray_hold",
+	"hold_type": "holding",
+	"is_support" : true,
+	"stealth": false,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_aggro":true,
+	"no_action_change":true,
+	"sap":false,
+	"hit_detection":"BasicOnSelf",
+	"hit_frame":30,
+	"projectile_type": 0,
+	"launch_since": 30 ,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "4",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

@@ -1,0 +1,80 @@
+{
+	"item_name": "FishFistMasterLP",
+	"CHS_animation": "animation_FishFistMasterLP",
+	"icon_index": 693,
+	"is_mind_control_usable": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":11,
+	"wait_hit_frame": true,
+	"hit_cancel_mode":"Differen",
+	"hit_cancel_req_a_tgt": true,
+	"summon_hit": "EffectHeavyPunchHit",
+	"summon_user": "EffectFishFistMasterPunch",
+	"no_parry":false,
+	"no_dodge":false,
+	"no_interrupt": true,
+	"sap":true,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection":"Piercing",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "5"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.5"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "10"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundChest","WoundHead"],
+		"chance":2
+	},{
+		"popup_type": "State",
+		"states": ["Stun3"],
+		"chance":5
+	}]
+}

@@ -1,0 +1,51 @@
+{
+	"item_name": "BasicAbomGrab",
+	"CHS_animation": "animation_atk_sh_long",
+	"wait_hit_frame": true,
+	"range": 5,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":2,
+	"summon_user": "EffectAbomGrabPull",
+	"summon_hold": "EffectAbomGrabHold",
+	"summon_hit": "ProjAbomGrab",
+	"no_interrupt": true,
+	"no_parry":true,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_casting_mh",
+	"hit_detection":"Missile",
+	"projectile_type": 1,
+	"effect_since" : 0,
+	"launch_since" : 0,
+	"launch_max" : 50,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "2",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "health",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "1",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

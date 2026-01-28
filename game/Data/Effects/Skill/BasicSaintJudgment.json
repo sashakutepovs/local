@@ -1,0 +1,42 @@
+{
+	"item_name": "BasicSaintJudgment",
+	"CHS_animation": "animation_atk_SpinsQuick",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":25,
+	"summon_hold": "EffectSaintMagicHold",
+	"summon_hit": null,
+	"summon_user": "ProjSaintJudgment",
+	"stealth": false,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_aggro":true,
+	"no_action_change":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_casting_mh",
+	"hit_detection":"BasicAttack",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 79,
+	"launch_max" : 80,
+	"ai_value": {
+		"assulter": 10,
+		"killer": 10,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "3",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

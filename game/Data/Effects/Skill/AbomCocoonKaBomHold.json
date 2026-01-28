@@ -1,0 +1,39 @@
+{
+	"item_name": "AbomCocoonKaBomHold",
+	"CHS_animation": "animation_atk_backstab",
+	"wait_hit_frame": true,
+	"range": 2,
+	"back_stab": 1,
+	"hit_frame": 1,
+	"summon_hit": null,
+	"summon_hold": "EffectSporeAttackHold",
+	"summon_user": null,
+	"no_parry":true,
+	"no_dodge":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection": "Kabom",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 180,
+	"launch_max" : 181,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "health",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "21",
+			"lowest_req" : "-65535",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

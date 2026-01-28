@@ -1,0 +1,93 @@
+{
+	"item_name": "BasicWhoreSexService_vag",
+	"CHS_animation": "animation_atk_charge",
+	"is_sex_skill": true,
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":3,
+	"summon_hit": "EffectHarVagTouchHit",
+	"summon_hold": "EffectHarassmentHold",
+	"summon_user": null,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_aggro":true,
+	"no_action_change":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_harass_hold",
+	"hit_detection": "SexStruggle",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 60,
+	"launch_max" : 90,
+	"ai_value": {
+		"assulter": 1,
+		"killer": 1,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "arousal",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "-65535",
+			"highest_req" : "101"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "sex_vag_atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.1"
+			},
+			"compare": {
+				"attribute_name": "constitution",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Arousal",
+			"base": {
+				"attribute_name": "sex_vag_atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "2.5"
+			},
+			"compare": {
+				"attribute_name": "constitution",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "+",
+				"attribute_name": "arousal",
+				"attribute_type": "current"
+			}
+		}],
+	"add_state": []
+}

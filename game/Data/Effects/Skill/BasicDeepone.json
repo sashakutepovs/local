@@ -1,0 +1,38 @@
+{
+	"item_name": "BasicDeepone",
+	"CHS_animation": "animation_JumpTurn",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_TurnLoop",
+	"range": 1,
+	"back_stab":1,
+	"stealth": false,
+	"is_support" : true,
+	"hit_frame":20,
+	"summon_hold": "EffectHoldWaterTurn",
+	"summon_hit": null,
+	"summon_user": "EffectMCBasicDeepone",
+	"hold_type": "energizing",
+	"hit_detection":"NoRangeMap",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 120,
+	"launch_max" : 121,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

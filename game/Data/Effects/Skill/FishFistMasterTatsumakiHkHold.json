@@ -1,0 +1,32 @@
+{
+	"item_name": "FishFistMasterTatsumakiHkHold",
+	"CHS_animation": "animation_FishFistMasterTatsumaki_end",
+	"icon_index": 696,
+	"is_mind_control_usable": true,
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":6,
+	"summon_hit": null,
+	"summon_hold": "EfxFishFistMasterTatsumakiHkHold",
+	"summon_user": null,
+	"no_parry":false,
+	"no_dodge":false,
+	"no_interrupt": true,
+	"sap":true,
+	"hold_type": "energizing",
+	"hold_animation": "animation_FishFistMasterTatsumaki_hold",
+	"hit_detection":"ChargeBig",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 119,
+	"launch_max" : 120,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [],
+	"effect": [],
+	"add_state": []
+}

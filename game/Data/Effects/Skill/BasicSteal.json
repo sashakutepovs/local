@@ -1,0 +1,43 @@
+{
+	"item_name": "BasicSteal",
+	"CHS_animation": "animation_atk_backstab",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1,
+	"stealth": true,
+	"is_support" : true,
+	"hit_frame":8,
+	"summon_hit": "EffectLonaStealHit",
+	"summon_user": null,
+	"summon_hold": "EffectHoldNil2",
+	"no_parry":true,
+	"no_dodge":false,
+	"no_aggro":true,
+	"no_action_change":true,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_sh",
+	"hit_detection":"BasicAttack",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 40,
+	"launch_max" : 41,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "3",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

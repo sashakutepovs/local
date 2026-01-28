@@ -1,0 +1,32 @@
+{
+	"item_name": "FishFistMasterDashHpCombo",
+	"CHS_animation": "animation_FishFistMasterLK",
+	"icon_index": 693,
+	"is_mind_control_usable": true,
+	"wait_hit_frame": false,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":6,
+	"summon_hit": null,
+	"summon_hold": "EffectHoldNil2",
+	"summon_user": "EfxComboFishFistMasterDashHpCombo",
+	"no_parry":false,
+	"no_dodge":false,
+	"no_interrupt": true,
+	"sap":true,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection":"MarkSkill",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 19,
+	"launch_max" : 20,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [],
+	"effect": [],
+	"add_state": []
+}

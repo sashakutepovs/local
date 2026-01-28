@@ -1,0 +1,85 @@
+{
+	"item_name": "BasicNunHeal",
+	"CHS_animation": "animation_atk_backstab",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_atk_pray_hold",
+	"range": 1,
+	"back_stab":1,
+	"stealth": false,
+	"hit_frame":20,
+	"summon_hold": "EffectHoldNil2",
+	"summon_hit": "EffectLifeBuffHit",
+	"summon_user": null,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_aggro":true,
+	"no_action_change":true,
+	"is_support" : true,
+	"hold_type": "energizing",
+	"hit_detection":"SmallAttack",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 20,
+	"launch_max" : 21,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "2",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"race_skip": ["Undead"],
+			"popup_type": "PlusSta",
+			"base": {
+				"attribute_name": "constitution",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.7"
+			},
+			"compare": {
+				"attribute_name": null,
+				"attribute_type": "current",
+				"adjustor": "-",
+				"adjustment": "10"
+			},
+			"damage": {
+				"adjustor": "+",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"race_skip": ["Undead"],
+			"popup_type": "PlusHealth",
+			"base": {
+				"attribute_name": "constitution",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.5"
+			},
+			"compare": {
+				"attribute_name": null,
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "+",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": []
+}

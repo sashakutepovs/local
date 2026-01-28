@@ -1,0 +1,82 @@
+{
+	"item_name": "Buring_DOT_SUR",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": false,
+	"range": 0,
+	"back_stab": 1,
+	"hit_frame": 1,
+	"summon_hit": "EffectBurningHit",
+	"summon_user": null,
+	"no_parry":true,
+	"no_dodge":true,
+	"sap":false,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection": "SelfSmallAttack",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "health",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "-65535",
+			"highest_req" : "5000"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "survival",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "10"
+			},
+			"compare": {
+				"attribute_name": "survival",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "1.5"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": null,
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "6"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundChest", "WoundHead"],
+		"chance":10
+		}
+	]
+}

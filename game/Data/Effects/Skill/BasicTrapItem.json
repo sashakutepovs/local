@@ -1,0 +1,38 @@
+{
+	"item_name": "BasicTrapItem",
+	"CHS_animation": "animation_mc_pick_up",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_atk_shoot_hold",
+	"range": 1,
+	"back_stab":1,
+	"stealth": true,
+	"is_support" : true,
+	"hit_frame":1,
+	"summon_hit": null,
+	"summon_hold": "EffectHoldBuild",
+	"summon_user": "ProjectileTriggerTrap",
+	"hold_type": "energizing",
+	"hit_detection":"NoRangeMap",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 70,
+	"launch_max" : 71,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

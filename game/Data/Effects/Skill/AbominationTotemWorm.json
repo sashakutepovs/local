@@ -1,0 +1,49 @@
+{
+	"item_name": "AbominationTotemWorm",
+	"CHS_animation": "animation_atk_sh",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":8,
+	"summon_user": null,
+	"summon_hold": "EffectBloodMagicHold",
+	"summon_hit": "ProjPlayerAbomMeatWorm",
+	"no_parry":true,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_casting_sh",
+	"hit_detection":"FrontSummonUnit",
+	"projectile_type": 2,
+	"effect_since" : 0,
+	"launch_since" : 30,
+	"launch_max" : 31,
+	"ai_value": {
+		"assulter": 5,
+		"killer": 5,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "2",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "3",
+			"lowest_req" : "-200",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

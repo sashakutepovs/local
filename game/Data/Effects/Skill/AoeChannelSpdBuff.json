@@ -1,0 +1,77 @@
+{
+	"item_name": "AoeChannelSpdBuff",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": false,
+	"range": 5,
+	"back_stab":1,
+	"hit_frame": 0,
+	"summon_hit": "EffectAoeChannelSpdBuff",
+	"summon_user": null,
+	"sap":false,
+	"no_aggro":true,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_action_change":true,
+	"no_interrupt": true,
+	"is_support" : true,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection":"FriendlyAOE",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [],
+	"effect": [{
+			"race_skip": ["Undead"],
+			"popup_type": "PlusSta",
+			"base": {
+				"attribute_name": "constitution",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.07"
+			},
+			"compare": {
+				"attribute_name": null,
+				"attribute_type": "current",
+				"adjustor": "-",
+				"adjustment": "1"
+			},
+			"damage": {
+				"adjustor": "+",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"race_skip": ["Undead"],
+			"popup_type": "PlusHealth",
+			"base": {
+				"attribute_name": "constitution",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.04"
+			},
+			"compare": {
+				"attribute_name": null,
+				"attribute_type": "current",
+				"adjustor": "-",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "+",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["ChannelSpdBuff4"],
+		"chance":100
+	}]
+}
