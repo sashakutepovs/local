@@ -1,0 +1,95 @@
+{
+	"item_name": "NpcWoodenSpearHeavy",
+	"CHS_animation": "animation_atk_2hSpins",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab": 1,
+	"hit_frame": 29,
+	"summon_hit": "EffectPunchHit",
+	"summon_user": "EffectSpinsPunch",
+	"no_parry":false,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "none",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection": "SpinAttack",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 50,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "2",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "3",
+			"lowest_req" : "-100",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.9"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "-",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0.9"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "-",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundChest", "WoundHead"],
+		"chance": 10
+	}, {
+		"popup_type": "State",
+		"states": ["Stun3"],
+		"chance": 7
+	}]
+}

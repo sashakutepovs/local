@@ -1,0 +1,180 @@
+{
+
+"item_name": "FireN",
+
+"message2":"",
+
+"description":"",
+
+"name":"FireN",
+
+"occasion":0,
+
+"icon_index":680,
+
+"message1":"",
+
+"scope":1,
+
+"animation_id":0,
+
+"tag_main_settings":{"tag":"FireN","flag":"FireN","type":"other"}
+
+"mp_cost":0,
+
+"speed":0,
+
+"features":[],
+
+"effects":[],
+
+"type":0,
+
+"element_id":0,
+
+"formula":"0",
+
+"variance":20,
+
+"critical":false,
+
+"success_rate":100,
+
+"hit_type":0,
+
+"stype_id":1,
+
+"tp_cost":0,
+
+"required_wtype_id1":0,
+
+"required_wtype_id2":0,
+
+"repeats":1,
+
+"tp_gain":0,
+
+"textFlag": {
+
+
+"name": "DataSkill:FireStaffNormal/item_name",
+
+"description": "DataSkill:FireStaffNormal/description"
+
+},
+
+"CHS_animation": "animation_casting_mh_long",
+
+"wait_hit_frame": true,
+
+"range": 5,
+
+"back_stab":1,
+
+"stealth": false,
+
+"hit_frame":10,
+
+"summon_user": "EffectCastingFireMagic",
+
+"summon_hold": "EffectFireMagicShortHold",
+
+"summon_hit": "FireBallMissileProjectile",
+
+"no_parry":true,
+
+"no_dodge":false,
+
+"sap":false,
+
+"hold_type": "energizing",
+
+"hold_animation": "animation_hold_casting_mh",
+
+"hit_detection":"Missile",
+
+"projectile_type": 1,
+
+"effect_since" : 5,
+
+"launch_since" : 30,
+
+"launch_max" : 31,
+
+"ai_value": {
+
+"assulter": 100,
+
+"killer": 100,
+
+"fucker": 100
+
+},
+
+"cost": [{
+
+"base": {
+
+"attribute_name": "sta",
+
+"attribute_type": "current",
+
+"adjustor": "-",
+
+"adjustment": "4",
+
+"lowest_req" : "0",
+
+"highest_req" : "65535"
+
+},
+
+"compare": {
+
+"attribute_name": "wisdom_trait",
+
+"attribute_type": "current",
+
+"adjustor": "*",
+
+"adjustment": "-0.02"
+
+}
+
+},{
+
+"base": {
+
+"attribute_name": "mood",
+
+"attribute_type": "current",
+
+"adjustor": "-",
+
+"adjustment": "1",
+
+"lowest_req" : "-200",
+
+"highest_req" : "65535"
+
+},
+
+"compare": {
+
+"attribute_name": "wisdom_trait",
+
+"attribute_type": "current",
+
+"adjustor": "*",
+
+"adjustment": "-0.01"
+
+}
+
+}],
+
+"effect": [],
+
+"add_state": []
+
+}

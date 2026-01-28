@@ -1,0 +1,83 @@
+{
+	"item_name": "WaterNovaF0",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": false,
+	"range": 5,
+	"back_stab": 1.3,
+	"stealth": false,
+	"hit_frame": 0,
+	"summon_hit": "EfxWaterNovaKnockbackHit",
+	"summon_hold": null,
+	"summon_user": null,
+	"no_parry": true,
+	"no_dodge": false,
+	"sap": false,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection": "Nova",
+	"projectile_type": 0,
+	"effect_since": 0,
+	"ai_value": {
+		"assulter": 10,
+		"killer": 10,
+		"fucker": 0
+	},
+	"cost": [],
+	"effect": [
+		{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "wisdom",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": 0.3
+			},
+			"compare": {
+				"attribute_name": "survival",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": 0.5
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "wisdom",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": 0.4
+			},
+			"compare": {
+				"attribute_name": "survival",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": 0.5
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+			"popup_type": "State",
+			"states": [
+				"WoundGroin",
+				"WoundSThigh",
+				"WoundMThigh"
+			],
+			"chance": 5
+		},
+		{
+			"popup_type": "State",
+			"states": ["Slow1"],
+			"chance": 100
+		}
+	]
+}

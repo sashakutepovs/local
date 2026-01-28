@@ -1,0 +1,38 @@
+{
+	"item_name": "NpcTaunt",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": true,
+	"range": 3,
+	"back_stab":1,
+	"hit_frame": 0,
+	"summon_hit": "EffectTauntHit",
+	"summon_user": "EffectTaunt",
+	"no_parry":true,
+	"no_dodge":true,
+	"no_action_change":true,
+	"no_aggro":true,
+	"sap":false,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection":"MarkSkillSM",
+	"projectile_type": 3,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 50,
+		"killer": 50,
+		"fucker": 25
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

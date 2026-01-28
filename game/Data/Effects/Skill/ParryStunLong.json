@@ -1,0 +1,27 @@
+{
+	"item_name": "ParryStunLong",
+	"CHS_animation": "animation_parryStun_long",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1,
+	"hit_frame":42,
+	"summon_hit": null,
+	"summon_user": null,
+	"no_parry":false,
+	"no_dodge":false,
+	"no_interrupt": true,
+	"sap":true,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection":"NoRangeMap",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [],
+	"effect": [],
+	"add_state": []
+}

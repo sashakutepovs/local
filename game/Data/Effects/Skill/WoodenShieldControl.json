@@ -1,0 +1,44 @@
+{
+	"item_name": "WoodenShieldControl",
+	"wait_hit_frame": true,
+	"range": 0,
+	"back_stab":0,
+	"summon_hit": "EffectPunchHit",
+	"summon_user": null,
+	"summon_hold": "GeneralHolding",
+	"hold_animation": "animation_hold_shield",
+	"CHS_animation": "animation_hold_mh",
+	"hold_type": "blocking",
+	"hit_detection":"BasicOnSelf",
+	"hit_frame":30,
+	"projectile_type": 0,
+	"launch_since": 30 ,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "0",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"base": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "10"
+			},
+			"compare": {},
+			"damage": {}
+		}],
+	"add_state": []
+}

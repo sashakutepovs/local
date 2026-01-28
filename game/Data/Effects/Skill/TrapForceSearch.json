@@ -1,0 +1,29 @@
+{
+	"item_name": "TrapForceSearch",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": false,
+	"range": 0,
+	"back_stab":1,
+	"hit_frame": 0,
+	"summon_hit": "EffectSearchMe",
+	"summon_user": null,
+	"no_parry":true,
+	"no_dodge":true,
+	"ignore_shieldEV":true,
+	"sap":false,
+	"no_aggro":false,
+	"no_action_change":true,
+	"hold_type": "none",
+	"hold_animation": "animation_nil",
+	"hit_detection":"MarkSkillSM",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 10
+	},
+	"cost": [],
+	"effect": [],
+	"add_state": []
+}

@@ -1,0 +1,60 @@
+{
+	"item_name": "SelfDestruct",
+	"CHS_animation": "animation_nil",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_nil",
+	"range": 5,
+	"back_stab":1,
+	"hit_frame": 0,
+	"summon_hit": "GeneralExplosionHit",
+	"summon_user": "EffectKaBom1",
+	"hold_type": "hold",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"hit_detection":"GeneralProjectile",
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "health",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "60"
+		},
+		"compare": {}
+	}],
+	"effect": [
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "20"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "*",
+				"adjustment": "0"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "true,up",
+		"states": ["WoundChest","WoundGroin","WoundSArm","WoundMArm","WoundHead"],
+		"chance":60
+	},{
+		"popup_type": "true,up",
+		"states": ["FeelsSick","FeelsWarm","StomachSpasm"],
+		"chance":90
+	}]
+}

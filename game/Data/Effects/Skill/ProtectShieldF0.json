@@ -1,0 +1,30 @@
+{
+	"item_name": "ProtectShieldF0",
+	"CHS_animation": "animation_atk_backstab",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_atk_pray_hold",
+	"range": 2,
+	"back_stab":1.1,
+	"hit_frame": 0,
+	"summon_hold": "EffectHoldNil2",
+	"summon_hit": "EfxHitProtectShield",
+	"summon_user": null,
+	"no_parry":true,
+	"no_dodge":true,
+	"no_aggro":true,
+	"no_action_change":true,
+	"is_support" : true,
+	"hold_type": "none",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection":"ShieldTargetInThisXY",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [],
+	"effect": [],
+	"add_state": []
+}

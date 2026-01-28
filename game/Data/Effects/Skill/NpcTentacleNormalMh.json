@@ -1,0 +1,89 @@
+{
+	"item_name": "NpcTentacleNormalMh",
+	"CHS_animation": "animation_atk_mh",
+	"wait_hit_frame": true,
+	"range": 2,
+	"back_stab":1.1,
+	"hit_frame":8,
+	"summon_hit": "EffectGoreHit",
+	"summon_user": "EffectPunchNil",
+	"no_parry":false,
+	"no_dodge":false,
+	"sap":false,
+	"hold_type": "none",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection":"BasicAttackLong",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "1",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [{
+			"popup_type": "Sta",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "5"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "2"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "sta",
+				"attribute_type": "current"
+			}
+		},
+
+		{
+			"popup_type": "Health",
+			"base": {
+				"attribute_name": "atk",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "1"
+			},
+			"compare": {
+				"attribute_name": "def",
+				"attribute_type": "current",
+				"adjustor": "+",
+				"adjustment": "10"
+			},
+			"damage": {
+				"adjustor": "-",
+				"attribute_name": "health",
+				"attribute_type": "current"
+			}
+		}
+	],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["WoundGroin","WoundSThigh","WoundMThigh"],
+		"chance":10
+	},{
+		"popup_type": "State",
+		"states": ["Slow1"],
+		"chance":50
+	},{
+		"popup_type": "Stun3",
+		"states": ["Slow1"],
+		"chance":5
+	}]
+}

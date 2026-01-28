@@ -1,0 +1,33 @@
+{
+	"item_name": "NpcThrowHook",
+	"CHS_animation": "animation_atk_shoot",
+	"wait_hit_frame": true,
+	"hold_animation": "animation_atk_heavy",
+	"range": 5,
+	"back_stab":1,
+	"hit_frame":20,
+	"summon_hit": "HookProjectile",
+	"summon_user": "EffectHook",
+	"hold_type": "none",
+	"hit_detection":"Missile",
+	"projectile_type": 1,
+	"effect_since" : 0,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "3",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}

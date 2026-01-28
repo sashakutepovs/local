@@ -1,0 +1,44 @@
+{
+	"item_name": "SaintSymNormal",
+	"CHS_animation": "animation_casting_mh_long",
+	"wait_hit_frame": true,
+	"range": 1,
+	"back_stab":1.1,
+	"hit_frame":1,
+	"summon_hold": "EffectHoldNil2",
+	"summon_hit": null,
+	"summon_user": "EfxSaintSymFlash",
+	"no_parry":true,
+	"no_dodge":false,
+	"no_aggro":false,
+	"sap":false,
+	"hold_type": "energizing",
+	"hold_animation": "animation_hold_mh",
+	"hit_detection":"ActionSkillSight",
+	"projectile_type": 0,
+	"effect_since" : 0,
+	"launch_since" : 69,
+	"launch_max" : 70,
+	"ai_value": {
+		"assulter": 100,
+		"killer": 100,
+		"fucker": 100
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": "5",
+			"lowest_req" : "0",
+			"highest_req" : "65535"
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": [{
+		"popup_type": "State",
+		"states": ["Stun3"],
+		"chance":100
+	}]
+}

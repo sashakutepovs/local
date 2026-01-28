@@ -1,0 +1,63 @@
+{
+	"item_name": "WaterBookHeavy",
+	"icon_index": 685,
+	"stype_id": "Magic",
+	"tag_main_settings": {
+		"type": "heavy",
+		"tag": "WaterBookHeavy"
+	},
+	"textFlag": {
+			"name": "DataSkill:WaterBookHeavy/item_name",
+			"description": "DataSkill:WaterBookHeavy/description"
+		},
+	"is_mind_control_usable": true,
+	"CHS_animation": "animation_casting_mh_long",
+	"wait_hit_frame": true,
+	"range": 5,
+	"back_stab":1.3,
+	"stealth": false,
+	"hit_frame":8,
+	"summon_hit": null,
+	"summon_hold": null,
+	"summon_user": "EffectWaterNova",
+	"no_parry":true,
+	"no_dodge":false,
+	"no_action_change":true,
+	"no_aggro":true,
+	"sap":false,
+	"hold_type": "None",
+	"hold_animation": "animation_hold_casting_sh",
+	"hit_detection": "Nova",
+	"projectile_type": 0,
+	"effect_since" : 5,
+	"launch_since" : 20,
+	"launch_max" : 21,
+	"ai_value": {
+		"assulter": 10,
+		"killer": 10,
+		"fucker": 0
+	},
+	"cost": [{
+		"base": {
+			"attribute_name": "sta",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": 2,
+			"lowest_req" : 0,
+			"highest_req" : 65535
+		},
+		"compare": {}
+	},{
+		"base": {
+			"attribute_name": "mood",
+			"attribute_type": "current",
+			"adjustor": "-",
+			"adjustment": 3,
+			"lowest_req" : -200,
+			"highest_req" : 65535
+		},
+		"compare": {}
+	}],
+	"effect": [],
+	"add_state": []
+}
