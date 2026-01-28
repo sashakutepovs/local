@@ -1,0 +1,52 @@
+get_character(0).turn_toward_character($game_player)
+get_character(0).prelock_direction = get_character(0).direction
+
+
+tmpPicked = ""
+tmpQuestList = []
+tmpQuestList << [$game_text["commonComp:Companion/Follow"]			,"Follow"]
+tmpQuestList << [$game_text["commonComp:Companion/Wait"]			,"Wait"]
+tmpQuestList << [$game_text["commonComp:Companion/Disband"]			,"Disband"] if ![4,8,9].include?($story_stats["QuProgSaveCecily"])
+		cmd_sheet = tmpQuestList
+		cmd_text =""
+		for i in 0...cmd_sheet.length
+			cmd_text.concat(cmd_sheet[i].first+",")
+			p cmd_text
+		end
+		get_character(0).summon_data[:Armored] == true ? tmpAR = "Ar" : tmpAR = ""
+		call_msg("CompCecily:Cecily/KnownBegin#{tmpAR}",0,2,0)
+		show_npc_info(get_character(0),extra_info=false,"\\optB[#{cmd_text}]")
+
+		$game_temp.choice == -1 ? tmpPicked = false : tmpPicked = cmd_sheet[$game_temp.choice][1]
+		$game_temp.choice = -1
+
+case tmpPicked
+	when "Follow"
+		SndLib.sound_QuickDialog 
+		$game_map.popup(get_character(0).id,"CompCecily:Cecily/CommandFollow#{rand(2)}",0,0)
+		get_character(0).follower[1] =1
+
+	when "Wait"
+		SndLib.sound_QuickDialog 
+		$game_map.popup(get_character(0).id,"CompCecily:Cecily/CommandWait#{rand(2)}",0,0)
+		get_character(0).follower[1] =0
+		
+	when "Disband"
+		call_msg("CompCecily:Cecily/Comp_disband#{tmpAR}")
+		call_msg("common:Lona/Decide_optB")
+		cam_center(0)
+		if $game_temp.choice == 1
+			portrait_hide
+			chcg_background_color(0,0,0,0,7)
+				portrait_off
+				get_character($game_player.get_followerID(0)).set_this_companion_disband
+				get_character($game_player.get_followerID(1)).set_this_companion_disband
+				#get_character(0).set_this_companion_disband
+			chcg_background_color(0,0,0,255,-7)
+			return portrait_hide
+		end
+end
+
+
+
+eventPlayEnd
