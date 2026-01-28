@@ -1,0 +1,19 @@
+{
+	"char_name": "BigMama_confused_NoKnife",
+	"statMap": {
+		"canvas": {
+			"default": ["362", "430", "-55", "15"]
+		},
+		"NPCportrait": "BigMama_confused_NoKnife"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"BigMama_confused_NoKnife"			: "BigMama_confused_NoKnife.png"
+			}
+		}
+
+	]
+}

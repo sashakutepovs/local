@@ -1,0 +1,19 @@
+{
+	"char_name": "BigMama_Tar02Flirty",
+	"statMap": {
+		"canvas": {
+			"default": ["455", "742", "-100", "-30"]
+		},
+		"NPCportrait": "BigMama_Tar02Flirty"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"BigMama_Tar02Flirty"			: "BigMama_Tar02Flirty.png"
+			}
+		}
+
+	]
+}

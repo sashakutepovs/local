@@ -1,0 +1,19 @@
+{
+	"char_name": "AnonMale3",
+	"statMap": {
+		"canvas": {
+			"default": ["370", "660", "-65", "40"]
+		},
+		"NPCportrait": "AnonMale3"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"AnonMale3"			: "AnonMale3.png"
+			}
+		}
+
+	]
+}

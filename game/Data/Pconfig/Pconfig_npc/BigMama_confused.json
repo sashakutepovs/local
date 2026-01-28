@@ -1,0 +1,19 @@
+{
+	"char_name": "BigMama_confused",
+	"statMap": {
+		"canvas": {
+			"default": ["362", "430", "-55", "15"]
+		},
+		"NPCportrait": "BigMama_confused"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"BigMama_confused"			: "BigMama_confused.png"
+			}
+		}
+
+	]
+}

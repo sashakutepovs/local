@@ -1,0 +1,19 @@
+{
+	"char_name": "Adam_angry",
+	"statMap": {
+		"canvas": {
+			"default": ["370", "408", "-40", "15"]
+		},
+		"NPCportrait": "Adam_angry"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Adam_angry"			: "Adam_angry.png"
+			}
+		}
+
+	]
+}

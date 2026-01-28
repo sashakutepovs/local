@@ -1,0 +1,18 @@
+
+{
+	"char_name": "coconaHeadPat_a2",
+	"statMap": {
+		"canvas": {
+			"default": ["502", "431", "0", "0"]
+		},
+		"NPCportrait": "coconaHeadPat_a2"
+	},
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"coconaHeadPat_a2"			: "coconaHeadPat_a2.png"
+			}
+		}
+	]
+}

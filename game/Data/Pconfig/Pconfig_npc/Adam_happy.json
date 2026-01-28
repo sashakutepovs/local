@@ -1,0 +1,19 @@
+{
+	"char_name": "Adam_happy",
+	"statMap": {
+		"canvas": {
+			"default": ["370", "408", "-40", "15"]
+		},
+		"NPCportrait": "Adam_happy"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Adam_happy"			: "Adam_happy.png"
+			}
+		}
+
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"char_name": "CecilyHijack1_03",
+	"statMap": {
+		"canvas": {
+			"default": ["887", "551", "248", "0"]
+		},
+		"NPCportrait": "CecilyHijack1_03"
+	},
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CecilyHijack1_03"			: "CecilyHijack1_03.png"
+			}
+		}
+	]
+}

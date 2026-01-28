@@ -1,0 +1,19 @@
+{
+	"char_name": "CecilyWtfAr",
+	"statMap": {
+		"canvas": {
+			"default": ["235", "479", "-20", "10"]
+		},
+		"NPCportrait": "CecilyWtfAr"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CecilyWtfAr"			: "CecilyWtfAr.png"
+			}
+		}
+
+	]
+}

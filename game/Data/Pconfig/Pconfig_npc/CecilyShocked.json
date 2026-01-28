@@ -1,0 +1,19 @@
+{
+	"char_name": "CecilyShocked",
+	"statMap": {
+		"canvas": {
+			"default": ["235", "479", "-20", "10"]
+		},
+		"NPCportrait": "CecilyShocked"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CecilyShocked"			: "CecilyShocked.png"
+			}
+		}
+
+	]
+}

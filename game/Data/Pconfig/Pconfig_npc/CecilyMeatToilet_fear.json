@@ -1,0 +1,19 @@
+{
+	"char_name": "CecilyMeatToilet_fear",
+	"statMap": {
+		"canvas": {
+			"default": [225, 726, -15, 0]
+		},
+		"NPCportrait": "CecilyMeatToilet_fear"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CecilyMeatToilet_fear"			: "CecilyMeatToilet_fear.png"
+			}
+		}
+
+	]
+}

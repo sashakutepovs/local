@@ -1,0 +1,19 @@
+{
+	"char_name": "CecilyTrapB_Shy",
+	"statMap": {
+		"canvas": {
+			"default": ["221", "388", "0", "20"]
+		},
+		"NPCportrait": "CecilyTrapB_Shy"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CecilyTrapB_Shy"			: "CecilyTrapB_Shy.png"
+			}
+		}
+
+	]
+}

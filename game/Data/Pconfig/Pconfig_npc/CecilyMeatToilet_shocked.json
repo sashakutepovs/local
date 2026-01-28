@@ -1,0 +1,19 @@
+{
+	"char_name": "CecilyMeatToilet_shocked",
+	"statMap": {
+		"canvas": {
+			"default": [225, 726, -15, 0]
+		},
+		"NPCportrait": "CecilyMeatToilet_shocked"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CecilyMeatToilet_shocked"			: "CecilyMeatToilet_shocked.png"
+			}
+		}
+
+	]
+}

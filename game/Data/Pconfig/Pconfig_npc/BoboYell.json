@@ -1,0 +1,19 @@
+{
+	"char_name": "BoboYell",
+	"statMap": {
+		"canvas": {
+			"default": ["420", "381", "-120", "50"]
+		},
+		"NPCportrait": "BoboYell"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"BoboYell"			: "BoboYell.png"
+			}
+		}
+
+	]
+}

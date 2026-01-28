@@ -1,0 +1,19 @@
+{
+	"char_name": "BigMama_angry2",
+	"statMap": {
+		"canvas": {
+			"default": ["680", "400", "-20", "-20"]
+		},
+		"NPCportrait": "BigMama_angry2"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"BigMama_angry2"			: "BigMama_angry2.png"
+			}
+		}
+
+	]
+}

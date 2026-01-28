@@ -1,0 +1,19 @@
+{
+	"char_name": "CecilyAngry",
+	"statMap": {
+		"canvas": {
+			"default": ["235", "479", "-20", "10"]
+		},
+		"NPCportrait": "CecilyAngry"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CecilyAngry"			: "CecilyAngry.png"
+			}
+		}
+
+	]
+}

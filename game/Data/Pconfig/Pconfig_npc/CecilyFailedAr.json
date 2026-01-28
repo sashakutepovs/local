@@ -1,0 +1,19 @@
+{
+	"char_name": "CecilyFailedAr",
+	"statMap": {
+		"canvas": {
+			"default": ["235", "479", "-20", "10"]
+		},
+		"NPCportrait": "CecilyFailedAr"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CecilyFailedAr"			: "CecilyFailedAr.png"
+			}
+		}
+
+	]
+}

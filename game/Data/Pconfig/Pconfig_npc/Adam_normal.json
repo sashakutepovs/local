@@ -1,0 +1,19 @@
+{
+	"char_name": "Adam_normal",
+	"statMap": {
+		"canvas": {
+			"default": ["370", "408", "-40", "15"]
+		},
+		"NPCportrait": "Adam_normal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Adam_normal"			: "Adam_normal.png"
+			}
+		}
+
+	]
+}

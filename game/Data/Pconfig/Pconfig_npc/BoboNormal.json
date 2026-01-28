@@ -1,0 +1,19 @@
+{
+	"char_name": "BoboNormal",
+	"statMap": {
+		"canvas": {
+			"default": ["420", "381", "-120", "50"]
+		},
+		"NPCportrait": "BoboNormal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"BoboNormal"			: "BoboNormal.png"
+			}
+		}
+
+	]
+}

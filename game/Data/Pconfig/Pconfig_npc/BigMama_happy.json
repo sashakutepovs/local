@@ -1,0 +1,19 @@
+{
+	"char_name": "BigMama_happy",
+	"statMap": {
+		"canvas": {
+			"default": ["362", "430", "-55", "15"]
+		},
+		"NPCportrait": "BigMama_happy"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"BigMama_happy"			: "BigMama_happy.png"
+			}
+		}
+
+	]
+}

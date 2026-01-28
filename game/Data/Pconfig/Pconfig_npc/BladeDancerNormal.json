@@ -1,0 +1,19 @@
+{
+	"char_name": "BladeDancerNormal",
+	"statMap": {
+		"canvas": {
+			"default": ["299", "683", "-30", "23"]
+		},
+		"NPCportrait": "BladeDancerNormal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"BladeDancerNormal"			: "BladeDancerNormal.png"
+			}
+		}
+
+	]
+}

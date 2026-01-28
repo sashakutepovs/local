@@ -1,0 +1,17 @@
+{
+	"char_name": "CecilySaveRape1r",
+	"statMap": {
+		"canvas": {
+			"default": ["887", "551", "248", "0"]
+		},
+		"NPCportrait": "CecilySaveRape1r"
+	},
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"CecilySaveRape1r"			: "CecilySaveRape1r.png"
+			}
+		}
+	]
+}
