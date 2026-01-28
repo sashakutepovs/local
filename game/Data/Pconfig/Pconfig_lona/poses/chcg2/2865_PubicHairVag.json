@@ -1,0 +1,34 @@
+[	{
+		"name_order": ["PubicHairVag", "vagopen", "preg"],
+		"part_name": "chcg2_PubicHairVag",
+		"x": "616",
+		"y": "297",
+		"layer": 2865,
+		"bmps": {
+			"PubicHairVag02,vagopen00,preg00": "chcg2_PubicHairVag1.png",
+			"PubicHairVag03,vagopen00,preg00": "chcg2_PubicHairVag2.png",
+			"PubicHairVag04,vagopen00,preg00": "chcg2_PubicHairVag3.png",
+			"PubicHairVag02,vagopen01,preg00": "chcg2_PubicHairVag1_vagopen.png",
+			"PubicHairVag03,vagopen01,preg00": "chcg2_PubicHairVag2_vagopen.png",
+			"PubicHairVag04,vagopen01,preg00": "chcg2_PubicHairVag3_vagopen.png",
+			"PubicHairVag02,vagopen00,preg01": "chcg2_PubicHairVag1.png",
+			"PubicHairVag03,vagopen00,preg01": "chcg2_PubicHairVag2.png",
+			"PubicHairVag04,vagopen00,preg01": "chcg2_PubicHairVag3.png",
+			"PubicHairVag02,vagopen01,preg01": "chcg2_PubicHairVag1_vagopen.png",
+			"PubicHairVag03,vagopen01,preg01": "chcg2_PubicHairVag2_vagopen.png",
+			"PubicHairVag04,vagopen01,preg01": "chcg2_PubicHairVag3_vagopen.png",
+			"PubicHairVag02,vagopen00,preg02": "chcg2_PubicHairVag1.png",
+			"PubicHairVag03,vagopen00,preg02": "chcg2_PubicHairVag2.png",
+			"PubicHairVag04,vagopen00,preg02": "chcg2_PubicHairVag3.png",
+			"PubicHairVag02,vagopen01,preg02": "chcg2_PubicHairVag1_vagopen.png",
+			"PubicHairVag03,vagopen01,preg02": "chcg2_PubicHairVag2_vagopen.png",
+			"PubicHairVag04,vagopen01,preg02": "chcg2_PubicHairVag3_vagopen.png",
+			"PubicHairVag02,vagopen00,preg03": "chcg2_PubicHairVag1_preg8m.png",
+			"PubicHairVag03,vagopen00,preg03": "chcg2_PubicHairVag2_preg8m.png",
+			"PubicHairVag04,vagopen00,preg03": "chcg2_PubicHairVag3_preg8m.png",
+			"PubicHairVag02,vagopen01,preg03": "chcg2_PubicHairVag1_vagopen_preg8m.png",
+			"PubicHairVag03,vagopen01,preg03": "chcg2_PubicHairVag2_vagopen_preg8m.png",
+			"PubicHairVag04,vagopen01,preg03": "chcg2_PubicHairVag3_vagopen_preg8m.png"
+		}
+	}
+]

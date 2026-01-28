@@ -1,0 +1,30 @@
+[{
+		"name_order": ["vagopen", "analopen", "preg"],
+		"isDirt": true,
+		"part_name": "chcg2_BotBody_dirt",
+		"x": "71",
+		"y": "163",
+		"layer": 2800,
+		"bmps": {
+			"vagopen00,analopen00,preg00": "chcg2_dirt.png",
+			"vagopen00,analopen00,preg01": "chcg2_preg4m_dirt.png",
+			"vagopen00,analopen00,preg02": "chcg2_preg6m_dirt.png",
+			"vagopen00,analopen00,preg03": "chcg2_preg8m_dirt.png",
+			
+			"vagopen01,analopen00,preg00": "chcg2_vagopen_dirt.png",
+			"vagopen01,analopen00,preg01": "chcg2_preg4m_vagopen_dirt.png",
+			"vagopen01,analopen00,preg02": "chcg2_preg6m_vagopen_dirt.png",
+			"vagopen01,analopen00,preg03": "chcg2_preg8m_vagopen_dirt.png",
+			
+			"vagopen00,analopen01,preg00": "chcg2_analopen_dirt.png",
+			"vagopen00,analopen01,preg01": "chcg2_preg4m_analopen_dirt.png",
+			"vagopen00,analopen01,preg02": "chcg2_preg6m_analopen_dirt.png",
+			"vagopen00,analopen01,preg03": "chcg2_preg8m_analopen_dirt.png",
+			
+			"vagopen01,analopen01,preg00": "chcg2_vagopen_analopen_dirt.png",
+			"vagopen01,analopen01,preg01": "chcg2_preg4m_vagopen_analopen_dirt.png",
+			"vagopen01,analopen01,preg02": "chcg2_preg6m_vagopen_analopen_dirt.png",
+			"vagopen01,analopen01,preg03": "chcg2_preg8m_vagopen_analopen_dirt.png"
+		}
+	}
+]

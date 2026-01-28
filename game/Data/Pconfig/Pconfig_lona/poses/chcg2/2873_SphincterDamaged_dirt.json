@@ -1,0 +1,12 @@
+[{
+	"name_order": ["analopen","SphincterDamaged"],
+	"isDirt": true,
+	"part_name": "chcg2_SphincterDamaged_dirt",
+	"x": "580",
+	"y": "266",
+	"layer": 2873,
+	"bmps": {
+		"analopen01,SphincterDamaged01": "chcg2_SphincterDamaged_dirt.png"
+
+	}
+}]

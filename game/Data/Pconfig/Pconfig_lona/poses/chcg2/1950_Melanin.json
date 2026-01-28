@@ -1,0 +1,46 @@
+[	{
+		"name_order": ["vagopen", "preg"],
+		"isDirt": true,
+		"dirtKey":"MelaninVag",
+		"part_name": "chcg2_MelaninVag",
+		"x": "607",
+		"y": "288",
+		"layer": 1950,
+		"bmps": {
+			"vagopen00,preg00": "chcg2_MelaninVag.png",
+			"vagopen00,preg01": "chcg2_MelaninVag.png",
+			"vagopen00,preg02": "chcg2_MelaninVag.png",
+			"vagopen00,preg03": "chcg2_preg8m_MelaninVag.png",
+			"vagopen01,preg00": "chcg2_vagopen_MelaninVag.png",
+			"vagopen01,preg01": "chcg2_vagopen_MelaninVag.png",
+			"vagopen01,preg02": "chcg2_vagopen_MelaninVag.png",
+			"vagopen01,preg03": "chcg2_vagopen_preg8m_MelaninVag.png"
+		}
+	},
+	{
+		"name_order": ["analopen"],
+		"isDirt": true,
+		"dirtKey":"MelaninAnal",
+		"part_name": "chcg2_MelaninAnal",
+		"x": "549",
+		"y": "239",
+		"layer": 1950,
+		"bmps": {
+			"analopen00": "chcg2_MelaninAnal.png",
+			"analopen01": "chcg2_analopen_MelaninAnal.png"
+		}
+	},
+	{
+		"name_order": ["always"],
+		"isDirt": true,
+		"dirtKey":"MelaninNipple",
+		"part_name": "chcg2_MelaninSNipple",
+		"x": "302",
+		"y": "350",
+		"layer": 1950,
+		"bmps": {
+			"always#on": "chcg2_MelaninSNipple.png"
+		}
+	}
+
+]

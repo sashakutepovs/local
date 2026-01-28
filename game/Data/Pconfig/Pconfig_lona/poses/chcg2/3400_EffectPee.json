@@ -1,0 +1,32 @@
+[{
+	"name_order": ["vagopen", "EffectPee","ParasitedPotWorm"],
+	"part_name": "chcg2_EffectPee",
+	"x": "554",
+	"y": "235",
+	"layer": 3400,
+	"bmps": {
+		"vagopen00,EffectPee01,ParasitedPotWorm00": "chcg2_EffectPee.png",
+		"vagopen00,EffectPee01,ParasitedPotWorm01": "chcg2_EffectPee_ParasitedPotWorm.png",
+		"vagopen00,EffectPee01,ParasitedPotWorm02": "chcg2_EffectPee_ParasitedPotWorm.png",
+		"vagopen00,EffectPee01,ParasitedPotWorm03": "chcg2_EffectPee_ParasitedPotWorm.png",
+		"vagopen00,EffectPee01,ParasitedPotWorm04": "chcg2_EffectPee_ParasitedPotWorm.png",
+		"vagopen00,EffectPee01,ParasitedPotWorm05": "chcg2_EffectPee_ParasitedPotWorm.png",
+		"vagopen01,EffectPee01,ParasitedPotWorm00": "chcg2_vagopen_EffectPee.png",
+		"vagopen01,EffectPee01,ParasitedPotWorm01": "chcg2_vagopen_EffectPee_ParasitedPotWorm.png",
+		"vagopen01,EffectPee01,ParasitedPotWorm02": "chcg2_vagopen_EffectPee_ParasitedPotWorm.png",
+		"vagopen01,EffectPee01,ParasitedPotWorm03": "chcg2_vagopen_EffectPee_ParasitedPotWorm.png",
+		"vagopen01,EffectPee01,ParasitedPotWorm04": "chcg2_vagopen_EffectPee_ParasitedPotWorm.png",
+		"vagopen01,EffectPee01,ParasitedPotWorm05": "chcg2_vagopen_EffectPee_ParasitedPotWorm.png"
+	}
+},
+{
+	"name_order": ["vagopen", "EffectPee"],
+	"part_name": "chcg2_EffectOrgasm",
+	"x": "554",
+	"y": "235",
+	"layer": 3400,
+	"bmps": {
+		"vagopen00,EffectPee02": "chcg2_EffectOrgasm.png",
+		"vagopen01,EffectPee02": "chcg2_vagopen_EffectOrgasm.png"
+	}
+}]

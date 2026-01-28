@@ -1,0 +1,22 @@
+[{
+	"name_order": ["WoundCuff"],
+	"part_name": "chcg2_WoundCuff",
+	"x": "92",
+	"y": "278",
+	"layer": 2400,
+	"bmps": {
+		"WoundCuff01": "chcg2_WoundCuff.png"
+
+	}
+},{
+	"name_order": ["WoundMArm"],
+	"part_name": "chcg2_WoundMArm_WoundCuff",
+	"x": "92",
+	"y": "278",
+	"layer": 2400,
+	"bmps": {
+		"WoundMArm04": "chcg2_WoundCuff.png"
+
+	}
+}
+]

@@ -1,0 +1,14 @@
+[
+	{
+		"name_order": ["equip_Face", "Race"],
+		"part_name": "chcg2_face_PaintHead",
+		"x": 140,
+		"y": 130,
+		"layer": 750,
+		"bmps": {
+			"equip_Face#PaintHead,Race#Human": "chcg2_face_PaintHead.png",
+			"equip_Face#PaintHead,Race#Deepone": "chcg2_face_moot_PaintHead.png",
+			"equip_Face#PaintHead,Race#Moot": "chcg2_face_moot_PaintHead.png"
+		}
+	}
+]

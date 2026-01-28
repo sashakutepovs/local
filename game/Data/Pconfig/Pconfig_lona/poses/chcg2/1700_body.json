@@ -1,0 +1,10 @@
+[{
+	"name_order": ["subpose"],
+	"part_name": "chcg2_subpose",
+	"x": "71",
+	"y": "157",
+	"layer": 1700,
+	"bmps": {
+		"subpose01": "chcg2_subpose1_body.png"
+	}
+}]

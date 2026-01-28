@@ -1,0 +1,13 @@
+[
+	{
+		"name_order": ["MainArm"],
+		"part_name": "chcg2_equip_ChainCuffTopExtra2",
+		"x": "323",
+		"y": "49",
+		"layer": 1450,
+		"bmps": {
+			"MainArm#ChainCuffTopExtra": "chcg2_equip_ChainCollarTopExtra2.png"
+		}
+	}
+]
+

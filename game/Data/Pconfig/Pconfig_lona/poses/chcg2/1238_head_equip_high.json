@@ -1,0 +1,12 @@
+[
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg2_head_equip_DancerHeadEquip",
+		"x": "91",
+		"y": "76",
+		"layer": 1238,
+		"bmps": {
+			"equip_head#DancerHeadEquip": "chcg2_head_equip_DancerHeadEquip.png"
+		}
+	}
+]

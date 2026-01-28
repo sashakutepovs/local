@@ -1,0 +1,40 @@
+[{
+	"name_order": ["vagopen", "VaginalDamaged", "CumsCreamPie"],
+	"part_name": "chcg2_CumsCreamPie",
+	"x": "616",
+	"y": "288",
+	"layer": 3700,
+	"bmps": {
+		"vagopen00,VaginalDamaged00,CumsCreamPie01": "chcg2_CumsCreamPie1.png",
+		"vagopen00,VaginalDamaged00,CumsCreamPie02": "chcg2_CumsCreamPie2.png",
+		"vagopen00,VaginalDamaged00,CumsCreamPie03": "chcg2_CumsCreamPie3.png",
+		"vagopen01,VaginalDamaged00,CumsCreamPie01": "chcg2_vagopen_CumsCreamPie1.png",
+		"vagopen01,VaginalDamaged00,CumsCreamPie02": "chcg2_vagopen_CumsCreamPie2.png",
+		"vagopen01,VaginalDamaged00,CumsCreamPie03": "chcg2_vagopen_CumsCreamPie3.png"
+	}
+},{
+	"name_order": ["vagopen", "VaginalDamaged", "CumsCreamPie"],
+	"part_name": "chcg2_VaginalDamaged_CumsCreamPie_Bot",
+	"x": "616",
+	"y": "288",
+	"layer": 2664,
+	"bmps": {
+		"vagopen01,VaginalDamaged01,CumsCreamPie01": "chcg2_vagopen_CumsCreamPie1.png",
+		"vagopen01,VaginalDamaged01,CumsCreamPie02": "chcg2_vagopen_CumsCreamPie2.png",
+		"vagopen01,VaginalDamaged01,CumsCreamPie03": "chcg2_vagopen_CumsCreamPie3.png"
+	}
+},{
+	"name_order": ["vagopen", "VaginalDamaged", "CumsCreamPie"],
+	"part_name": "chcg2_VaginalDamaged_CumsCreamPie_Top",
+	"x": "610",
+	"y": "288",
+	"layer": 3701,
+	"bmps": {
+		"vagopen01,VaginalDamaged01,CumsCreamPie01": "chcg2_CumsCreamPie1.png",
+		"vagopen01,VaginalDamaged01,CumsCreamPie02": "chcg2_CumsCreamPie2.png",
+		"vagopen01,VaginalDamaged01,CumsCreamPie03": "chcg2_CumsCreamPie3.png"
+	}
+}
+
+
+]

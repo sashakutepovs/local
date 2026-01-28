@@ -1,0 +1,11 @@
+[{
+	"name_order": ["vagopen","VaginalDamaged"],
+	"part_name": "chcg2_VaginalDamaged",
+	"x": "637",
+	"y": "320",
+	"layer": 2867,
+	"bmps": {
+		"vagopen01,VaginalDamaged01": "chcg2_VaginalDamaged.png"
+
+	}
+}]

@@ -1,0 +1,12 @@
+[{
+	"name_order": ["WoundSThigh"],
+	"part_name": "chcg2_WoundSThigh",
+	"x": "400",
+	"y": "222",
+	"layer": 2500,
+	"bmps": {
+		"WoundSThigh01": "chcg2_WoundSThigh1.png",
+		"WoundSThigh02": "chcg2_WoundSThigh2.png",
+		"WoundSThigh03": "chcg2_WoundSThigh3.png"
+	}
+}]

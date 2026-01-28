@@ -1,0 +1,21 @@
+[{
+		"name_order": ["vagopen"],
+		"part_name": "chcg2_vagopen",
+		"x": "567",
+		"y": "277",
+		"layer": 1800,
+		"bmps": {
+			"vagopen01": "chcg2_vagopen.png"
+		}
+	},
+	{
+		"name_order": ["analopen"],
+		"part_name": "chcg2_analopen",
+		"x": "526",
+		"y": "227",
+		"layer": 1801,
+		"bmps": {
+			"analopen01": "chcg2_analopen.png"
+		}
+	}
+]

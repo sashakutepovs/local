@@ -1,0 +1,90 @@
+[{
+	"name_order": ["preg", "vagopen", "analopen", "WoundGroin"],
+	"part_name": "chcg2_WoundGroin",
+	"x": "521",
+	"y": "220",
+	"layer": 2700,
+	"bmps": {
+		"preg00,vagopen00,analopen00,WoundGroin01": "chcg2_WoundGroin1.png",
+		"preg00,vagopen00,analopen00,WoundGroin02": "chcg2_WoundGroin2.png",
+		"preg00,vagopen00,analopen00,WoundGroin03": "chcg2_WoundGroin3.png",
+
+		"preg01,vagopen00,analopen00,WoundGroin01": "chcg2_WoundGroin1.png",
+		"preg01,vagopen00,analopen00,WoundGroin02": "chcg2_WoundGroin2.png",
+		"preg01,vagopen00,analopen00,WoundGroin03": "chcg2_WoundGroin3.png",
+
+		"preg02,vagopen00,analopen00,WoundGroin01": "chcg2_preg6m_WoundGroin1.png",
+		"preg02,vagopen00,analopen00,WoundGroin02": "chcg2_preg6m_WoundGroin2.png",
+		"preg02,vagopen00,analopen00,WoundGroin03": "chcg2_preg6m_WoundGroin3.png",
+
+		"preg03,vagopen00,analopen00,WoundGroin01": "chcg2_preg8m_WoundGroin1.png",
+		"preg03,vagopen00,analopen00,WoundGroin02": "chcg2_preg8m_WoundGroin2.png",
+		"preg03,vagopen00,analopen00,WoundGroin03": "chcg2_preg8m_WoundGroin3.png",
+
+
+
+
+
+
+		"preg00,vagopen01,analopen00,WoundGroin01": "chcg2_vagopen_WoundGroin1.png",
+		"preg00,vagopen01,analopen00,WoundGroin02": "chcg2_vagopen_WoundGroin2.png",
+		"preg00,vagopen01,analopen00,WoundGroin03": "chcg2_vagopen_WoundGroin3.png",
+
+		"preg01,vagopen01,analopen00,WoundGroin01": "chcg2_vagopen_WoundGroin1.png",
+		"preg01,vagopen01,analopen00,WoundGroin02": "chcg2_vagopen_WoundGroin2.png",
+		"preg01,vagopen01,analopen00,WoundGroin03": "chcg2_vagopen_WoundGroin3.png",
+
+		"preg02,vagopen01,analopen00,WoundGroin01": "chcg2_preg6m_vagopen_WoundGroin1.png",
+		"preg02,vagopen01,analopen00,WoundGroin02": "chcg2_preg6m_vagopen_WoundGroin2.png",
+		"preg02,vagopen01,analopen00,WoundGroin03": "chcg2_preg6m_vagopen_WoundGroin3.png",
+
+		"preg03,vagopen01,analopen00,WoundGroin01": "chcg2_preg8m_vagopen_WoundGroin1.png",
+		"preg03,vagopen01,analopen00,WoundGroin02": "chcg2_preg8m_vagopen_WoundGroin2.png",
+		"preg03,vagopen01,analopen00,WoundGroin03": "chcg2_preg8m_vagopen_WoundGroin3.png",
+
+
+
+
+
+
+
+		"preg00,vagopen00,analopen01,WoundGroin01": "chcg2_analopen_WoundGroin1.png",
+		"preg00,vagopen00,analopen01,WoundGroin02": "chcg2_analopen_WoundGroin2.png",
+		"preg00,vagopen00,analopen01,WoundGroin03": "chcg2_analopen_WoundGroin3.png",
+
+		"preg01,vagopen00,analopen01,WoundGroin01": "chcg2_analopen_WoundGroin1.png",
+		"preg01,vagopen00,analopen01,WoundGroin02": "chcg2_analopen_WoundGroin2.png",
+		"preg01,vagopen00,analopen01,WoundGroin03": "chcg2_analopen_WoundGroin3.png",
+
+		"preg02,vagopen00,analopen01,WoundGroin01": "chcg2_preg6m_analopen_WoundGroin1.png",
+		"preg02,vagopen00,analopen01,WoundGroin02": "chcg2_preg6m_analopen_WoundGroin2.png",
+		"preg02,vagopen00,analopen01,WoundGroin03": "chcg2_preg6m_analopen_WoundGroin3.png",
+
+		"preg03,vagopen00,analopen01,WoundGroin01": "chcg2_preg8m_analopen_WoundGroin1.png",
+		"preg03,vagopen00,analopen01,WoundGroin02": "chcg2_preg8m_analopen_WoundGroin2.png",
+		"preg03,vagopen00,analopen01,WoundGroin03": "chcg2_preg8m_analopen_WoundGroin3.png",
+
+
+
+
+
+
+
+		"preg00,vagopen01,analopen01,WoundGroin01": "chcg2_vagopen_analopen_WoundGroin1.png",
+		"preg00,vagopen01,analopen01,WoundGroin02": "chcg2_vagopen_analopen_WoundGroin2.png",
+		"preg00,vagopen01,analopen01,WoundGroin03": "chcg2_vagopen_analopen_WoundGroin3.png",
+
+		"preg01,vagopen01,analopen01,WoundGroin01": "chcg2_vagopen_analopen_WoundGroin1.png",
+		"preg01,vagopen01,analopen01,WoundGroin02": "chcg2_vagopen_analopen_WoundGroin2.png",
+		"preg01,vagopen01,analopen01,WoundGroin03": "chcg2_vagopen_analopen_WoundGroin3.png",
+
+		"preg02,vagopen01,analopen01,WoundGroin01": "chcg2_preg6m_vagopen_analopen_WoundGroin1.png",
+		"preg02,vagopen01,analopen01,WoundGroin02": "chcg2_preg6m_vagopen_analopen_WoundGroin2.png",
+		"preg02,vagopen01,analopen01,WoundGroin03": "chcg2_preg6m_vagopen_analopen_WoundGroin3.png",
+
+		"preg03,vagopen01,analopen01,WoundGroin01": "chcg2_preg8m_vagopen_analopen_WoundGroin1.png",
+		"preg03,vagopen01,analopen01,WoundGroin02": "chcg2_preg8m_vagopen_analopen_WoundGroin2.png",
+		"preg03,vagopen01,analopen01,WoundGroin03": "chcg2_preg8m_vagopen_analopen_WoundGroin3.png"
+
+	}
+}]

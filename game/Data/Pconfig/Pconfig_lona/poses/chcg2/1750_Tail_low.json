@@ -1,0 +1,12 @@
+[
+	{
+		"name_order": ["Tail"],
+		"part_name": "chcg2_Tail_low",
+		"x": "541",
+		"y": "183",
+		"layer": 1750,
+		"bmps": {
+			"Tail01": "chcg2_Tail_low.png"
+		}
+	}
+]

@@ -1,0 +1,25 @@
+[
+	{
+		"name_order": ["Tail", "CumsBot"],
+		"part_name": "chcg2_CumsBot",
+		"x": "415",
+		"y": "166",
+		"layer": 3900,
+		"bmps": {
+			"Tail00,CumsBot01": "chcg2_CumsBot1.png",
+			"Tail00,CumsBot02": "chcg2_CumsBot2.png",
+			"Tail00,CumsBot03": "chcg2_CumsBot3.png"
+		}
+	},{
+		"name_order": ["Tail", "CumsBot"],
+		"part_name": "chcg2_Tail_CumsBot",
+		"x": "413",
+		"y": "154",
+		"layer": 3900,
+		"bmps": {
+			"Tail01,CumsBot01": "chcg2_Tail_CumsBot1.png",
+			"Tail01,CumsBot02": "chcg2_Tail_CumsBot2.png",
+			"Tail01,CumsBot03": "chcg2_Tail_CumsBot3.png"
+		}
+	}
+]

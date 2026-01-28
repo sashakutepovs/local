@@ -1,0 +1,12 @@
+[{
+	"name_order": ["CumsTop"],
+	"part_name": "chcg2_CumsTop",
+	"x": "88",
+	"y": "187",
+	"layer": 3500,
+	"bmps": {
+		"CumsTop01": "chcg2_CumsTop1.png",
+		"CumsTop02": "chcg2_CumsTop2.png",
+		"CumsTop03": "chcg2_CumsTop3.png"
+	}
+}]

@@ -1,0 +1,15 @@
+[{
+	"name_order": ["preg", "vagopen"],
+	"part_name": "chcg2_preg",
+	"x": "307",
+	"y": "334",
+	"layer": 1900,
+	"bmps": {
+		"preg01,vagopen00": "chcg2_preg4m.png",
+		"preg02,vagopen00": "chcg2_preg6m.png",
+		"preg03,vagopen00": "chcg2_preg8m.png",
+		"preg01,vagopen01": "chcg2_preg4m.png",
+		"preg02,vagopen01": "chcg2_vagopen_preg6m.png",
+		"preg03,vagopen01": "chcg2_vagopen_preg8m.png"
+	}
+}]

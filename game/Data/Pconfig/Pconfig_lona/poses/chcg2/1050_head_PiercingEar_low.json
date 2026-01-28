@@ -1,0 +1,26 @@
+[{
+	"name_order": ["PiercingEar","Race"],
+	"part_name": "chcg2_head_PiercingEar_low",
+	"x": "153",
+	"y": "231",
+	"layer": 1050,
+	"bmps": {
+		"PiercingEar01,Race#Human": "chcg2_head_PiercingEar1_low.png",
+		"PiercingEar02,Race#Human": "chcg2_head_PiercingEar2_low.png",
+		"PiercingEar03,Race#Human": "chcg2_head_PiercingEar3_low.png"
+	}
+},
+{
+	"name_order": ["PiercingEar","Race"],
+	"part_name": "chcg2_head_moot_PiercingEar_low",
+	"x": "144",
+	"y": "227",
+	"layer": 1050,
+	"bmps": {
+		"PiercingEar02,Race#Deepone": "chcg2_head_moot_PiercingEar2_low.png",
+		"PiercingEar03,Race#Deepone": "chcg2_head_moot_PiercingEar3_low.png",
+		"PiercingEar02,Race#Moot": "chcg2_head_moot_PiercingEar2_low.png",
+		"PiercingEar03,Race#Moot": "chcg2_head_moot_PiercingEar3_low.png"
+	}
+}
+]

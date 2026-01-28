@@ -1,0 +1,82 @@
+[
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg2_equip_HoodCloakTop_Body_Bot",
+		"x": 597,
+		"y": 281,
+		"layer": 1548,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg2_equip_HoodCloakTop_Body_Bot.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg2_equip_DocHead_Head",
+		"x": 134,
+		"y": 90,
+		"layer": 1549,
+		"bmps": {
+			"equip_head#DocHead": "chcg2_equip_DocHead_Head.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg2_equip_HoodCloakTop_Head_Top",
+		"x": 102,
+		"y": 77,
+		"layer": 1550,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg2_equip_HoodCloakTop_Head_Top.png"
+		}
+	},
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg2_equip_DocTop_Head_Top",
+		"x": 112,
+		"y": 59,
+		"layer": 1550,
+		"bmps": {
+			"equip_Top#DocTop": "chcg2_equip_DocTop_Head_Top.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg2_equip_BucketHelmet",
+		"x": 92,
+		"y": 66,
+		"layer": 1550,
+		"bmps": {
+			"equip_head#BucketHelmet": "chcg2_equip_BucketHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg2_head_equip_FootmanHelmet",
+		"x": 81,
+		"y": 1,
+		"layer": 1551,
+		"bmps": {
+			"equip_head#FootmanHelmet": "chcg2_head_equip_FootmanHelmet.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg2_equip_NunVeil_HeadTop",  // for some reason.  this extre layer is needed so i can turn off chcg2_equip_NunVeil to support hoods
+		"x": 103,
+		"y": 66,
+		"layer": 1549,
+		"bmps": {
+			"equip_head#NunVeil": "chcg2_equip_NunVeil_HeadTop.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg2_equip_NunVeil",
+		"x": 103,
+		"y": 66,
+		"layer": 1549,
+		"bmps": {
+			"equip_head#NunVeil": "chcg2_equip_NunVeil.png"
+		}
+	}
+]

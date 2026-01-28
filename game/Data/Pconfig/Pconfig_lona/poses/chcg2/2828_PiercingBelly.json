@@ -1,0 +1,11 @@
+[{
+	"name_order": [ "preg", "PiercingBelly"],
+	"part_name": "chcg2_PiercingBelly",
+	"x": "682",
+	"y": "432",
+	"layer": 2828,
+	"bmps": {
+		"preg03,PiercingBelly02": "chcg2_preg8m_PiercingBelly2.png",
+		"preg03,PiercingBelly03": "chcg2_preg8m_PiercingBelly2.png"
+	}
+}]

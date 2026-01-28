@@ -1,0 +1,39 @@
+[
+
+
+	{
+		"name_order": ["equip_MidExtra"],
+		"part_name": "chcg2_equip_FootmanMidExtra",
+		"x": 292,
+		"y": 212,
+		"layer": 2832,
+		"bmps": {
+			"equip_MidExtra#FootmanMidExtra": "chcg2_equip_FootmanMidExtra.png"
+		}
+	},
+
+
+	{
+		"name_order": ["equip_MidExtra"],
+		"part_name": "chcg2_equip_SlaveMidExtra",
+		"x": 345,
+		"y": 377,
+		"layer": 2832,
+		"bmps": {
+			"equip_MidExtra#FootmanMidExtra": "chcg2_equip_SlaveMidExtra.png"
+		}
+	},
+
+
+	{
+		"name_order": ["equip_MidExtra"],
+		"part_name": "chcg2_equip_NunMidExtra",
+		"x": 263,
+		"y": 183,
+		"layer": 2832,
+		"bmps": {
+			"equip_MidExtra#NunMidExtra": "chcg2_equip_NunMidExtra.png"
+		}
+	}
+
+]

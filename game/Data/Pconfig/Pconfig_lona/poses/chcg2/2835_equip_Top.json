@@ -1,0 +1,84 @@
+[{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg2_equip_SurTop",
+		"x": 232,
+		"y": 183,
+		"layer": 2835,
+		"bmps": {
+			"equip_Top#SurTop": "chcg2_equip_SurTop.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg2_equip_AdvTop",
+		"x": 211,
+		"y": 189,
+		"layer": 2835,
+		"bmps": {
+			"equip_Top#AdvTop": "chcg2_equip_AdvTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg2_equip_RagTop",
+		"x": 198,
+		"y": 212,
+		"layer": 2835,
+		"bmps": {
+			"equip_Top#RagTop": "chcg2_equip_RagTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg2_equip_DancerTop",
+		"x": 129,
+		"y": 271,
+		"layer": 2835,
+		"bmps": {
+			"equip_Top#DancerTop": "chcg2_equip_DancerTop.png"
+		}
+	},
+
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg2_equip_DocTop_BodyTop",
+		"x": 221,
+		"y": 187,
+		"layer": 2835,
+		"bmps": {
+			"equip_Top#DocTop": "chcg2_equip_DocTop_BodyTop.png"
+		}
+	},
+
+
+
+
+	{
+		"name_order": ["equip_Top"],
+		"part_name": "chcg2_equip_HoodCloakTop_Body_Top",
+		"x": 247,
+		"y": 192,
+		"layer": 2835,
+		"bmps": {
+			"equip_Top#HoodCloakTop": "chcg2_equip_HoodCloakTop_Body_Top.png"
+		}
+	}
+]

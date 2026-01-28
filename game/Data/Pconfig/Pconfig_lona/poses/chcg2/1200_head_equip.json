@@ -1,0 +1,31 @@
+[{
+		"name_order": ["equip_Face"],
+		"part_name": "chcg2_face_equip_StarterGlass",
+		"x": 149,
+		"y": 149,
+		"layer": 1199,
+		"bmps": {
+			"equip_Face#StarterGlass": "chcg2_face_equip_StarterGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg2_head_equip_SunGlass",
+		"x": 136,
+		"y": 141,
+		"layer": 1200,
+		"bmps": {
+			"equip_head#SunGlass": "chcg2_head_equip_SunGlass.png"
+		}
+	},
+	{
+		"name_order": ["equip_head"],
+		"part_name": "chcg2_head_equip_SexyHeadEquip",
+		"x": 109,
+		"y": 78,
+		"layer": 1200,
+		"bmps": {
+			"equip_head#SexyHeadEquip": "chcg2_head_equip_SexyHeadEquip.png"
+		}
+	}
+]

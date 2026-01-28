@@ -1,0 +1,37 @@
+[{
+	"name_order": ["analopen","SphincterDamaged", "CumsMoonPie"],
+	"part_name": "chcg2_CumsMoonPie",
+	"x": "556",
+	"y": "251",
+	"layer": 3800,
+	"bmps": {
+		"analopen00,SphincterDamaged00,CumsMoonPie01": "chcg2_CumsMoonPie1.png",
+		"analopen00,SphincterDamaged00,CumsMoonPie02": "chcg2_CumsMoonPie2.png",
+		"analopen00,SphincterDamaged00,CumsMoonPie03": "chcg2_CumsMoonPie3.png",
+		"analopen01,SphincterDamaged00,CumsMoonPie01": "chcg2_analopen_CumsMoonPie1.png",
+		"analopen01,SphincterDamaged00,CumsMoonPie02": "chcg2_analopen_CumsMoonPie2.png",
+		"analopen01,SphincterDamaged00,CumsMoonPie03": "chcg2_analopen_CumsMoonPie3.png"
+	}
+},{
+	"name_order": ["analopen","SphincterDamaged", "CumsMoonPie"],
+	"part_name": "chcg2_SphincterDamaged_CumsMoonPie_Bot",
+	"x": "556",
+	"y": "251",
+	"layer": 3800,
+	"bmps": {
+		"analopen01,SphincterDamaged01,CumsMoonPie01": "chcg2_analopen_CumsMoonPie1.png",
+		"analopen01,SphincterDamaged01,CumsMoonPie02": "chcg2_analopen_CumsMoonPie2.png",
+		"analopen01,SphincterDamaged01,CumsMoonPie03": "chcg2_analopen_CumsMoonPie3.png"
+	}
+},{
+	"name_order": ["analopen","SphincterDamaged", "CumsMoonPie"],
+	"part_name": "chcg2_SphincterDamaged_CumsMoonPie_Top",
+	"x": "540",
+	"y": "231",
+	"layer": 3801,
+	"bmps": {
+		"analopen01,SphincterDamaged01,CumsMoonPie01": "chcg2_CumsMoonPie1.png",
+		"analopen01,SphincterDamaged01,CumsMoonPie02": "chcg2_CumsMoonPie2.png",
+		"analopen01,SphincterDamaged01,CumsMoonPie03": "chcg2_CumsMoonPie3.png"
+	}
+}]

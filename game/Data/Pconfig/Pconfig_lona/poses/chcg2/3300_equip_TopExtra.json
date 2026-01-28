@@ -1,0 +1,34 @@
+[{
+		"name_order": ["equip_TopExtra"],
+		"part_name": "chcg2_equip_CuffTopExtra",
+		"x": 98,
+		"y": 278,
+		"layer": 3299,
+		"bmps": {
+			"equip_TopExtra#CuffTopExtra": "chcg2_equip_CuffTopExtra.png"
+		}
+	},
+
+	{
+		"name_order": ["equip_TopExtra"],
+		"part_name": "chcg2_equip_ChainCollarTopExtra",
+		"x": 1,
+		"y": 283,
+		"layer": 3300,
+		"bmps": {
+			"equip_TopExtra#ChainCollarTopExtra": "chcg2_equip_ChainCollarTopExtra.png"
+		}
+	},
+
+	{
+		"name_order": ["MainArm"],
+		"part_name": "chcg2_equip_ChainCuffTopExtra",
+		"x": 1,
+		"y": 283,
+		"layer": 3299,
+		"bmps": {
+			"MainArm#ChainCuffTopExtra": "chcg2_equip_ChainCuffTopExtra.png"
+		}
+	}
+
+]
