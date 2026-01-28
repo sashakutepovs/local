@@ -1,0 +1,6 @@
+{
+	"name": "Load_RubyScript",
+	"trigger": "none",
+	"switch_id": 0,
+	"script": "commonEvents_Load_RubyScript"
+}

@@ -1,0 +1,6 @@
+{
+	"name": "AutoCommon",
+	"trigger": "auto",
+	"switch_id": "auto",
+	"script": "commonEvents_Overevent_MainStats"
+}

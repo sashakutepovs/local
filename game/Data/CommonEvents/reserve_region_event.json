@@ -1,0 +1,6 @@
+{
+	"name": "reserve_region_event",
+	"trigger": "none",
+	"switch_id": 0,
+	"script": "commonEvents_reserve_region_event"
+}

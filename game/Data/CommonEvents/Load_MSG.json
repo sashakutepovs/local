@@ -1,0 +1,6 @@
+{
+	"name": "Load_MSG",
+	"trigger": "auto",
+	"switch_id": "Load_MSG",
+	"script": "commonEvents_Load_MSG"
+}

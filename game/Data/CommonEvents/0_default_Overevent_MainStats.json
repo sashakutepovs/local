@@ -1,0 +1,6 @@
+{
+	"name": "Overevent_MainStats",
+	"trigger": "parallel",
+	"switch_id": "default",
+	"script": "commonEvents_Overevent_MainStats"
+}

@@ -1,0 +1,6 @@
+{
+	"name": "Dialog_Options",
+	"trigger": "none",
+	"switch_id": 0,
+	"script": "commonEvents_Dialog_Options"
+}

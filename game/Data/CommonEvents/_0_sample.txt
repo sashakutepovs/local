@@ -1,0 +1,12 @@
+DEV
+
+name >> "asdasd"  >> will save as SYM :asdasd in $data_common_events[:asdasd]
+trigger >	0:"none"
+trigger >	1:"auto"
+trigger >	2:"parallel"
+
+
+switch_id > "asd"   hash key, chk in if story_stats["CommonEventSwitchs"][switch_id] == true
+
+
+"script" >things u want eval in GMI class

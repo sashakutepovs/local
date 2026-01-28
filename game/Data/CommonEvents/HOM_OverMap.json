@@ -1,0 +1,6 @@
+{
+	"name": "HOM_OverMap",
+	"trigger": "none",
+	"switch_id": 0,
+	"script": "commonEvents_HOM_OverMap"
+}
