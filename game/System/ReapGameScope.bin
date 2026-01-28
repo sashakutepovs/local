@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Define the pattern to match
+PATTERN="^gamescope"
+
+# Find matching PIDs
+PIDS=$(pgrep -f "$PATTERN")
+
+# Check if any PIDs were found
+if [[ -z "$PIDS" ]]; then
+    echo "No matching gamescope processes found."
+    exit 0
+fi
+
+# Kill each PID explicitly
+echo "Killing the following gamescope-related processes:"
+echo "$PIDS"
+for PID in $PIDS; do
+    kill -9 "$PID" && echo "Killed PID $PID" || echo "Failed to kill PID $PID"
+done
+
+# Final message after cleanup
+sleep 2
+clear
+echo "Gamescope Reaped."
