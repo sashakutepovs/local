@@ -1,0 +1,19 @@
+{
+	"char_name": "Mreg_guardsman",
+	"statMap": {
+		"canvas": {
+			"default": ["291", "369", "0", "0"]
+		},
+		"NPCportrait": "Mreg_guardsman"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Mreg_guardsman"			: "Mreg_guardsman.png"
+			}
+		}
+
+	]
+}

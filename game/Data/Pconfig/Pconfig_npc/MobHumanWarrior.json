@@ -1,0 +1,19 @@
+{
+	"char_name": "MobHumanWarrior",
+	"statMap": {
+		"canvas": {
+			"default": [442, 387, -160, 0]
+		},
+		"NPCportrait": "MobHumanWarrior"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"MobHumanWarrior"			: "MobHumanWarrior.png"
+			}
+		}
+
+	]
+}

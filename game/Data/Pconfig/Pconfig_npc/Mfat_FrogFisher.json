@@ -1,0 +1,19 @@
+{
+	"char_name": "Mfat_FrogFisher",
+	"statMap": {
+		"canvas": {
+			"default": ["348", "577", "-108", "40"]
+		},
+		"NPCportrait": "Mfat_FrogFisher"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Mfat_FrogFisher"			: "Mfat_FrogFisher.png"
+			}
+		}
+
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"char_name": "Mreg_pikeman",
+	"statMap": {
+		"canvas": {
+			"default": ["291", "526", "-20", "-120"]
+		},
+		"NPCportrait": "Mreg_pikeman"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Mreg_pikeman"			: "Mreg_pikeman.png"
+			}
+		}
+
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"char_name": "Mfat_DockCaptain",
+	"statMap": {
+		"canvas": {
+			"default": ["333", "694", "-55", "0"]
+		},
+		"NPCportrait": "Mfat_DockCaptain"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Mfat_DockCaptain"			: "Mfat_DockCaptain.png"
+			}
+		}
+
+	]
+}

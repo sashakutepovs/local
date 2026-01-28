@@ -1,0 +1,19 @@
+{
+	"char_name": "MaaniNormal",
+	"statMap": {
+		"canvas": {
+			"default": ["234", "458", "0", "15"]
+		},
+		"NPCportrait": "MaaniNormal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"MaaniNormal"			: "MaaniNormal.png"
+			}
+		}
+
+	]
+}

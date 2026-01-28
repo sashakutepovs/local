@@ -1,0 +1,19 @@
+{
+	"char_name": "LisaBereft",
+	"statMap": {
+		"canvas": {
+			"default": ["242", "360", "-15", "30"]
+		},
+		"NPCportrait": "LisaBereft"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"LisaBereft"			: "LisaBereft.png"
+			}
+		}
+
+	]
+}

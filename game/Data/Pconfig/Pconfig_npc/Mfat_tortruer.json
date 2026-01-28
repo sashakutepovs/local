@@ -1,0 +1,19 @@
+{
+	"char_name": "Mfat_tortruer",
+	"statMap": {
+		"canvas": {
+			"default": ["301", "441", "-50", "20"]
+		},
+		"NPCportrait": "Mfat_tortruer"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"Mfat_tortruer"			: "Mfat_tortruer.png"
+			}
+		}
+
+	]
+}

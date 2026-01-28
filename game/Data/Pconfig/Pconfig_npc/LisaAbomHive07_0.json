@@ -1,0 +1,18 @@
+
+{
+	"char_name": "LisaAbomHive07_0",
+	"statMap": {
+		"canvas": {
+			"default": ["887", "551", "248", "0"]
+		},
+		"NPCportrait": "LisaAbomHive07_0"
+	},
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"LisaAbomHive07_0"			: "LisaAbomHive07_0.png"
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"char_name": "MiloAngry",
+	"statMap": {
+		"canvas": {
+			"default": ["337", "410", "-15", "10"]
+		},
+		"NPCportrait": "MiloAngry"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"MiloAngry"			: "MiloAngry.png"
+			}
+		}
+
+	]
+}

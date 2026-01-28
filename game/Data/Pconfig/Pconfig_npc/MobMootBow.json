@@ -1,0 +1,19 @@
+{
+	"char_name": "MobMootBow",
+	"statMap": {
+		"canvas": {
+			"default": ["442", "387", "-160", "0"]
+		},
+		"NPCportrait": "MobMootBow"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"MobMootBow"			: "MobMootBow.png"
+			}
+		}
+
+	]
+}

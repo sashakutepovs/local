@@ -1,0 +1,19 @@
+{
+	"char_name": "MobHumanBow",
+	"statMap": {
+		"canvas": {
+			"default": [442, 387, -160, 0]
+		},
+		"NPCportrait": "MobHumanBow"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"MobHumanBow"			: "MobHumanBow.png"
+			}
+		}
+
+	]
+}

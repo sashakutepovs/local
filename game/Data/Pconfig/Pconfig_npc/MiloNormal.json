@@ -1,0 +1,19 @@
+{
+	"char_name": "MiloNormal",
+	"statMap": {
+		"canvas": {
+			"default": ["337", "410", "-15", "10"]
+		},
+		"NPCportrait": "MiloNormal"
+	},
+
+	"parts": [{
+			"part_name": "NPCportrait",
+			"layer": 65535,
+			"bmps": {
+				"MiloNormal"			: "MiloNormal.png"
+			}
+		}
+
+	]
+}
