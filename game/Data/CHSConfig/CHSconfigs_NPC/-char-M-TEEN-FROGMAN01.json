@@ -1,0 +1,46 @@
+{
+
+	"chartype": "-char-M-TEEN-FROGMAN01",
+	"folder": "MteenC",
+	"balloon_height": -9,
+	"balloon_height_low": -18,
+	"cell_width" :64,
+	"cell_height": 62,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :10,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "anal"],
+		["anal", "nil", "mouth"],
+		["anal", "mouth", "nil"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00CommonTeenFrogMan",
+			"random" : true,
+			"head": ["MteenC_head_frog_frogman.png"],
+			"body": ["MteenC_body_frogman.png"]
+		}
+
+
+
+	]
+
+
+
+}

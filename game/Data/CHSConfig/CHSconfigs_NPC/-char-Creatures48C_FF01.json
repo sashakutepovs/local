@@ -1,0 +1,39 @@
+{
+
+	"chartype": "-char-Creatures48C_FF01",
+	"folder": "Creatures48C",
+	"balloon_height": -5,
+	"balloon_height_low": -10,
+	"cell_width" :48,
+	"cell_height": 48,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "vag"],
+		["anal", "vag", "mouth"],
+		["vag", "mouth", "anal"],
+		["nil", "nil", "nil"],
+		["mouth", "vag", "anal"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00ApeFemale",
+			"random" : false,
+			"body": ["Creatures48C_ApeFF.png"]
+		}
+	]
+}

@@ -1,0 +1,203 @@
+{
+
+	"chartype": "-char-F-TEEN02",
+	"folder": "FteenC",
+	"balloon_height": -8,
+	"balloon_height_low": -16,
+	"cell_width": 64,
+	"cell_height": 54,
+	"sex_cell_width": 80,
+	"sex_cell_height": 87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "vag"],
+		["anal", "vag", "mouth"],
+		["vag", "mouth", "anal"],
+		["nil", "anal", "vag"],
+		["mouth", "vag", "nil"],
+		["vag", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00BlueBlue",
+			"random": false,
+			"default_index": 0,
+			"ext1": ["FteenC_ext1_dirt.png"],
+			"head_equip": ["FteenC_HeadEquip_human_ShortRound.png"],
+			"head": ["FteenC_head_moot_NPC.png"],
+			"top": ["FteenC_top_PinnyBra.png"],
+			"bot": ["FteenC_bot_BroneShoe.png"],
+			"body": ["FteenC_body_moot_preg8m.png"]
+		},{
+			"name": "01CoconaMaidEquiped",
+			"random": false,
+			"default_index": 0,
+			"equip_top": ["FteenC_ArmMixHigh_CoconaEnd.png"],
+			"ext4": ["FteenC_ext4_cums3.png"],
+			"ext3": ["FteenC_ext4_cums2.png"],
+			"ext2": ["FteenC_ext4_cums1.png"],
+			"ext1": ["FteenC_ext1_dirt_Cocona.png"],
+			"head_equip": ["FteenC_HeadEquip_Cocona.png"],
+			"head": ["FteenC_head_moot_Cocona.png"],
+			"mid": ["FteenC_mid_CoconaMaid.png"],
+			"body": ["FteenC_body_Cocona.png"],
+			"equip_bot": ["FteenC_ArmMixLow_CoconaEnd.png"]
+		},{
+			"name": "02FerrumSet",
+			"random": false,
+			"default_index": 0,
+			"head_equip": ["FteenC_HeadEquip_human_FerrumSet.png"],
+			"head": ["FteenC_head_human_Ferrum.png"],
+			"top": ["FteenC_top_FerrumSet.png"],
+			"body": ["FteenC_body_human.png"]
+		},{
+			"name": "03RandomMootCropse",
+			"random": true,
+			"ext4": ["FteenC_ext4_cums3.png",
+					"FteenC_ext4_cums2.png",
+					"FteenC_ext4_cums1.png",
+					"NA"],
+			"ext1": ["FteenC_ext1_dirt.png"],
+			"head_equip": [
+				"FteenC_HeadEquip_human_PoorSlaveShort.png",
+				"FteenC_HeadEquip_human_PoorSlaveLong.png"
+			],
+			"head": [
+				"FteenC_head_moot_Cropse.png"
+			],
+			"top": [
+				"FteenC_top_PinnyBra.png",
+				"NA"
+			],
+			"mid": [
+				"NA",
+				"FteenC_mid_PoorDress.png"
+			],
+			"bot": [
+				"NA",
+				"FteenC_bot_BroneShoeLong.png"
+			],
+			"body": ["FteenC_body_moot_Cropse.png"]
+		},{
+			"name": "04RandomHumanCropse",
+			"random": true,
+			"ext4": ["FteenC_ext4_cums3.png",
+					"FteenC_ext4_cums2.png",
+					"FteenC_ext4_cums1.png",
+					"NA"],
+			"ext1": ["FteenC_ext1_dirt.png"],
+			"head_equip": [
+				"FteenC_HeadEquip_human_PoorSlaveShort.png",
+				"FteenC_HeadEquip_human_PoorSlaveLong.png"
+			],
+			"head": [
+				"FteenC_head_human_Cropse.png"
+			],
+			"top": [
+				"FteenC_top_PinnyBra.png",
+				"NA"
+			],
+			"mid": [
+				"NA",
+				"FteenC_mid_PoorDress.png"
+			],
+			"bot": [
+				"NA",
+				"FteenC_bot_BroneShoeLong.png"
+			],
+			"body": ["FteenC_body_human_Cropse.png"]
+		},{
+			"name": "05RandomMootPregCropse",
+			"random": true,
+			"ext4": ["FteenC_ext4_cums3.png",
+					"FteenC_ext4_cums2.png",
+					"FteenC_ext4_cums1.png",
+					"NA"],
+			"ext1": ["FteenC_ext1_dirt.png"],
+			"head_equip": [
+				"FteenC_HeadEquip_human_PoorSlaveShort.png",
+				"FteenC_HeadEquip_human_PoorSlaveLong.png"
+			],
+			"head": ["FteenC_head_moot_Cropse.png"],
+			"body": ["FteenC_body_moot_preg8m_Cropse.png"]
+		},{
+			"name": "06RandomMootPregCropse",
+			"random": true,
+			"ext4": ["FteenC_ext4_cums3.png",
+					"FteenC_ext4_cums2.png",
+					"FteenC_ext4_cums1.png",
+					"NA"],
+			"ext1": ["FteenC_ext1_dirt.png"],
+			"head_equip": [
+				"FteenC_HeadEquip_human_PoorSlaveShort.png",
+				"FteenC_HeadEquip_human_PoorSlaveLong.png"
+			],
+			"head": ["FteenC_head_human_Cropse.png"],
+			"body": ["FteenC_body_human_preg8m_Cropse.png"]
+		},{
+			"name": "07CoconaNecNoStaff",
+			"random": false,
+			"default_index": 0,
+			"equip_top": ["FteenC_ArmMixHigh_CoconaEnd.png"],
+			"ext4": ["FteenC_ext4_cums3.png"],
+			"ext3": ["FteenC_ext4_cums2.png"],
+			"ext2": ["FteenC_ext4_cums1.png"],
+			"ext1": ["FteenC_ext1_dirt_Cocona.png"],
+			"head_equip": ["FteenC_HeadEquip_Cocona.png"],
+			"head": ["FteenC_head_moot_Cocona.png"],
+			"mid": ["FteenC_mid_Cocona.png"],
+			"body": ["FteenC_body_Cocona.png"],
+			"equip_bot": ["FteenC_ArmMixLow_CoconaEnd.png"]
+		},
+		{
+			"name": "08NiggaMootToilet",
+			"random": true,
+			"default_index": 3,
+			"ext4": [
+					"FteenC_ext4_cums3.png",
+					"FteenC_ext4_cums2.png",
+					"FteenC_ext4_cums1.png"
+			],
+			"ext3": ["FteenC_ext1_dirt.png"
+			],
+			"ext2": [
+				"FteenC_head_equip_SunGlass.png"
+			],
+			"ext1": [
+				"FteenC_HeadEquip_human_ElfArcher.png",
+				"FteenC_HeadEquip_human_PoorSlaveShort.png",
+				"FteenC_HeadEquip_human_PoorSlaveLong.png",
+				"FteenC_HeadEquip_human_ShortRound.png",
+				"FteenC_HeadEquip_human_LongBrown.png"
+			],
+			"head": [
+				"FteenC_head_moot_NPC.png",
+				"FteenC_head_moot_anonymous.png"
+			],
+			"top2": [
+					"FteenC_top_ChainCuffShackles.png",
+					"FteenC_top_ChainShackles.png",
+					"FteenC_top_CollarAndCuff.png",
+					"NA"
+			],
+			"top": ["FteenC_top_CollarAndCuff.png",
+				"NA"
+			],
+			"body": ["FteenC_body_moot.png",
+				"FteenC_body_moot_preg8m.png"
+			]
+		}
+	]
+}

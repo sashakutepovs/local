@@ -1,0 +1,122 @@
+{
+
+	"chartype": "-char-M-FAT-ABOM01",
+	"folder": "MfatC",
+	"balloon_height": -12,
+	"balloon_height_low": -16,
+	"cell_width" :76,
+	"cell_height": 68,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00_AbommAN",
+			"random" : false,
+			"head": ["MfatC_head_AbomZombie.png"],
+			"body": ["MfatC_body_AbomZombie.png"]
+		},{
+			"name": "01NA",
+			"head": ["NA"]
+		},{
+			"name": "02NA",
+			"head": ["NA"]
+		},{
+			"name": "03NA",
+			"head": ["NA"]
+		},{
+			"name": "04NA",
+			"head": ["NA"]
+		},{
+			"name": "05NA",
+			"head": ["NA"]
+		},{
+			"name": "06NA",
+			"head": ["NA"]
+		},{
+			"name": "07NA",
+			"head": ["NA"]
+		},{
+			"name": "08NA",
+			"head": ["NA"]
+		},{
+			"name": "09NA",
+			"head": ["NA"]
+		},{
+			"name": "10NA",
+			"head": ["NA"]
+		},{
+			"name": "11NA",
+			"head": ["NA"]
+		},{
+			"name": "12NA",
+			"head": ["NA"]
+		},{
+			"name": "13NA",
+			"head": ["NA"]
+		},	
+		{
+			"name": "12NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "13NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "14NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "15NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "16NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "17NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "18NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "19NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "20NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "21NA",
+			"head": ["NA"]
+		}
+	]
+
+
+
+}

@@ -1,0 +1,96 @@
+{
+
+	"chartype": "-char-M-REG_UNDEAD01",
+	"folder": "MregC",
+	"balloon_height": -10,
+	"balloon_height_low": -20,
+	"cell_width": 64,
+	"cell_height": 60,
+	"sex_cell_width": 80,
+	"sex_cell_height": 87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00dedGod",
+			"random": false,
+			"equip_top": ["MregC_ArmHigh_MhBigSickle.png"],
+			"top": ["MregC_top_DedGodSet.png"],
+			"body": ["NA"],
+			"equip_bot": ["MregC_ArmLow_MhBigSickle.png"]
+		},
+		{
+			"name": "01dedGod_Gunner",
+			"random": false,
+			"equip_top": ["MregC_ArmHigh_MhDualAr.png"],
+			"top": ["MregC_top_DedGodSet.png"],
+			"body": ["NA"],
+			"equip_bot": ["MregC_ArmLow_MhDualAr.png"]
+		},
+		{
+			"name": "02dedGod_UnArm",
+			"random": false,
+			"top": ["MregC_top_DedGodSet.png"],
+			"body": ["NA"]
+		},{
+			"name": "03NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},{
+			"name": "04NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},{
+			"name": "05DedBerserk",
+			"default_index": 4,
+			"random": false,
+			"top": ["MregC_top_BerserkSet.png"],
+			"body": ["NA"]
+		},{
+			"name": "06NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		}
+
+	]
+
+
+
+}

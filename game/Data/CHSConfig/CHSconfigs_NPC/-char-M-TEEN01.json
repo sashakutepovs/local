@@ -1,0 +1,258 @@
+{
+
+	"chartype": "-char-M-TEEN01",
+	"folder": "MteenC",
+	"balloon_height": -9,
+	"balloon_height_low": -18,
+	"cell_width" :64,
+	"cell_height": 62,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :10,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "anal"],
+		["anal", "nil", "mouth"],
+		["anal", "mouth", "nil"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00RandomTeen",
+			"random" : true,
+			"head_equip": [
+			"MteenC_HeadEquip_human_CrewCut.png",
+			"MteenC_HeadEquip_human_ShortWhite.png"
+			],
+			"head": ["MteenC_head_human_anonymous.png"],
+			"top": [
+			"NA",
+			"MteenC_top_FlaxVest.png",
+			"MteenC_top_LeatherCloak.png"
+			],
+			"mid": [
+			"MteenC_mid_LongDarkShirt.png",
+			"MteenC_mid_ShortDarkShirt.png",
+			"MteenC_mid_WhiteFlaxShirt.png"
+			],
+			"bot": [
+			"MteenC_bot_DarkPant.png"
+			],
+			"body": ["MteenC_body_human.png"]
+		},
+		{
+			"name": "01RandomTeenPoor",
+			"random" : true,
+			"head_equip": [
+			"MteenC_HeadEquip_human_CrewCut.png",
+			"MteenC_HeadEquip_human_PoorSlaveShort.png",
+			"MteenC_HeadEquip_human_ShortWhite.png"
+			],
+			"head": ["MteenC_head_human_anonymous.png"],
+			"top": [
+			"NA",
+			"MteenC_top_RagCloak.png"
+			],
+			"mid": [
+			"NA",
+			"MteenC_mid_RagVest.png",
+			"MteenC_mid_ShirtBrokeGray.png"
+			],
+			"bot": [
+			"NA",
+			"MteenC_bot_ShortBroke.png",
+			"MteenC_bot_RagPant.png"
+			],
+			"body": ["MteenC_body_human.png"]
+
+		},
+		{
+			"name": "02EliseTheDoctorOpenHood",
+			"equip_top": ["MteenC_ArmHigh_ShFireBook.png"],
+			"head_equip": ["MteenC_HeadEquip_human_EliseOpenHood.png"],
+			"head": ["MteenC_head_human_elise.png"],
+			"top": ["MteenC_top_LeatherCloak.png"],
+			"mid": ["MteenC_mid_EliseDoctorMid.png"],
+			"bot": ["MteenC_bot_DarkPant.png"],
+			"body": ["MteenC_body_human.png"],
+			"equip_bot": ["MteenC_ArmLow_ShFireBook.png"]
+		},
+		{
+			"name": "03EliseTheDoctorClosedHood",
+			"equip_top": ["MteenC_ArmHigh_ShFireBook.png"],
+			"head_equip": ["MteenC_HeadEquip_human_EliseCloseHood.png"],
+			"head": ["MteenC_head_human_elise.png"],
+			"top": ["MteenC_top_LeatherCloak.png"],
+			"mid": ["MteenC_mid_EliseDoctorMid.png"],
+			"bot": ["MteenC_bot_DarkPant.png"],
+			"body": ["MteenC_body_human.png"],
+			"equip_bot": ["MteenC_ArmLow_ShFireBook.png"]
+		},
+		{
+			"name": "04HappyMerchant",
+			"head_equip": ["MteenC_HeadEquip_human_HappyMerchant.png"],
+			"head": ["MteenC_head_human_HappyMerchant.png"],
+			"top": ["MteenC_top_FlaxVest.png"],
+			"mid": ["MteenC_mid_DirtyFlaxShirt.png"],
+			"bot": ["MteenC_bot_DarkPant.png"],
+			"body": ["MteenC_body_human_dark.png"]
+		},
+		{
+			"name": "05MootPoorKid",
+			"head_equip": ["MteenC_HeadEquip_human_PoorSlaveShort.png"],
+			"head": ["MteenC_head_moot_anonymous.png"],
+			"mid": ["MteenC_mid_RagVest.png"],
+			"bot": ["MteenC_bot_ShortBroke.png"],
+			"body": ["MteenC_body_moot.png"]
+		},
+		{
+			"name": "06BeachJewBoy",
+			"head_equip": ["MteenC_HeadEquip_human_CrewCut.png"],
+			"head": ["MteenC_head_human_anonymous.png"],
+			"bot": ["MteenC_bot_RagPant.png"],
+			"body": ["MteenC_body_human.png"]
+		},
+		{
+			"name": "07RandomCropseMoot",
+			"random" : true,
+			"head_equip": ["MteenC_HeadEquip_human_PoorSlaveShort.png"],
+			"head": ["MteenC_head_moot_Cropse.png"],
+			"top": [
+				"NA",
+				"MteenC_top_RagCloak.png"
+			],
+			"mid": [
+				"NA",
+				"MteenC_mid_RagVest.png",
+				"MteenC_mid_LongDarkShirt.png",
+				"MteenC_mid_ShirtBrokeGray.png"
+			],
+			"bot": [
+				"NA",
+				"MteenC_bot_RagPant.png",
+				"MteenC_bot_ShortBroke.png",
+				"MteenC_bot_DarkPant.png"
+			],
+			"body": ["MteenC_body_moot_Cropse.png"]
+		},
+		{
+			"name": "08RandomCropseHuman",
+			"random" : true,
+			"head_equip": ["MteenC_HeadEquip_human_PoorSlaveShort.png"],
+			"head": ["MteenC_head_human_Cropse.png"],
+			"top": [
+				"NA",
+				"MteenC_top_RagCloak.png"
+			],
+			"mid": [
+				"NA",
+				"MteenC_mid_RagVest.png",
+				"MteenC_mid_LongDarkShirt.png",
+				"MteenC_mid_ShirtBrokeGray.png"
+			],
+			"bot": [
+				"NA",
+				"MteenC_bot_RagPant.png",
+				"MteenC_bot_ShortBroke.png",
+				"MteenC_bot_DarkPant.png"
+			],
+			"body": ["MteenC_body_human_Cropse.png"]
+		},
+		{
+			"name": "09LittleSoldierSet",
+			"equip_top": ["MteenC_ArmHigh_MhRake.png"],
+			"head_equip": ["MteenC_HeadEquip_human_PotHelmet.png"],
+			"head": ["MteenC_head_moot_anonymous.png"],
+			"top": ["MteenC_top_LittleSoldierSet.png"],
+			"body": ["MteenC_body_moot.png"],
+			"equip_bot": ["MteenC_ArmLow_ShFireBook.png"]
+		},
+		{
+			"name": "10NA",
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "11NA",
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "12RandomMootTeen",
+			"random" : true,
+			"head_equip": [
+			"MteenC_HeadEquip_human_CrewCut.png",
+			"MteenC_HeadEquip_human_PoorSlaveShort.png",
+			"MteenC_HeadEquip_human_ShortWhite.png"
+			],
+			"head": ["MteenC_head_moot_anonymous.png"],
+			"top": [
+			"NA",
+			"MteenC_top_FlaxVest.png",
+			"MteenC_top_LeatherCloak.png"
+			],
+			"mid": [
+			"MteenC_mid_LongDarkShirt.png",
+			"MteenC_mid_ShortDarkShirt.png",
+			"MteenC_mid_WhiteFlaxShirt.png"
+			],
+			"bot": [
+			"MteenC_bot_DarkPant.png"
+			],
+			"body": ["MteenC_body_moot.png"]
+		},
+		{
+			"name": "13RandomMootTeenPoor",
+			"random" : true,
+			"head_equip": [
+			"MteenC_HeadEquip_human_CrewCut.png",
+			"MteenC_HeadEquip_human_PoorSlaveShort.png",
+			"MteenC_HeadEquip_human_ShortWhite.png"
+			],
+			"head": ["MteenC_head_moot_anonymous.png"],
+			"top": [
+			"NA",
+			"MteenC_top_RagCloak.png"
+			],
+			"mid": [
+			"NA",
+			"MteenC_mid_RagVest.png",
+			"MteenC_mid_ShirtBrokeGray.png"
+			],
+			"bot": [
+			"NA",
+			"MteenC_bot_ShortBroke.png",
+			"MteenC_bot_RagPant.png"
+			],
+			"body": ["MteenC_body_moot.png"]
+
+		}
+
+
+
+	]
+
+
+
+}

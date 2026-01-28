@@ -1,0 +1,64 @@
+{
+
+	"chartype": "-char-F-TEEN-FISHKIND01",
+	"folder": "FteenC",
+	"balloon_height": -8,
+	"balloon_height_low": -16,
+	"cell_width" :64,
+	"cell_height": 54,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "vag"],
+		["anal", "vag", "mouth"],
+		["vag", "mouth", "anal"],
+		["nil", "anal", "vag"],
+		["mouth", "vag", "nil"],
+		["vag", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+		],
+	"parts": [{
+			"name": "00CommonerFishKind",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["FteenC_head_fishkind_fishkind.png"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["FteenC_body_fishkind.png"]
+		},
+		{
+			"name": "0Charger",
+			"default_index":3,
+			"head": ["FteenC_head_fishkind_fishkind.png"],
+			"body": ["FteenC_body_fishkind.png"]
+
+		},
+		{
+			"name": "02FishKindCute",
+			"head_equip": ["FteenC_HeadEquip_fishkind_cute.png"],
+			"head": ["FteenC_head_fishkind_cute.png"],
+			"body": ["FteenC_body_fishkind.png"]
+		}
+
+
+
+	]
+
+
+
+}

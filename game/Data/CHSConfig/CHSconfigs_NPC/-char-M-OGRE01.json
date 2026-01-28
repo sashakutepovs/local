@@ -1,0 +1,116 @@
+{
+
+	"chartype": "-char-M-OGRE01",
+	"folder": "MhugeC",
+	"balloon_height": -12,
+	"balloon_height_low": -24,
+	"cell_width" :100,
+	"cell_height": 72,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00OgreSlaveMaster",
+			"equip_top": ["MhugeC_MhTop_BoneClub.png"],
+			"head": ["MhugeC_head_ogre_WarBossLeather.png"],
+			"top": ["MhugeC_top_PeltCloak.png"],
+			"body": ["MhugeC_body_ogre.png"],
+			"equip_bot": ["MhugeC_MhBot_BoneClub.png"]
+		},
+		{
+			"name": "01OgreWarboss",
+			"equip_top": ["MhugeC_ArmMixHigh_ButcherKnifeMeatShield.png"],
+			"head": ["MhugeC_head_ogre_IronMask.png"],
+			"bot": ["MhugeC_top_WarBossSet.png"],	
+			"body": ["MhugeC_body_ogre.png"],
+			"equip_bot": ["MhugeC_ArmMixLow_ButcherKnifeMeatShield.png"]
+		},
+		{
+			"name": "02NudeGOgre",
+			"head": ["MhugeC_head_ogre_ogre.png"],
+			"body": ["MhugeC_body_ogre.png"]
+		},
+		{
+			"name": "03OgreWarboss",
+			"equip_top": ["MhugeC_ArmMixHigh_ButcherKnifeShBoneShield.png"],
+			"head": ["MhugeC_head_ogre_LeatherMask_MeatShieldVer.png"],
+			"bot": ["MhugeC_bot_WarBossMeatArmorSet.png"],	
+			"body": ["MhugeC_body_ogre.png"],
+			"equip_bot": ["MhugeC_ArmMixLow_ButcherKnifeShBoneShield.png"]
+		},
+		{
+			"name": "04OgreWarbossShieldMeatTioletLona",
+			"equip_top": ["MhugeC_ArmMixHigh_ButcherKnifeShBoneShield.png"],
+			"head": ["MhugeC_head_ogre_LeatherMask_MeatShieldVer.png"],
+			"top": ["MhugeC_mid_MeatArmorLonaDirt.png"],
+			"mid": ["MhugeC_mid_MeatArmorLona.png"],
+			"bot": ["MhugeC_bot_WarBossMeatArmorSet.png"],
+			"body": ["MhugeC_body_ogre.png"],
+			"equip_bot": ["MhugeC_ArmMixLow_ButcherKnifeShBoneShield.png"]
+		},
+		{
+			"name": "05OgreWarbossShieldMeatTioletDed",
+			"equip_top": ["MhugeC_ArmMixHigh_ButcherKnifeShBoneShield.png"],
+			"head": ["MhugeC_head_ogre_LeatherMask_MeatShieldVer.png"],
+			"top": ["MhugeC_mid_MeatArmorDirt.png"],	
+			"mid": ["MhugeC_mid_MeatArmorCorpse.png"],	
+			"bot": ["MhugeC_bot_WarBossMeatArmorSet.png"],	
+			"body": ["MhugeC_body_ogre.png"],
+			"equip_bot": ["MhugeC_ArmMixLow_ButcherKnifeShBoneShield.png"]
+		},
+		{
+			"name": "06OgreWarbossMeatToiletLona",
+			"equip_top": ["MhugeC_ArmMixHigh_ButcherKnifeMeatToiletShieldM.png"],
+			"head": ["MhugeC_head_ogre_LeatherMask_MeatShieldVer.png"],
+			"top": ["MhugeC_mid_MeatArmorLonaDirt.png"],	
+			"mid": ["MhugeC_mid_MeatArmorLona.png"],	
+			"bot": ["MhugeC_bot_WarBossMeatArmorSet.png"],	
+			"body": ["MhugeC_body_ogre.png"],
+			"equip_bot": ["MhugeC_ArmMixLow_ButcherKnifeMeatShield.png"]
+		},
+		{
+			"name": "07OgreWarbossMeatToiletDed",
+			"equip_top": ["MhugeC_ArmMixHigh_ButcherKnifeMeatToiletShieldM.png"],
+			"head": ["MhugeC_head_ogre_LeatherMask_MeatShieldVer.png"],
+			"top": ["MhugeC_mid_MeatArmorDirt.png"],	
+			"mid": ["MhugeC_mid_MeatArmorCorpse.png"],	
+			"bot": ["MhugeC_bot_WarBossMeatArmorSet.png"],	
+			"body": ["MhugeC_body_ogre.png"],
+			"equip_bot": ["MhugeC_ArmMixLow_ButcherKnifeMeatShield.png"]
+		},
+		{
+			"name": "08OgreNudeRapeLona",
+			"head": ["MhugeC_head_ogre_LeatherMask_MeatShieldVer.png"],
+			"top": ["MhugeC_mid_MeatArmorLonaDirt.png"],	
+			"mid": ["MhugeC_mid_MeatArmorLona.png"],	
+			"bot": ["MhugeC_bot_WarBossFuckerSet.png"],
+			"body": ["MhugeC_body_ogre.png"]
+		}
+
+
+	]
+
+
+
+}

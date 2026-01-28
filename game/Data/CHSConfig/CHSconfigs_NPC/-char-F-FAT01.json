@@ -1,0 +1,69 @@
+{
+
+	"chartype": "-char-F-FAT01",
+	"folder": "MfatC",
+	"balloon_height": -12,
+	"balloon_height_low": -16,
+	"cell_width" :76,
+	"cell_height": 68,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "anal"],
+		["vag", "nil", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [
+		{
+			"name": "00NoarTavernFatMama",
+			"equip_top": ["MfatC_ArmHigh_MhButcherKnife.png"],
+			"head_equip": ["MfatC_HeadEquip_human_HairMama.png"],
+			"head": ["MfatC_head_human_FatMama.png"],
+			"mid": ["MfatC_mid_CookerRobe.png"],
+			"bot": ["MfatC_bot_Sandals.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmLow_MhButcherKnife.png"]
+		},{
+			"name": "01ElfArcher",
+			"equip_top": ["MfatC_ArmHigh_MhLongBow.png"],
+			"head_equip": ["MfatC_HeadEquip_human_ElfArcher.png"],
+			"head": ["MfatC_head_human_AnonElf.png"],
+			"top": ["MfatC_top_ElfArcherSet.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmLow_MhLongBow.png"]
+		},{
+			"name": "02BossMama",
+			"body": ["FfatC_body_BossMama.png"]
+		},{
+			"name": "03MamaEmptyHand",
+			"head_equip": ["MfatC_HeadEquip_human_HairMama.png"],
+			"head": ["MfatC_head_human_FatMama.png"],
+			"mid": ["MfatC_mid_CookerRobe.png"],
+			"bot": ["MfatC_bot_Sandals.png"],
+			"body": ["MfatC_body_human.png"]
+		}
+
+
+
+	]
+
+
+
+}

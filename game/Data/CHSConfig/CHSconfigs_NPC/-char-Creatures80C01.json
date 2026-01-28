@@ -1,0 +1,62 @@
+{
+
+	"chartype": "-char-Creatures80C01",
+	"folder": "Creatures80C",
+	"balloon_height": -9,
+	"balloon_height_low": -18,
+	"cell_width" :80,
+	"cell_height": 80,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00HorseBrone",
+			"random" : false,
+			"body": ["Creatures80C_HorseBrone.png"]
+		},{
+			"name": "01AbomTentcle",
+			"random" : false,
+			"body": ["Creatures80C_AbominationTentacle.png"]
+		},{
+			"name": "02AbomBat",
+			"random" : false,
+			"body": ["Creatures80C_AbominationBat.png"]
+		},{
+			"name": "03AlphaWolf",
+			"random" : false,
+			"body": ["Creatures80C_AlphaWolf.png"]
+		},{
+			"name": "04AbomTentcleNoBase",
+			"random" : false,
+			"body": ["Creatures80C_AbominationTentacleNoBase.png"]
+		},{
+			"name": "05AbominationCocoon",
+			"random" : false,
+			"body": ["Creatures80C_AbominationCocoon.png"]
+		}
+	]
+
+
+
+}

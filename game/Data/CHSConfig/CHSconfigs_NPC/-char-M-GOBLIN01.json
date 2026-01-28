@@ -1,0 +1,352 @@
+{
+
+	"chartype": "-char-M-GOBLIN01",
+	"folder": "MteenC",
+	"balloon_height": -8,
+	"balloon_height_low": -16,
+	"cell_width" :64,
+	"cell_height": 62,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :10,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "anal"],
+		["anal", "nil", "mouth"],
+		["anal", "mouth", "nil"],
+		["nil", "anal", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00RandomGoblin",
+			"random" : true,
+			"head_equip":[
+					"MteenC_HeadEquip_goblin_tatoo1.png",
+					"NA"],
+			"head": [
+					"MteenC_head_goblin_goblin.png"],
+			"top": [
+					"MteenC_top_RagCloak.png",
+					"NA"],
+			"mid": [
+					"MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": [
+					"MteenC_bot_RagPant.png",
+					"MteenC_bot_HayPants.png",
+					"NA"],
+			"body": [
+					"MteenC_body_goblin.png",
+					"MteenC_body_GoblinTatoo.png"]
+		},
+		{
+			"name": "01NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},
+		{
+			"name": "02NudeGoblin",
+			"head": ["MteenC_head_goblin_goblin.png"],
+			"body": ["MteenC_body_goblin.png"]
+		},
+		{
+			"name": "03NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "04NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "05NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "06NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "07NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "08NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "09NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "10NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "11NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},
+		{
+			"name": "12GoblinScout",
+			"random" : false,
+			"equip_top": ["MteenC_ArmHigh_MhWoodenClub.png"],
+			"head_equip":["MteenC_HeadEquip_goblin_tatoo1.png"],
+			"head": ["MteenC_head_goblin_goblin.png"],
+			"top": ["MteenC_top_RagCloak.png"],
+			"mid": ["MteenC_mid_RagVest.png"],
+			"bot": ["MteenC_bot_RagPant.png"],
+			"body": ["MteenC_body_GoblinTatoo.png"],
+			"equip_bot": ["MteenC_ArmLow_MhWoodenClub.png"]
+		},
+		{
+			"name": "13RandomSpearmanGoblin",
+			"random" : true,
+			"equip_top": ["MteenC_ArmHigh_MhWoodenSpear.png"],
+			"head_equip":[
+					"MteenC_HeadEquip_goblin_tatoo1.png",
+					"NA"],
+			"head": [
+					"MteenC_head_goblin_goblin.png"],
+			"top": [
+					"MteenC_top_RagCloak.png",
+					"NA"],
+			"mid": [
+					"MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": [
+					"MteenC_bot_RagPant.png",
+					"MteenC_bot_HayPants.png",
+					"NA"],
+			"body": [
+					"MteenC_body_goblin.png",
+					"MteenC_body_GoblinTatoo.png"],
+			"equip_bot": ["MteenC_ArmLow_MhWoodenSpear.png"]
+		},
+		{
+			"name": "14RandomArcherGoblin",
+			"random" : true,
+			"equip_top": ["MteenC_ArmHigh_MhLongBow.png"],
+			"head_equip":[
+					"MteenC_HeadEquip_goblin_tatoo1.png",
+					"NA"],
+			"head": [
+					"MteenC_head_goblin_goblin.png"],
+			"top": [
+					"MteenC_top_RagCloak.png",
+					"NA"],
+			"mid": [
+					"MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": [
+					"MteenC_bot_RagPant.png",
+					"MteenC_bot_HayPants.png",
+					"NA"],
+			"body": [
+					"MteenC_body_goblin.png",
+					"MteenC_body_GoblinTatoo.png"],
+			"equip_bot": ["MteenC_ArmLow_MhLongBow.png"]
+		},
+		{
+			"name": "15RandomClubGoblin",
+			"random" : true,
+			"equip_top": ["MteenC_ArmHigh_MhWoodenClub.png"],
+			"head_equip":[
+					"MteenC_HeadEquip_goblin_tatoo1.png",
+					"NA"],
+			"head": [
+					"MteenC_head_goblin_goblin.png"],
+			"top": [
+					"MteenC_top_RagCloak.png",
+					"NA"],
+			"mid": [
+					"MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": [
+					"MteenC_bot_RagPant.png",
+					"NA"],
+			"body": [
+					"MteenC_body_goblin.png",
+					"MteenC_body_GoblinTatoo.png"],
+			"equip_bot": ["MteenC_ArmLow_MhWoodenClub.png"]
+		},
+		{
+			"name": "16RandomGoblinWarrior",
+			"random" : true,
+			"equip_top": ["MteenC_ArmMixHigh_WoodenClubWoodenShield.png"],
+			"head_equip":[
+					"MteenC_HeadEquip_goblin_tatoo1.png",
+					"NA"],
+			"head": [
+					"MteenC_head_goblin_goblin.png"],
+			"top": [
+					"MteenC_top_RagCloak.png",
+					"NA"],
+			"mid": [
+					"MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": [
+					"MteenC_bot_RagPant.png",
+					"NA"],
+			"body": [
+					"MteenC_body_goblin.png",
+					"MteenC_body_GoblinTatoo.png"],
+			"equip_bot": ["MteenC_ArmMixLow_WoodenClubWoodenShield.png"]
+		},	
+		{
+			"name": "17NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "18NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "19NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "20NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "21NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+		
+			"name": "22YoungOrc",
+			"default_index":3,
+			"head": ["MteenC_head_goblin_orc.png"],
+			"body": ["MteenC_body_goblin.png"]
+		},
+				{
+			"name": "23YoungOgre",
+			"default_index":3,
+			"head": ["MteenC_head_goblin_ogre.png"],
+			"body": ["MteenC_body_goblin.png"]
+		}
+
+
+	]
+
+
+
+}

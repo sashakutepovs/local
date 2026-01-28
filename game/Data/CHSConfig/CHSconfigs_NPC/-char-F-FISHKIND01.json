@@ -1,0 +1,66 @@
+{
+
+	"chartype": "-char-F-FISHKIND01",
+	"folder": "FregC",
+	"balloon_height": -8,
+	"balloon_height_low": -16,
+	"cell_width" :72,
+	"cell_height": 66,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "vag"],
+		["anal", "vag", "mouth"],
+		["vag", "mouth", "anal"],
+		["nil", "anal", "vag"],
+		["mouth", "vag", "nil"],
+		["vag", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00CommonerFishKind",
+			"random": true,
+			"head": ["FregC_head_fishkind_fishkind.png"],
+			"body": ["FregC_body_fishkind.png"]
+
+		},
+		{
+			"name": "01NA",
+			"equip_top": ["FregC_ArmHigh_MhRake.png"],
+			"head": ["FregC_head_fishkind_fishkind.png"],
+			"body": ["FregC_body_fishkind.png"],
+			"equip_bot": ["FregC_ArmLow_MhRake.png"]
+		},
+		{
+			"name": "02FishKindCute",
+			"equip_top": ["NA"],
+			"head_equip": ["FregC_HeadEquip_fishkind_cute.png"],
+			"head": ["FregC_head_fishkind_cute.png"],
+			"body": ["FregC_body_fishkind.png"]
+		},{
+			"name": "03CommonerFishKind",
+			"head": ["FregC_head_fishkind_fishkind.png"],
+			"body": ["FregC_body_fishkind.png"]
+
+		}
+
+
+
+	]
+
+
+
+}

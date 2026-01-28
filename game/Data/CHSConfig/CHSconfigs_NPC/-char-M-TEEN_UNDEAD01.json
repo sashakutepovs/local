@@ -1,0 +1,171 @@
+{
+
+	"chartype": "-char-M-TEEN_UNDEAD01",
+	"folder": "MteenC",
+	"balloon_height": -9,
+	"balloon_height_low": -18,
+	"cell_width" :64,
+	"cell_height": 62,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :10,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00SkeletonCommoner",
+			"random" : true,
+			"head": ["MteenC_head_undead_skeleton.png"],
+			"mid": ["MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": ["MteenC_bot_RagPant.png",
+					"NA"],
+			"body": ["MteenC_body_skeleton.png"]
+		},
+		{
+			"name": "01SkeletonSickle",
+			"random" : true,
+			"equip_top": ["MteenC_ArmHigh_MhSickle.png"],
+			"head": ["MteenC_head_undead_skeleton.png"],
+			"mid": ["MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": ["MteenC_bot_RagPant.png",
+					"NA"],
+			"body": ["MteenC_body_skeleton.png"],
+			"equip_bot": ["MteenC_ArmHigh_MhSickle.png"]
+
+		},
+		{
+			"name": "02SkeletonBow",
+			"random" : true,
+			"equip_top": ["MteenC_ArmHigh_MhLongBow.png"],
+			"head": ["MteenC_head_undead_skeleton.png"],
+			"mid": ["MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": ["MteenC_bot_RagPant.png",
+					"NA"],
+			"body": ["MteenC_body_skeleton.png"],
+			"equip_bot": ["MteenC_ArmLow_MhLongBow.png"]
+
+		},
+		{
+			"name": "03SkeletonRake",
+			"random" : true,
+			"equip_top": ["MteenC_ArmHigh_MhRake.png"],
+			"head": ["MteenC_head_undead_skeleton.png"],
+			"mid": ["MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": ["MteenC_bot_RagPant.png",
+					"NA"],
+			"body": ["MteenC_body_skeleton.png"],
+			"equip_bot": ["MteenC_ArmLow_MhRake.png"]
+		},
+		{
+			"name": "04SkeletonWarrior",
+			"random" : true,
+			"equip_top": ["MteenC_ArmMixHigh_WoodenClubWoodenShield.png"],
+			"head": ["MteenC_head_undead_skeleton.png"],
+			"mid": ["MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": ["MteenC_bot_RagPant.png",
+					"NA"],
+			"body": ["MteenC_body_skeleton.png"],
+			"equip_bot": ["MteenC_ArmMixLow_WoodenClubWoodenShield.png"]
+		},
+		{
+			"name": "05EliteSkeleton",
+			"random" : true,
+			"head_equip": [	
+							"MteenC_HeadEquip_undead_GuardChainHelmet.png",
+							"MteenC_HeadEquip_undead_HornHelmet.png",
+							"MteenC_HeadEquip_undead_PotHelmet.png"
+							],
+			"head": ["MteenC_head_undead_skeleton.png"],
+			"mid": ["MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": ["MteenC_bot_RagPant.png",
+					"NA"],
+			"body": ["MteenC_body_skeleton.png"]
+		},
+		{
+			"name": "06EliteSkeletonWarrior",
+			"random" : true,
+			"equip_top": ["MteenC_ArmMixHigh_SwordWoodenShield.png"],
+			"head_equip": [	
+							"MteenC_HeadEquip_undead_GuardChainHelmet.png",
+							"MteenC_HeadEquip_undead_HornHelmet.png",
+							"MteenC_HeadEquip_undead_PotHelmet.png"
+							],
+			"head": ["MteenC_head_undead_skeleton.png"],
+			"mid": ["MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": ["MteenC_bot_RagPant.png",
+					"NA"],
+			"body": ["MteenC_body_skeleton.png"],
+			"equip_bot": ["MteenC_ArmMixLow_SwordWoodenShield.png"]
+		},
+		{
+			"name": "07EliteSkeletonBow",
+			"random" : true,
+			"equip_top": ["MteenC_ArmHigh_MhLongBow.png"],
+			"head_equip": [	
+							"MteenC_HeadEquip_undead_GuardChainHelmet.png",
+							"MteenC_HeadEquip_undead_HornHelmet.png",
+							"MteenC_HeadEquip_undead_PotHelmet.png"
+							],
+			"head": ["MteenC_head_undead_skeleton.png"],
+			"mid": ["MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": ["MteenC_bot_RagPant.png",
+					"NA"],
+			"body": ["MteenC_body_skeleton.png"],
+			"equip_bot": ["MteenC_ArmLow_MhLongBow.png"]
+		},
+		{
+			"name": "08EliteSkeletonSpear",
+			"random" : true,
+			"equip_top": ["MteenC_ArmHigh_MhWoodenSpear.png"],
+			"head_equip": [	
+							"MteenC_HeadEquip_undead_GuardChainHelmet.png",
+							"MteenC_HeadEquip_undead_HornHelmet.png",
+							"MteenC_HeadEquip_undead_PotHelmet.png"
+							],
+			"head": ["MteenC_head_undead_skeleton.png"],
+			"mid": ["MteenC_mid_RagVest.png",
+					"NA"],
+			"bot": ["MteenC_bot_RagPant.png",
+					"NA"],
+			"body": ["MteenC_body_skeleton.png"],
+			"equip_bot": ["MteenC_ArmLow_MhWoodenSpear.png"]
+		},
+		{
+			"name": "08EliteSkeletonSpear",
+			"random" : false,
+			"body": ["MteenC_body_skeletonVcSet.png"]
+		}
+
+
+
+	]
+
+
+
+}

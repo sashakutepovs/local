@@ -1,0 +1,227 @@
+{
+
+	"chartype": "-char-M-ORC01",
+	"folder": "MfatC",
+	"balloon_height": -11,
+	"balloon_height_low": -22,
+	"cell_width" :76,
+	"cell_height": 68,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "anal"],
+		["anal", "nil", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00RandomOrc",
+			"random" : true,
+			"head": ["MfatC_head_orc_orc.png"],
+			"top": ["MfatC_top_RagCoat.png",
+					"NA",
+					"NA"],
+			"mid": ["MfatC_mid_RagWaistCloth.png",
+					"NA"],
+			"bot": ["MfatC_bot_RagBlackBoot.png",
+					"MfatC_bot_HumanLeatherBlackBoot.png",
+					"NA"],
+			"body": ["MfatC_body_orc.png"]
+		},
+		{
+			"name": "02OrcPriest",
+			"random" : false,
+			"equip_top": ["MfatC_ArmMixHigh_OrcShamanFlagButcherKnife.png"],
+			"head_equip": ["MfatC_HeadEquip_orc_Priest.png"],
+			"head": ["MfatC_head_orc_orc.png"],
+			"top": ["MfatC_top_HumanLeatherWaistCoat.png"],
+			"mid": ["MfatC_mid_HumanLeatherWaistCloth.png"],
+			"bot": ["MfatC_bot_HumanLeatherBlackBoot.png"],
+			"body": ["MfatC_body_orc.png"],
+			"equip_bot": ["MfatC_ArmMixLow_OrcShamanFlagButcherKnife.png"]
+
+		},
+		{
+			"name": "02NudeOrc",
+			"head": ["MfatC_head_orc_orc.png"],
+			"body": ["MfatC_body_orc.png"]
+		},
+		{
+			"name": "03OrcButcher",
+			"equip_top": ["MfatC_ArmMixHigh_ButcherKnifeMeatHook.png"],
+			"head_equip": ["MfatC_HeadEquip_orc_HumanLeatherMask.png"],
+			"head": ["MfatC_head_orc_orc.png"],
+			"top": ["MfatC_top_HumanLeatherWaistCoat.png"],
+			"mid": ["MfatC_mid_HumanLeatherWaistCloth.png"],
+			"bot": ["MfatC_bot_HumanLeatherBlackBoot.png"],
+			"body": ["MfatC_body_orc.png"],
+			"equip_bot": ["MfatC_ArmMixLow_ButcherKnifeMeatHook.png"]
+		},
+		{
+			"name": "04OrcThrower",
+			"equip_top": ["MfatC_ArmMixHigh_WoodenBackPackBaby.png"],
+			"head_equip": ["MfatC_HeadEquip_orc_WoodenMask.png"],
+			"head": ["MfatC_head_orc_OrcGob.png"],
+			"top": ["MfatC_top_OrcWoodenBodyArmorSet.png"],
+			"body": ["MfatC_body_orc.png"],
+			"equip_bot": ["MfatC_ArmMixLow_WoodenBackPackBaby.png"]
+
+		},		{
+			"name": "05OrcThrowerHorseCock",
+			"random" : true,
+			"equip_top": ["MfatC_ArmMixHigh_WoodenBackPackBabyHorseCock.png"],
+			"head_equip": ["MfatC_HeadEquip_orc_WoodenMask.png"],
+			"head": ["MfatC_head_orc_OrcGob.png"],
+			"top": ["MfatC_top_OrcWoodenBodyArmorSet.png"],
+			"body": ["MfatC_body_orc.png"],
+			"equip_bot": ["MfatC_ArmMixLow_WoodenBackPackBabyHorseCock.png"]
+
+		},		{
+			"name": "06OrcThrowerNoMask",
+			"random" : true,
+			"equip_top": ["MfatC_ArmMixHigh_WoodenBackPackBaby.png"],
+			"head": ["MfatC_head_orc_OrcGob.png"],
+			"top": ["MfatC_top_OrcWoodenBodyArmorSet.png"],
+			"body": ["MfatC_body_orc.png"],
+			"equip_bot": ["MfatC_ArmMixLow_WoodenBackPackBaby.png"]
+
+		},		{
+			"name": "07NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "08NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "09NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "10NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		{
+			"name": "11NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},		
+		{
+			"name": "12_OrcCropseSpear",
+			"random" : true,
+			"equip_top": ["MfatC_ArmHigh_MhCropseSpear.png"],
+			"head": ["MfatC_head_orc_orc.png"],
+			"top": ["MfatC_top_RagCoat.png"],
+			"mid": ["MfatC_mid_RagWaistCloth.png"],
+			"bot": ["MfatC_bot_RagBlackBoot.png",
+					"MfatC_bot_HumanLeatherBlackBoot.png"],
+			"body": ["MfatC_body_orc.png"],
+			"equip_bot": ["MfatC_ArmLow_MhCropseSpear.png"]
+		},		
+		{
+			"name": "13Archer",
+			"random" : true,
+			"equip_top": ["MfatC_ArmHigh_MhLongBow.png"],
+			"head": ["MfatC_head_orc_orc.png"],
+			"top": ["MfatC_top_RagCoat.png",
+					"NA",
+					"NA"],
+			"mid": ["MfatC_mid_RagWaistCloth.png",
+					"NA"],
+			"bot": ["MfatC_bot_RagBlackBoot.png",
+					"MfatC_bot_HumanLeatherBlackBoot.png",
+					"NA"],
+			"body": ["MfatC_body_orc.png"],
+			"equip_bot": ["MfatC_ArmLow_MhLongBow.png"]
+		},		
+		{
+			"name": "13RandomClub",
+			"random" : true,
+			"equip_top": ["MfatC_ArmHigh_MhBoneClub.png"],
+			"head": ["MfatC_head_orc_orc.png"],
+			"top": ["MfatC_top_RagCoat.png",
+					"NA",
+					"NA"],
+			"mid": ["MfatC_mid_RagWaistCloth.png",
+					"NA"],
+			"bot": ["MfatC_bot_RagBlackBoot.png",
+					"MfatC_bot_HumanLeatherBlackBoot.png",
+					"NA"],
+			"body": ["MfatC_body_orc.png"],
+			"equip_bot": ["MfatC_ArmLow_MhBoneClub.png"]
+		},		
+		{
+			"name": "13Warrior",
+			"random" : true,
+			"equip_top": ["MfatC_ArmMixHigh_BoneClubBoneShield.png"],
+			"head": ["MfatC_head_orc_orc.png"],
+			"top": ["MfatC_top_RagCoat.png",
+					"NA",
+					"NA"],
+			"mid": ["MfatC_mid_RagWaistCloth.png",
+					"NA"],
+			"bot": ["MfatC_bot_RagBlackBoot.png",
+					"MfatC_bot_HumanLeatherBlackBoot.png",
+					"NA"],
+			"body": ["MfatC_body_orc.png"],
+			"equip_bot": ["MfatC_ArmMixLow_BoneClubBoneShield.png"]
+		}
+
+
+
+	]
+
+
+
+}

@@ -1,0 +1,320 @@
+ {
+
+	"chartype": "-char-M-HOBGOBLIN01",
+	"folder": "MregC",
+	"balloon_height": -10,
+	"balloon_height_low": -20,
+	"cell_width": 64,
+	"cell_height": 60,
+	"sex_cell_width": 80,
+	"sex_cell_height": 87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "anal"],
+		["anal", "nil", "nil"],
+		["anal", "nil", "nil"],
+		["anal", "nil", "nil"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00RandomGoblin",
+			"random": true,
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"top": ["MregC_top_BrokenCoat.png",
+				"MregC_top_HumanLeatherWaistCoat.png",
+				"NA"
+			],
+			"mid": ["MregC_mid_HumanLeatherShirt.png",
+				"MregC_mid_HumanLeatherPinny.png",
+				"MregC_mid_BrokenShirt.png",
+				"NA"
+			],
+			"bot": ["MregC_bot_HumanLeatherShoes.png",
+				"MregC_bot_HumanLeatherSkirt.png",
+				"MregC_bot_HayPants.png",
+				"NA"
+			],
+			"body": [
+			"MregC_body_hobgoblinTatto.png",
+			"MregC_body_hobgoblin.png"
+			]
+		},
+		{
+			"name": "01NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "02NudeGoblin",
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"body": ["MregC_body_hobgoblin.png"]
+		},
+		{
+			"name": "03GoblinShaman",
+			"equip_top": ["MregC_ArmMixHigh_BoneStaffBoneShield.png"],
+			"head_equip": ["MregC_HeadEquip_goblin_ShamanSet.png"],
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"top": ["MregC_top_GoblinShamanTopSet.png"],
+			"body": ["MregC_body_hobgoblinTatto.png"],
+			"equip_bot": ["MregC_ArmMixLow_BoneStaffBoneShield.png"]
+
+		}, {
+			"name": "04HobGobEliteArcher",
+			"equip_top": ["MregC_ArmHigh_MhLongBow.png"],
+			"head_equip": ["MregC_HeadEquip_goblin_HumanLeatherMask.png"],
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"mid": ["MregC_mid_HumanLeatherShirt.png"],
+			"bot": ["MregC_bot_HayPants.png"],
+			"body": ["MregC_body_hobgoblin.png"],
+			"equip_bot": ["MregC_ArmLow_MhLongBow.png"]
+
+		}, {
+			"name": "05HobGobEliteGuard",
+			"equip_top": ["MregC_ArmHigh_MhWoodenSpear.png"],
+			"head_equip": ["MregC_HeadEquip_goblin_HumanLeatherMask.png"],
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"mid": ["MregC_mid_HumanLeatherShirt.png"],
+			"bot": ["MregC_bot_HayPants.png"],
+			"body": ["MregC_body_hobgoblin.png"],
+			"equip_bot": ["MregC_ArmLow_MhWoodenSpear.png"]
+
+		}, {
+			"name": "06NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		}, {
+			"name": "07NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "08NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "09NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "10NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "11NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},
+		{
+			"name": "12Scout",
+			"random": false,
+			"equip_top": ["MregC_ArmHigh_MhWoodenClub.png"],
+			"head_equip":["MregC_HeadEquip_goblin_HumanLeatherMask.png"],
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"mid": ["MregC_mid_HumanLeatherShirt.png"],
+			"bot": ["MregC_bot_HumanLeatherShoes.png"],
+			"body": ["MregC_body_hobgoblin.png"],
+			"equip_bot": ["MregC_ArmLow_MhWoodenClub.png"]
+		},
+		{
+			"name": "13SpearMan",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhWoodenSpear.png"],
+			"head_equip":[
+				"MregC_HeadEquip_goblin_BoneHelmet.png",
+				"NA",
+				"NA",
+				"NA"
+			],
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"top": ["MregC_top_BrokenCoat.png",
+				"MregC_top_HumanLeatherWaistCoat.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"NA"
+			],
+			"mid": ["MregC_mid_HumanLeatherShirt.png",
+				"MregC_mid_HumanLeatherPinny.png",
+				"MregC_mid_BrokenShirt.png",
+				"NA"
+			],
+			"bot": ["MregC_bot_HumanLeatherShoes.png",
+				"MregC_bot_HumanLeatherSkirt.png",
+				"MregC_bot_HayPants.png",
+				"NA"
+			],
+			"body": [
+			"MregC_body_hobgoblinTatto.png",
+			"MregC_body_hobgoblin.png"
+			],
+			"equip_bot": ["MregC_ArmLow_MhWoodenSpear.png"]
+		},
+		{
+			"name": "14Archer",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhLongBow.png"],
+			"head_equip":[
+				"MregC_HeadEquip_goblin_BoneHelmet.png",
+				"NA",
+				"NA",
+				"NA"
+			],
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"top": ["MregC_top_BrokenCoat.png",
+				"MregC_top_HumanLeatherWaistCoat.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"NA"
+			],
+			"mid": ["MregC_mid_HumanLeatherShirt.png",
+				"MregC_mid_HumanLeatherPinny.png",
+				"MregC_mid_BrokenShirt.png",
+				"NA"
+			],
+			"bot": ["MregC_bot_HumanLeatherShoes.png",
+				"MregC_bot_HumanLeatherSkirt.png",
+				"MregC_bot_HayPants.png",
+				"NA"
+			],
+			"body": [
+			"MregC_body_hobgoblinTatto.png",
+			"MregC_body_hobgoblin.png"
+			],
+			"equip_bot": ["MregC_ArmLow_MhLongBow.png"]
+		},
+		{
+			"name": "15ClubMan",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhWoodenClub.png"],
+			"head_equip":[
+				"MregC_HeadEquip_goblin_BoneHelmet.png",
+				"NA",
+				"NA",
+				"NA"
+			],
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"top": ["MregC_top_BrokenCoat.png",
+				"MregC_top_HumanLeatherWaistCoat.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"NA"
+			],
+			"mid": ["MregC_mid_HumanLeatherShirt.png",
+				"MregC_mid_HumanLeatherPinny.png",
+				"MregC_mid_BrokenShirt.png",
+				"NA"
+			],
+			"bot": ["MregC_bot_HumanLeatherShoes.png",
+				"MregC_bot_HumanLeatherSkirt.png",
+				"MregC_bot_HayPants.png",
+				"NA"
+			],
+			"body": [
+			"MregC_body_hobgoblinTatto.png",
+			"MregC_body_hobgoblin.png"
+			],
+			"equip_bot": ["MregC_ArmLow_MhWoodenClub.png"]
+		},
+		{
+			"name": "16Warrior",
+			"random": true,
+			"equip_top": ["MregC_ArmMixHigh_WoodenClubWoodenShield.png"],
+			"head_equip":[
+				"MregC_HeadEquip_goblin_BoneHelmet.png",
+				"NA",
+				"NA",
+				"NA"
+			],
+			"head": ["MregC_head_goblin_hobgoblin.png"],
+			"top": ["MregC_top_BrokenCoat.png",
+				"MregC_top_HumanLeatherWaistCoat.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"NA"
+			],
+			"mid": ["MregC_mid_HumanLeatherShirt.png",
+				"MregC_mid_HumanLeatherPinny.png",
+				"MregC_mid_BrokenShirt.png",
+				"NA"
+			],
+			"bot": ["MregC_bot_HumanLeatherShoes.png",
+				"MregC_bot_HumanLeatherSkirt.png",
+				"MregC_bot_HayPants.png",
+				"NA"
+			],
+			"body": [
+			"MregC_body_hobgoblinTatto.png",
+			"MregC_body_hobgoblin.png"
+			],
+			"equip_bot": ["MregC_ArmMixLow_WoodenClubWoodenShield.png"]
+		}
+
+
+	]
+
+
+
+}

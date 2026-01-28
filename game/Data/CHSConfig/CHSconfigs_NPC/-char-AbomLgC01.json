@@ -1,0 +1,124 @@
+{
+
+	"chartype": "-char-AbomLgC01",
+	"folder": "AbomLgC",
+	"balloon_height": -10,
+	"balloon_height_low": -10,
+	"cell_width" :100,
+	"cell_height": 72,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00_AbomHuge",
+			"random" : false,
+			"head": ["AbomLgC_head_MixedSingle.png"],
+			"bot": ["AbomLgC_bot_MixedAbom.png"],
+			"body": ["AbomLgC_body_MixedAbom.png"]
+		},{
+			"name": "01_AbomScorpion",
+			"random" : false,
+			"body": ["AbomLgC_body_Scorpion.png"]
+		},{
+			"name": "02NA",
+			"head": ["NA"]
+		},{
+			"name": "03NA",
+			"head": ["NA"]
+		},{
+			"name": "04NA",
+			"head": ["NA"]
+		},{
+			"name": "05NA",
+			"head": ["NA"]
+		},{
+			"name": "06NA",
+			"head": ["NA"]
+		},{
+			"name": "07NA",
+			"head": ["NA"]
+		},{
+			"name": "08NA",
+			"head": ["NA"]
+		},{
+			"name": "09NA",
+			"head": ["NA"]
+		},{
+			"name": "10NA",
+			"head": ["NA"]
+		},{
+			"name": "11NA",
+			"head": ["NA"]
+		},{
+			"name": "12NA",
+			"head": ["NA"]
+		},{
+			"name": "13NA",
+			"head": ["NA"]
+		},	
+		{
+			"name": "12NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "13NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "14NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "15NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "16NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "17NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "18NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "19NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "20NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "21NA",
+			"head": ["NA"]
+		}
+	]
+
+
+
+}

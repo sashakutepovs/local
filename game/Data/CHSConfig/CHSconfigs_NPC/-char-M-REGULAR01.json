@@ -1,0 +1,626 @@
+{
+
+	"chartype": "-char-M-REGULAR01",
+	"folder": "MregC",
+	"balloon_height": -10,
+	"balloon_height_low": -20,
+	"cell_width": 64,
+	"cell_height": 60,
+	"sex_cell_width": 80,
+	"sex_cell_height": 87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "anal"],
+		["anal", "nil", "mouth"],
+		["nil", "mouth", "anal"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00Commoner",
+			"random": true,
+			"head_equip": [
+				"MregC_HeadEquip_human_HairGoldLong.png",
+				"MregC_HeadEquip_human_HairBaldness.png",
+				"MregC_HeadEquip_human_HairShortCut.png",
+				"MregC_HeadEquip_human_HairHobo1.png",
+				"MregC_HeadEquip_human_LeatherHood.png",
+				"MregC_HeadEquip_human_HairRudesind.png",
+				"MregC_HeadEquip_human_RogueHood.png",
+				"MregC_HeadEquip_human_HairBuzzCut.png",
+				"NA"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_KitchenPinny.png",
+				"MregC_top_LeatherCloak.png",
+				"MregC_top_leatherCoat.png",
+				"MregC_top_DeaconCoatBlack.png",
+				"MregC_top_RedShortCloak.png",
+				"NA"
+			],
+			"mid": [
+				"MregC_mid_BrownCheckShirt.png",
+				"MregC_mid_MonkRobe.png",
+				"MregC_mid_WhiteShirt.png",
+				"MregC_mid_GreenDoubletShirt.png",
+				"MregC_mid_WhiteBusiness.png",
+				"MregC_mid_WhiteShirtBroken.png"
+			],
+			"bot": [
+				"MregC_bot_ClothPants.png",
+				"MregC_bot_BrownPantsShoes.png",
+				"MregC_bot_BlackPants.png"
+			],
+			"body": ["MregC_body_human.png"]
+		},
+		{
+			"name": "01ShouthGuards",
+			"random": true,
+			"head_equip": [
+				"MregC_HeadEquip_human_PotHelmet.png",
+				"MregC_HeadEquip_human_GuardChainHelmet.png",
+				"MregC_HeadEquip_human_BucketHelmet.png",
+				"MregC_HeadEquip_human_HairBaldness.png",
+				"MregC_HeadEquip_human_HairGoldLong.png",
+				"MregC_HeadEquip_human_HairShortCut.png",
+				"MregC_HeadEquip_human_LeatherHood.png",
+				"MregC_HeadEquip_human_HairBuzzCut.png",
+				"MregC_HeadEquip_human_RogueHood.png",
+				"NA"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_RedShortCloak.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"MregC_top_LeatherCloak.png",
+				"NA"
+			],
+			"mid": [
+				"MregC_mid_GuardHalfPlate.png",
+				"MregC_mid_GuardSleevelessHalfPlate.png"
+			],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_BlackPants.png",
+				"MregC_bot_ClothPants.png"
+			],
+			"body": ["MregC_body_human.png"]
+		},
+		{
+			"name": "02NobleRudesind",
+			"head_equip": ["MregC_HeadEquip_human_HairRudesind.png"],
+			"head": ["MregC_head_human_Rudesind.png"],
+			"top": ["MregC_top_NobleFurCoat.png"],
+			"mid": ["MregC_mid_GreenDoubletShirt.png"],
+			"bot": ["MregC_bot_BlackPants.png"],
+			"body": ["MregC_body_human.png"]
+		}, {
+			"name": "03Cooker",
+			"head_equip": ["MregC_HeadEquip_human_CookerHatDirt.png"],
+			"head": ["MregC_head_human_DirtyOldMan.png"],
+			"top": ["MregC_top_KitchenPinny.png"],
+			"mid": ["MregC_mid_WhiteShirt.png"],
+			"bot": ["MregC_bot_BrokenPantsShoes.png"],
+			"body": ["MregC_body_human.png"]
+		}, {
+			"name": "04Doctor",
+			"head_equip": ["MregC_HeadEquip_human_LeatherHoodAndBrimHat.png"],
+			"head": ["MregC_head_human_PlagueDoctorMask.png"],
+			"top": ["MregC_top_leatherCoat.png"],
+			"mid": ["MregC_mid_GreenDoubletShirt.png"],
+			"bot": ["MregC_bot_BlackPants.png"],
+			"body": ["MregC_body_human.png"]
+		}, {
+
+			"name": "05Monk",
+			"head_equip": ["MregC_HeadEquip_human_HairBaldness.png"],
+			"head": ["MregC_head_human_DirtyOldMan.png"],
+			"top": ["MregC_top_leatherCoat.png"],
+			"mid": ["MregC_mid_MonkRobe.png"],
+			"bot": ["MregC_bot_MonkSkirt.png"],
+			"body": ["MregC_body_human.png"]
+		}, {
+			"name": "06HighLanderWarrior",
+			"equip_top": ["MregC_ArmMixHigh_ShortSwordWoodenShield.png"],
+			"head_equip": ["MregC_HeadEquip_human_HornHelmet.png"],
+			"head": ["MregC_head_human_OldSerious.png"],
+			"top": ["MregC_top_BeltExtraArmor.png"],
+			"mid": ["MregC_mid_GuardLeatherArmor.png"],
+			"bot": ["MregC_bot_BrokenPantsShoes.png"],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmMixLow_ShortSwordWoodenShield.png"]
+		}, {
+			"name": "07Hobo1",
+			"head_equip": ["MregC_HeadEquip_human_HairHobo1.png"],
+			"head": ["MregC_head_human_DirtyOldMan.png"],
+			"top": ["MregC_top_BrokenCoat.png"],
+			"mid": ["MregC_mid_BrokenShirt.png"],
+			"bot": ["MregC_bot_BrokenPants.png"],
+			"body": ["MregC_body_human.png"]
+		}, {
+			"name": "08Hobo2",
+			"head_equip": ["MregC_HeadEquip_human_HairBaldness.png"],
+			"head": ["MregC_head_human_Madness.png"],
+			"mid": ["MregC_mid_BrokenShirt.png"],
+			"bot": ["MregC_bot_MonkSkirt.png"],
+			"body": ["MregC_body_human.png"]
+		}, {
+			"name": "09BadDude2",
+			"equip_top": ["MregC_ArmHigh_ShDagger.png"],
+			"head_equip": ["MregC_HeadEquip_human_HairGoldLong.png"],
+			"head": ["MregC_head_human_BadDude2.png"],
+			"mid": ["MregC_mid_BrownCheckShirt.png"],
+			"bot": ["MregC_bot_BlackPants.png"],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmLow_ShDagger.png"]
+
+		},
+		{
+			"name": "10EliteLawbringer",
+			"equip_top": ["MregC_ArmHigh_MhHalberd.png"],
+			"head_equip": ["MregC_HeadEquip_human_BucketHelmet.png"],
+			"head": ["MregC_head_human_anonymous.png"],
+			"top": ["MregC_top_NoerTabard.png"],
+			"mid": ["MregC_mid_GuardHalfPlate.png"],
+			"bot": ["MregC_bot_BlackPants.png"],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmLow_MhHalberd.png"]
+		},
+		{
+			"name": "11EliteWarrior",
+			"equip_top": ["MregC_ArmMixHigh_ShortSwordMetalShield.png"],
+			"head_equip": ["MregC_HeadEquip_human_BucketHelmet.png"],
+			"head": ["MregC_head_human_anonymous.png"],
+			"top": ["MregC_top_NoerTabard.png"],
+			"mid": ["MregC_mid_GuardHalfPlate.png"],
+			"bot": ["MregC_bot_BlackPants.png"],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmMixLow_ShortSwordMetalShield.png"]
+		},
+		{
+			"name": "12HumanNightKeepers",
+			"random": true,
+			"equip_top": ["MregC_ArmMixHigh_ShortSwordLantern.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_GuardChainHelmet.png",
+				"MregC_HeadEquip_human_PotHelmet.png",
+				"MregC_HeadEquip_human_LeatherHood.png",
+				"MregC_HeadEquip_human_RogueHood.png"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_RedShortCloak.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"MregC_top_LeatherCloak.png",
+				"NA"
+			],
+			"mid": [
+				"MregC_mid_GuardHalfPlate.png",
+				"MregC_mid_GuardSleevelessHalfPlate.png"
+			],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_BlackPants.png",
+				"MregC_bot_ClothPants.png"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmMixLow_ShortSwordLantern.png"]
+		},
+		{
+			"name": "13SpearMan",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhMetalSpear.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_GuardChainHelmet.png",
+				"MregC_HeadEquip_human_PotHelmet.png",
+				"NA"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_RedShortCloak.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"MregC_top_LeatherCloak.png",
+				"NA"
+			],
+			"mid": [
+				"MregC_mid_GuardHalfPlate.png",
+				"MregC_mid_GuardSleevelessHalfPlate.png"
+			],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_BlackPants.png",
+				"MregC_bot_ClothPants.png"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmLow_MhMetalSpear.png"]
+		},
+		{
+			"name": "14Archer",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhLongBow.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_GuardChainHelmet.png",
+				"MregC_HeadEquip_human_PotHelmet.png",
+				"MregC_HeadEquip_human_LeatherHood.png",
+				"MregC_HeadEquip_human_RogueHood.png",
+				"NA"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_RedShortCloak.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"MregC_top_LeatherCloak.png",
+				"NA"
+			],
+			"mid": [
+				"MregC_mid_GuardHalfPlate.png",
+				"MregC_mid_GuardSleevelessHalfPlate.png"
+			],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_BlackPants.png",
+				"MregC_bot_ClothPants.png"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmLow_MhLongBow.png"]
+		},
+		{
+			"name": "15Warrior",
+			"random": true,
+			"equip_top": ["MregC_ArmMixHigh_ShortSwordMetalShield.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_GuardChainHelmet.png",
+				"MregC_HeadEquip_human_BucketHelmet.png",
+				"MregC_HeadEquip_human_PotHelmet.png"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_RedShortCloak.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"MregC_top_LeatherCloak.png",
+				"NA"
+			],
+			"mid": [
+				"MregC_mid_GuardHalfPlate.png",
+				"MregC_mid_GuardSleevelessHalfPlate.png"
+			],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_BlackPants.png",
+				"MregC_bot_ClothPants.png"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmMixLow_ShortSwordMetalShield.png"]
+		},
+		{
+			"name": "16MobGuard",
+			"random": true,
+			"equip_top": [	"MregC_ArmHigh_PickAxe.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_HairHobo1.png",
+				"MregC_HeadEquip_human_HairBaldness.png"
+			],
+			"head": [
+				"MregC_head_human_anonymous.png"
+			],
+			"top": [
+				"MregC_top_BrokenCoat.png",
+				"MregC_mid_BrokenShirt.png",
+				"nil"
+			],
+			"mid": [
+				"MregC_mid_BrokenShirt.png",
+				"MregC_mid_MonkRobe.png",
+				"MregC_mid_WhiteShirtBroken.png",
+				"nil"
+			],
+			"bot": [
+				"MregC_bot_BrokenPants.png",
+				"MregC_bot_MonkSkirt.png",
+				"nil"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmLow_PickAxe.png"]
+		}, 
+		{
+			"name": "17MobCommoner",
+			"random": true,
+			"head_equip": [
+				"MregC_HeadEquip_human_HairHobo1.png",
+				"MregC_HeadEquip_human_HairBaldness.png"
+			],
+			"head": [
+				"MregC_head_human_anonymous.png"
+			],
+			"top": [
+				"MregC_top_BrokenCoat.png",
+				"MregC_mid_BrokenShirt.png",
+				"nil"
+			],
+			"mid": [
+				"MregC_mid_BrokenShirt.png",
+				"MregC_mid_MonkRobe.png",
+				"MregC_mid_WhiteShirtBroken.png",
+				"nil"
+			],
+			"bot": [
+				"MregC_bot_BrokenPants.png",
+				"MregC_bot_MonkSkirt.png",
+				"nil"
+			],
+			"body": ["MregC_body_human.png"]
+		}, {
+			"name": "18MobClub",
+			"equip_top": ["MregC_ArmHigh_MhWoodenClub.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_HairHobo1.png ",
+				"MregC_HeadEquip_human_HairBaldness.png"
+			],
+			"head": [
+				"MregC_head_human_anonymous.png"
+			],
+			"top": [
+				"MregC_top_BrokenCoat.png",
+				"MregC_mid_BrokenShirt.png",
+				"nil"
+			],
+			"mid": [
+				"MregC_mid_BrokenShirt.png",
+				"MregC_mid_MonkRobe.png",
+				"MregC_mid_WhiteShirtBroken.png",
+				"nil"
+			],
+			"bot": [
+				"MregC_bot_BrokenPants.png",
+				"MregC_bot_MonkSkirt.png",
+				"nil"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": [	"MregC_ArmLow_MhWoodenClub.png"]
+		}, 
+		{
+			"name": "19MobSpear",
+			"equip_top": ["MregC_ArmHigh_Rake.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_HairHobo1.png",
+				"MregC_HeadEquip_human_HairBaldness.png"
+			],
+			"head": [
+				"MregC_head_human_anonymous.png"
+			],
+			"top": [
+				"MregC_top_BrokenCoat.png",
+				"MregC_mid_BrokenShirt.png",
+				"nil"
+			],
+			"mid": [
+				"MregC_mid_BrokenShirt.png",
+				"MregC_mid_MonkRobe.png",
+				"MregC_mid_WhiteShirtBroken.png",
+				"nil"
+			],
+			"bot": [
+				"MregC_bot_BrokenPants.png",
+				"MregC_bot_MonkSkirt.png",
+				"nil"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmLow_Rake.png"]
+		},
+		{
+			"name": "20RogueWarrior",
+			"random" : true,
+			"equip_top": ["MregC_ArmMixHigh_WoodenClubWoodenShield.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_LeatherHood.png",
+				"MregC_HeadEquip_human_RogueHood.png"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_RedShortCloak.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"MregC_top_LeatherCloak.png",
+				"MregC_top_BrokenRagCloak.png",
+				"MregC_top_leatherCoat.png"
+			],
+			"mid": [
+				"MregC_mid_GuardHalfPlate.png",
+				"MregC_mid_GuardSleevelessHalfPlate.png",
+				"MregC_mid_MonkRobe.png",
+				"NA"
+			],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_BlackPants.png",
+				"MregC_bot_ClothPants.png"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmMixLow_WoodenClubWoodenShield.png"]
+
+		},
+		{
+			"name": "21RogueManCatcher",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhManCatcher.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_LeatherHood.png",
+				"MregC_HeadEquip_human_RogueHood.png"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_RedShortCloak.png",
+				"MregC_top_BeltExtraArmor.png",
+				"MregC_top_BeltExtraArmor2.png",
+				"MregC_top_BeltExtraArmor3.png",
+				"MregC_top_LeatherCloak.png",
+				"MregC_top_leatherCoat.png"
+			],
+			"mid": [
+				"MregC_mid_GuardHalfPlate.png",
+				"MregC_mid_GuardSleevelessHalfPlate.png",
+				"MregC_mid_MonkRobe.png",
+				"NA"
+			],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_BlackPants.png",
+				"MregC_bot_ClothPants.png"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmLow_MhManCatcher.png"]
+		}, 
+		{
+			"name": "22SpearMan",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhWoodenSpear.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_LeatherHood.png",
+				"MregC_HeadEquip_human_RogueHood.png"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_LeatherCloak.png",
+				"MregC_top_leatherCoat.png"
+			],
+			"mid": [
+				"MregC_mid_GuardSleevelessHalfPlate.png",
+				"MregC_mid_MonkRobe.png",
+				"NA"
+			],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_BlackPants.png",
+				"MregC_bot_ClothPants.png"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmHigh_MhWoodenSpear.png"]
+		},
+		{
+			"name": "23Archer",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhLongBow.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_LeatherHood.png",
+				"MregC_HeadEquip_human_RogueHood.png"
+			],
+			"head": [
+				"MregC_head_human_BadDude.png",
+				"MregC_head_human_BadDude2.png",
+				"MregC_head_human_anonymous.png",
+				"MregC_head_human_DirtyOldMan.png",
+				"MregC_head_human_OldSerious.png",
+				"MregC_head_human_NPC.png"
+			],
+			"top": [
+				"MregC_top_LeatherCloak.png",
+				"MregC_top_leatherCoat.png"
+			],
+			"mid": [
+				"MregC_mid_GuardSleevelessHalfPlate.png",
+				"MregC_mid_MonkRobe.png",
+				"NA"
+			],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_BlackPants.png",
+				"MregC_bot_ClothPants.png"
+			],
+			"body": ["MregC_body_human.png"],
+			"equip_bot": ["MregC_ArmLow_MhLongBow.png"]
+		}
+
+	]
+
+
+
+}

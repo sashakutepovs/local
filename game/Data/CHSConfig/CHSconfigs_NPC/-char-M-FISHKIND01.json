@@ -1,0 +1,69 @@
+{
+
+	"chartype": "-char-M-FISHKIND01",
+	"folder": "MregC",
+	"balloon_height": -10,
+	"balloon_height_low": -20,
+	"cell_width" :64,
+	"cell_height": 60,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "anal"],
+		["anal", "nil", "nil"],
+		["nil", "mouth", "anal"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00CommonFishKind",
+			"random" : true,
+			"head": [
+				"MregC_head_fishkind_fishkind.png",
+				"MregC_head_fishkind_fishkind2.png"
+				],
+			"top": ["MregC_mid_HumanLeatherShirt.png",
+					"MregC_mid_WhiteShirtBroken.png",
+					"MregC_mid_BrokenShirt.png",
+					"NA"
+					],
+			"body": ["MregC_body_fishkind.png"]
+		},{
+			"name": "01CommonFishKindSpear",
+			"random" : true,
+			"equip_top": ["MregC_ArmHigh_MhRake.png"],
+			"head": [
+				"MregC_head_fishkind_fishkind.png",
+				"MregC_head_fishkind_fishkind2.png"
+				],
+			"top": ["MregC_mid_HumanLeatherShirt.png",
+					"MregC_mid_WhiteShirtBroken.png",
+					"MregC_mid_BrokenShirt.png",
+					"NA"
+					],
+			"body": ["MregC_body_fishkind.png"],
+			"equip_bot": ["MregC_ArmLow_MhRake.png"]
+		}
+
+
+
+	]
+
+
+
+}

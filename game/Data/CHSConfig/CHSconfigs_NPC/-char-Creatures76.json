@@ -1,0 +1,46 @@
+{
+
+	"chartype": "-char-Creatures76_01",
+	"folder": "Creatures76MF",
+	"balloon_height": -12,
+	"balloon_height_low": -16,
+	"cell_width" :76,
+	"cell_height": 68,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "01Pig",
+			"random" : false,
+			"body": ["Creatures76MF_PigF.png"]
+		},{
+			"name": "02WildBoar",
+			"random" : false,
+			"body": ["Creatures76MF_WildBoarF.png"]
+		}
+	]
+
+
+
+}

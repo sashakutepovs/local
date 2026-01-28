@@ -1,0 +1,101 @@
+{
+	"chartype": "-char-M-FAT-FROGMAN01",
+	"folder": "MfatC",
+	"balloon_height": -12,
+	"balloon_height_low": -24,
+	"cell_width" :76,
+	"cell_height": 68,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "anal"],
+		["anal", "nil", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00Commoner",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["MfatC_head_frog_frogman.png"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["MfatC_body_frogman.png"]
+		},
+		{
+			"name": "01FishKindGraber",
+			"equip_top": ["MfatC_ArmMixHigh_ManCatcherMeatHook.png"],
+			"head_equip": ["MfatC_HeadEquip_human_BrimHat.png"],
+			"head": ["MfatC_head_frog_frogman.png"],
+			"top": ["MfatC_top_LightEquipsSet.png"],
+			"body": ["MfatC_body_frogman.png"],
+			"equip_bot": ["MfatC_ArmMixLow_ManCatcherMeatHook.png"]
+
+		},
+		{
+			"name": "02MadMan",
+			"random" : false,
+			"head_equip": ["MfatC_HeadEquip_human_HairBaldness.png"],
+			"head": ["MfatC_head_frog_frogman.png"],
+			"top": ["MfatC_top_RagCoat.png"],
+			"mid": ["MfatC_mid_RagWaistCloth.png"],
+			"bot": ["MfatC_bot_RagBlackBoot.png"],
+			"body": ["MfatC_body_frogman.png"]
+		},
+		{
+			"name": "03Piercingvandor",
+			"random" : false,
+			"head_equip": ["MfatC_HeadEquip_human_HairGandalf.png"],
+			"head": ["MfatC_head_frog_frogman.png"],
+			"top": ["MfatC_top_RagCoat.png"],
+			"mid": ["MfatC_mid_WhiteShirt.png"],
+			"bot": ["MfatC_bot_BlackPants.png"],
+			"body": ["MfatC_body_frogman.png"]
+		},
+		{
+			"name": "04LeatherVandor",
+			"random" : false,
+			"equip_top": ["MfatC_ArmHigh_ShMeatHook.png"],
+			"head_equip": ["MfatC_HeadEquip_human_FatDumb.png"],
+			"head": ["MfatC_head_frog_frogman.png"],
+			"mid": ["MfatC_mid_belt.png"],
+			"bot": ["MfatC_bot_ShortLeatherPants.png"],
+			"body": ["MfatC_body_frogman.png"],
+			"equip_bot": ["MfatC_ArmLow_ShMeatHook.png"]
+		},
+		{
+			"name": "04Shaman",
+			"random" : false,
+			"equip_top": ["MfatC_ArmHigh_MhManCatcherGold.png"],
+			"head_equip": ["MfatC_HeadEquip_fishkind_Shaman.png"],
+			"head": ["MfatC_head_frog_Tentacle.png"],
+			"top": ["MfatC_top_FishShamanSet.png"],
+			"body": ["MfatC_body_frogman.png"],
+			"equip_bot": ["MfatC_ArmLow_MhManCatcherGold.png"]
+		}
+
+
+
+	]
+
+
+
+}

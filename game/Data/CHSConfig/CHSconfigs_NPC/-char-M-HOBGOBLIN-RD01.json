@@ -1,0 +1,223 @@
+ {
+
+	"chartype": "-char-M-HOBGOBLIN-RD01",
+	"folder": "MregC",
+	"balloon_height": -10,
+	"balloon_height_low": -20,
+	"cell_width": 64,
+	"cell_height": 60,
+	"sex_cell_width": 80,
+	"sex_cell_height": 87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00GoblinRaiderBow",
+			"random": false,
+			"equip_top": ["BreedlingRaider_ArmHigh_MhLongBow.png"],
+			"head_equip": ["BreedlingRaider_HeadEquip_goblin_HumanLeatherMask.png"],
+			"head": ["BreedlingRaider_head_goblin_hobgoblin.png"],
+			"mid": ["BreedlingRaider_mid_HumanLeatherShirt.png"],
+			"body": ["BreedlingRaider_body_hobgoblin.png"],
+			"equip_bot": ["BreedlingRaider_ArmLow_MhLongBow.png"]
+		}, {
+			"name": "01GoblinRaiderScout",
+			"random": false,
+			"equip_top": ["BreedlingRaider_ArmHigh_MhWoodenSpear.png"],
+			"head_equip": ["BreedlingRaider_HeadEquip_goblin_HumanLeatherMask.png"],
+			"head": ["BreedlingRaider_head_goblin_hobgoblin.png"],
+			"mid": ["BreedlingRaider_mid_HumanLeatherShirt.png"],
+			"body": ["BreedlingRaider_body_hobgoblin.png"],
+			"equip_bot": ["BreedlingRaider_ArmLow_MhWoodenSpear.png"]
+		},
+		{
+			"name": "02",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "03",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "04",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "05",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "06NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		}, {
+			"name": "07NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "08NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "09NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "10NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		}, {
+			"name": "11NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},
+		{
+			"name": "12",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "13",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "14",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "15",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "16",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		}
+
+
+	]
+
+
+
+}

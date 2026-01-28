@@ -1,0 +1,325 @@
+{
+
+	"chartype": "-char-M-FROGMAN01",
+	"folder": "MregC",
+	"balloon_height": -10,
+	"balloon_height_low": -20,
+	"cell_width" :64,
+	"cell_height": 60,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "anal"],
+		["anal", "nil", "mouth"],
+		["nil", "mouth", "anal"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "nil"],
+		["nil", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00CommonFrogMan",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": [
+				"MregC_HeadEquip_human_HairBaldness.png",
+				"MregC_HeadEquip_human_LeatherHood.png",
+				"MregC_HeadEquip_human_RogueHood.png",
+				"NA"
+				],
+			"head": ["MregC_head_frog_frogman.png"],
+			"top": [
+				"MregC_top_KitchenPinny.png",
+				"MregC_top_LeatherCloak.png",
+				"MregC_top_leatherCoat.png",
+				"MregC_top_RedShortCloak.png",
+				"NA"
+				],
+			"mid": [
+				"MregC_mid_BrokenShirt.png",
+				"MregC_mid_BrownCheckShirt.png",
+				"MregC_mid_MonkRobe.png",
+				"MregC_mid_WhiteShirt.png",
+				"MregC_mid_GreenDoubletShirt.png",
+				"NA"
+				],
+			"bot": [
+				"MregC_bot_ShortClothPants.png",
+				"MregC_bot_MonkSkirt.png",
+				"MregC_bot_ClothPants.png",
+				"MregC_bot_BrownPantsShoes.png",
+				"MregC_bot_BrokenPantsShoes.png",
+				"MregC_bot_BrokenPants.png",
+				"MregC_bot_BlackPants.png",
+				"NA"
+				],
+			"body": ["MregC_body_frogman.png"]
+		},
+		{
+			"name": "01BusinessFrogMan",
+			"head_equip": ["MregC_HeadEquip_human_HairGentleman.png"],
+			"head": ["MregC_head_frog_frogman.png"],
+			"top": ["MregC_top_DeaconCoatNobleFurCoatBlk.png"],
+			"bot": ["MregC_bot_BrownPantsShoes.png"],
+			"body": ["MregC_body_frogman.png"]
+		},
+		{
+			"name": "02BssVandor",
+			"head_equip": ["MregC_HeadEquip_human_HairBaldness.png"],
+			"head": ["MregC_head_frog_frogman.png"],
+			"top": ["MregC_top_BlackSmith.png"],
+			"bot": ["MregC_bot_BlackPants.png"],
+			"body": ["MregC_body_frogman.png"]
+		},
+		{
+			"name": "03Watcher",
+			"random": false,
+			"equip_top": ["MregC_ArmMixHigh_WoodenClubLantern.png"],
+			"head_equip": ["MregC_HeadEquip_human_BrimHat.png"],
+			"head": ["MregC_head_frog_frogman.png"],
+			"top": ["MregC_top_leatherCoat.png"],
+			"bot": ["MregC_bot_ClothPants.png"],
+			"body": ["MregC_body_frogman.png"],
+			"equip_bot": ["MregC_ArmMixLow_WoodenClubLantern.png"]
+		},
+		{
+			"name": "04Shaman",
+			"random": false,
+			"equip_top": ["MregC_ArmHigh_MhWaterStaff.png"],
+			"head_equip": ["MregC_HeadEquip_human_HairBaldness.png"],
+			"head": ["MregC_head_frog_frogman.png"],
+			"top": ["MregC_top_DeaconCoatBlack.png"],
+			"body": ["MregC_body_frogman.png"],
+			"equip_bot": ["MregC_ArmLow_MhWaterStaff.png"]
+		},{
+			"name": "05detective",
+			"random" : false,
+			"equip_top": ["MregC_ArmHigh_ShLantern.png"],
+			"head_equip": ["MregC_HeadEquip_human_BrimHat.png"],
+			"head": ["MregC_head_frog_frogman.png"],
+			"top": ["MregC_top_DeaconCoatBlack.png"],
+			"mid": ["MregC_mid_WhiteBusiness.png"],
+			"bot": ["MregC_bot_BlackPants.png"],
+			"body": ["MregC_body_frogman.png"],
+			"equip_bot": ["MregC_ArmLow_ShLantern.png"]
+		},
+		{
+			"name": "06Monk",
+			"random" : false,
+			"head_equip": ["MregC_HeadEquip_human_HairBuzzCut.png"],
+			"head": ["MregC_head_frog_frogman.png"],
+			"mid": ["MregC_mid_MonkRobe.png"],
+			"bot": ["MregC_bot_BrownPantsShoes.png"],
+			"body": ["MregC_body_frogman.png"]
+		},
+		{
+			"name": "07NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "08NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "09NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "10NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "11NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "12WarriorRake",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhRake.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_RogueHood.png",
+				"MregC_HeadEquip_human_LeatherHood.png"
+			],
+			"head": [
+				"MregC_head_frog_frogman.png"
+			],
+			"top": [
+				"MregC_top_leatherCoat.png",
+				"MregC_top_LeatherCloak.png",
+				"NA"
+			],
+			"mid": [
+				"MregC_mid_MonkRobe.png"
+			],
+			"bot": [
+				"MregC_bot_MonkSkirt.png",
+				"MregC_bot_BrokenPantsShoes.png",
+				"MregC_bot_BrownPantsShoes.png"
+			],
+			"body": ["MregC_body_frogman.png"],
+			"equip_bot": ["MregC_ArmLow_MhRake.png"]
+		},
+		{
+			"name": "13archer",
+			"random": true,
+			"equip_top": ["MregC_ArmHigh_MhLongBow.png"],
+			"head_equip": [
+				"MregC_HeadEquip_human_LeatherHoodAndBrimHat.png",
+				"MregC_HeadEquip_human_BrimHat.png"
+			],
+			"head": [
+				"MregC_head_frog_frogman.png"
+			],
+			"bot": [
+				"MregC_bot_MonkSkirt.png",
+				"MregC_bot_BrokenPantsShoes.png",
+				"MregC_bot_BrownPantsShoes.png",
+				"MregC_bot_ClothPants.png",
+				"MregC_bot_ArmoredBlackPants.png"
+			],
+			"body": ["MregC_body_frogman.png"],
+			"equip_bot": ["MregC_ArmLow_MhLongBow.png"]
+		},
+		{
+			"name": "14NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "15NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "16NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "17NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "18NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "19NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "20NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		},
+		{
+			"name": "21NA",
+			"random": true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+		}
+
+
+	]
+
+
+
+}

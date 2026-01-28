@@ -1,0 +1,426 @@
+{
+
+	"chartype": "-char-F-REGULAR02",
+	"folder": "FregC",
+	"balloon_height": -8,
+	"balloon_height_low": -16,
+	"cell_width": 72,
+	"cell_height": 66,
+	"sex_cell_width": 80,
+	"sex_cell_height": 87,
+	"cell_y_adjust" :8,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["mouth", "nil", "vag"],
+		["anal", "vag", "mouth"],
+		["vag", "mouth", "anal"],
+		["nil", "anal", "vag"],
+		["mouth", "vag", "nil"],
+		["vag", "anal", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00OldMama",
+			"head_equip": ["FregC_HeadEquip_human_FeiraGreen.png"],
+			"head": ["FregC_head_human_OldMama.png"],
+			"top": ["FregC_top_tsws_mat.png"],
+			"mid": ["FregC_mid_MaidMidR.png"],
+			"body": ["FregC_body_humanC.png"]
+		},{
+			"name": "01SlaveSickle",
+			"random": true,
+			"equip_top": ["FregC_ArmLow_MhSickle.png"],
+			"ext1": [	"FregC_ext1_dirt.png",
+						"NA"],
+			"head_equip": [
+						"FregC_HeadEquip_human_GoldenWave.png",
+						"FregC_HeadEquip_human_ShorGoldtWave.png",
+						"FregC_HeadEquip_human_PoorSlaveLong.png",
+						"FregC_HeadEquip_human_PoorSlaveShort.png",
+						"FregC_HeadEquip_human_PurpleShort.png",
+						"FregC_HeadEquip_human_ElfArcher.png",
+						"FregC_HeadEquip_human_LongBrown.png",
+						"FregC_HeadEquip_human_FeiraGreen.png",
+						"FregC_HeadEquip_human_EliseGoldHair.png",
+						"FregC_HeadEquip_human_ShortWhite.png",
+						"FregC_HeadEquip_human_ShortRound.png",
+						"FregC_HeadEquip_HairMootRedMessy.png"
+						],
+			"head": [
+						"FregC_head_human_NPC.png",
+						"FregC_head_human_OldMama.png",
+						"FregC_head_human_teller.png",
+						"FregC_head_human_anonymous.png"
+						],
+			"top2": [	"FregC_top_ChainShackles.png",
+						"NA"
+						],
+			"top": ["FregC_top_Pinny.png"],
+			"body": [	"FregC_body_humanC.png"],
+			"equip_bot": ["FregC_ArmLow_MhSickle.png"]
+		},{
+			"name": "02MootSlave",
+			"random": true,
+			"equip_top": ["FregC_ArmHigh_MhWoodenSpear.png"],
+			"ext1": [	"FregC_ext1_dirt.png",
+						"NA"],
+			"head_equip": [
+						"FregC_HeadEquip_human_PoorSlaveLong.png",
+						"FregC_HeadEquip_human_PoorSlaveShort.png",
+						"FregC_HeadEquip_human_ElfArcher.png",
+						"FregC_HeadEquip_human_LongBrown.png",
+						"FregC_HeadEquip_human_ShortWhite.png",
+						"FregC_HeadEquip_human_ShortRound.png",
+						"FregC_HeadEquip_HairMootRedMessy.png"
+						],
+			"head": [
+						"FregC_head_moot.png",
+						"FregC_head_moot_OldMama.png",
+						"FregC_head_moot_anonymous.png"
+						],
+			"top2": [	"FregC_top_ChainShackles.png",
+						"NA"
+						],
+			"top": [	"FregC_top_Pinny.png"],
+			"body": [	"FregC_body_moot.png"],
+			"equip_bot": ["FregC_ArmLow_MhWoodenSpear.png"]
+		},{
+			"name": "03Warrior",
+			"random": true,
+			"equip_top": ["FregC_ArmMixHigh_MorningStarWoodenShield.png"],
+			"ext1": [	"FregC_ext1_dirt.png",
+						"NA"],
+			"head_equip": [
+						"FregC_HeadEquip_human_GoldenWave.png",
+						"FregC_HeadEquip_human_ShorGoldtWave.png",
+						"FregC_HeadEquip_human_PoorSlaveLong.png",
+						"FregC_HeadEquip_human_PoorSlaveShort.png",
+						"FregC_HeadEquip_human_PurpleShort.png",
+						"FregC_HeadEquip_human_ElfArcher.png",
+						"FregC_HeadEquip_human_LongBrown.png",
+						"FregC_HeadEquip_human_FeiraGreen.png",
+						"FregC_HeadEquip_human_EliseGoldHair.png",
+						"FregC_HeadEquip_human_ShortWhite.png",
+						"FregC_HeadEquip_human_Feminator.png",
+						"FregC_HeadEquip_HairMootRedMessy.png"
+						],
+			"head": [
+						"FregC_head_human_NPC.png",
+						"FregC_head_human_OldMama.png",
+						"FregC_head_human_teller.png",
+						"FregC_head_human_anonymous.png"
+						],
+			"top": [	"FregC_top_Warrior.png"],
+			"body": [	"FregC_body_humanC.png"],
+			"equip_bot": ["FregC_ArmMixLow_MorningStarWoodenShield.png"]
+		},{
+			"name": "04MootWitch",
+			"random": false,
+			"equip_top": 	["FregC_ArmHigh_MhFireStaff.png"],
+			"ext1": 		["FregC_ext1_dirt.png"],
+			"head_equip": 	["FregC_HeadEquip_human_PoorSlaveLong.png"],
+			"head": 		["FregC_head_moot_OldMama.png"],
+			"body": 		["FregC_body_moot.png"],
+			"bot": 			["FregC_bot_blsironblue.png"],
+			"equip_bot": 	["FregC_ArmLow_MhFireStaff.png"]
+		},{
+			"name": "05SlutNun",
+			"random": false,
+			"ext4": 		["FregC_ext4_cums2.png"],
+			"ext1": 		["FregC_ext1_dirt.png"],
+			"head_equip": 	["FregC_HeadEquip_human_Nun.png"],
+			"head": 		["FregC_head_human_OldMama.png"],
+			"mid": 			["FregC_mid_Whore3.png"],
+			"body": 		["FregC_body_humanC.png"]
+		},{
+			"name": "06BattleSister",
+			"random": false,
+			"equip_top": 	["FregC_ArmMixHigh_MorningStarMetalShield.png"],
+			"head_equip": 	["FregC_HeadEquip_human_NunMask.png"],
+			"head": 		["FregC_head_moot_anonymous.png"],
+			"top": 			["FregC_top_BattleSisterSet.png"],
+			"body": 		["FregC_body_moot.png"],
+			"equip_bot": 	["FregC_ArmMixLow_MorningStarMetalShield.png"]
+		},{
+			"name": "07RandomMootToilet",
+			"random": true,
+			"default_index":3,
+			"ext4": [	"FregC_ext4_cums3.png",
+						"FregC_ext4_cums2.png",
+						"FregC_ext4_cums1.png"
+						],
+			"ext1": ["FregC_ext1_dirt.png"],
+			"head_equip": [
+						"FregC_HeadEquip_human_PoorSlaveLong.png",
+						"FregC_HeadEquip_human_PoorSlaveShort.png",
+						"FregC_HeadEquip_human_ElfArcher.png",
+						"FregC_HeadEquip_human_LongBrown.png",
+						"FregC_HeadEquip_human_ShortWhite.png",
+						"FregC_HeadEquip_human_ShortRound.png",
+						"FregC_HeadEquip_HairMootRedMessy.png"
+						],
+			"head": [
+						"FregC_head_moot.png",
+						"FregC_head_moot_OldMama.png",
+						"FregC_head_moot_anonymous.png"
+						],
+			"top2": [	"FregC_top_CollarAndCuff.png",
+						"FregC_top_ChainCuffShackles.png"
+						],
+			"top": [	"FregC_top_CollarAndCuff.png",
+						"FregC_top_ChainCuffShackles.png",
+						"FregC_top_ChainShackles.png"
+						],
+			"body": [	"FregC_body_moot.png",
+						"FregC_body_moot_preg8m.png"]
+		},{
+			"name": "08FWhiteNoble",
+			"random": false,
+			"head_equip": 	["FregC_HeadEquip_human_ShorGoldtWave.png"],
+			"head": 		["FregC_head_human_WhiteNoble.png"],
+			"top": 			["FregC_top_FNobleSet.png"],
+			"body": 		["FregC_body_humanC.png"]
+		},{
+			"name": "09RefMAMA",
+			"random": false,
+			"ext1": ["FregC_ext1_dirt.png"],
+			"head_equip": 	["FregC_HeadEquip_HairMaani.png"],
+			"head": 		["FregC_head_moot_anonymous.png"],
+			"top": 			["FregC_top_dressA_short.png"],
+			"mid": 			["FregC_mid_BrokenDress.png"],
+			"body": 		["FregC_body_moot.png"]
+		},{
+			"name": "10RandomMeatToiletRich",
+			"random": true,
+			"default_index":3,
+			"ext4": [	"FregC_ext4_cums3.png",
+						"FregC_ext4_cums2.png",
+						"FregC_ext4_cums1.png"
+						],
+			"ext1": ["FregC_ext1_dirt.png"],
+			"head_equip": [
+						"FregC_HeadEquip_human_GoldenWave.png",
+						"FregC_HeadEquip_human_ShorGoldtWave.png"
+						],
+			"head": [	"FregC_head_human_Smith.png",
+						"FregC_head_human_NPC.png",
+						"FregC_head_human_teller.png",
+						"FregC_head_human_anonymous.png"
+						],
+			"top": [	"FregC_top_CollarAndCuff.png",
+						"FregC_top_ChainCuffShackles.png",
+						"FregC_top_ChainShackles.png",
+						"NA"
+						],
+			"body": [	"FregC_body_humanC.png",
+						"FregC_body_human_preg8m.png"]
+		},{
+			"name": "11WhiteNunMask",
+			"head_equip": ["FregC_HeadEquip_human_NunWhiteMask.png"],
+			"head": ["FregC_head_human_anonymous.png"],
+			"top": ["FregC_top_NunSetWhite.png"],
+			"body": ["FregC_body_humanC.png"]
+		},{
+			"name": "12WhiteNun",
+			"head_equip": ["FregC_HeadEquip_human_NunWhite.png"],
+			"head": ["FregC_head_human_anonymous.png"],
+			"top": ["FregC_top_NunSetWhite.png"],
+			"body": ["FregC_body_humanC.png"]
+		},{
+			"name": "13CascaSet",
+			"head_equip": ["FregC_HeadEquip_human_CascaSet.png"],
+			"head": ["FregC_head_moot_OldMama.png"],
+			"top": ["FregC_top_CascaSet.png"],
+			"body": ["FregC_body_moot.png"]
+		},{
+			"name": "14WhiteSlutNun",
+			"random": false,
+			"ext4": 		["FregC_ext4_cums2.png"],
+			"ext1": 		["FregC_ext1_dirt.png"],
+			"head_equip": 	["FregC_HeadEquip_human_NunWhite.png"],
+			"head": 		["FregC_head_human_teller.png"],
+			"mid": 			["FregC_mid_Whore3.png"],
+			"body": 		["FregC_body_humanC.png"]
+		},{
+			"name": "15SwordDancer",
+			"random": false,
+			"head_equip": 	["FregC_HeadEquip_elf_WaterTwinTail.png"],
+			"head": 		["FregC_head_elf_SwordDancer.png"],
+			"top": 			["FregC_top_SwordDancerSet.png"],
+			"body": 		["FregC_body_elf_SwordDancer.png"]
+		},{
+			"name": "16RandomMootCropse",
+			"random": true,
+			"ext4": ["FregC_ext4_cums3.png",
+					"FregC_ext4_cums2.png",
+					"FregC_ext4_cums1.png",
+					"NA"],
+			"ext1": ["FregC_ext1_dirt.png"],
+			"head_equip": [
+				"FregC_HeadEquip_human_PoorSlaveLong.png",
+				"FregC_HeadEquip_human_PoorSlaveShort.png"
+			],
+			"head": [
+				"FregC_head_moot_Cropse.png"
+			],
+			"top": [
+				"FregC_top_dressA_short.png",
+				"NA"
+			],
+			"mid": [
+				"FregC_mid_tellermid.png",
+				"FregC_mid_BrokenDress.png",
+				"FregC_mid_Whore6.png",
+				"NA"
+			],
+			"bot": [
+				"FregC_bot_BlackPanty.png",
+				"NA"
+			],
+			"body": ["FregC_body_moot_Cropse.png"]
+		},{
+			"name": "17RandomHumanCropse",
+			"random": true,
+			"ext4": ["FregC_ext4_cums3.png",
+					"FregC_ext4_cums2.png",
+					"FregC_ext4_cums1.png",
+					"NA"],
+			"ext1": ["FregC_ext1_dirt.png"],
+			"head_equip": [
+				"FregC_HeadEquip_human_PoorSlaveLong.png",
+				"FregC_HeadEquip_human_PoorSlaveShort.png"
+			],
+			"head": [
+				"FregC_head_human_Cropse.png"
+			],
+			"top": [
+				"FregC_top_dressA_short.png",
+				"NA"
+			],
+			"mid": [
+				"FregC_mid_tellermid.png",
+				"FregC_mid_BrokenDress.png",
+				"FregC_mid_Whore6.png",
+				"NA"
+			],
+			"bot": [
+				"FregC_bot_BlackPanty.png",
+				"NA"
+			],
+			"body": ["FregC_body_humanC_Cropse.png"]
+		},{
+			"name": "18RandomMootPregCropse",
+			"random": true,
+			"ext4": ["FregC_ext4_cums3.png",
+					"FregC_ext4_cums2.png",
+					"FregC_ext4_cums1.png",
+					"NA"],
+			"ext1": ["FregC_ext1_dirt.png"],
+			"head_equip": [
+				"FregC_HeadEquip_human_PoorSlaveLong.png",
+				"FregC_HeadEquip_human_PoorSlaveShort.png"
+			],
+			"head": ["FregC_head_moot_Cropse.png"],
+			"body": ["FregC_body_moot_preg8m_Cropse.png"]
+		},{
+			"name": "19RandomHumanPregCropse",
+			"random": true,
+			"ext4": ["FregC_ext4_cums3.png",
+					"FregC_ext4_cums2.png",
+					"FregC_ext4_cums1.png",
+					"NA"],
+			"ext1": ["FregC_ext1_dirt.png"],
+			"head_equip": [
+				"FregC_HeadEquip_human_PoorSlaveLong.png",
+				"FregC_HeadEquip_human_PoorSlaveShort.png"
+			],
+			"head": ["FregC_head_human_Cropse.png"],
+			"body": ["FregC_body_human_preg8m_Cropse.png"]
+		},{
+			"name": "20GoldenWhoreHuman",
+			"random": true,
+			"default_index":4,
+			"ext2": ["FregC_ext2_GoldenSlave1.png"],
+			"equip_top": ["FregC_ArmHigh_MhMilk.png"],
+			"head_equip": [
+						"FregC_HeadEquip_human_PoorSlaveLong.png",
+						"FregC_HeadEquip_human_PoorSlaveShort.png",
+						"FregC_HeadEquip_human_ElfArcher.png",
+						"FregC_HeadEquip_human_LongBrown.png",
+						"FregC_HeadEquip_human_ShortWhite.png",
+						"FregC_HeadEquip_human_ShortRound.png"
+			],
+			"head": [	"FregC_head_human_anonymous.png"],
+			"top": [	"FregC_top_GoldenSlave.png"],
+			"body": [	"FregC_body_humanC.png"],
+			"equip_bot": ["FregC_ArmLow_MhMilk.png"]
+		},{
+			"name": "21GoldenWhoreMoot",
+			"random": true,
+			"default_index":4,
+			"ext2": ["FregC_ext2_GoldenSlave1.png"],
+			"equip_top": ["FregC_ArmHigh_MhMilk.png"],
+			"head_equip": [
+						"FregC_HeadEquip_human_PoorSlaveLong.png",
+						"FregC_HeadEquip_human_PoorSlaveShort.png",
+						"FregC_HeadEquip_human_ElfArcher.png",
+						"FregC_HeadEquip_human_LongBrown.png",
+						"FregC_HeadEquip_human_ShortWhite.png",
+						"FregC_HeadEquip_human_ShortRound.png",
+						"FregC_HeadEquip_HairMootRedMessy.png"
+			],
+			"head": [	"FregC_head_moot_anonymous.png"],
+			"top": [	"FregC_top_GoldenSlave.png"],
+			"body": [	"FregC_body_moot.png"],
+			"equip_bot": ["FregC_ArmLow_MhMilk.png"]
+		},
+		{
+			"name": "22NUNsex_MootRNG",
+			"random": true,
+			"head_equip": [
+				"FregC_HeadEquip_human_Nun.png"
+				],
+			"head": [
+				"FregC_head_moot_anonymous.png",
+				"FregC_head_moot.png",
+				"FregC_head_moot_OldMama.png"
+				],
+			"top": [
+				"FregC_top_NunSexySet.png"
+				],
+			"body": [
+				"FregC_body_moot.png"
+				]
+		},
+		{
+			"name": "23NUNsex_HumanRNG",
+			"random": true,
+			"head_equip": [
+				"FregC_HeadEquip_human_Nun.png"
+				],
+			"head": [
+				"FregC_head_human_NPC.png",
+				"FregC_head_human_teller.png",
+				"FregC_head_human_OldMama.png",
+				"FregC_head_human_anonymous.png"
+				],
+			"top": [
+				"FregC_top_NunSexySet.png"
+				],
+			"body": [
+				"FregC_body_humanC.png"
+				]
+		}
+	]
+}

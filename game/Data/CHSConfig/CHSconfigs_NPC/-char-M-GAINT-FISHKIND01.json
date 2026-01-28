@@ -1,0 +1,68 @@
+{
+
+	"chartype": "-char-M-GAINT-FISHKIND01",
+	"folder": "MhugeC",
+	"balloon_height": -12,
+	"balloon_height_low": -24,
+	"cell_width" :100,
+	"cell_height": 72,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00Commoner",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["MhugeC_head_fishkind_fishkind.png"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["MhugeC_body_fishkind.png"]
+		},
+		{
+			"name": "01NA",
+			"random" : true,
+			"equip_top": ["NA"],
+			"head_equip": ["NA"],
+			"head": ["NA"],
+			"top": ["NA"],
+			"mid": ["NA"],
+			"bot": ["NA"],
+			"body": ["NA"]
+
+		},
+		{
+			"name": "02NudeGiant",
+			"head": ["MhugeC_head_fishkind_fishkind.png"],
+			"body": ["MhugeC_body_fishkind.png"]
+		}
+
+
+
+	]
+
+
+
+}

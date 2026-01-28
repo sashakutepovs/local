@@ -1,0 +1,42 @@
+{
+
+	"chartype": "-char-Creatures100C01",
+	"folder": "Creatures100C",
+	"balloon_height": -12,
+	"balloon_height_low": -24,
+	"cell_width" :100,
+	"cell_height": 72,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00AbomHive",
+			"random" : false,
+			"body": ["Creatures100C_AbomHive.png"]
+		}
+	]
+
+
+
+}

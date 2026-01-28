@@ -1,0 +1,120 @@
+{
+
+	"chartype": "-char-BABY01",
+	"folder": "BabyC",
+	"balloon_height": -6,
+	"balloon_height_low": -6,
+	"cell_width" :37,
+	"cell_height": 32,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1,3],
+		[1,2,3],
+		[1,2],
+		[0],
+		[1,2,3],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00ORC",
+			"head": ["BabyC_head_orc_orc.png"]
+		},{
+			"name": "01GOBLIN",
+			"head": ["BabyC_head_goblin_goblin.png"]
+		},{
+			"name": "02FISHKIND",
+			"head": ["BabyC_head_fishkind_fishkind.png"]
+		},{
+			"name": "03ABOMINATION",
+			"head": ["BabyC_head_abomination_abomination.png"]
+		},{
+			"name": "04NA",
+			"head": ["NA"]
+		},{
+			"name": "05NA",
+			"head": ["NA"]
+		},{
+			"name": "06NA",
+			"head": ["NA"]
+		},{
+			"name": "07NA",
+			"head": ["NA"]
+		},{
+			"name": "08NA",
+			"head": ["NA"]
+		},{
+			"name": "09NA",
+			"head": ["NA"]
+		},{
+			"name": "10NA",
+			"head": ["NA"]
+		},{
+			"name": "11NA",
+			"head": ["NA"]
+		},{
+			"name": "12HUMAN",
+			"head": ["BabyC_head_human_human.png"]
+		},{
+			"name": "13MOOT",
+			"head": ["BabyC_head_human_moot.png"]
+		},	
+		{
+			"name": "12NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "13NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "14NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "15NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "16NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "17NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "18NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "19NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "20NA",
+			"head": ["NA"]
+		},
+		{
+			"name": "21NA",
+			"head": ["NA"]
+		}
+	]
+
+
+
+}

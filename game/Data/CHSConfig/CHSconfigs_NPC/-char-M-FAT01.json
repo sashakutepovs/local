@@ -1,0 +1,237 @@
+{
+
+	"chartype": "-char-M-FAT01",
+	"folder": "MfatC",
+	"balloon_height": -12,
+	"balloon_height_low": -16,
+	"cell_width" :76,
+	"cell_height": 68,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[1, 3],
+		[1, 2, 3],
+		[1, 2, 3],
+		[2, 3],
+		[2],
+		[1, 2, 3],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "anal"],
+		["anal", "nil", "mouth"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "01MadPApa",
+			"equip_top": ["MfatC_HeadEquip_human_HairBaldness.png"],
+			"head_equip": ["MfatC_head_human_Angry.png"],
+			"head": ["MfatC_head_human_Angry.png"],
+			"top": ["MfatC_top_MadPapa.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmLow_MhLongBow.png"]
+		},
+		{
+			"name": "02FatDumb",
+			"default_index":3,
+			"head_equip": ["MfatC_HeadEquip_human_FatDumb.png"],
+			"head": ["MfatC_head_human_FatDumb.png"],
+			"mid": ["MfatC_mid_FatDumb.png"],
+			"body": ["MfatC_body_human.png"]
+
+		},
+		{
+			"name": "02FatMerchant",
+			"head_equip": ["MfatC_HeadEquip_human_CavalierHat.png"],
+			"head": ["MfatC_head_human_FatMan.png"],
+			"top": ["MfatC_top_WaistCoat.png"],
+			"mid": ["MfatC_mid_WhiteShirt.png"],
+			"bot": ["MfatC_bot_PurplePants.png"],
+			"body": ["MfatC_body_human.png"]
+		},
+		{
+			"name": "03Torturer",
+			"equip_top": ["MfatC_ArmMixHigh_WhipMetalPear.png"],
+			"head_equip": ["MfatC_HeadEquip_human_LeatherMask.png"],
+			"head": ["MfatC_head_human_anonymous.png"],
+			"top": ["MfatC_top_LeatherShortCloak.png"],
+			"mid": ["MfatC_mid_LeatherToolBelt.png"],
+			"bot": ["MfatC_bot_BlackPants.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmMixLow_WhipMetalPear.png"]
+		},
+		{
+			"name": "04Torturer",
+			"equip_top": ["MfatC_ArmHigh_MhHalberd.png"],
+			"head_equip": ["MfatC_HeadEquip_human_ExecutionerHood.png"],
+			"head": ["MfatC_head_human_anonymous.png"],
+			"top": ["MfatC_top_LeatherShortCloak.png"],
+			"mid": ["MfatC_mid_ExecutionerRobe.png"],
+			"bot": ["MfatC_bot_RagBlackBoot.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmLow_MhHalberd.png"]
+		},
+		{
+			"name": "05FatDalf",
+			"equip_top": ["MfatC_ArmMixHigh_SaberFireBook.png"],
+			"head_equip": ["MfatC_HeadEquip_human_Gandalf.png"],
+			"head": ["MfatC_head_human_Angry.png"],
+			"top": ["MfatC_top_GrayRobeTop.png"],
+			"mid": ["MfatC_mid_GrayRobeMid.png"],
+			"bot": ["MfatC_bot_Sandals.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmMixLow_SaberFireBook.png"]
+		},
+		{
+			"name": "06NoarDockCaptain",
+			"equip_top": ["MfatC_ArmMixHigh_SaberMeatHook.png"],
+			"head_equip": ["MfatC_HeadEquip_human_Captain.png"],
+			"head": ["MfatC_head_human_Angry.png"],
+			"top": ["MfatC_top_CaptainCoat.png"],
+			"mid": ["MfatC_mid_DarkRedNoble.png"],
+			"bot": ["MfatC_bot_BlackPants.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmMixLow_SaberMeatHook.png"]
+		},
+		{
+			"name": "07PriestTorturer",
+			"equip_top": ["MfatC_ArmMixHigh_WhipMetalPear.png"],
+			"head_equip": ["MfatC_HeadEquip_human_PriestrHood.png"],
+			"head": ["MfatC_head_human_anonymous.png"],
+			"top": ["MfatC_top_GrayRobeTop.png"],
+			"mid": ["MfatC_mid_LeatherToolBelt.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmMixLow_WhipMetalPear.png"]
+		},
+		{
+			"name": "08Priest",
+			"head_equip": ["MfatC_HeadEquip_human_PriestrHood.png"],
+			"head": ["MfatC_head_human_anonymous.png"],
+			"top": ["MfatC_mid_PriestSet.png"],
+			"body": ["MfatC_body_human.png"]
+		},
+		{
+			"name": "09PriestNude",
+			"head_equip": ["MfatC_HeadEquip_human_PriestrHood.png"],
+			"head": ["MfatC_head_human_anonymous.png"],
+			"body": ["MfatC_body_human.png"]
+		},
+		{
+			"name": "10PigFarmer",
+			"equip_top": ["MfatC_ArmHigh_MhManCatcher.png"],
+			"head_equip": ["MfatC_HeadEquip_human_FatDumb.png"],
+			"head": ["MfatC_head_human_anonymous.png"],
+			"top": ["MfatC_top_PigFarmer.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmLow_MhManCatcher.png"]
+		},
+		{
+			"name": "11FatMootARTist",
+			"head_equip": ["MfatC_HeadEquip_human_HairBaldness.png"],
+			"head": ["MfatC_head_moot_GoodAnon.png"],
+			"top": ["MfatC_top_CitizenSet1.png"],
+			"body": ["MfatC_body_moot.png"]
+		},
+		{
+			"name": "12FatBusinessMan",
+			"head_equip": ["MfatC_HeadEquip_human_HairHulkHogan.png"],
+			"head": ["MfatC_head_human_anonymous.png"],
+			"top": ["MfatC_top_CitizenSet2.png"],
+			"body": ["MfatC_body_human.png"]
+		},
+		{
+			"name": "13FatPigMaskMoot",
+			"head_equip": ["MfatC_HeadEquip_human_PiggaMask.png"],
+			"head": ["MfatC_head_moot_GoodAnon.png"],
+			"top": ["MfatC_top_BrokenLeatherSet.png"],
+			"body": ["MfatC_body_moot.png"]
+		},
+		{
+			"name": "14FatSpearMoot",
+			"equip_top": ["MfatC_ArmHigh_MhWoodenSpear.png"],
+			"head_equip": ["MfatC_HeadEquip_human_HairBaldness.png"],
+			"head": ["MfatC_head_moot_GoodAnon.png"],
+			"bot": ["MfatC_bot_ShortLeatherPants.png"],
+			"body": ["MfatC_body_moot.png"],
+			"equip_bot": ["MfatC_ArmLow_MhWoodenSpear.png"]
+		},
+		{
+			"name": "15FatSpear",
+			"equip_top": ["MfatC_ArmHigh_MhWoodenSpear.png"],
+			"head_equip": ["MfatC_HeadEquip_human_LeatherMask.png"],
+			"head": ["MfatC_head_human_anonymous.png"],
+			"top": ["MfatC_top_LeatherShortCloak.png"],
+			"mid": ["MfatC_mid_LeatherToolBelt.png"],
+			"bot": ["MfatC_bot_BlackPants.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmLow_MhWoodenSpear.png"]
+		},
+		{
+			"name": "16FatShieldSpear",
+			"equip_top": ["MfatC_ArmMixHigh_HalberdWoodenShield.png"],
+			"head_equip": ["MfatC_HeadEquip_human_HairGandalf.png"],
+			"head": ["MfatC_head_human_anonymous.png"],
+			"top": ["MfatC_top_RagCoat.png"],
+			"bot": ["MfatC_bot_WhitePants.png"],
+			"body": ["MfatC_body_human.png"],
+			"equip_bot": ["MfatC_ArmMixLow_HalberdWoodenShield.png"]
+		},
+		{
+			"name": "18village",
+			"head_equip": ["MfatC_HeadEquip_human_HairBlackShort.png"],
+			"head": ["MfatC_head_human_GoodAnon.png"],
+			"top": ["MfatC_top_RagCoat.png"],
+			"mid": ["MfatC_mid_DarkRedNoble.png"],
+			"bot": ["MfatC_bot_WhitePants.png"],
+			"body": ["MfatC_body_human.png"]
+		},
+		{
+			"name": "19TransFaggot",
+			"head": ["MfatC_head_human_trans.png"],
+			"mid": ["MfatC_mid_PurpleFatGirlSet.png"],
+			"body": ["MfatC_body_human.png"]
+		},
+		{
+			"name": "20NobuakiTanba",
+			"head_equip": ["MfatC_HeadEquip_human_HairNobuakiTanba.png"],
+			"head": ["MfatC_head_moot_GoodAnon.png"],
+			"mid": ["MfatC_mid_LeatherToolBelt.png"],
+			"bot": ["MfatC_bot_ShortLeatherPants.png"],
+			"body": ["MfatC_body_moot.png"]
+		},
+		{
+			"name": "21FatMootRouge",
+			"equip_top": ["MfatC_ArmMixHigh_DaggerShortSword.png"],
+			"head_equip": ["MfatC_HeadEquip_human_DarkScarf.png"],
+			"head": ["MfatC_head_moot_GoodAnon.png"],
+			"top": ["MfatC_top_RogueSet.png"],
+			"body": ["MfatC_body_moot.png"],
+			"equip_bot": ["MfatC_ArmMixLow_DaggerShortSword.png"]
+		},
+		{
+			"name": "22MadMootMage",
+			"equip_top": ["MfatC_ArmHigh_MhFireStaff.png"],
+			"head_equip": ["MregC_HeadEquip_human_HairMessy.png"],
+			"head": ["MfatC_head_moot_GoodAnon.png"],
+			"top": ["MfatC_top_MadMage.png"],
+			"mid": ["MfatC_mid_GrayRobeMid.png"],
+			"bot": ["MfatC_bot_RagBlackBoot.png"],
+			"body": ["MfatC_body_moot.png"],
+			"equip_bot": ["MfatC_ArmLow_MhFireStaff.png"]
+		}
+
+
+
+	]
+
+
+
+}

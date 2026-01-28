@@ -1,0 +1,102 @@
+{
+
+	"chartype": "-char-Creatures48C01",
+	"folder": "Creatures48C",
+	"balloon_height": -5,
+	"balloon_height_low": -10,
+	"cell_width" :48,
+	"cell_height": 48,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "00DogGray",
+			"random" : false,
+			"body": ["Creatures48C_DogGray.png"]
+		},{
+			"name": "01DogBrone",
+			"random" : false,
+			"body": ["Creatures48C_DogBrone.png"]
+		},{
+			"name": "02DogWhite",
+			"random" : false,
+			"body": ["Creatures48C_DogWhite.png"]
+		},{
+			"name": "03DogBlack",
+			"random" : false,
+			"body": ["Creatures48C_DogBlack.png"]
+		},{
+			"name": "04WildBoar",
+			"random" : false,
+			"body": ["Creatures48C_WildBoar.png"]
+		},{
+			"name": "05AbomSpore",
+			"random" : false,
+			"body": ["Creatures48C_AbominationSpore.png"]
+		},{
+			"name": "06AbomWorm",
+			"random" : false,
+			"body": ["Creatures48C_AbominationWorm.png"]
+		},{
+			"name": "07AbomMice",
+			"random" : false,
+			"body": ["Creatures48C_AbominationMouse.png"]
+		},{
+			"name": "08AbomSporeRed",
+			"random" : false,
+			"body": ["Creatures48C_AbominationSporeRed.png"]
+		},{
+			"name": "09AbomMoonWorm",
+			"random" : false,
+			"body": ["Creatures48C_AbominationMoonWorm.png"]
+		},{
+			"name": "10AbomPotWorm",
+			"random" : false,
+			"body": ["Creatures48C_AbominationPotWorm.png"]
+		},{
+			"name": "11SlowUndead",
+			"random" : false,
+			"body": ["Creatures48C_SlowUndead.png"]
+		},{
+			"name": "12Rabbit",
+			"random" : false,
+			"body": ["Creatures48C_Rabbit.png"]
+		},{
+			"name": "12KittenB",
+			"random" : false,
+			"body": ["Creatures48C_kittenB.png"]
+		},{
+			"name": "13KittenW",
+			"random" : false,
+			"body": ["Creatures48C_kittenW.png"]
+		},{
+			"name": "14Hookworm",
+			"random" : false,
+			"body": ["Creatures48C_AbominationHookworm.png"]
+		}
+	]
+
+
+
+}

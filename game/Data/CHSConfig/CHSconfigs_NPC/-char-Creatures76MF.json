@@ -1,0 +1,66 @@
+{
+
+	"chartype": "-char-Creatures76MF01",
+	"folder": "Creatures76MF",
+	"balloon_height": -12,
+	"balloon_height_low": -16,
+	"cell_width" :76,
+	"cell_height": 68,
+	"sex_cell_width" :80,
+	"sex_cell_height" :87,
+	"cell_y_adjust" :0,
+	"sex_cell_y_adjust": [4, 9, 12, 8, 15, 11, 0, 4],
+	"supported_fucker": [
+		[3],
+		[1],
+		[2],
+		[0],
+		[2],
+		[0],
+		[0],
+		[0]
+	],
+	"supported_reciver": [
+		["nil", "nil", "anal"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"],
+		["nil", "nil", "nil"]
+	],
+	"parts": [{
+			"name": "01AlphaPig",
+			"random" : false,
+			"body": ["Creatures76MF_AlphaPig.png"]
+		},{
+			"name": "02",
+			"random" : false,
+			"body": ["NA"]
+		},{
+			"name": "03WildBoar",
+			"random" : false,
+			"body": ["Creatures76MF_WildBoar.png"]
+		},{
+			"name": "03MaleHorse",
+			"random" : false,
+			"body": ["Creatures76MF_HorseBrone.png"]
+		},{
+			"name": "04HorseCarry",
+			"random" : false,
+			"body": ["Creatures76MF_HorseCarry.png"]
+		},{
+			"name": "05SwineM",
+			"random" : false,
+			"body": ["Creatures76MF_Pig.png"]
+		},{
+			"name": "05SwineF",
+			"random" : false,
+			"body": ["Creatures76MF_PigF.png"]
+		}
+	]
+
+
+
+}
